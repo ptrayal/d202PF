@@ -1037,9 +1037,6 @@ void shopping_list(char *arg, struct char_data *ch, struct char_data *keeper, in
     char buf[MAX_STRING_LENGTH] = {'\0'}, name[MAX_INPUT_LENGTH] = {'\0'};
     struct obj_data * obj, *last_obj = NULL;
     int cnt = 0, lindex = 0, found = FALSE, has_quest = FALSE;
-    size_t len;
-    /* cnt is the number of that particular object available */
-    /* has_quest indicates if the shopkeeper sells quest items */
 
     if (!is_ok(keeper, ch, shop_nr))
         return;
@@ -1049,10 +1046,15 @@ void shopping_list(char *arg, struct char_data *ch, struct char_data *keeper, in
 
     one_argument(arg, name);
 
-    len = strlcpy(buf,   "| ## | Qty       | Item                                     | Cost   |\r\n"
-                  "----------------------------------------------------------------------\r\n", sizeof(buf));
+    snprintf(buf, sizeof(buf),
+             "----------------------------------------------------------------------\r\n"
+             "| @W##@n | @WQty@n       | @WItem@n                                    | @WCost@n    |\r\n"
+             "----------------------------------------------------------------------\r\n");
+
     if (keeper->carrying)
+    {
         for (obj = keeper->carrying; obj; obj = obj->next_content)
+        {
             if (CAN_SEE_OBJ(ch, obj) && GET_OBJ_COST(obj) > 0)
             {
                 if (!last_obj)
@@ -1061,16 +1063,28 @@ void shopping_list(char *arg, struct char_data *ch, struct char_data *keeper, in
                     cnt = 1;
                 }
                 else if (same_obj(last_obj, obj))
+                {
                     cnt++;
+                }
                 else
                 {
                     lindex++;
                     if (!*name || isname(name, last_obj->name))
                     {
-                        strncat(buf, list_object(last_obj, cnt, lindex, shop_nr, keeper, ch), sizeof(buf) - len - 1); /* strncat: OK */
-                        len = strlen(buf);
-                        if (len + 1 >= sizeof(buf))
-                            break;
+                        char line_raw[256];
+                        char line_colored[512];
+
+                        // format plain version (no colors, perfect width)
+                        snprintf(line_raw, sizeof(line_raw),
+                                 "| %2d | %-9d | %-39s | %-87d |\r\n",
+                                 lindex, cnt, last_obj->short_description, GET_OBJ_COST(last_obj));
+
+                        // now inject colors only around item and price columns
+                        snprintf(line_colored, sizeof(line_colored),
+                                 "| @W%2d@n | %-9d | @G%-39s@n | @Y%-7d@n |\r\n",
+                                 lindex, cnt, last_obj->short_description, GET_OBJ_COST(last_obj));
+
+                        strlcat(buf, line_colored, sizeof(buf));
                         found = TRUE;
                         if (OBJ_FLAGGED(last_obj, ITEM_QUEST))
                             has_quest = TRUE;
@@ -1079,21 +1093,48 @@ void shopping_list(char *arg, struct char_data *ch, struct char_data *keeper, in
                     last_obj = obj;
                 }
             }
+        }
+    }
+
     lindex++;
-    if (!last_obj)  /* we actually have nothing in our list for sale, period */
+    if (!last_obj)
+    {
         send_to_char(ch, "Currently, there is nothing for sale.\r\n");
-    else if (*name && !found) /* nothing the char was looking for was found */
+    }
+    else if (*name && !found)
+    {
         send_to_char(ch, "Presently, none of those are for sale.\r\n");
+    }
     else
     {
-        if (!*name || isname(name, last_obj->name)) /* show last obj */
-            if (len < sizeof(buf))
-                strncat(buf, list_object(last_obj, cnt, lindex, shop_nr, keeper, ch), sizeof(buf) - len - 1); /* strncat: OK */
+        if (!*name || isname(name, last_obj->name))
+        {
+            char line_raw[256];
+            char line_colored[512];
+
+            snprintf(line_raw, sizeof(line_raw),
+                     "| %2d | %-9d | %-39s | %-7d |\r\n",
+                     lindex, cnt, last_obj->short_description, GET_OBJ_COST(last_obj));
+
+            snprintf(line_colored, sizeof(line_colored),
+                     "| @W%2d@n | %-9d | @G%-39s@n | @Y%-7d@n |\r\n",
+                     lindex, cnt, last_obj->short_description, GET_OBJ_COST(last_obj));
+
+            strlcat(buf, line_colored, sizeof(buf));
+        }
+
+        /* bottom border */
+        strlcat(buf, "----------------------------------------------------------------------\r\n", sizeof(buf));
+
         page_string(ch->desc, buf, TRUE);
+
         if (has_quest)
             send_to_char(ch, "Items flagged \"qp\" require quest points to purchase.\r\n");
     }
+
+    send_to_char(ch, "To buy something, type @cbuy [item name]@n or @cbuy [item number]@n.\r\n");
 }
+
 
 
 int ok_shop_room(int shop_nr, room_vnum room)
