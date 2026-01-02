@@ -944,56 +944,93 @@ int class_in_game_dl_aol[NUM_CLASSES] = {
  */
 int parse_class(struct char_data *ch, char arg)
 {
-  int chclass = CLASS_UNDEFINED;
-  switch (arg) 
-  {
-  case 'A': case 'a': chclass = CLASS_WIZARD; break;
-  case 'B': case 'b': chclass = CLASS_CLERIC; break;
-  case 'C': case 'c': chclass = CLASS_ROGUE; break;
-  case 'D': case 'd': chclass = CLASS_FIGHTER; break;
-  case 'E': case 'e': chclass = CLASS_MONK; break;
-  case 'F': case 'f': chclass = CLASS_PALADIN; break;
-  case 'G': case 'g': chclass = CLASS_BARBARIAN; break;
-  case 'H': case 'h': chclass = CLASS_BARD; break;
-  case 'I': case 'i': chclass = CLASS_RANGER; break;
-  case 'J': case 'j': chclass = CLASS_DRUID; break;
-  case 'L': case 'l': chclass = CLASS_SORCERER; break;
-  default:  chclass = CLASS_UNDEFINED; break;
+    int chclass = CLASS_UNDEFINED;
+    switch (arg)
+    {
+    case 'A':
+    case 'a':
+        chclass = CLASS_WIZARD;
+        break;
+    case 'B':
+    case 'b':
+        chclass = CLASS_CLERIC;
+        break;
+    case 'C':
+    case 'c':
+        chclass = CLASS_ROGUE;
+        break;
+    case 'D':
+    case 'd':
+        chclass = CLASS_FIGHTER;
+        break;
+    case 'E':
+    case 'e':
+        chclass = CLASS_MONK;
+        break;
+    case 'F':
+    case 'f':
+        chclass = CLASS_PALADIN;
+        break;
+    case 'G':
+    case 'g':
+        chclass = CLASS_BARBARIAN;
+        break;
+    case 'H':
+    case 'h':
+        chclass = CLASS_BARD;
+        break;
+    case 'I':
+    case 'i':
+        chclass = CLASS_RANGER;
+        break;
+    case 'J':
+    case 'j':
+        chclass = CLASS_DRUID;
+        break;
+    case 'L':
+    case 'l':
+        chclass = CLASS_SORCERER;
+        break;
+    default:
+        chclass = CLASS_UNDEFINED;
+        break;
 
-  }
-  if (chclass >= 0 && chclass < NUM_CLASSES)
-    if (!class_ok_general(ch, chclass))
-      chclass = CLASS_UNDEFINED;
-  return (chclass);
+    }
+    if (chclass >= 0 && chclass < NUM_CLASSES)
+        if (!class_ok_general(ch, chclass))
+            chclass = CLASS_UNDEFINED;
+    return (chclass);
 }
 
 int class_ok_num_classes(struct char_data *ch, int whichclass) 
 {
 
-  return TRUE;
-
-  if (GET_ADMLEVEL(ch) > 0)
     return TRUE;
 
-  if (whichclass == CLASS_ARTISAN)
-    return TRUE;
+    if (GET_ADMLEVEL(ch) > 0)
+        return TRUE;
 
-  int i = 0;
-  int num_classes = 0;
-  int found = FALSE;
+    if (whichclass == CLASS_ARTISAN)
+        return TRUE;
 
-  for (i = 0; i < NUM_CLASSES; i++) {
-    if (GET_CLASS_RANKS(ch, i) > 0 && i != CLASS_ARTISAN) {
-      num_classes++;
-      if (i == whichclass)
-        found = TRUE;
+    int i = 0;
+    int num_classes = 0;
+    int found = FALSE;
+
+    for (i = 0; i < NUM_CLASSES; i++)
+    {
+        if (GET_CLASS_RANKS(ch, i) > 0 && i != CLASS_ARTISAN)
+        {
+            num_classes++;
+            if (i == whichclass)
+                found = TRUE;
+        }
     }
-  }
 
-  if (num_classes > 3 && !found)
-    return FALSE;
+    if (num_classes > 3 && !found)
+        return FALSE;
 
-  return TRUE;
+    return TRUE;
 
 }
 
@@ -1007,626 +1044,615 @@ int class_ok_general(struct char_data *ch, int whichclass)
  */
 int do_class_ok_general(struct char_data *ch, int whichclass, int show_text)
 {
-  int c1 = FALSE, c2 = FALSE, c3 = FALSE, c4 = FALSE, c5 = FALSE, c6 = FALSE,
-      c7 = FALSE, c8 = FALSE, c9 = FALSE, c10 = FALSE, c11 = FALSE;
-  if (whichclass < 0 || whichclass >= NUM_CLASSES) {
-    log("Invalid class %d in class_ok_general", whichclass);
-    return 0;
-  }
-  if (!class_ok_available_dl_aol[whichclass])
-    return -4;
-//  if (!class_ok_race[(int)GET_RACE(ch)][whichclass])
-//    return -1;
-  if (!(CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_ok_align_dl_aol : class_ok_align_core)[ALIGN_TYPE(ch)][whichclass])
-    return -2;
-  if (!IS_EPIC(ch) && (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_max_ranks_dl_aol : class_max_ranks_core)[whichclass] > -1 &&
-      GET_CLASS_RANKS(ch, whichclass) >= (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_max_ranks_dl_aol : class_max_ranks_core)[whichclass])
-    return -3;
-  if (!class_ok_num_classes(ch, whichclass))
-    return -5;
-/*
-  if (prestige_classes_dl_aol[whichclass] && GET_CLASS_SPONSOR(ch, whichclass) == FALSE)
-	  return -6;
-*/
-  switch (whichclass) {
+    int c1 = FALSE, c2 = FALSE, c3 = FALSE, c4 = FALSE, c5 = FALSE, c6 = FALSE,
+    c7 = FALSE, c8 = FALSE, c9 = FALSE, c10 = FALSE, c11 = FALSE;
+    if (whichclass < 0 || whichclass >= NUM_CLASSES)
+    {
+        log("Invalid class %d in class_ok_general", whichclass);
+        return 0;
+    }
+    if (!class_ok_available_dl_aol[whichclass])
+        return -4;
+    //  if (!class_ok_race[(int)GET_RACE(ch)][whichclass])
+    //    return -1;
+    if (!(CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_ok_align_dl_aol : class_ok_align_core)[ALIGN_TYPE(ch)][whichclass])
+        return -2;
+    if (!IS_EPIC(ch) && (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_max_ranks_dl_aol : class_max_ranks_core)[whichclass] > -1 &&
+            GET_CLASS_RANKS(ch, whichclass) >= (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_max_ranks_dl_aol : class_max_ranks_core)[whichclass])
+        return -3;
+    if (!class_ok_num_classes(ch, whichclass))
+        return -5;
+    /*
+      if (prestige_classes_dl_aol[whichclass] && GET_CLASS_SPONSOR(ch, whichclass) == FALSE)
+        return -6;
+    */
+    switch (whichclass)
+    {
     case CLASS_GLADIATOR:
-  	if (GET_LEVEL(ch) < 1)
-  		return (0);
-	return (1);
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        return (1);
 
-  case CLASS_FAVORED_SOUL:
-    if (GET_DEITY(ch) == 0) {
-      if (show_text)
-      send_to_char(ch, "You must choose a deity before you can become a favored soul.\r\n");
-      return 0;
+    case CLASS_FAVORED_SOUL:
+        if (GET_DEITY(ch) == 0)
+        {
+            if (show_text)
+                send_to_char(ch, "You must choose a deity before you can become a favored soul.\r\n");
+            return 0;
+        }
+        return 1;
+
+    case CLASS_DRAGON_RIDER:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+
+        if (GET_SKILL(ch, SKILL_HANDLE_ANIMAL) < 30)
+        {
+            if (show_text) send_to_char(ch, "You must have at least 30 ranks in the handle animal skill to become a dragon rider.\r\n");
+        }
+        else
+        {
+            c1 = TRUE;
+        }
+
+        if (GET_SKILL(ch, SKILL_RIDE) < 30)
+        {
+            if (show_text) send_to_char(ch, "You must have at least 30 ranks in the ride skill to become a dragon rider.\r\n");
+        }
+        else
+        {
+            c2 = TRUE;
+        }
+
+        if (c1 && c2)
+            return TRUE;
+        return FALSE;
+
+    case CLASS_SACRED_FIST:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (!HAS_REAL_FEAT(ch, FEAT_IMPROVED_UNARMED_STRIKE))
+        {
+            if (show_text) send_to_char(ch, "You must have the improved unarmed strike feat to become a sacred fist.\r\n");
+        }
+        else
+        {
+            c1 = TRUE;
+        }
+
+        if (GET_SKILL(ch, SKILL_ACROBATICS) < 5)
+        {
+            if (show_text) send_to_char(ch, "You must have at least 5 ranks in the acrobatics skill to become a sacred fist.\r\n");
+        }
+        else
+        {
+            c2 = TRUE;
+        }
+
+        GET_MEM_TYPE(ch) = MEM_TYPE_CLERIC;
+        if (findslotnum(ch, 3) > 0)
+            c4 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_FAVORED_SOUL;
+        if (findslotnum(ch, 3) > 0)
+            c7 = TRUE;
+        if (!c4 && !c7)
+            if (show_text) send_to_char(ch, "You must be able to cast 3rd level divine spells to become a sacred.\r\n");
+        if (c1 && c2 && (c4 || c7))
+            return TRUE;
+        return FALSE;
+
+    case CLASS_DEATH_MASTER:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_SKILL(ch, SKILL_KNOWLEDGE) < 8)
+        {
+            if (show_text) send_to_char(ch, "You must have a knowledge skill of at least 8 to become a pale master.\r\n");
+        }
+        else
+        {
+            c1 = TRUE;
+        }
+
+        GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
+        if (findslotnum(ch, 3) > 0)
+            c4 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
+        if (findslotnum(ch, 3) > 0)
+            c7 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
+        if (findslotnum(ch, 3) > 0)
+            c8 = TRUE;
+        if (!c4 && !c7 && !c8)
+            if (show_text) send_to_char(ch, "You must be able to cast 3rd level arcane spells to become a pale master.\r\n");
+        if (c1 &&  (c4 || c7 || c8))
+            return TRUE;
+        return FALSE;
+
+    case CLASS_ARCANE_ARCHER:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (!IS_ELF(ch) && !IS_HALF_ELF(ch))
+        {
+            if (show_text) send_to_char(ch, "You must be an elf or a half elf to become an arcane archer.\r\n");
+        }
+        else
+        {
+            c1 = TRUE;
+        }
+
+        if (GET_BAB(ch) < 6)
+        {
+            if (show_text) send_to_char(ch, "You must have a base attack bonus of 6 or higher to become an arcane archer.\r\n");
+        }
+        else
+        {
+            c2 = TRUE;
+        }
+
+        if (!HAS_REAL_FEAT(ch, FEAT_POINT_BLANK_SHOT))
+        {
+            if (show_text) send_to_char(ch, "You must have the point blank shot feat to become an arcane archer.\r\n");
+        }
+        else
+        {
+            c3 = TRUE;
+        }
+
+        if (!HAS_REAL_FEAT(ch, FEAT_PRECISE_SHOT))
+        {
+            if (show_text) send_to_char(ch, "You must have the precise shot feat to become an arcane archer.\r\n");
+        }
+        else
+        {
+            c5 = TRUE;
+        }
+
+        if (!HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_TYPE_LONG_BOW) && !HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_TYPE_COMPOSITE_LONGBOW) &&
+                !HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_TYPE_SHORT_BOW) && !HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_TYPE_COMPOSITE_SHORTBOW) &&
+                !HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_DAMAGE_TYPE_PIERCING))
+        {
+            if (show_text) send_to_char(ch, "You must have the weapon focus feat in any bow, or piercing weapons to become an arcane archer.\r\n");
+        }
+        else
+        {
+            c6 = TRUE;
+        }
+
+
+        GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
+        if (findslotnum(ch, 1) > 0)
+            c4 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
+        if (findslotnum(ch, 1) > 0)
+            c7 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
+        if (findslotnum(ch, 1) > 0)
+            c8 = TRUE;
+        if (!c4 && !c7 && !c8)
+            if (show_text) send_to_char(ch, "You must be able to cast 1st level arcane spells to become an arcane archer.\r\n");
+        if (c1 && c2 && c3 && c5 && c6 && (c4 || c7 || c8))
+            return TRUE;
+        return FALSE;
+
+    case CLASS_ARCANE_TRICKSTER:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_SKILL(ch, SKILL_DISABLE_DEVICE) < 7)
+        {
+            if (show_text) send_to_char(ch, "You must have a disable device skill of at least 7 to become an arcane trickster.\r\n");
+        }
+        else
+        {
+            c1 = TRUE;
+        }
+        if (GET_SKILL(ch, SKILL_KNOWLEDGE) < 4)
+        {
+            if (show_text) send_to_char(ch, "You must have a knowledge skill of at least 4 to become an arcane trickster.\r\n");
+        }
+        else
+        {
+            c2 = TRUE;
+        }
+
+
+        if (GET_SKILL(ch, SKILL_LINGUISTICS) < 7)
+        {
+            if (show_text) send_to_char(ch, "You must have a linguistics script skill of at least 7 to become an arcane trickster.\r\n");
+        }
+        else
+        {
+            c3 = TRUE;
+        }
+        if (GET_SKILL(ch, SKILL_ESCAPE_ARTIST) < 7)
+        {
+            if (show_text) send_to_char(ch, "You must have an escape artist skill of at least 7 to become an arcane trickster.\r\n");
+        }
+        else
+        {
+            c5 = TRUE;
+        }
+
+        GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
+        if (findslotnum(ch, 3) > 0)
+            c4 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
+        if (findslotnum(ch, 3) > 0)
+            c7 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
+        if (findslotnum(ch, 3) > 0)
+            c8 = TRUE;
+        if (!c4 && !c7 && !c8)
+            if (show_text) send_to_char(ch, "You must be able to cast 3rd level arcane spells to become an arcane trickster.\r\n");
+        if (c1 && c2 && (c4 || c7 || c8) && c3 && c5)
+            return TRUE;
+        return FALSE;
+
+    case CLASS_ELDRITCH_KNIGHT:
+        GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
+        if (findslotnum(ch, 3) > 0)
+            c4 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
+        if (findslotnum(ch, 3) > 0)
+            c7 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
+        if (findslotnum(ch, 3) > 0)
+            c8 = TRUE;
+        if (!c4 && !c7 && !c8)
+            if (show_text) send_to_char(ch, "You must be able to cast 3rd level arcane spells to become an eldritch knight.\r\n");
+        if (HAS_FEAT(ch, FEAT_WEAPON_PROFICIENCY_MARTIAL))
+            c1 = TRUE;
+        if (!c1)
+            if (show_text) send_to_char(ch, "You must be proficient in the use of martial weapons to become an eldritch knight.\r\n");
+        if (c1 && (c4 || c7 || c8))
+            return TRUE;
+        return FALSE;
+
+
+    case CLASS_ASSASSIN:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_SKILL(ch, SKILL_DISGUISE) < 4)
+        {
+            if (show_text) send_to_char(ch, "You need a disguise skill of at least 4 to become an assassin.\r\n");
+        }
+        else
+        {
+            c1 = TRUE;
+        }
+        if (GET_SKILL(ch, SKILL_STEALTH) < 8)
+        {
+            if (show_text) send_to_char(ch, "You need a stealth skill of at least 8 to become an assassin.\r\n");
+        }
+        else
+        {
+            c2 = TRUE;
+        }
+        if (GET_SKILL(ch, SKILL_STEALTH) < 8)
+        {
+            if (show_text) send_to_char(ch, "You need a stealth skill of at least 8 to become an assassin.\r\n");
+        }
+        else
+        {
+            c3 = TRUE;
+        }
+        if (c1 && c2 && c3)
+            return TRUE;
+        return FALSE;
+
+    case CLASS_DRAGON_DISCIPLE:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_SKILL(ch, SKILL_KNOWLEDGE) >= 8)
+            c1 = TRUE;
+        else if (show_text) send_to_char(ch, "You need a knowledge skill of at least 8 to qualify for a dragon disciple.\r\n");
+        if (IS_BARD(ch) || IS_SORCERER(ch))
+            c2 = TRUE;
+        else if (show_text) send_to_char(ch, "You need to be able to cast arcane spells without preparation to qualify for dragon disciple.\r\n");
+        if (GET_SKILL(ch, SKILL_LANG_DRACONIC))
+            c3 = TRUE;
+        else if (show_text) send_to_char(ch, "You need to be able to speak draconic in order to become a dragon disciple.\r\n");
+        if (c1 && c2 && c3)
+            return TRUE;
+        return FALSE;
+
+    case CLASS_WEAPON_MASTER:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_BAB(ch) >= 5)
+            c1 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have a base attack bonus of +5 of higher to become a weapon master.\r\n");
+        if (HAS_FEAT(ch, FEAT_WEAPON_FOCUS))
+            c2 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have the weapon focus feat in any weapon to become a weapon master.\r\n");
+        if (HAS_FEAT(ch, FEAT_DODGE))
+            c3 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have the dodge feat in order to become a weapon master.\r\n");
+        if (HAS_FEAT(ch, FEAT_MOBILITY))
+            c4 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have the mobility feat in order to become a weapon master.\r\n");
+        if (HAS_FEAT(ch, FEAT_SPRING_ATTACK))
+            c5 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have the spring attack feat in order to become a weapon master.\r\n");
+        if (HAS_FEAT(ch, FEAT_COMBAT_EXPERTISE))
+            c6 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have the combat expertise feat in order to become a weapon master.\r\n");
+        if (HAS_FEAT(ch, FEAT_WHIRLWIND_ATTACK))
+            c7 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have the whirlwind attack feat in order to become a weapon master.\r\n");
+        if (c1 && c2 && c3 && c4 && c5 && c6 && c7)
+            return TRUE;
+        return FALSE;
+
+    case CLASS_MYSTIC_THEURGE:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_SKILL(ch, SKILL_KNOWLEDGE) >= 6)
+            c1 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have a minimum knowledge skill of 6 to become a mystic theurge.\r\n");
+        GET_MEM_TYPE(ch) = MEM_TYPE_CLERIC;
+        if (findslotnum(ch, 2) > 0)
+            c2 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_PALADIN;
+        if (findslotnum(ch, 2) > 0)
+            c3 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_DRUID;
+        if (findslotnum(ch, 2) > 0)
+            c5 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_RANGER;
+        if (findslotnum(ch, 2) > 0)
+            c6 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_FAVORED_SOUL;
+        if (findslotnum(ch, 2) > 0)
+            c9 = TRUE;
+        if (!c2 && !c3 && !c5 && !c6 && !c9)
+            if (show_text) send_to_char(ch, "You must be able to cast 2nd level divine spells to become a mystic theurge.\r\n");
+        GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
+        if (findslotnum(ch, 2) > 0)
+            c4 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_ASSASSIN;
+        if (findslotnum(ch, 2) > 0)
+            c10 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
+        if (findslotnum(ch, 2) > 0)
+            c7 = TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
+        if (findslotnum(ch, 2) > 0)
+            c8 = TRUE;
+        if (!c4 && !c7 && !c8 && !c10)
+            if (show_text) send_to_char(ch, "You must be able to cast 2nd level arcane spells to become a mystic theurge.\r\n");
+        if (GET_CLASS_SPONSOR(ch, CLASS_MYSTIC_THEURGE))
+            c11 = TRUE;
+        else if (show_text) send_to_char(ch, "You must be sponsored by an immortal to become a mystic theurge.  Please see help sponsor.\r\n");
+        if (c1 && (c2 || c3 || c5 || c6 || c9) && (c4 || c7 || c10) && c11)
+            return TRUE;
+        return FALSE;
+    case CLASS_DWARVEN_DEFENDER:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_BAB(ch) >= 7)
+            c1 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have a minimum base attack bonus of 7 to be a dwarven defender.\r\n");
+        if (race_list[GET_RACE(ch)].family == RACE_TYPE_DWARF)
+            c2 = TRUE;
+        else if (show_text) send_to_char(ch, "Only dwarves can become dwarven defenders.\r\n");
+        if (HAS_FEAT(ch, FEAT_DODGE))
+            c3 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have the dodge feat to become a dwarven defender.\r\n");
+        if (HAS_FEAT(ch, FEAT_ENDURANCE))
+            c4 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have the endurance feat to become a dwarven defender.\r\n");
+        if (HAS_FEAT(ch, FEAT_TOUGHNESS))
+            c5 = TRUE;
+        else if (show_text) send_to_char(ch, "You must have the toughness feat to become a dwarven defender.\r\n");
+
+        if (c1 && c2 && c3 && c4 && c5)
+            return TRUE;
+
+        return FALSE;
+    case CLASS_KNIGHT_OF_THE_CROWN:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_CROWN))
+            c1 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n",
+                                             (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
+        if (GET_BAB(ch) >= 3)
+            c2 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +3 before you may enter the order of the crown.@n\r\n");
+        if (GET_SAVE(ch, SAVING_FORTITUDE) >= 4)
+            c3 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum fortitude save of +4 before you may enter the order of the crown.@n\r\n");
+        if (GET_SKILL(ch, SKILL_DIPLOMACY) >= 2)
+            c4 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum diplomacy skill of +2 before you may enter the order of the crown.@n\r\n");
+        if (GET_SKILL(ch, SKILL_RIDE) >= 2)
+            c5 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum ride skill of +2 before you may enter the order of the crown.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_ARMOR_PROFICIENCY_HEAVY))
+            c6 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the heavy armor proficiency feat before you may enter the order of the crown.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_HONORBOUND))
+            c7 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the honorbound feat before you may enter the order of the crown.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_WEAPON_PROFICIENCY_MARTIAL))
+            c8 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the martial weapon proficiency feat before you may enter the order of the crown.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_ARMOR_PROFICIENCY_SHIELD))
+            c9 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the shield proficiency feat before you may enter the order of the crown.@n\r\n");
+        if (c1 && c2 && c3 && c4 && c5 && c6 && c7 && c8 && c9)
+            return (1);
+        return (0);
+    case CLASS_KNIGHT_OF_THE_SWORD:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_SWORD))
+            c1 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
+        if (GET_BAB(ch) >= 6)
+            c2 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +6 before you may enter the order of the sword.@n\r\n");
+        if (GET_SAVE(ch, SAVING_WILL) >= 4)
+            c3 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum willpower save of +4 before you may enter the order of the sword.@n\r\n");
+        if (GET_SKILL(ch, SKILL_DIPLOMACY) >= 4)
+            c4 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum diplomacy skill of +4 before you may enter the order of the sword.@n\r\n");
+        if (GET_SKILL(ch, SKILL_RIDE) >= 4)
+            c5 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum ride skill of +4 before you may enter the order of the sword.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_ENDURANCE))
+            c6 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the endurance feat before you may enter the order of the sword.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_HONORBOUND))
+            c7 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the honorbound feat before you may enter the order of the sword.@n\r\n");
+        if (GET_CLASS_RANKS(ch, CLASS_CLERIC) > 0 || GET_CLASS_RANKS(ch, CLASS_PALADIN) > 3 ||
+                GET_CLASS_RANKS(ch, CLASS_RANGER) > 3 || GET_CLASS_RANKS(ch, CLASS_DRUID) > 0)
+            c8 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the ability to case divine spells before you may enter the order of the sword.@n\r\n");
+        if (c1 && c2 && c3 && c4 && c5 && c6 && c7 && c8)
+            return (1);
+        return (0);
+    case CLASS_KNIGHT_OF_THE_ROSE:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_ROSE))
+            c1 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
+        if (GET_BAB(ch) >= 8)
+            c2 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +8 before you may enter the order of the rose.@n\r\n");
+        //    if (GET_SAVE(ch, SAVING_WILL) >= 7)
+        //      c3 = TRUE;
+        //    else
+        //      if (show_text) send_to_char(ch, "@wYou must have a minimum willpower save of +7 before you may enter the order of the rose.@n\r\n");
+        if (GET_SKILL(ch, SKILL_DIPLOMACY) >= 8)
+            c4 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum diplomacy skill of +8 before you may enter the order of the rose.@n\r\n");
+        if (GET_SKILL(ch, SKILL_RIDE) >= 8)
+            c5 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum ride skill of +8 before you may enter the order of the rose.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_LEADERSHIP))
+            c6 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the leadership feat before you may enter the order of the rose.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_HONORBOUND))
+            c7 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the honorbound feat before you may enter the order of the rose.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_MOUNTED_COMBAT))
+            c8 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the mounted combat feat before you may enter the order of the rose.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_ENDURANCE))
+            c9 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the endurance feat before you may enter the order of the rose.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_AURA_OF_COURAGE))
+            c10 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the aura of courage feat before you may enter the order of the rose.@n\r\n");
+        if (GET_CLASS_RANKS(ch, CLASS_CLERIC) > 0 || GET_CLASS_RANKS(ch, CLASS_PALADIN) > 3 ||
+                GET_CLASS_RANKS(ch, CLASS_RANGER) > 3 || GET_CLASS_RANKS(ch, CLASS_DRUID) > 0)
+            c11 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the ability to case divine spells before you may enter the order of the rose.@n\r\n");
+        if (c1 && c2 && c4 && c5 && c6 && c7 && c8 && c9 && c10 && c11)
+            return (1);
+        return (0);
+    case CLASS_KNIGHT_OF_THE_LILY:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_LILY))
+            c1 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
+        if (GET_BAB(ch) >= 5)
+            c2 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +5 before you may enter the order of the lily.@n\r\n");
+        if (GET_SKILL(ch, SKILL_INTIMIDATE) >= 4)
+            c3 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum intimidate skill of +4 before you may enter the order of the lily.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_HONORBOUND))
+            c4 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the honorbound feat before you may enter the order of the lily.@n\r\n");
+        if (c1 && c2 && c3 && c4)
+            return (1);
+        return (0);
+    case CLASS_KNIGHT_OF_THE_SKULL:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_SKULL))
+            c1 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
+        if (GET_BAB(ch) >= 3)
+            c2 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +3 before you may enter the order of the skull.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_ALERTNESS))
+            c3 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the alertness feat before you may enter the order of the crown.@n\r\n");
+        if (GET_CLASS_RANKS(ch, CLASS_CLERIC) > 4 || GET_CLASS_RANKS(ch, CLASS_PALADIN) > 8 ||
+                GET_CLASS_RANKS(ch, CLASS_RANGER) > 8 || GET_CLASS_RANKS(ch, CLASS_DRUID) > 4)
+            c4 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the ability to case 3rd-level divine spells before you may enter the order of the skull.@n\r\n");
+        if (c1 && c2 && c3 && c4)
+            return (1);
+        return (0);
+    case CLASS_KNIGHT_OF_THE_THORN:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_THORN))
+            c1 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n",  (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
+        if (GET_BAB(ch) >= 3)
+            c2 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +3 before you may enter the order of the thorn.@n\r\n");
+        if (GET_SAVE(ch, SAVING_FORTITUDE) >= 4)
+            c3 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum fortitude save of +4 before you may enter the order of the thorn.@n\r\n");
+        //    if (GET_SAVE(ch, SAVING_WILL) >= 3)
+        //      c4 = TRUE;
+        //    else
+        //      if (show_text) send_to_char(ch, "@wYou must have a minimum willpower save of +7 before you may enter the order of the thorn.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_ARMOR_PROFICIENCY_HEAVY))
+            c5 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the heavy armor proficiency feat before you may enter the order of the thorn.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_WEAPON_PROFICIENCY_MARTIAL))
+            c6 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the martial weapon proficiency feat before you may enter the order of the thorn.@n\r\n");
+        if (GET_SKILL(ch, SKILL_SPELLCRAFT) >= 8)
+            c7 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum spellcraft skill of +8 before you may enter the order of the thorn.@n\r\n");
+        if ((GET_CLASS_RANKS(ch, CLASS_WIZARD) + GET_CLASS_RANKS(ch, CLASS_WIZARD_OF_HIGH_SORCERY)) > 3)
+            c8 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the ability to case 2nd-level arcane spells before you may enter the order of the thorn.@n\r\n");
+        // Also needs one metamagic feat when they are implemented
+        if (c1 && c2 && c3 && c5 && c6 && c7 && c8)
+            return (1);
+        return (0);
+    case CLASS_WIZARD_OF_HIGH_SORCERY:
+        return (0);
+    case CLASS_DUELIST:
+        if (GET_LEVEL(ch) < 1)
+            return (0);
+        if (GET_BAB(ch) >= 6)
+            c1 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +6 to become a duelist.@n\r\n");
+        if (GET_SKILL(ch, SKILL_ACROBATICS) >= 5)
+            c2 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum tumble skill of +5 to become a duelist.@n\r\n");
+        if (GET_SKILL(ch, SKILL_PERFORM) >= 3)
+            c3 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have a minimum perform skill of +3 to become a duelist.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_DODGE))
+            c4 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the dodge feat to become a duelist.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_MOBILITY))
+            c5 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the mobility feat to become a duelist.@n\r\n");
+        if (HAS_FEAT(ch, FEAT_WEAPON_FINESSE))
+            c6 = TRUE;
+        else if (show_text) send_to_char(ch, "@wYou must have the weapon finesse feat to becme a duelist.@n\r\n");
+        if (c1 && c2 && c3 && c4 && c5 && c6)
+            return (1);
+        return (0);
+    default:
+        return 1; /* All other classes can be taken */
     }
-    return 1;
-
-case CLASS_DRAGON_RIDER:
-    if (GET_LEVEL(ch) < 1)
-      return (0);
-
-    if (GET_SKILL(ch, SKILL_HANDLE_ANIMAL) < 30) {
-    	if (show_text) send_to_char(ch, "You must have at least 30 ranks in the handle animal skill to become a dragon rider.\r\n");
-    } else {
-      c1 = TRUE;
-    }
-
-    if (GET_SKILL(ch, SKILL_RIDE) < 30) {
-    	if (show_text) send_to_char(ch, "You must have at least 30 ranks in the ride skill to become a dragon rider.\r\n");
-    } else {
-      c2 = TRUE;
-    }
-
-    if (c1 && c2)
-      return TRUE;
-    return FALSE;
-
-case CLASS_SACRED_FIST:
-    if (GET_LEVEL(ch) < 1)
-      return (0);
-    if (!HAS_REAL_FEAT(ch, FEAT_IMPROVED_UNARMED_STRIKE)) {
-    	if (show_text) send_to_char(ch, "You must have the improved unarmed strike feat to become a sacred fist.\r\n");
-    } else {
-      c1 = TRUE;
-    }
-
-    if (GET_SKILL(ch, SKILL_ACROBATICS) < 5) {
-    	if (show_text) send_to_char(ch, "You must have at least 5 ranks in the acrobatics skill to become a sacred fist.\r\n");
-    } else {
-      c2 = TRUE;
-    }
-
-    GET_MEM_TYPE(ch) = MEM_TYPE_CLERIC;
-    if (findslotnum(ch, 3) > 0)
-      c4 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_FAVORED_SOUL;
-    if (findslotnum(ch, 3) > 0)
-      c7 = TRUE;
-    if (!c4 && !c7)
-    	if (show_text) send_to_char(ch, "You must be able to cast 3rd level divine spells to become a sacred.\r\n");
-    if (c1 && c2 && (c4 || c7))
-      return TRUE;
-    return FALSE;
-
-case CLASS_DEATH_MASTER:
-    if (GET_LEVEL(ch) < 1)
-      return (0);
-    if (GET_SKILL(ch, SKILL_KNOWLEDGE) < 8) {
-    	if (show_text) send_to_char(ch, "You must have a knowledge skill of at least 8 to become a pale master.\r\n");
-    } else {
-      c1 = TRUE;
-    }
-    
-    GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
-    if (findslotnum(ch, 3) > 0)
-      c4 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
-    if (findslotnum(ch, 3) > 0)
-      c7 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
-    if (findslotnum(ch, 3) > 0)
-      c8 = TRUE;
-    if (!c4 && !c7 && !c8)
-    	if (show_text) send_to_char(ch, "You must be able to cast 3rd level arcane spells to become a pale master.\r\n");
-    if (c1 &&  (c4 || c7 || c8))
-      return TRUE;
-    return FALSE;
-
-  case CLASS_ARCANE_ARCHER:
-    if (GET_LEVEL(ch) < 1)
-      return (0);
-    if (!IS_ELF(ch) && !IS_HALF_ELF(ch)) {
-    	if (show_text) send_to_char(ch, "You must be an elf or a half elf to become an arcane archer.\r\n");
-    } else {
-      c1 = TRUE;
-    }
-
-    if (GET_BAB(ch) < 6) {
-    	if (show_text) send_to_char(ch, "You must have a base attack bonus of 6 or higher to become an arcane archer.\r\n");
-    } else {
-      c2 = TRUE;
-    }
-
-    if (!HAS_REAL_FEAT(ch, FEAT_POINT_BLANK_SHOT)) {
-    	if (show_text) send_to_char(ch, "You must have the point blank shot feat to become an arcane archer.\r\n");
-    } else {
-      c3 = TRUE;
-    }
-    
-    if (!HAS_REAL_FEAT(ch, FEAT_PRECISE_SHOT)) {
-    	if (show_text) send_to_char(ch, "You must have the precise shot feat to become an arcane archer.\r\n");
-    } else {
-      c5 = TRUE;
-    }
-
-    if (!HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_TYPE_LONG_BOW) && !HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_TYPE_COMPOSITE_LONGBOW) &&
-        !HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_TYPE_SHORT_BOW) && !HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_TYPE_COMPOSITE_SHORTBOW) &&
-        !HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_DAMAGE_TYPE_PIERCING)) {     
-    	if (show_text) send_to_char(ch, "You must have the weapon focus feat in any bow, or piercing weapons to become an arcane archer.\r\n");
-    } else {
-      c6 = TRUE;
-    }
-
-
-    GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
-    if (findslotnum(ch, 1) > 0)
-      c4 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
-    if (findslotnum(ch, 1) > 0)
-      c7 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
-    if (findslotnum(ch, 1) > 0)
-      c8 = TRUE;
-    if (!c4 && !c7 && !c8)
-    	if (show_text) send_to_char(ch, "You must be able to cast 1st level arcane spells to become an arcane archer.\r\n");
-    if (c1 && c2 && c3 && c5 && c6 && (c4 || c7 || c8))
-      return TRUE;
-    return FALSE;
-
-  case CLASS_ARCANE_TRICKSTER:
-    if (GET_LEVEL(ch) < 1)
-      return (0);
-    if (GET_SKILL(ch, SKILL_DISABLE_DEVICE) < 7) {
-    	if (show_text) send_to_char(ch, "You must have a disable device skill of at least 7 to become an arcane trickster.\r\n");
-    } else {
-      c1 = TRUE;
-    }
-    if (GET_SKILL(ch, SKILL_KNOWLEDGE) < 4) {
-    	if (show_text) send_to_char(ch, "You must have a knowledge skill of at least 4 to become an arcane trickster.\r\n");
-    } else {
-      c2 = TRUE;
-    }
-
-
-    if (GET_SKILL(ch, SKILL_LINGUISTICS) < 7) {
-    	if (show_text) send_to_char(ch, "You must have a linguistics script skill of at least 7 to become an arcane trickster.\r\n");
-    } else {
-      c3 = TRUE;
-    }
-    if (GET_SKILL(ch, SKILL_ESCAPE_ARTIST) < 7) {
-    	if (show_text) send_to_char(ch, "You must have an escape artist skill of at least 7 to become an arcane trickster.\r\n");
-    } else {
-      c5 = TRUE;
-    }
-
-    GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
-    if (findslotnum(ch, 3) > 0)
-      c4 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
-    if (findslotnum(ch, 3) > 0)
-      c7 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
-    if (findslotnum(ch, 3) > 0)
-      c8 = TRUE;
-    if (!c4 && !c7 && !c8)
-      if (show_text) send_to_char(ch, "You must be able to cast 3rd level arcane spells to become an arcane trickster.\r\n");
-    if (c1 && c2 && (c4 || c7 || c8) && c3 && c5)
-      return TRUE;
-    return FALSE;
-
-  case CLASS_ELDRITCH_KNIGHT:
-    GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
-    if (findslotnum(ch, 3) > 0)
-      c4 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
-    if (findslotnum(ch, 3) > 0)
-      c7 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
-    if (findslotnum(ch, 3) > 0)
-      c8 = TRUE;
-    if (!c4 && !c7 && !c8)
-      if (show_text) send_to_char(ch, "You must be able to cast 3rd level arcane spells to become an eldritch knight.\r\n");
-    if (HAS_FEAT(ch, FEAT_WEAPON_PROFICIENCY_MARTIAL))
-      c1 = TRUE;
-    if (!c1)
-      if (show_text) send_to_char(ch, "You must be proficient in the use of martial weapons to become an eldritch knight.\r\n");
-    if (c1 && (c4 || c7 || c8))
-      return TRUE;
-    return FALSE;
-
-
-  case CLASS_ASSASSIN:
-    if (GET_LEVEL(ch) < 1)
-      return (0);
-    if (GET_SKILL(ch, SKILL_DISGUISE) < 4) {
-      if (show_text) send_to_char(ch, "You need a disguise skill of at least 4 to become an assassin.\r\n");
-    } else {
-      c1 = TRUE;
-    }
-    if (GET_SKILL(ch, SKILL_STEALTH) < 8) {
-      if (show_text) send_to_char(ch, "You need a stealth skill of at least 8 to become an assassin.\r\n");
-    } else {
-      c2 = TRUE;
-    }
-    if (GET_SKILL(ch, SKILL_STEALTH) < 8) {
-      if (show_text) send_to_char(ch, "You need a stealth skill of at least 8 to become an assassin.\r\n");
-    } else {
-      c3 = TRUE;
-    }
-    if (c1 && c2 && c3)
-      return TRUE;
-    return FALSE;  
-
-  case CLASS_DRAGON_DISCIPLE:
-    if (GET_LEVEL(ch) < 1)
-      return (0);
-    if (GET_SKILL(ch, SKILL_KNOWLEDGE) >= 8)
-      c1 = TRUE;
-    else
-      if (show_text) send_to_char(ch, "You need a knowledge skill of at least 8 to qualify for a dragon disciple.\r\n");
-    if (IS_BARD(ch) || IS_SORCERER(ch))
-      c2 = TRUE;
-    else
-      if (show_text) send_to_char(ch, "You need to be able to cast arcane spells without preparation to qualify for dragon disciple.\r\n");
-    if (GET_SKILL(ch, SKILL_LANG_DRACONIC))
-      c3 = TRUE;
-    else
-      if (show_text) send_to_char(ch, "You need to be able to speak draconic in order to become a dragon disciple.\r\n");
-    if (c1 && c2 && c3)
-      return TRUE;
-    return FALSE;  
-  
-  case CLASS_WEAPON_MASTER:
-    if (GET_LEVEL(ch) < 1)
-      return (0);
-    if (GET_BAB(ch) >= 5)
-      c1 = TRUE;
-    else
-      if (show_text) send_to_char(ch, "You must have a base attack bonus of +5 of higher to become a weapon master.\r\n");
-    if (HAS_FEAT(ch, FEAT_WEAPON_FOCUS))
-      c2 = TRUE;
-    else
-      if (show_text) send_to_char(ch, "You must have the weapon focus feat in any weapon to become a weapon master.\r\n");
-    if (HAS_FEAT(ch, FEAT_DODGE))
-      c3 = TRUE;  
-    else
-      if (show_text) send_to_char(ch, "You must have the dodge feat in order to become a weapon master.\r\n");
-    if (HAS_FEAT(ch, FEAT_MOBILITY))
-      c4 = TRUE;  
-    else
-      if (show_text) send_to_char(ch, "You must have the mobility feat in order to become a weapon master.\r\n");
-    if (HAS_FEAT(ch, FEAT_SPRING_ATTACK))
-      c5 = TRUE;  
-    else
-      if (show_text) send_to_char(ch, "You must have the spring attack feat in order to become a weapon master.\r\n");
-    if (HAS_FEAT(ch, FEAT_COMBAT_EXPERTISE))
-      c6 = TRUE;  
-    else
-      if (show_text) send_to_char(ch, "You must have the combat expertise feat in order to become a weapon master.\r\n");
-    if (HAS_FEAT(ch, FEAT_WHIRLWIND_ATTACK))
-      c7 = TRUE;  
-    else
-      if (show_text) send_to_char(ch, "You must have the whirlwind attack feat in order to become a weapon master.\r\n");
-    if (c1 && c2 && c3 && c4 && c5 && c6 && c7)
-      return TRUE;
-    return FALSE;
-
-  case CLASS_MYSTIC_THEURGE:
-    if (GET_LEVEL(ch) < 1)
-      return (0);
-    if (GET_SKILL(ch, SKILL_KNOWLEDGE) >= 6)
-      c1 = TRUE;
-    else
-      if (show_text) send_to_char(ch, "You must have a minimum knowledge skill of 6 to become a mystic theurge.\r\n");
-    GET_MEM_TYPE(ch) = MEM_TYPE_CLERIC;
-    if (findslotnum(ch, 2) > 0)
-      c2 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_PALADIN;
-    if (findslotnum(ch, 2) > 0)
-      c3 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_DRUID;
-    if (findslotnum(ch, 2) > 0)
-      c5 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_RANGER;
-    if (findslotnum(ch, 2) > 0)
-      c6 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_FAVORED_SOUL;
-    if (findslotnum(ch, 2) > 0)
-      c9 = TRUE;
-    if (!c2 && !c3 && !c5 && !c6 && !c9)
-      if (show_text) send_to_char(ch, "You must be able to cast 2nd level divine spells to become a mystic theurge.\r\n");
-    GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
-    if (findslotnum(ch, 2) > 0)
-      c4 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_ASSASSIN;
-    if (findslotnum(ch, 2) > 0)
-      c10 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
-    if (findslotnum(ch, 2) > 0)
-      c7 = TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
-    if (findslotnum(ch, 2) > 0)
-      c8 = TRUE;
-    if (!c4 && !c7 && !c8 && !c10)
-      if (show_text) send_to_char(ch, "You must be able to cast 2nd level arcane spells to become a mystic theurge.\r\n");
-    if (GET_CLASS_SPONSOR(ch, CLASS_MYSTIC_THEURGE))
-      c11 = TRUE;
-    else 
-      if (show_text) send_to_char(ch, "You must be sponsored by an immortal to become a mystic theurge.  Please see help sponsor.\r\n");
-    if (c1 && (c2 || c3 || c5 || c6 || c9) && (c4 || c7 || c10) && c11)
-     return TRUE;
-    return FALSE;
-  case CLASS_DWARVEN_DEFENDER:
-    if (GET_LEVEL(ch) < 1)
-      return (0);
-    if (GET_BAB(ch) >= 7)
-      c1 = TRUE;
-    else
-      if (show_text) send_to_char(ch, "You must have a minimum base attack bonus of 7 to be a dwarven defender.\r\n");
-    if (race_list[GET_RACE(ch)].family == RACE_TYPE_DWARF)
-      c2 = TRUE;
-    else
-      if (show_text) send_to_char(ch, "Only dwarves can become dwarven defenders.\r\n");
-    if (HAS_FEAT(ch, FEAT_DODGE))
-      c3 = TRUE;
-    else
-      if (show_text) send_to_char(ch, "You must have the dodge feat to become a dwarven defender.\r\n");
-    if (HAS_FEAT(ch, FEAT_ENDURANCE))
-      c4 = TRUE;
-    else
-      if (show_text) send_to_char(ch, "You must have the endurance feat to become a dwarven defender.\r\n");
-    if (HAS_FEAT(ch, FEAT_TOUGHNESS))
-      c5 = TRUE;
-    else
-      if (show_text) send_to_char(ch, "You must have the toughness feat to become a dwarven defender.\r\n");
-
-    if (c1 && c2 && c3 && c4 && c5)
-      return TRUE;
-
-    return FALSE;
-  case CLASS_KNIGHT_OF_THE_CROWN:
-  	if (GET_LEVEL(ch) < 1)
-  		return (0);
-  	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_CROWN))
-  		c1 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n",
-(CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
-    if (GET_BAB(ch) >= 3)
-    	c2 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +3 before you may enter the order of the crown.@n\r\n");
-    if (GET_SAVE(ch, SAVING_FORTITUDE) >= 4)
-    	c3 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum fortitude save of +4 before you may enter the order of the crown.@n\r\n");
-    if (GET_SKILL(ch, SKILL_DIPLOMACY) >= 2)
-    	c4 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum diplomacy skill of +2 before you may enter the order of the crown.@n\r\n");
-    if (GET_SKILL(ch, SKILL_RIDE) >= 2)
-    	c5 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum ride skill of +2 before you may enter the order of the crown.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_ARMOR_PROFICIENCY_HEAVY))
-    	c6 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the heavy armor proficiency feat before you may enter the order of the crown.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_HONORBOUND))
-    	c7 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the honorbound feat before you may enter the order of the crown.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_WEAPON_PROFICIENCY_MARTIAL))
-    	c8 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the martial weapon proficiency feat before you may enter the order of the crown.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_ARMOR_PROFICIENCY_SHIELD))
-    	c9 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the shield proficiency feat before you may enter the order of the crown.@n\r\n");
-    if (c1 && c2 && c3 && c4 && c5 && c6 && c7 && c8 && c9)
-    	return (1);
-    return (0);
-  case CLASS_KNIGHT_OF_THE_SWORD:
-  	if (GET_LEVEL(ch) < 1)
-  		return (0);
-  	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_SWORD))
-  		c1 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
-    if (GET_BAB(ch) >= 6)
-    	c2 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +6 before you may enter the order of the sword.@n\r\n");
-    if (GET_SAVE(ch, SAVING_WILL) >= 4)
-    	c3 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum willpower save of +4 before you may enter the order of the sword.@n\r\n");
-    if (GET_SKILL(ch, SKILL_DIPLOMACY) >= 4)
-    	c4 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum diplomacy skill of +4 before you may enter the order of the sword.@n\r\n");
-    if (GET_SKILL(ch, SKILL_RIDE) >= 4)
-    	c5 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum ride skill of +4 before you may enter the order of the sword.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_ENDURANCE))
-    	c6 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the endurance feat before you may enter the order of the sword.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_HONORBOUND))
-    	c7 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the honorbound feat before you may enter the order of the sword.@n\r\n");
-    if (GET_CLASS_RANKS(ch, CLASS_CLERIC) > 0 || GET_CLASS_RANKS(ch, CLASS_PALADIN) > 3 ||
-    	  GET_CLASS_RANKS(ch, CLASS_RANGER) > 3 || GET_CLASS_RANKS(ch, CLASS_DRUID) > 0)
-    	c8 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the ability to case divine spells before you may enter the order of the sword.@n\r\n");
-    if (c1 && c2 && c3 && c4 && c5 && c6 && c7 && c8)
-    	return (1);
-    return (0);    
-  case CLASS_KNIGHT_OF_THE_ROSE:
-  	if (GET_LEVEL(ch) < 1)
-  		return (0);
-  	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_ROSE))
-  		c1 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
-    if (GET_BAB(ch) >= 8)
-    	c2 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +8 before you may enter the order of the rose.@n\r\n");
-//    if (GET_SAVE(ch, SAVING_WILL) >= 7)
-//    	c3 = TRUE;
-//    else
-//    	if (show_text) send_to_char(ch, "@wYou must have a minimum willpower save of +7 before you may enter the order of the rose.@n\r\n");
-    if (GET_SKILL(ch, SKILL_DIPLOMACY) >= 8)
-    	c4 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum diplomacy skill of +8 before you may enter the order of the rose.@n\r\n");
-    if (GET_SKILL(ch, SKILL_RIDE) >= 8)
-    	c5 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum ride skill of +8 before you may enter the order of the rose.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_LEADERSHIP))
-    	c6 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the leadership feat before you may enter the order of the rose.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_HONORBOUND))
-    	c7 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the honorbound feat before you may enter the order of the rose.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_MOUNTED_COMBAT))
-    	c8 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the mounted combat feat before you may enter the order of the rose.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_ENDURANCE))
-    	c9 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the endurance feat before you may enter the order of the rose.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_AURA_OF_COURAGE))
-    	c10 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the aura of courage feat before you may enter the order of the rose.@n\r\n");
-    if (GET_CLASS_RANKS(ch, CLASS_CLERIC) > 0 || GET_CLASS_RANKS(ch, CLASS_PALADIN) > 3 ||
-    	  GET_CLASS_RANKS(ch, CLASS_RANGER) > 3 || GET_CLASS_RANKS(ch, CLASS_DRUID) > 0)
-    	c11 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the ability to case divine spells before you may enter the order of the rose.@n\r\n");
-    if (c1 && c2 && c4 && c5 && c6 && c7 && c8 && c9 && c10 && c11)
-    	return (1);
-    return (0);
-  case CLASS_KNIGHT_OF_THE_LILY:
-  	if (GET_LEVEL(ch) < 1)
-  		return (0);
-  	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_LILY))
-  		c1 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
-    if (GET_BAB(ch) >= 5)
-    	c2 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +5 before you may enter the order of the lily.@n\r\n");
-    if (GET_SKILL(ch, SKILL_INTIMIDATE) >= 4)
-    	c3 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum intimidate skill of +4 before you may enter the order of the lily.@n\r\n");
-   if (HAS_FEAT(ch, FEAT_HONORBOUND))
-    	c4 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the honorbound feat before you may enter the order of the lily.@n\r\n");
-    if (c1 && c2 && c3 && c4)
-    	return (1);
-    return (0);    
-  case CLASS_KNIGHT_OF_THE_SKULL:
-  	if (GET_LEVEL(ch) < 1)
-  		return (0);
-  	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_SKULL))
-  		c1 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
-    if (GET_BAB(ch) >= 3)
-    	c2 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +3 before you may enter the order of the skull.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_ALERTNESS))
-    	c3 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the alertness feat before you may enter the order of the crown.@n\r\n");
-    if (GET_CLASS_RANKS(ch, CLASS_CLERIC) > 4 || GET_CLASS_RANKS(ch, CLASS_PALADIN) > 8 ||
-    	  GET_CLASS_RANKS(ch, CLASS_RANGER) > 8 || GET_CLASS_RANKS(ch, CLASS_DRUID) > 4)
-    	c4 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the ability to case 3rd-level divine spells before you may enter the order of the skull.@n\r\n");
-  if (c1 && c2 && c3 && c4)
-    	return (1);
-    return (0);
-  case CLASS_KNIGHT_OF_THE_THORN:
-  	if (GET_LEVEL(ch) < 1)
-  		return (0);
-  	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_THORN))
-  		c1 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n",  (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
-    if (GET_BAB(ch) >= 3)
-    	c2 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +3 before you may enter the order of the thorn.@n\r\n");
-    if (GET_SAVE(ch, SAVING_FORTITUDE) >= 4)
-    	c3 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum fortitude save of +4 before you may enter the order of the thorn.@n\r\n");
-//    if (GET_SAVE(ch, SAVING_WILL) >= 3)
-//    	c4 = TRUE;
-//    else
-//    	if (show_text) send_to_char(ch, "@wYou must have a minimum willpower save of +7 before you may enter the order of the thorn.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_ARMOR_PROFICIENCY_HEAVY))
-    	c5 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the heavy armor proficiency feat before you may enter the order of the thorn.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_WEAPON_PROFICIENCY_MARTIAL))
-    	c6 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the martial weapon proficiency feat before you may enter the order of the thorn.@n\r\n");
-    if (GET_SKILL(ch, SKILL_SPELLCRAFT) >= 8)
-    	c7 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have a minimum spellcraft skill of +8 before you may enter the order of the thorn.@n\r\n");
-  if ((GET_CLASS_RANKS(ch, CLASS_WIZARD) + GET_CLASS_RANKS(ch, CLASS_WIZARD_OF_HIGH_SORCERY)) > 3)
-    	c8 = TRUE;
-    else
-    	if (show_text) send_to_char(ch, "@wYou must have the ability to case 2nd-level arcane spells before you may enter the order of the thorn.@n\r\n");
-  // Also needs one metamagic feat when they are implemented
-  if (c1 && c2 && c3 && c5 && c6 && c7 && c8)
-    	return (1);
-    return (0);
-  case CLASS_WIZARD_OF_HIGH_SORCERY:
-    return (0);
-  case CLASS_DUELIST:
-  	if (GET_LEVEL(ch) < 1)
-  		return (0);  	
-  	if (GET_BAB(ch) >= 6)
-  		c1 = TRUE;
-  	else
-  		if (show_text) send_to_char(ch, "@wYou must have a minimum base attack bonus of +6 to become a duelist.@n\r\n");
-  	if (GET_SKILL(ch, SKILL_ACROBATICS) >= 5)
-  		c2 = TRUE;
-  	else 
-  		if (show_text) send_to_char(ch, "@wYou must have a minimum tumble skill of +5 to become a duelist.@n\r\n");
-  	if (GET_SKILL(ch, SKILL_PERFORM) >= 3)
-  		c3 = TRUE;
-  	else
-  		if (show_text) send_to_char(ch, "@wYou must have a minimum perform skill of +3 to become a duelist.@n\r\n");
-  	if (HAS_FEAT(ch, FEAT_DODGE))
-  		c4 = TRUE;
-  	else
-  		if (show_text) send_to_char(ch, "@wYou must have the dodge feat to become a duelist.@n\r\n");
-  	if (HAS_FEAT(ch, FEAT_MOBILITY))
-  		c5 = TRUE;
-  	else
-  		if (show_text) send_to_char(ch, "@wYou must have the mobility feat to become a duelist.@n\r\n");
-  	if (HAS_FEAT(ch, FEAT_WEAPON_FINESSE))
-  		c6 = TRUE;
-  	else
-  		if (show_text) send_to_char(ch, "@wYou must have the weapon finesse feat to becme a duelist.@n\r\n");
-  	if (c1 && c2 && c3 && c4 && c5 && c6)
-  		return (1);
-  	return (0);
-  default:
-    return 1; /* All other classes can be taken */
-  }
 }
 /*
  * ...And the appropriate rooms for each guildmaster/guildguard; controls

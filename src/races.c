@@ -551,20 +551,31 @@ int get_size_bonus(int sz)
 
 int wield_type(int chsize, const struct obj_data *weap)
 {
-  if (GET_OBJ_TYPE(weap) != ITEM_WEAPON) {
-    return OBJ_FLAGGED(weap, ITEM_2H) ? WIELD_TWOHAND : WIELD_ONEHAND;
-  } else if (chsize > GET_OBJ_SIZE(weap)) {
-    return WIELD_LIGHT;
-  } else if (chsize == GET_OBJ_SIZE(weap)) {
-    return WIELD_ONEHAND;
-  } else if (chsize == GET_OBJ_SIZE(weap) - 1) {
-    return WIELD_TWOHAND;
-  } else if (chsize < GET_OBJ_SIZE(weap) - 1) {
-    return WIELD_NONE; /* It's just too big for you! */
-  } else {
-    log("unknown size vector in wield_type: chsize=%d, weapsize=%d", chsize, GET_OBJ_SIZE(weap));
-    return WIELD_NONE;
-  }
+    if (GET_OBJ_TYPE(weap) != ITEM_WEAPON)
+    {
+        return OBJ_FLAGGED(weap, ITEM_2H) ? WIELD_TWOHAND : WIELD_ONEHAND;
+    }
+    else if (chsize > GET_OBJ_SIZE(weap))
+    {
+        return WIELD_LIGHT;
+    }
+    else if (chsize == GET_OBJ_SIZE(weap))
+    {
+        return WIELD_ONEHAND;
+    }
+    else if (chsize == GET_OBJ_SIZE(weap) - 1)
+    {
+        return WIELD_TWOHAND;
+    }
+    else if (chsize < GET_OBJ_SIZE(weap) - 1)
+    {
+        return WIELD_NONE; /* It's just too big for you! */
+    }
+    else
+    {
+        log("unknown size vector in wield_type: chsize=%d, weapsize=%d", chsize, GET_OBJ_SIZE(weap));
+        return WIELD_NONE;
+    }
 }
 
 int parse_race(struct char_data *ch, char *arg) 

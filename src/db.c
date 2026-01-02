@@ -13,6 +13,7 @@
 #include "conf.h"
 #include "sysdep.h"
 #include "mysql/mysql.h"
+#include <sys/time.h>
 
 #include "structs.h"
 #include "utils.h"
@@ -245,6 +246,51 @@ extern long top_idnum;
 
 /* external ASCII Player Files vars */
 extern int auto_pwipe;
+
+
+static inline double time_diff(struct timeval *start, struct timeval *end)
+{
+    return (end->tv_sec - start->tv_sec)
+    + (end->tv_usec - start->tv_usec) / 1000000.0;
+}
+
+struct startup_stats 
+{
+    int systems_loaded;
+    int systems_total;
+    double total_time;
+};
+
+// New Macro's to be used in booting the MUD to help give consistent boilerplate information on startup.
+
+#define STARTUP_HEADER() \
+  do { \
+    log("================================="); \
+    log("[Startup Initiation]"); \
+    log("================================="); \
+  } while (0)
+
+#define STARTUP_FOOTER(stats) \
+  do { \
+    log("================================="); \
+    log("[STARTUP] Total Time: %.2f seconds", (stats)->total_time); \
+    log("[STARTUP] Systems loaded: %d/%d", \
+        (stats)->systems_loaded, (stats)->systems_total); \
+    log("================================="); \
+  } while (0)
+
+#define STARTUP_BEGIN(label) \
+  struct timeval _start_##label, _end_##label; \
+  gettimeofday(&_start_##label, NULL);
+
+#define STARTUP_END(label, desc, stats) \
+  do { \
+    gettimeofday(&_end_##label, NULL); \
+    double _elapsed = time_diff(&_start_##label, &_end_##label); \
+    (stats)->systems_loaded++; \
+    (stats)->total_time += _elapsed; \
+    log("[STARTUP] %-40s %.2f seconds", desc, _elapsed); \
+  } while (0)
 
 
 /* Convert CWG-SunTzu armor objects to new armor types */
@@ -505,78 +551,78 @@ ACMD(do_reboot)
 
 void boot_world(void)
 {
-  log("Loading level tables.");
-  load_levels();
+    struct startup_stats stats = {0, 0, 0.0};
 
-  log("Loading zone table.");
-  index_boot(DB_BOOT_ZON);
+    stats.systems_total = 16; /* keep accurate */
 
-  log("Loading triggers and generating index.");
-  index_boot(DB_BOOT_TRG);
+    log("---- World Boot Begin ----");
 
-  log("Loading rooms.");
-  index_boot(DB_BOOT_WLD);
+    STARTUP_BEGIN(levels);
+    load_levels();
+    STARTUP_END(levels, "World: Level tables", &stats);
 
-  log("Renumbering rooms.");
-  renum_world();
+    STARTUP_BEGIN(zones);
+    index_boot(DB_BOOT_ZON);
+    STARTUP_END(zones, "World: Zone table", &stats);
 
-  log("Checking start rooms.");
-  check_start_rooms();
+    STARTUP_BEGIN(triggers);
+    index_boot(DB_BOOT_TRG);
+    STARTUP_END(triggers, "World: Triggers", &stats);
 
-  log("Loading mobs and generating index.");
-  index_boot(DB_BOOT_MOB);
+    STARTUP_BEGIN(rooms);
+    index_boot(DB_BOOT_WLD);
+    renum_world();
+    check_start_rooms();
+    STARTUP_END(rooms, "World: Rooms", &stats);
 
-  log("Loading objs and generating index.");
-  index_boot(DB_BOOT_OBJ);
+    STARTUP_BEGIN(mobs);
+    index_boot(DB_BOOT_MOB);
+    STARTUP_END(mobs, "World: Mobiles", &stats);
 
-  log("Renumbering zone table.");
-  renum_zone_table();
+    STARTUP_BEGIN(objects);
+    index_boot(DB_BOOT_OBJ);
+    STARTUP_END(objects, "World: Objects", &stats);
 
-  log("Loading disabled commands list...");
-  load_disabled();
+    log("Renumbering zone table.");
+    renum_zone_table();
 
-  if(converting) {
-    log("Saving converted worldfiles to disk.");
-      save_all();
-  }
+    log("Loading disabled commands list...");
+    load_disabled();
 
-  if (!no_specials) {
-    log("Loading shops.");
-    index_boot(DB_BOOT_SHP);
+    if(converting)
+    {
+        log("Saving converted worldfiles to disk.");
+        save_all();
+    }
 
-  log("Loading quests.");
-  index_boot(DB_BOOT_QST);
+    STARTUP_BEGIN(specials);
+    if (!no_specials)
+    {
+        index_boot(DB_BOOT_SHP);
+        index_boot(DB_BOOT_QST);
+        index_boot(DB_BOOT_GLD);
+        load_weapons();
+        load_armor();
+        assign_races();
+        init_pets();
+        load_pets();
+        assign_deities();
+    }
+    STARTUP_END(specials, "World: Specials & subsystems", &stats);
 
-  log("Loading guild masters.");
-  index_boot(DB_BOOT_GLD);
-	
-	log("Loading Weapons.");
-	load_weapons();
-	
-	log("Loading Armor.");
-	load_armor();
+    STARTUP_BEGIN(fightsort);
+    for (int i = 0; i < fightsort_table_size; i++)
+        CREATE(fightsort_table[i], struct fightsort_elem, 1);
+    STARTUP_END(fightsort, "World: Fight sort table", &stats);
 
-  log("Loading Races.");
-  assign_races();
+    STARTUP_BEGIN(harvesting);
+    for (int x = 0; x < 10; x++)
+        reset_harvesting_rooms();
+    STARTUP_END(harvesting, "World: Harvest nodes", &stats);
 
-  log("Loading Pets.");
-  init_pets();
-  load_pets();
 
-  log("Loading Deities.");
-  assign_deities();
-
-  log("Setting up fightsort_table");
-  int i = 0;
-  for (i = 0; i < fightsort_table_size; i++) {
-    CREATE(fightsort_table[i], struct fightsort_elem, 1);
-  }
-
-  log("Placing Harvesting Nodes");
-  int x = 0;
-  for (x = 0; x < 10; x++)
-    reset_harvesting_rooms();
-  }
+    log("[WORLD] Total Time: %.2f seconds", stats.total_time);
+    log("[WORLD] Systems loaded: %d/%d", stats.systems_loaded, stats.systems_total);
 
 }
 
@@ -817,17 +863,24 @@ void init_obj_unique_hash()
   }
 }
 
+
 /* body of the booting system */
 void boot_db(void)
 {
   zone_rnum i;
 
-  log("Boot db -- BEGIN.");
+  struct startup_stats stats = {0, 0, 0.0};
 
-  log("Resetting the game time:");
+ /* Update this when adding/removing systems */
+  stats.systems_total = 24;
+
+  STARTUP_HEADER();
+
+  STARTUP_BEGIN(time);
   reset_time();
+  STARTUP_END(time, "Game time reset", &stats);
 
-  log("Reading news, credits, help, bground, info & motds.");
+  STARTUP_BEGIN(text);
   file_to_string_alloc(NEWS_FILE, &news);
   file_to_string_alloc(CREDITS_FILE, &credits);
   file_to_string_alloc(MOTD_FILE, &motd);
@@ -843,58 +896,81 @@ void boot_db(void)
     prune_crlf(GREETINGS);
   if (file_to_string_alloc(GREETANSI_FILE, &GREETANSI) == 0)
     prune_crlf(GREETANSI);
+  STARTUP_END(text, "Text files (news, motd, help, etc.)", &stats);
 
-  log("Loading spell definitions.");
+  STARTUP_BEGIN(spells);
   mag_assign_spells();
+  STARTUP_END(spells, "Spell definitions", &stats);
 
-  log("Loading feats.");
+  STARTUP_BEGIN(feats);
   assign_feats();
+  STARTUP_END(feats, "Feats", &stats);
 
+  STARTUP_BEGIN(world);
   boot_world();
+  STARTUP_END(world, "World files", &stats);
+
+  STARTUP_BEGIN(helpidx);
+  index_boot(DB_BOOT_HLP);
+  boot_context_help();
+  STARTUP_END(helpidx, "Help system", &stats);
 
   htree_test();
 
-  log("Loading help entries.");
-  index_boot(DB_BOOT_HLP);
-
-  log("Setting up context sensitive help system for OLC");
-  boot_context_help();
-
-  log("Generating player index.");
+  STARTUP_BEGIN(players);
   build_player_index();
+  STARTUP_END(players, "Player index", &stats);
 
   insure_directory(LIB_PLROBJS "CRASH", 0);
 
-  if (auto_pwipe) {
+  if (auto_pwipe) 
+  {
     log("Cleaning out inactive players.");
     clean_pfiles();
   }
 
-  log("Loading fight messages.");
+  STARTUP_BEGIN(messages);
   load_messages();
-
-  log("Loading social messages.");
   boot_social_messages();
+  STARTUP_END(messages, "Combat & social messages", &stats);
 
-  log("Building command list.");
-  create_command_list(); /* aedit patch -- M. Scott */
+  STARTUP_BEGIN(commands);
+  create_command_list();
+  sort_commands();
+  STARTUP_END(commands, "Command table", &stats);
 
-  log("Assigning function pointers:");
-
-  if (!no_specials) {
-    log("   Mobiles.");
+  if (!no_specials) 
+  {
+    STARTUP_BEGIN(specials);
     assign_mobiles();
-    log("   Shopkeepers.");
     assign_the_shopkeepers();
-    log("   Objects.");
     assign_objects();
-    log("   Rooms.");
     assign_rooms();
-    log("   Guildmasters.");
     assign_the_guilds();
-    log("   Questmasters.");
     assign_the_quests();
+    STARTUP_END(specials, "Special procedures", &stats);
   }
+
+  STARTUP_BEGIN(skills);
+  init_skill_classes();
+  init_skill_race_classes();
+  sort_spells();
+  sort_feats();
+  sort_skills();
+  sort_languages();
+  STARTUP_END(skills, "Skills, spells, languages", &stats);
+
+  STARTUP_BEGIN(mail);
+  if (!scan_file())
+    no_mail = 1;
+  STARTUP_END(mail, "Mail system", &stats);
+
+  
+  STARTUP_BEGIN(houses);
+  if (!mini_mud)
+    House_boot();
+  STARTUP_END(houses, "Player housing", &stats);
+
 
   log("Init Object Unique Hash");
   init_obj_unique_hash();
@@ -902,25 +978,6 @@ void boot_db(void)
   log("Booting assembled objects.");
   assemblyBootAssemblies();
 
-  log("Assigning skill levels.");
-  init_skill_classes();
-
-  log("Assigning race skill classes.");
-  init_skill_race_classes();
-
-  log("Sorting command list and spells.");
-  sort_commands();
-  sort_spells();
-  sort_feats();
-  sort_skills();
-  sort_languages();
-
-  log("Booting mail system.");
-  if (!scan_file()) {
-    log("    Mail boot failed -- Mail system disabled");
-    no_mail = 1;
-  }
-  
   log("Booting boards system.");
   init_boards();
   
@@ -934,29 +991,22 @@ void boot_db(void)
     log("   Done.");
   }
 
-  /* Moved here so the object limit code works. -gg 6/24/98 */
-  if (!mini_mud) {
-    log("Booting houses.");
-    House_boot();
-  }
-
   log("Loading clans.");
   load_clans();
 
   log("Loading polls.");
   build_poll_list();
 
-  for (i = 0; i <= top_of_zone_table; i++) {
-    log("Resetting #%d: %s (rooms %d-%d).", zone_table[i].number,
-	zone_table[i].name, zone_table[i].bot, zone_table[i].top);
+  STARTUP_BEGIN(zones);
+  for (i = 0; i <= top_of_zone_table; i++)
     reset_zone(i);
-  }
+  STARTUP_END(zones, "Zone resets", &stats);
 
   reset_q.head = reset_q.tail = NULL;
-
   boot_time = time(0);
 
-  log("Boot db -- DONE.");
+  STARTUP_FOOTER(&stats);
+
 }
 
 
