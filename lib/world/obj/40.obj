@@ -360,7 +360,7 @@ tabbard of the faithful~
 @WTabbard of the Faithful@n~
 ~
 11 A 0 0 0 ak 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
 1 1500 0 1
 V
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -857,8 +857,8 @@ D
 0
 #4058
 healing potion~
-@WHealing potion@n~
-@WHealing potion@n~
+Potion of Healing~
+Potion of Healing~
 ~
 10 D 0 0 0 ao 0 0 0 0 0 0 0
 8 28 0 0 100 100 0 0 0 0 0 0 0 0 0 0

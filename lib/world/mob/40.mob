@@ -97,7 +97,7 @@ Con: 10
 E
 Cha: 10
 S
-T 4007
+T FA7
 #4005
 carpenter~
 a Carpenter~
@@ -122,7 +122,7 @@ Con: 10
 E
 Cha: 10
 S
-T 4009
+T FA9
 #4006
 shield maker~
 a Shield Maker~
@@ -147,7 +147,7 @@ Con: 10
 E
 Cha: 10
 S
-T 4012
+T FAC
 #4007
 show quest~
 a @YQuest@n is here type: (@YShow Quest@n) to view it.~
@@ -377,9 +377,9 @@ a @YKnight@n @rMarshal@n stands here.
 ~
 It looks unfinished.
 ~
-abdEF 0 0 0 k F 0 0 0
+bdEF 0 0 0 k F 0 0 0
 40 20 -30 164d100+570 1d8+0
-2080 0 44 11
+2080 0 1 11
 8 8 1
 E
 BareHandAttack: 11
@@ -720,7 +720,7 @@ Con: 10
 E
 Cha: 10
 S
-T 4034
+T FC2
 #4030
 shifty underling thief~
 the Lato's Beggar's underling~
@@ -798,7 +798,7 @@ Con: 10
 E
 Cha: 10
 S
-T 3045
+T BE5
 #4033
 priest of justice~
 a @WPriest@n of @CJustice@n~
@@ -1017,7 +1017,7 @@ Con: 10
 E
 Cha: 10
 S
-T 4036
+T FC4
 #4042
 priest of justice~
 a @WPriest@n of @CJustice@n~
@@ -1069,7 +1069,7 @@ Con: 10
 E
 Cha: 10
 S
-T 4037
+T FC5
 #4044
 pile of marker stones~
 a pile of @YMarker Stones@n~
@@ -1380,8 +1380,8 @@ Garlth the armorer polishes a sword
 ~
 A strong looking man, if a little round around the belly. A few scars tell of a troubled and adventurous past. He seems to look at his inventory with a certain eagerness that is suited more for battle than for a shop keeper.
 ~
-bdA bd 0 0 0 0 0 0 500
-20 14 -14 1100d100+100 1d1+6
+bdA bd 0 0 k 0 0 0 500
+20 14 -14 1100d100+100 1d8+6
 50000 0 42 27
 8 8 1
 E
@@ -1406,8 +1406,8 @@ Grafton the butcher is cleaving a piece of meat
 ~
 A strong and muscled man. He looks like he enjoys his job by the way he attacks the meat on his counter.
 ~
-bd bd 0 0 0 0 0 0 -250
-20 14 -14 1100d100+100 1d1+6
+bd bd 0 0 k 0 0 0 -250
+20 14 -14 1100d100+100 1d8+6
 1000 0 42 27
 8 8 1
 E

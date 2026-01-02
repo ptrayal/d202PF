@@ -7,9 +7,9 @@ A earth cultist priest walks confidently by here.
 trim.  He seems very arrogant and uncaring, and fails to give you the impression
 of what a true priest should be.  
 ~
-admt 0 0 0 k 0 0 0 0
+dmt 0 0 0 k 0 0 0 0
 9 20 1 90d90+151 1d8+0
-180 0 42 1
+180 0 6 1
 8 8 1
 E
 BareHandAttack: 13
@@ -65,9 +65,9 @@ priests, but by his excited looks and quivering voice you can tell that he is
 fairly new to the religion.  He seems willing to initiate conversation with
 anyone that nears him.  
 ~
-ad 0 0 0 k 0 0 0 0
+d 0 0 0 k 0 0 0 0
 6 20 4 63d60+151 1d8+0
-90 0 42 1
+90 0 1 1
 8 8 1
 E
 BareHandAttack: 13
@@ -94,9 +94,9 @@ priests, but by her excited looks and quivery voice you can tell that she is
 fairly new to the religion.  She seems willing to initiate conversation with
 anyone that nears her.  
 ~
-ad 0 0 0 k 0 0 0 0
+d 0 0 0 k 0 0 0 0
 6 20 4 63d60+152 1d8+0
-90 0 42 1
+90 0 1 1
 8 8 2
 E
 BareHandAttack: 13
@@ -123,9 +123,9 @@ priests, but by his excited looks and quivering voice you can tell that he is
 fairly new to the religion.  He seems willing to initiate conversation with
 anyone that nears him.  
 ~
-ad 0 0 0 k 0 0 0 0
+d 0 0 0 k 0 0 0 0
 5 20 5 54d50+151 1d8+0
-50 0 42 1
+50 0 1 1
 8 8 1
 E
 BareHandAttack: 13
@@ -181,7 +181,7 @@ sensible person probably should be.  He keeps walking about the complex speaking
 with anyone who seems interested in doing so, and seems to be paying very close
 attention.  
 ~
-ad 0 0 0 k 0 0 0 0
+d 0 0 0 k 0 0 0 0
 7 20 3 72d70+151 1d8+0
 105 0 2 1
 8 8 1
@@ -210,7 +210,7 @@ sensible person probably should be.  She keeps walking about the complex
 speaking with anyone who seems interested in doing so, and seems to be paying
 very close attention.  
 ~
-ad 0 0 0 k 0 0 0 0
+d 0 0 0 k 0 0 0 0
 7 20 3 72d70+151 1d8+0
 105 0 5 1
 8 8 2
@@ -268,9 +268,9 @@ priests, but by her excited looks and quivery voice you can tell that she is
 fairly new to the religion.  She seems willing to initiate conversation with
 anyone that nears her.  
 ~
-ad 0 0 0 k 0 0 0 0
+d 0 0 0 k 0 0 0 0
 7 20 3 72d70+152 1d8+0
-105 0 42 1
+105 0 1 1
 8 8 2
 E
 BareHandAttack: 13
@@ -578,9 +578,9 @@ A earth cultist priest is here trying to get some rest and relaxation.
 trim.  He seems very arrogant and uncaring, and fails to give you the impression
 of what a true priest should be.  
 ~
-abdmt 0 0 0 k 0 0 0 0
+bdmt 0 0 0 k 0 0 0 0
 9 20 1 90d90+151 1d8+0
-180 0 42 1
+180 0 1 1
 8 8 1
 E
 BareHandAttack: 13
@@ -607,9 +607,9 @@ priests, but by his excited looks and quivery voice you can tell that he is
 fairly new to the religion.  He seems willing to initiate conversation with
 anyone that nears him.  
 ~
-abd 0 0 0 k 0 0 0 0
+bd 0 0 0 k 0 0 0 0
 7 20 3 72d70+151 1d8+0
-105 0 42 1
+105 0 1 1
 8 8 1
 E
 BareHandAttack: 13
