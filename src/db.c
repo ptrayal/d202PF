@@ -247,6 +247,10 @@ extern long top_idnum;
 /* external ASCII Player Files vars */
 extern int auto_pwipe;
 
+// Used for debugging
+const char *current_area_filename = "UNKNOWN";
+int current_area_line = 0;
+
 
 static inline double time_diff(struct timeval *start, struct timeval *end)
 {
@@ -555,7 +559,9 @@ void boot_world(void)
 
     stats.systems_total = 16; /* keep accurate */
 
-    log("---- World Boot Begin ----");
+    log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+    log("@@@@ World Boot Begin @@@@");
+    log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
     STARTUP_BEGIN(levels);
     load_levels();
@@ -623,6 +629,10 @@ void boot_world(void)
 
     log("[WORLD] Total Time: %.2f seconds", stats.total_time);
     log("[WORLD] Systems loaded: %d/%d", stats.systems_loaded, stats.systems_total);
+
+    log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+    log("@@@@ World Boot Ends @@@@");
+    log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
 }
 
@@ -867,145 +877,146 @@ void init_obj_unique_hash()
 /* body of the booting system */
 void boot_db(void)
 {
-  zone_rnum i;
+    zone_rnum i;
 
-  struct startup_stats stats = {0, 0, 0.0};
+    struct startup_stats stats = {0, 0, 0.0};
 
- /* Update this when adding/removing systems */
-  stats.systems_total = 24;
+    /* Update this when adding/removing systems */
+    stats.systems_total = 24;
 
-  STARTUP_HEADER();
+    STARTUP_HEADER();
 
-  STARTUP_BEGIN(time);
-  reset_time();
-  STARTUP_END(time, "Game time reset", &stats);
+    STARTUP_BEGIN(time);
+    reset_time();
+    STARTUP_END(time, "Game time reset", &stats);
 
-  STARTUP_BEGIN(text);
-  file_to_string_alloc(NEWS_FILE, &news);
-  file_to_string_alloc(CREDITS_FILE, &credits);
-  file_to_string_alloc(MOTD_FILE, &motd);
-  file_to_string_alloc(IMOTD_FILE, &imotd);
-  file_to_string_alloc(HELP_PAGE_FILE, &help);
-  file_to_string_alloc(INFO_FILE, &info);
-  file_to_string_alloc(WIZLIST_FILE, &wizlist);
-  file_to_string_alloc(IMMLIST_FILE, &immlist);
-  file_to_string_alloc(POLICIES_FILE, &policies);
-  file_to_string_alloc(HANDBOOK_FILE, &handbook);
-  file_to_string_alloc(BACKGROUND_FILE, &background);
-  if (file_to_string_alloc(GREETINGS_FILE, &GREETINGS) == 0)
-    prune_crlf(GREETINGS);
-  if (file_to_string_alloc(GREETANSI_FILE, &GREETANSI) == 0)
-    prune_crlf(GREETANSI);
-  STARTUP_END(text, "Text files (news, motd, help, etc.)", &stats);
+    STARTUP_BEGIN(text);
+    file_to_string_alloc(NEWS_FILE, &news);
+    file_to_string_alloc(CREDITS_FILE, &credits);
+    file_to_string_alloc(MOTD_FILE, &motd);
+    file_to_string_alloc(IMOTD_FILE, &imotd);
+    file_to_string_alloc(HELP_PAGE_FILE, &help);
+    file_to_string_alloc(INFO_FILE, &info);
+    file_to_string_alloc(WIZLIST_FILE, &wizlist);
+    file_to_string_alloc(IMMLIST_FILE, &immlist);
+    file_to_string_alloc(POLICIES_FILE, &policies);
+    file_to_string_alloc(HANDBOOK_FILE, &handbook);
+    file_to_string_alloc(BACKGROUND_FILE, &background);
+    if (file_to_string_alloc(GREETINGS_FILE, &GREETINGS) == 0)
+        prune_crlf(GREETINGS);
+    if (file_to_string_alloc(GREETANSI_FILE, &GREETANSI) == 0)
+        prune_crlf(GREETANSI);
+    STARTUP_END(text, "Text files (news, motd, help, etc.)", &stats);
 
-  STARTUP_BEGIN(spells);
-  mag_assign_spells();
-  STARTUP_END(spells, "Spell definitions", &stats);
+    STARTUP_BEGIN(spells);
+    mag_assign_spells();
+    STARTUP_END(spells, "Spell definitions", &stats);
 
-  STARTUP_BEGIN(feats);
-  assign_feats();
-  STARTUP_END(feats, "Feats", &stats);
+    STARTUP_BEGIN(feats);
+    assign_feats();
+    STARTUP_END(feats, "Feats", &stats);
 
-  STARTUP_BEGIN(world);
-  boot_world();
-  STARTUP_END(world, "World files", &stats);
+    STARTUP_BEGIN(world);
+    boot_world();
+    STARTUP_END(world, "World files", &stats);
 
-  STARTUP_BEGIN(helpidx);
-  index_boot(DB_BOOT_HLP);
-  boot_context_help();
-  STARTUP_END(helpidx, "Help system", &stats);
+    STARTUP_BEGIN(helpidx);
+    index_boot(DB_BOOT_HLP);
+    boot_context_help();
+    STARTUP_END(helpidx, "Help system", &stats);
 
-  htree_test();
+    htree_test();
 
-  STARTUP_BEGIN(players);
-  build_player_index();
-  STARTUP_END(players, "Player index", &stats);
+    STARTUP_BEGIN(players);
+    build_player_index();
+    STARTUP_END(players, "Player index", &stats);
 
-  insure_directory(LIB_PLROBJS "CRASH", 0);
+    insure_directory(LIB_PLROBJS "CRASH", 0);
 
-  if (auto_pwipe) 
-  {
-    log("Cleaning out inactive players.");
-    clean_pfiles();
-  }
+    if (auto_pwipe)
+    {
+        log("Cleaning out inactive players.");
+        clean_pfiles();
+    }
 
-  STARTUP_BEGIN(messages);
-  load_messages();
-  boot_social_messages();
-  STARTUP_END(messages, "Combat & social messages", &stats);
+    STARTUP_BEGIN(messages);
+    load_messages();
+    boot_social_messages();
+    STARTUP_END(messages, "Combat & social messages", &stats);
 
-  STARTUP_BEGIN(commands);
-  create_command_list();
-  sort_commands();
-  STARTUP_END(commands, "Command table", &stats);
+    STARTUP_BEGIN(commands);
+    create_command_list();
+    sort_commands();
+    STARTUP_END(commands, "Command table", &stats);
 
-  if (!no_specials) 
-  {
-    STARTUP_BEGIN(specials);
-    assign_mobiles();
-    assign_the_shopkeepers();
-    assign_objects();
-    assign_rooms();
-    assign_the_guilds();
-    assign_the_quests();
-    STARTUP_END(specials, "Special procedures", &stats);
-  }
+    if (!no_specials)
+    {
+        STARTUP_BEGIN(specials);
+        assign_mobiles();
+        assign_the_shopkeepers();
+        assign_objects();
+        assign_rooms();
+        assign_the_guilds();
+        assign_the_quests();
+        STARTUP_END(specials, "Special procedures", &stats);
+    }
 
-  STARTUP_BEGIN(skills);
-  init_skill_classes();
-  init_skill_race_classes();
-  sort_spells();
-  sort_feats();
-  sort_skills();
-  sort_languages();
-  STARTUP_END(skills, "Skills, spells, languages", &stats);
+    STARTUP_BEGIN(skills);
+    init_skill_classes();
+    init_skill_race_classes();
+    sort_spells();
+    sort_feats();
+    sort_skills();
+    sort_languages();
+    STARTUP_END(skills, "Skills, spells, languages", &stats);
 
-  STARTUP_BEGIN(mail);
-  if (!scan_file())
-    no_mail = 1;
-  STARTUP_END(mail, "Mail system", &stats);
-
-  
-  STARTUP_BEGIN(houses);
-  if (!mini_mud)
-    House_boot();
-  STARTUP_END(houses, "Player housing", &stats);
+    STARTUP_BEGIN(mail);
+    if (!scan_file())
+        no_mail = 1;
+    STARTUP_END(mail, "Mail system", &stats);
 
 
-  log("Init Object Unique Hash");
-  init_obj_unique_hash();
+    STARTUP_BEGIN(houses);
+    if (!mini_mud)
+        House_boot();
+    STARTUP_END(houses, "Player housing", &stats);
 
-  log("Booting assembled objects.");
-  assemblyBootAssemblies();
 
-  log("Booting boards system.");
-  init_boards();
-  
-  log("Reading banned site and invalid-name list.");
-  load_banned();
-  Read_Invalid_List();
+    log("Init Object Unique Hash");
+    init_obj_unique_hash();
 
-  if (!no_rent_check) {
-    log("Deleting timed-out crash and rent files:");
-    update_obj_file();
-    log("   Done.");
-  }
+    log("Booting assembled objects.");
+    assemblyBootAssemblies();
 
-  log("Loading clans.");
-  load_clans();
+    log("Booting boards system.");
+    init_boards();
 
-  log("Loading polls.");
-  build_poll_list();
+    log("Reading banned site and invalid-name list.");
+    load_banned();
+    Read_Invalid_List();
 
-  STARTUP_BEGIN(zones);
-  for (i = 0; i <= top_of_zone_table; i++)
-    reset_zone(i);
-  STARTUP_END(zones, "Zone resets", &stats);
+    if (!no_rent_check)
+    {
+        log("Deleting timed-out crash and rent files:");
+        update_obj_file();
+        log("   Done.");
+    }
 
-  reset_q.head = reset_q.tail = NULL;
-  boot_time = time(0);
+    log("Loading clans.");
+    load_clans();
 
-  STARTUP_FOOTER(&stats);
+    log("Loading polls.");
+    build_poll_list();
+
+    STARTUP_BEGIN(zones);
+    for (i = 0; i <= top_of_zone_table; i++)
+        reset_zone(i);
+    STARTUP_END(zones, "Zone resets", &stats);
+
+    reset_q.head = reset_q.tail = NULL;
+    boot_time = time(0);
+
+    STARTUP_FOOTER(&stats);
 
 }
 
@@ -1266,7 +1277,7 @@ void index_boot(int mode)
     case DB_BOOT_WLD:
         CREATE(world, struct room_data, rec_count);
         size[0] = sizeof(struct room_data) * rec_count;
-        log("   %d rooms, %d bytes.", rec_count, size[0]);
+        log("   [DB_BOOT_WLD - INFO] %d rooms, %d bytes.", rec_count, size[0]);
         break;
     case DB_BOOT_MOB:
         CREATE(mob_proto, struct char_data, rec_count);
@@ -1315,6 +1326,11 @@ void index_boot(int mode)
             log("SYSERR: %s: %s", buf2, strerror(errno));
             exit(1);
         }
+
+        /* Area load context */
+        current_area_filename = buf2;
+        current_area_line = 0;
+    
         switch (mode)
         {
         case DB_BOOT_WLD:
@@ -1500,156 +1516,171 @@ bitvector_t asciiflag_conv_aff(char *flag)
 
   return (flags);
 }
+
 /* load the rooms */
 void parse_room(FILE *fl, int virtual_nr)
 {
-  static int room_nr = 0, zone = 0;
-  int t[10], i, retval;
-  char line[READ_SIZE]={'\0'}, flags[128]={'\0'}, flags2[128]={'\0'}, flags3[128]={'\0'};
-  char flags4[128]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'}, buf[128]={'\0'};
-  struct extra_descr_data *new_descr;
-  char letter;
+    static int room_nr = 0, zone = 0;
+    int t[10], i, retval;
+    char line[READ_SIZE] = {'\0'}, flags[128] = {'\0'}, flags2[128] = {'\0'}, flags3[128] = {'\0'};
+    char flags4[128] = {'\0'}, buf2[MAX_STRING_LENGTH] = {'\0'}, buf[128] = {'\0'};
+    struct extra_descr_data *new_descr;
+    char letter;
 
-  /* This really had better fit or there are other problems. */
-  snprintf(buf2, sizeof(buf2), "room #%d", virtual_nr);
+    /* This really had better fit or there are other problems. */
+    snprintf(buf2, sizeof(buf2), "room #%d", virtual_nr);
 
-  if (virtual_nr < zone_table[zone].bot) {
-    log("SYSERR: Room #%d is below zone %d.", virtual_nr, zone);
-//    exit(1);
-  }
-  while (virtual_nr > zone_table[zone].top)
-    if (++zone > top_of_zone_table) {
-      log("SYSERR: Room %d is outside of any zone.", virtual_nr);
-      exit(1);
+    if (virtual_nr < zone_table[zone].bot)
+    {
+        log("SYSERR: Room #%d is below zone %d.", virtual_nr, zone);
+        //    exit(1);
     }
-  world[room_nr].zone = zone;
-  world[room_nr].number = virtual_nr;
-  world[room_nr].name = fread_string(fl, buf2);
-  world[room_nr].description = fread_string(fl, buf2);
+    while (virtual_nr > zone_table[zone].top)
+        if (++zone > top_of_zone_table)
+        {
+            log("SYSERR: Room %d is outside of any zone.", virtual_nr);
+            exit(1);
+        }
+    world[room_nr].zone = zone;
+    world[room_nr].number = virtual_nr;
+    world[room_nr].name = fread_string(fl, buf2);
+    world[room_nr].description = fread_string(fl, buf2);
 
-  if (! room_htree)
-    room_htree = htree_init();
-  htree_add(room_htree, virtual_nr, room_nr);
+    if (! room_htree)
+        room_htree = htree_init();
+    htree_add(room_htree, virtual_nr, room_nr);
 
-  if (!get_line(fl, line)) {
-    log("SYSERR: Expecting roomflags/sector type of room #%d but file ended!",
-	virtual_nr);
-    exit(1);
-  }
- 
-  if (((retval = sscanf(line, " %d %s %s %s %s %d ", t, flags, flags2, flags3, flags4, t + 2)) == 3) && (bitwarning == true)) {
-    log("WARNING: Conventional worldfiles detected. Please read 128bit.readme.");
-    exit(1);
-  } else if ((retval == 3) && (bitwarning == false)) {
-  /* 
-   * Looks like the implementor is ready, so let's load the worldfiles. We 
-   * load the extra three flags as 0, since they won't be anything anyway. We 
-   * will save the entire world later on, when every room, mobile, and object 
-   * is converted.
-   */
+    if (!get_line(fl, line))
+    {
+        log("SYSERR: Expecting roomflags/sector type of room #%d but file ended!",
+            virtual_nr);
+        exit(1);
+    }
 
-    log("Converting room #%d to 128bits..", virtual_nr);
-    world[room_nr].room_flags[0] = (isdigit(flags[0])) ? atoi(flags) : asciiflag_conv(flags);
-    world[room_nr].room_flags[1] = 0;
-    world[room_nr].room_flags[2] = 0;
-    world[room_nr].room_flags[3] = 0;
+    if (((retval = sscanf(line, " %d %s %s %s %s %d ", t, flags, flags2, flags3, flags4, t + 2)) == 3) && (bitwarning == true))
+    {
+        log("WARNING: Conventional worldfiles detected. Please read 128bit.readme.");
+        exit(1);
+    }
+    else if ((retval == 3) && (bitwarning == false))
+    {
+        /*
+         * Looks like the implementor is ready, so let's load the worldfiles. We
+         * load the extra three flags as 0, since they won't be anything anyway. We
+         * will save the entire world later on, when every room, mobile, and object
+         * is converted.
+         */
 
-    world[room_nr].sector_type = atoi(flags2);
-    
-    sprintf(flags, "room #%d", virtual_nr);	/* sprintf: OK (until 399-bit integers) */
-    
-    /* No need to scan the other three sections; they're 0 anyway */
-    check_bitvector_names(world[room_nr].room_flags[0], room_bits_count, flags, "room"); 
-	
-    //if(bitsavetodisk) { /* Maybe the implementor just wants to look at the 128bit files */
-      //add_to_save_list(zone_table[real_zone_by_thing(virtual_nr)].number, 3);
-      //converting = true;
-   // }
+        log("Converting room #%d to 128bits..", virtual_nr);
+        world[room_nr].room_flags[0] = (isdigit(flags[0])) ? atoi(flags) : asciiflag_conv(flags);
+        world[room_nr].room_flags[1] = 0;
+        world[room_nr].room_flags[2] = 0;
+        world[room_nr].room_flags[3] = 0;
 
-    log("   done.");
-  } else if (retval == 6 || retval == 5) {
-  int taeller;
+        world[room_nr].sector_type = atoi(flags2);
 
-    world[room_nr].room_flags[0] = (isdigit(flags[0])) ? atoi(flags) : asciiflag_conv(flags);
-    world[room_nr].room_flags[1] = (isdigit(flags2[0])) ? atoi(flags2) : asciiflag_conv(flags2);
-    world[room_nr].room_flags[2] = (isdigit(flags3[0])) ? atoi(flags3) : asciiflag_conv(flags3);
-    if (retval == 5)
-      world[room_nr].room_flags[3] = 0;    	
+        sprintf(flags, "room #%d", virtual_nr); /* sprintf: OK (until 399-bit integers) */
+
+        /* No need to scan the other three sections; they're 0 anyway */
+        check_bitvector_names(world[room_nr].room_flags[0], room_bits_count, flags, "room");
+
+        //if(bitsavetodisk) { /* Maybe the implementor just wants to look at the 128bit files */
+        //add_to_save_list(zone_table[real_zone_by_thing(virtual_nr)].number, 3);
+        //converting = true;
+        // }
+
+        log("   done.");
+    }
+    else if (retval == 6 || retval == 5)
+    {
+        int taeller;
+
+        world[room_nr].room_flags[0] = (isdigit(flags[0])) ? atoi(flags) : asciiflag_conv(flags);
+        world[room_nr].room_flags[1] = (isdigit(flags2[0])) ? atoi(flags2) : asciiflag_conv(flags2);
+        world[room_nr].room_flags[2] = (isdigit(flags3[0])) ? atoi(flags3) : asciiflag_conv(flags3);
+        if (retval == 5)
+            world[room_nr].room_flags[3] = 0;
+        else
+            world[room_nr].room_flags[3] = (isdigit(flags4[0])) ? atoi(flags4) : asciiflag_conv(flags4);
+
+        if (retval == 5)
+            world[room_nr].sector_type = atoi(flags4);
+        else
+            world[room_nr].sector_type = t[2];
+        sprintf(flags, "object #%d", virtual_nr); /* sprintf: OK (until 399-bit integers) */
+        for(taeller = 0; taeller < AF_ARRAY_MAX; taeller++)
+            check_bitvector_names(world[room_nr].room_flags[taeller], room_bits_count, flags, "room");
+    }
     else
-      world[room_nr].room_flags[3] = (isdigit(flags4[0])) ? atoi(flags4) : asciiflag_conv(flags4);
-
-  if (retval == 5)
-    world[room_nr].sector_type = atoi(flags4);  	
-  else
-    world[room_nr].sector_type = t[2];
-  sprintf(flags, "object #%d", virtual_nr);	/* sprintf: OK (until 399-bit integers) */
-  for(taeller=0; taeller < AF_ARRAY_MAX; taeller++) 
-    check_bitvector_names(world[room_nr].room_flags[taeller], room_bits_count, flags, "room");
-  } else {
-  log("SYSERR: Format error in roomflags/sector type of room #%d", virtual_nr);
-  exit(1);
-  }
-
-  world[room_nr].func = NULL;
-  world[room_nr].contents = NULL;
-  world[room_nr].people = NULL;
-  world[room_nr].light = 0;	/* Zero light sources */
-  world[room_nr].timed = -1;
-
-  for (i = 0; i < NUM_OF_DIRS; i++)
-    world[room_nr].dir_option[i] = NULL;
-
-  world[room_nr].ex_description = NULL;
-
-  snprintf(buf, sizeof(buf), "SYSERR: Format error in room #%d (expecting D/E/S)", virtual_nr);
-
-  for (;;) {
-    if (!get_line(fl, line)) {
-      log("%s", buf);
-      exit(1);
+    {
+        log("SYSERR: Format error in roomflags/sector type of room #%d", virtual_nr);
+        exit(1);
     }
-    switch (*line) {
-    case 'D':
-      setup_dir(fl, room_nr, atoi(line + 1));
-      break;
-    case 'E':
-      CREATE(new_descr, struct extra_descr_data, 1);
-      new_descr->keyword = fread_string(fl, buf2);
-      new_descr->description = fread_string(fl, buf2);
-      /* fix for crashes in the editor when formatting 
-       * - e-descs are assumed to end with a \r\n
-       * -- Welcor 09/03 
-       */
-      { 
-      	char *t = strchr(new_descr->description, '\0');
-      	if (t > new_descr->description && *(t-1) != '\n') {
-      	  CREATE(t, char, strlen(new_descr->description)+3);
-      	  sprintf(t, "%s\r\n", new_descr->description); /* sprintf ok : size checked above*/
-      	  free(new_descr->description);
-      	  new_descr->description = t;
-      	}
-      }
-      new_descr->next = world[room_nr].ex_description;
-      world[room_nr].ex_description = new_descr;
-      break;
-    case 'S':			/* end of room */
-      /* DG triggers -- script is defined after the end of the room */
-      letter = fread_letter(fl);
-      ungetc(letter, fl);
-      while (letter=='T') {
-        dg_read_trigger(fl, &world[room_nr], WLD_TRIGGER);
-        letter = fread_letter(fl);
-        ungetc(letter, fl);
-      }
-      top_of_world = room_nr++;
-      return;
-    default:
-      log("%s", buf);
-      exit(1);
+
+    world[room_nr].func = NULL;
+    world[room_nr].contents = NULL;
+    world[room_nr].people = NULL;
+    world[room_nr].light = 0; /* Zero light sources */
+    world[room_nr].timed = -1;
+
+    for (i = 0; i < NUM_OF_DIRS; i++)
+        world[room_nr].dir_option[i] = NULL;
+
+    world[room_nr].ex_description = NULL;
+
+    snprintf(buf, sizeof(buf), "SYSERR: Format error in room #%d (expecting D/E/S)", virtual_nr);
+
+    for (;;)
+    {
+        if (!get_line(fl, line))
+        {
+            log("%s", buf);
+            exit(1);
+        }
+        switch (*line)
+        {
+        case 'D':
+            setup_dir(fl, room_nr, atoi(line + 1));
+            break;
+        case 'E':
+            CREATE(new_descr, struct extra_descr_data, 1);
+            new_descr->keyword = fread_string(fl, buf2);
+            new_descr->description = fread_string(fl, buf2);
+            /* fix for crashes in the editor when formatting
+             * - e-descs are assumed to end with a \r\n
+             * -- Welcor 09/03
+             */
+            {
+                char *t = strchr(new_descr->description, '\0');
+                if (t > new_descr->description && *(t - 1) != '\n')
+                {
+                    CREATE(t, char, strlen(new_descr->description) + 3);
+                    sprintf(t, "%s\r\n", new_descr->description); /* sprintf ok : size checked above*/
+                    free(new_descr->description);
+                    new_descr->description = t;
+                }
+            }
+            new_descr->next = world[room_nr].ex_description;
+            world[room_nr].ex_description = new_descr;
+            break;
+        case 'S':     /* end of room */
+            /* DG triggers -- script is defined after the end of the room */
+            letter = fread_letter(fl);
+            ungetc(letter, fl);
+            while (letter == 'T')
+            {
+                dg_read_trigger(fl, &world[room_nr], WLD_TRIGGER);
+                letter = fread_letter(fl);
+                ungetc(letter, fl);
+            }
+            top_of_world = room_nr++;
+            return;
+        default:
+            log("%s", buf);
+            exit(1);
+        }
     }
-  }
 }
-
 
 
 /* read direction data */
@@ -2167,183 +2198,200 @@ void parse_espec(char *buf, struct char_data *ch, int nr)
 
 int parse_mobile_from_file(FILE *mob_f, struct char_data *ch)
 {
-  int i, j, retval;
-  char line[READ_SIZE]={'\0'}, *tmpptr, letter;
-  char f1[128]={'\0'}, f2[128]={'\0'}, f3[128]={'\0'}, f4[128]={'\0'}, f5[128]={'\0'}, f6[128]={'\0'}, f7[128]={'\0'}, f8[128]={'\0'}, f9[128]={'\0'};
-  char buf2[128]={'\0'};
-  mob_vnum nr = mob_index[ch->nr].vnum;
- 
-  /*
-   * Mobiles should NEVER use anything in the 'player_specials' structure.
-   * The only reason we have every mob in the game share this copy of the
-   * structure is to save newbie coders from themselves. -gg 2/25/98
-   */
-  ch->player_specials = &dummy_mob;
-  sprintf(buf2, "mob vnum %d", nr);   /* sprintf: OK (for 'buf2 >= 19') */
+    int i, j, retval;
+    char line[READ_SIZE] = {'\0'}, *tmpptr, letter;
+    char f1[128] = {'\0'}, f2[128] = {'\0'}, f3[128] = {'\0'}, f4[128] = {'\0'}, f5[128] = {'\0'}, f6[128] = {'\0'}, f7[128] = {'\0'}, f8[128] = {'\0'}, f9[128] = {'\0'};
+    char buf2[128] = {'\0'};
+    mob_vnum nr = mob_index[ch->nr].vnum;
 
-  /***** String data *****/
-  ch->name = fread_string(mob_f, buf2);
-  tmpptr = ch->short_descr = fread_string(mob_f, buf2);
-  if (tmpptr && *tmpptr)
-    if (!str_cmp(fname(tmpptr), "a") || !str_cmp(fname(tmpptr), "an") ||
-	!str_cmp(fname(tmpptr), "the"))
-      *tmpptr = LOWER(*tmpptr);
-  ch->long_descr = fread_string(mob_f, buf2);
-  ch->description = fread_string(mob_f, buf2);
-  GET_TITLE(ch) = NULL;
-
-  /* *** Numeric data *** */
-  if (!get_line(mob_f, line)) {
-    log("SYSERR: Format error after string section of mob #%d\n"
-      "...expecting line of form '# # # {S | E}', but file ended!", nr);
-    return 0;
-  }
- 
-  if (((retval = sscanf(line, "%s %s %s %s %s %s %s %s %s", f1, f2, f3, f4, f5, f6, f7, f8, f9)) == 9) && (bitwarning == true)) {
-/* Let's make the implementor read some, before converting his worldfiles */
-    log("WARNING: Conventional mobilefiles detected. Please read 128bit.readme.");
-    return 0;
-  } else if ((retval == 4) && (bitwarning == false)) {
-
-    log("Converting mobile #%d to 128bits..", nr);
-    MOB_FLAGS(ch)[0] = (isdigit(f1[0])) ? atoi(f1) : asciiflag_conv(f1);
-    MOB_FLAGS(ch)[1] = 0;
-    MOB_FLAGS(ch)[2] = 0;
-    MOB_FLAGS(ch)[3] = 0;
-    check_bitvector_names(MOB_FLAGS(ch)[0], action_bits_count, buf2, "mobile");
-
-    AFF_FLAGS(ch)[0] = (isdigit(f2[0])) ? atoi(f2) : asciiflag_conv(f2);
-    AFF_FLAGS(ch)[1] = 0;
-    AFF_FLAGS(ch)[2] = 0;
-    AFF_FLAGS(ch)[3] = 0;
-
-    GET_ALIGNMENT(ch) = atoi(f3);
-    
-	/* Make some basic checks. */
-    REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_CHARM);
-    REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_POISON);
-    REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_GROUP);
-    REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_SLEEP);
-    if (MOB_FLAGGED(ch, MOB_AGGRESSIVE) && MOB_FLAGGED(ch, MOB_AGGR_GOOD))
-      REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_AGGR_GOOD);
-    if (MOB_FLAGGED(ch, MOB_AGGRESSIVE) && MOB_FLAGGED(ch, MOB_AGGR_NEUTRAL))
-      REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_AGGR_NEUTRAL);
-    if (MOB_FLAGGED(ch, MOB_AGGRESSIVE) && MOB_FLAGGED(ch, MOB_AGGR_EVIL))
-      REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_AGGR_EVIL);
-
-    check_bitvector_names(AFF_FLAGS(ch)[0], affected_bits_count, buf2, "mobile affect");
-
-    for (i = 0; i < MAX_SPELL_LEVELS; i++) {
-  	  SET_SPELL_SLOT(ch, i, findslotnum(ch, i));
-    }
-
-    /* 
-     * this is necessary, since if we have conventional worldfiles, &letter
-     * is loaded into f4 instead of the letter characters. So what we do, is 
-     * copy f4 into letter. Disadvantage is that &letter cannot be longer
-     * then 128 characters, but this shouldn't occur anyway.
+    /*
+     * Mobiles should NEVER use anything in the 'player_specials' structure.
+     * The only reason we have every mob in the game share this copy of the
+     * structure is to save newbie coders from themselves. -gg 2/25/98
      */
-    letter = *f4;
+    ch->player_specials = &dummy_mob;
+    sprintf(buf2, "mob vnum %d", nr);   /* sprintf: OK (for 'buf2 >= 19') */
 
-    if(bitsavetodisk) {
-      add_to_save_list(zone_table[real_zone_by_thing(nr)].number, 0);
-      converting =true;
+    /***** String data *****/
+    ch->name = fread_string(mob_f, buf2);
+    tmpptr = ch->short_descr = fread_string(mob_f, buf2);
+    if (tmpptr && *tmpptr)
+        if (!str_cmp(fname(tmpptr), "a") || !str_cmp(fname(tmpptr), "an") ||
+                !str_cmp(fname(tmpptr), "the"))
+            *tmpptr = LOWER(*tmpptr);
+    ch->long_descr = fread_string(mob_f, buf2);
+    ch->description = fread_string(mob_f, buf2);
+    GET_TITLE(ch) = NULL;
+
+    /* *** Numeric data *** */
+    if (!get_line(mob_f, line))
+    {
+        log("SYSERR: Format error after string section of mob #%d\n"
+            "...expecting line of form '# # # {S | E}', but file ended!", nr);
+        return 0;
     }
 
-    log("   done.");
-  } else if (retval == 5) {
-    int taeller;
+    if (((retval = sscanf(line, "%s %s %s %s %s %s %s %s %s", f1, f2, f3, f4, f5, f6, f7, f8, f9)) == 9) && (bitwarning == true))
+    {
+        /* Let's make the implementor read some, before converting his worldfiles */
+        log("WARNING: Conventional mobilefiles detected. Please read 128bit.readme.");
+        return 0;
+    }
+    else if ((retval == 4) && (bitwarning == false))
+    {
 
-    MOB_FLAGS(ch)[0] = (isdigit(f1[0])) ? atoi(f1) : asciiflag_conv(f1);
-    MOB_FLAGS(ch)[1] = 0;
-    MOB_FLAGS(ch)[2] = 0;
-    MOB_FLAGS(ch)[3] = 0;
-    for(taeller=0; taeller < AF_ARRAY_MAX; taeller++) 
-      check_bitvector_names(MOB_FLAGS(ch)[taeller], action_bits_count, buf2, "mobile");
-  
-    AFF_FLAGS(ch)[0] = (isdigit(f2[0])) ? atoi(f2) : asciiflag_conv(f2);
-    AFF_FLAGS(ch)[1] = 0;
-    AFF_FLAGS(ch)[2] = 0;
-    AFF_FLAGS(ch)[3] = 0;
+        log("Converting mobile #%d to 128bits..", nr);
+        MOB_FLAGS(ch)[0] = (isdigit(f1[0])) ? atoi(f1) : asciiflag_conv(f1);
+        MOB_FLAGS(ch)[1] = 0;
+        MOB_FLAGS(ch)[2] = 0;
+        MOB_FLAGS(ch)[3] = 0;
+        check_bitvector_names(MOB_FLAGS(ch)[0], action_bits_count, buf2, "mobile");
 
-    GET_ALIGNMENT(ch) = atoi(f3);
+        AFF_FLAGS(ch)[0] = (isdigit(f2[0])) ? atoi(f2) : asciiflag_conv(f2);
+        AFF_FLAGS(ch)[1] = 0;
+        AFF_FLAGS(ch)[2] = 0;
+        AFF_FLAGS(ch)[3] = 0;
 
-    for(taeller=0; taeller < AF_ARRAY_MAX; taeller++) 
-      check_bitvector_names(AFF_FLAGS(ch)[taeller], affected_bits_count, buf2, "mobile affect");
-  } else if (retval == 9) {
-    int taeller;
+        GET_ALIGNMENT(ch) = atoi(f3);
 
-    MOB_FLAGS(ch)[0] = (isdigit(f1[0])) ? atoi(f1) : asciiflag_conv(f1);
-    MOB_FLAGS(ch)[1] = (isdigit(f2[0])) ? atoi(f2) : asciiflag_conv(f2);
-    MOB_FLAGS(ch)[2] = (isdigit(f3[0])) ? atoi(f3) : asciiflag_conv(f3);
-    MOB_FLAGS(ch)[3] = (isdigit(f4[0])) ? atoi(f4) : asciiflag_conv(f4);
-    for(taeller=0; taeller < AF_ARRAY_MAX; taeller++) 
-      check_bitvector_names(MOB_FLAGS(ch)[taeller], action_bits_count, buf2, "mobile");
-  
-    AFF_FLAGS(ch)[0] = (isdigit(f5[0])) ? atoi(f5) : asciiflag_conv(f5);
-    AFF_FLAGS(ch)[1] = (isdigit(f6[0])) ? atoi(f6) : asciiflag_conv(f6);
-    AFF_FLAGS(ch)[2] = (isdigit(f7[0])) ? atoi(f7) : asciiflag_conv(f7);
-    AFF_FLAGS(ch)[3] = (isdigit(f8[0])) ? atoi(f8) : asciiflag_conv(f8);
+        /* Make some basic checks. */
+        REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_CHARM);
+        REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_POISON);
+        REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_GROUP);
+        REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_SLEEP);
+        if (MOB_FLAGGED(ch, MOB_AGGRESSIVE) && MOB_FLAGGED(ch, MOB_AGGR_GOOD))
+            REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_AGGR_GOOD);
+        if (MOB_FLAGGED(ch, MOB_AGGRESSIVE) && MOB_FLAGGED(ch, MOB_AGGR_NEUTRAL))
+            REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_AGGR_NEUTRAL);
+        if (MOB_FLAGGED(ch, MOB_AGGRESSIVE) && MOB_FLAGGED(ch, MOB_AGGR_EVIL))
+            REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_AGGR_EVIL);
 
-    GET_ALIGNMENT(ch) = atoi(f9);
+        check_bitvector_names(AFF_FLAGS(ch)[0], affected_bits_count, buf2, "mobile affect");
 
-    for(taeller=0; taeller < AF_ARRAY_MAX; taeller++) 
-      check_bitvector_names(AFF_FLAGS(ch)[taeller], affected_bits_count, buf2, "mobile affect");
-  } else {
-    log("SYSERR: Format error after string section of mob #%d\n"
-	"...expecting line of form '# # # {S | E}'", nr);
-    exit(1);
-  }
+        for (i = 0; i < MAX_SPELL_LEVELS; i++)
+        {
+            SET_SPELL_SLOT(ch, i, findslotnum(ch, i));
+        }
 
-  SET_BIT_AR(MOB_FLAGS(ch), MOB_ISNPC);
-  if (MOB_FLAGGED(ch, MOB_NOTDEADYET)) {
-    /* Rather bad to load mobiles with this bit already set. */
-    log("SYSERR: Mob #%d has reserved bit MOB_NOTDEADYET set.", nr);
-    REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_NOTDEADYET);
-  }
+        /*
+         * this is necessary, since if we have conventional worldfiles, &letter
+         * is loaded into f4 instead of the letter characters. So what we do, is
+         * copy f4 into letter. Disadvantage is that &letter cannot be longer
+         * then 128 characters, but this shouldn't occur anyway.
+         */
+        letter = *f4;
 
-  /* AGGR_TO_ALIGN is ignored if the mob is AGGRESSIVE.
-  if (MOB_FLAGGED(mob_proto + i, MOB_AGGRESSIVE) && MOB_FLAGGED(mob_proto + i, MOB_AGGR_GOOD | MOB_AGGR_EVIL | MOB_AGGR_NEUTRAL))
-    log("SYSERR: Mob #%d both Aggressive and Aggressive_to_Alignment.", nr); */
+        if(bitsavetodisk)
+        {
+            add_to_save_list(zone_table[real_zone_by_thing(nr)].number, 0);
+            converting = true;
+        }
 
-  parse_simple_mob(mob_f, ch, GET_MOB_VNUM(ch));
+        log("   done.");
+    }
+    else if (retval == 5)
+    {
+        int taeller;
 
-  strcat(buf2, ", after numeric constants\n"	/* strcat: OK (for 'buf2 >= 87') */
-  "...expecting 'E', 'Z', '$', 'T', or next mobile number");
+        MOB_FLAGS(ch)[0] = (isdigit(f1[0])) ? atoi(f1) : asciiflag_conv(f1);
+        MOB_FLAGS(ch)[1] = 0;
+        MOB_FLAGS(ch)[2] = 0;
+        MOB_FLAGS(ch)[3] = 0;
+        for(taeller = 0; taeller < AF_ARRAY_MAX; taeller++)
+            check_bitvector_names(MOB_FLAGS(ch)[taeller], action_bits_count, buf2, "mobile");
 
-  for (;;) {
-    if (!get_line(mob_f, line)) {
-      log("SYSERR: Format error in %s", buf2);
-      return (0);
+        AFF_FLAGS(ch)[0] = (isdigit(f2[0])) ? atoi(f2) : asciiflag_conv(f2);
+        AFF_FLAGS(ch)[1] = 0;
+        AFF_FLAGS(ch)[2] = 0;
+        AFF_FLAGS(ch)[3] = 0;
+
+        GET_ALIGNMENT(ch) = atoi(f3);
+
+        for(taeller = 0; taeller < AF_ARRAY_MAX; taeller++)
+            check_bitvector_names(AFF_FLAGS(ch)[taeller], affected_bits_count, buf2, "mobile affect");
+    }
+    else if (retval == 9)
+    {
+        int taeller;
+
+        MOB_FLAGS(ch)[0] = (isdigit(f1[0])) ? atoi(f1) : asciiflag_conv(f1);
+        MOB_FLAGS(ch)[1] = (isdigit(f2[0])) ? atoi(f2) : asciiflag_conv(f2);
+        MOB_FLAGS(ch)[2] = (isdigit(f3[0])) ? atoi(f3) : asciiflag_conv(f3);
+        MOB_FLAGS(ch)[3] = (isdigit(f4[0])) ? atoi(f4) : asciiflag_conv(f4);
+        for(taeller = 0; taeller < AF_ARRAY_MAX; taeller++)
+            check_bitvector_names(MOB_FLAGS(ch)[taeller], action_bits_count, buf2, "mobile");
+
+        AFF_FLAGS(ch)[0] = (isdigit(f5[0])) ? atoi(f5) : asciiflag_conv(f5);
+        AFF_FLAGS(ch)[1] = (isdigit(f6[0])) ? atoi(f6) : asciiflag_conv(f6);
+        AFF_FLAGS(ch)[2] = (isdigit(f7[0])) ? atoi(f7) : asciiflag_conv(f7);
+        AFF_FLAGS(ch)[3] = (isdigit(f8[0])) ? atoi(f8) : asciiflag_conv(f8);
+
+        GET_ALIGNMENT(ch) = atoi(f9);
+
+        for(taeller = 0; taeller < AF_ARRAY_MAX; taeller++)
+            check_bitvector_names(AFF_FLAGS(ch)[taeller], affected_bits_count, buf2, "mobile affect");
+    }
+    else
+    {
+        log("SYSERR: Format error after string section of mob #%d\n"
+            "...expecting line of form '# # # {S | E}'", nr);
+        exit(1);
     }
 
-    switch (*line) {
-
-    case 'S':  /* DG triggers */
-      /* DG triggers -- script info follows mob S/E section */
-      letter = fread_letter(mob_f);
-      ungetc(letter, mob_f);
-      while (letter=='T') {
-        dg_read_trigger(mob_f, ch, MOB_TRIGGER);
-        letter = fread_letter(mob_f);
-        ungetc(letter, mob_f);
-      }
-      ch->aff_abils = ch->real_abils;
-      for (j = 0; j < NUM_WEARS; j++)
-        ch->equipment[j] = NULL;
-      return (1);
-  
-    case 'E':
-      get_line(mob_f, line);
-      parse_espec(line, ch, GET_MOB_VNUM(ch));
-      break;
-
-    default:
-      log("SYSERR: Format error in (%c): %s", *line, buf2);
-      return (0);
+    SET_BIT_AR(MOB_FLAGS(ch), MOB_ISNPC);
+    if (MOB_FLAGGED(ch, MOB_NOTDEADYET))
+    {
+        /* Rather bad to load mobiles with this bit already set. */
+        log("SYSERR: Mob #%d has reserved bit MOB_NOTDEADYET set.", nr);
+        REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_NOTDEADYET);
     }
-  }
-return (1);
+
+    /* AGGR_TO_ALIGN is ignored if the mob is AGGRESSIVE.
+    if (MOB_FLAGGED(mob_proto + i, MOB_AGGRESSIVE) && MOB_FLAGGED(mob_proto + i, MOB_AGGR_GOOD | MOB_AGGR_EVIL | MOB_AGGR_NEUTRAL))
+      log("SYSERR: Mob #%d both Aggressive and Aggressive_to_Alignment.", nr); */
+
+    parse_simple_mob(mob_f, ch, GET_MOB_VNUM(ch));
+
+    strcat(buf2, ", after numeric constants\n"  /* strcat: OK (for 'buf2 >= 87') */
+           "...expecting 'E', 'Z', '$', 'T', or next mobile number");
+
+    for (;;)
+    {
+        if (!get_line(mob_f, line))
+        {
+            log("SYSERR: Format error in %s", buf2);
+            return (0);
+        }
+
+        switch (*line)
+        {
+
+        case 'S':  /* DG triggers */
+            /* DG triggers -- script info follows mob S/E section */
+            letter = fread_letter(mob_f);
+            ungetc(letter, mob_f);
+            while (letter == 'T')
+            {
+                dg_read_trigger(mob_f, ch, MOB_TRIGGER);
+                letter = fread_letter(mob_f);
+                ungetc(letter, mob_f);
+            }
+            ch->aff_abils = ch->real_abils;
+            for (j = 0; j < NUM_WEARS; j++)
+                ch->equipment[j] = NULL;
+            return (1);
+
+        case 'E':
+            get_line(mob_f, line);
+            parse_espec(line, ch, GET_MOB_VNUM(ch));
+            break;
+
+        default:
+            log("SYSERR: Format error in (%c): %s", *line, buf2);
+            return (0);
+        }
+    }
+    return (1);
 }
 
 
@@ -2375,328 +2423,372 @@ void parse_mobile(FILE *mob_f, int nr)
 
 char *parse_object(FILE *obj_f, int nr)
 {
-  static int i = 0;
-  static char line[READ_SIZE];
-  int t[(NUM_OBJ_VAL_POSITIONS * 2) + 2], j, retval;
-  long int date = 0;
-  char *tmpptr, buf2[128];
-  char f1[READ_SIZE]={'\0'}, f2[READ_SIZE]={'\0'}, f3[READ_SIZE]={'\0'}, f4[READ_SIZE]={'\0'};
-  char f5[READ_SIZE]={'\0'}, f6[READ_SIZE]={'\0'}, f7[READ_SIZE]={'\0'}, f8[READ_SIZE]={'\0'};
-  char f9[READ_SIZE]={'\0'}, f10[READ_SIZE]={'\0'}, f11[READ_SIZE]={'\0'}, f12[READ_SIZE]={'\0'};
-  struct extra_descr_data *new_descr;
+    static int i = 0;
+    static char line[READ_SIZE];
+    int t[(NUM_OBJ_VAL_POSITIONS * 2) + 2], j, retval;
+    long int date = 0;
+    char *tmpptr, buf2[128];
+    char f1[READ_SIZE] = {'\0'}, f2[READ_SIZE] = {'\0'}, f3[READ_SIZE] = {'\0'}, f4[READ_SIZE] = {'\0'};
+    char f5[READ_SIZE] = {'\0'}, f6[READ_SIZE] = {'\0'}, f7[READ_SIZE] = {'\0'}, f8[READ_SIZE] = {'\0'};
+    char f9[READ_SIZE] = {'\0'}, f10[READ_SIZE] = {'\0'}, f11[READ_SIZE] = {'\0'}, f12[READ_SIZE] = {'\0'};
+    struct extra_descr_data *new_descr;
 
-  obj_index[i].vnum = nr;
-  obj_index[i].number = 0;
-  obj_index[i].func = NULL;
+    obj_index[i].vnum = nr;
+    obj_index[i].number = 0;
+    obj_index[i].func = NULL;
 
-  if (! obj_htree)
-    obj_htree = htree_init();
-  htree_add(obj_htree, nr, i);
+    if (! obj_htree)
+        obj_htree = htree_init();
+    htree_add(obj_htree, nr, i);
 
-  clear_object(obj_proto + i);
-  obj_proto[i].item_number = i;
+    clear_object(obj_proto + i);
+    obj_proto[i].item_number = i;
 
-  sprintf(buf2, "object #%d", nr);	/* sprintf: OK (for 'buf2 >= 19') */
+    sprintf(buf2, "object #%d", nr);  /* sprintf: OK (for 'buf2 >= 19') */
 
-  /* *** string data *** */
-  if ((obj_proto[i].name = fread_string(obj_f, buf2)) == NULL) {
-    log("SYSERR: Null obj name or format error at or near %s", buf2);
-    exit(1);
-  }
-  tmpptr = obj_proto[i].short_description = fread_string(obj_f, buf2);
-  if (tmpptr && *tmpptr)
-    if (!str_cmp(fname(tmpptr), "a") || !str_cmp(fname(tmpptr), "an") ||
-	!str_cmp(fname(tmpptr), "the"))
-      *tmpptr = LOWER(*tmpptr);
+    /* *** string data *** */
+    if ((obj_proto[i].name = fread_string(obj_f, buf2)) == NULL)
+    {
+        log("SYSERR: Null obj name or format error at or near %s", buf2);
+        exit(1);
+    }
+    tmpptr = obj_proto[i].short_description = fread_string(obj_f, buf2);
+    if (tmpptr && *tmpptr)
+        if (!str_cmp(fname(tmpptr), "a") || !str_cmp(fname(tmpptr), "an") ||
+                !str_cmp(fname(tmpptr), "the"))
+            *tmpptr = LOWER(*tmpptr);
 
-  tmpptr = obj_proto[i].description = fread_string(obj_f, buf2);
-  if (tmpptr && *tmpptr)
-    CAP(tmpptr);
-  obj_proto[i].action_description = fread_string(obj_f, buf2);
+    tmpptr = obj_proto[i].description = fread_string(obj_f, buf2);
+    if (tmpptr && *tmpptr)
+        CAP(tmpptr);
+    obj_proto[i].action_description = fread_string(obj_f, buf2);
 
-  /* *** numeric data *** */
-  if (!get_line(obj_f, line)) {
-    log("SYSERR: Expecting first numeric line of %s, but file ended!", buf2);
-    exit(1);
-  }
+    /* *** numeric data *** */
+    if (!get_line(obj_f, line))
+    {
+        log("SYSERR: Expecting first numeric line of %s, but file ended!", buf2);
+        exit(1);
+    }
 
-  if (((retval = sscanf(line, " %d %s %s %s %s %s %s %s %s %s %s %s %s", t, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12)) == 4) && (bitwarning == true)) {
-  /* Let's make the implementor read some, before converting his worldfiles */
-  log("WARNING: Conventional objectfiles detected. Please read 128bit.readme.");
-    exit(1);
-  } else if (((retval == 4) || (retval == 3)) && (bitwarning == false)) {
-    
-	if (retval == 3)
-          t[3] = 0;
+    if (((retval = sscanf(line, " %d %s %s %s %s %s %s %s %s %s %s %s %s", t, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12)) == 4) && (bitwarning == true))
+    {
+        /* Let's make the implementor read some, before converting his worldfiles */
+        log("WARNING: Conventional objectfiles detected. Please read 128bit.readme.");
+        exit(1);
+    }
+    else if (((retval == 4) || (retval == 3)) && (bitwarning == false))
+    {
+
+        if (retval == 3)
+            t[3] = 0;
         else if (retval == 4)
-          t[3] = asciiflag_conv_aff(f3);
-	    
-	log("Converting object #%d to 128bits..", nr);
-    GET_OBJ_EXTRA(obj_proto + i)[0] = asciiflag_conv(f1);
-    GET_OBJ_EXTRA(obj_proto + i)[1] = 0;
-    GET_OBJ_EXTRA(obj_proto + i)[2] = 0;
-    GET_OBJ_EXTRA(obj_proto + i)[3] = 0;
-    GET_OBJ_WEAR(obj_proto + i)[0] = asciiflag_conv(f2);
-    GET_OBJ_WEAR(obj_proto + i)[1] = 0;
-    GET_OBJ_WEAR(obj_proto + i)[2] = 0;
-    GET_OBJ_WEAR(obj_proto + i)[3] = 0;
-    GET_OBJ_PERM(obj_proto + i)[0] = asciiflag_conv_aff(f3);
-    GET_OBJ_PERM(obj_proto + i)[1] = 0;
-    GET_OBJ_PERM(obj_proto + i)[2] = 0;
-    GET_OBJ_PERM(obj_proto + i)[3] = 0;
-    
-    if(bitsavetodisk) { 
-      add_to_save_list(zone_table[real_zone_by_thing(nr)].number, 1);
-      converting = true;
+            t[3] = asciiflag_conv_aff(f3);
+
+        log("Converting object #%d to 128bits..", nr);
+        GET_OBJ_EXTRA(obj_proto + i)[0] = asciiflag_conv(f1);
+        GET_OBJ_EXTRA(obj_proto + i)[1] = 0;
+        GET_OBJ_EXTRA(obj_proto + i)[2] = 0;
+        GET_OBJ_EXTRA(obj_proto + i)[3] = 0;
+        GET_OBJ_WEAR(obj_proto + i)[0] = asciiflag_conv(f2);
+        GET_OBJ_WEAR(obj_proto + i)[1] = 0;
+        GET_OBJ_WEAR(obj_proto + i)[2] = 0;
+        GET_OBJ_WEAR(obj_proto + i)[3] = 0;
+        GET_OBJ_PERM(obj_proto + i)[0] = asciiflag_conv_aff(f3);
+        GET_OBJ_PERM(obj_proto + i)[1] = 0;
+        GET_OBJ_PERM(obj_proto + i)[2] = 0;
+        GET_OBJ_PERM(obj_proto + i)[3] = 0;
+
+        if(bitsavetodisk)
+        {
+            add_to_save_list(zone_table[real_zone_by_thing(nr)].number, 1);
+            converting = true;
+        }
+
+        log("   done.");
     }
-	
-	log("   done.");
-  } else if (retval == 13) {
- 
-    GET_OBJ_EXTRA(obj_proto + i)[0] = asciiflag_conv(f1);
-    GET_OBJ_EXTRA(obj_proto + i)[1] = asciiflag_conv(f2);
-    GET_OBJ_EXTRA(obj_proto + i)[2] = asciiflag_conv(f3);
-    GET_OBJ_EXTRA(obj_proto + i)[3] = asciiflag_conv(f4);
-    GET_OBJ_WEAR(obj_proto + i)[0] = asciiflag_conv(f5);
-    GET_OBJ_WEAR(obj_proto + i)[1] = asciiflag_conv(f6);
-    GET_OBJ_WEAR(obj_proto + i)[2] = asciiflag_conv(f7);
-    GET_OBJ_WEAR(obj_proto + i)[3] = asciiflag_conv(f8);
-    GET_OBJ_PERM(obj_proto + i)[0] = asciiflag_conv(f9);
-    GET_OBJ_PERM(obj_proto + i)[1] = asciiflag_conv(f10);
-    GET_OBJ_PERM(obj_proto + i)[2] = asciiflag_conv(f11);
-    GET_OBJ_PERM(obj_proto + i)[3] = asciiflag_conv(f12);
+    else if (retval == 13)
+    {
 
-  } else {
-    log("SYSERR: Format error in first numeric line (expecting 13 args, got %d), %s", retval, buf2);
-    exit(1);
-  }
-  
-  /* Object flags checked in check_object(). */
-  GET_OBJ_TYPE(obj_proto + i) = t[0];
-  
-  if (!get_line(obj_f, line)) {
-    log("SYSERR: Expecting second numeric line of %s, but file ended!", buf2);
-    exit(1);
-  }
+        GET_OBJ_EXTRA(obj_proto + i)[0] = asciiflag_conv(f1);
+        GET_OBJ_EXTRA(obj_proto + i)[1] = asciiflag_conv(f2);
+        GET_OBJ_EXTRA(obj_proto + i)[2] = asciiflag_conv(f3);
+        GET_OBJ_EXTRA(obj_proto + i)[3] = asciiflag_conv(f4);
+        GET_OBJ_WEAR(obj_proto + i)[0] = asciiflag_conv(f5);
+        GET_OBJ_WEAR(obj_proto + i)[1] = asciiflag_conv(f6);
+        GET_OBJ_WEAR(obj_proto + i)[2] = asciiflag_conv(f7);
+        GET_OBJ_WEAR(obj_proto + i)[3] = asciiflag_conv(f8);
+        GET_OBJ_PERM(obj_proto + i)[0] = asciiflag_conv(f9);
+        GET_OBJ_PERM(obj_proto + i)[1] = asciiflag_conv(f10);
+        GET_OBJ_PERM(obj_proto + i)[2] = asciiflag_conv(f11);
+        GET_OBJ_PERM(obj_proto + i)[3] = asciiflag_conv(f12);
 
-  for (j = 0; j < NUM_OBJ_VAL_POSITIONS; j++)
-    t[j] = 0;
-
-  if ((retval = sscanf(line, "%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7, t + 8, t + 9, t + 10, t + 11, t + 12, t + 13, t + 14, t + 15)) > NUM_OBJ_VAL_POSITIONS) {
-    log("SYSERR: Format error in second numeric line (expecting <=%d args, got %d), %s", NUM_OBJ_VAL_POSITIONS, retval, buf2);
-    exit(1);
-  }
-
-  for (j = 0; j < NUM_OBJ_VAL_POSITIONS; j++)
-    GET_OBJ_VAL(obj_proto + i, j) = t[j];
-
-  if ((GET_OBJ_TYPE(obj_proto + i) == ITEM_PORTAL || \
-       GET_OBJ_TYPE(obj_proto + i) == ITEM_HATCH) && \
-       (!GET_OBJ_VAL(obj_proto + i, VAL_DOOR_DCLOCK) || \
-        !GET_OBJ_VAL(obj_proto + i, VAL_DOOR_DCHIDE))) {
-    GET_OBJ_VAL(obj_proto + i, VAL_DOOR_DCLOCK) = 20;
-    GET_OBJ_VAL(obj_proto + i, VAL_DOOR_DCHIDE) = 20;
-    if(bitsavetodisk) {
-      add_to_save_list(zone_table[real_zone_by_thing(nr)].number, 1);
-      converting = true;
     }
-  }
-
-  if (GET_OBJ_TYPE(obj_proto + i) == ITEM_WEAPON && GET_OBJ_VAL(obj_proto + i, 0) > 169) {
-    GET_OBJ_VAL(obj_proto + i, 0) = suntzu_weapon_convert(t[0]);
-
-    if(bitsavetodisk) {
-      add_to_save_list(zone_table[real_zone_by_thing(nr)].number, 1);
-      converting = true;
+    else
+    {
+        log("SYSERR: Format error in first numeric line (expecting 13 args, got %d), %s", retval, buf2);
+        exit(1);
     }
-  }
 
-  if (GET_OBJ_TYPE(obj_proto + i) == ITEM_ARMOR) {
-    if (suntzu_armor_convert(obj_proto + i)) {
-      if(bitsavetodisk) {
-        add_to_save_list(zone_table[real_zone_by_thing(nr)].number, 1);
-        converting = true;
-      }
+    /* Object flags checked in check_object(). */
+    GET_OBJ_TYPE(obj_proto + i) = t[0];
+
+    if (!get_line(obj_f, line))
+    {
+        log("SYSERR: Expecting second numeric line of %s, but file ended!", buf2);
+        exit(1);
     }
-  }
 
-  if (!get_line(obj_f, line)) {
-    log("SYSERR: Expecting third numeric line of %s, but file ended!", buf2);
-    exit(1);
-  }
-  if ((retval = sscanf(line, "%d %d %d %d", t, t + 1, t + 2, t + 3)) != 4) {
-    if (retval == 3)
-      t[3] = 0;
-    else {
-      log("SYSERR: Format error in third numeric line (expecting 4 args, got %d), %s", retval, buf2);
-    exit(1);
-  }
-  }
-  GET_OBJ_WEIGHT(obj_proto + i) = t[0];
-  GET_OBJ_COST(obj_proto + i) = t[1];
-  GET_OBJ_RENT(obj_proto + i) = t[2];
-  GET_OBJ_LEVEL(obj_proto + i) = t[3];
-  GET_OBJ_SIZE(obj_proto + i) = SIZE_MEDIUM;
-
-  /* check to make sure that weight of containers exceeds curr. quantity */
-  if (GET_OBJ_TYPE(obj_proto + i) == ITEM_DRINKCON ||
-      GET_OBJ_TYPE(obj_proto + i) == ITEM_FOUNTAIN) {
-    if (GET_OBJ_WEIGHT(obj_proto + i) < GET_OBJ_VAL(obj_proto + i, 1))
-      GET_OBJ_WEIGHT(obj_proto + i) = GET_OBJ_VAL(obj_proto + i, 1) + 5;
-  }
-
-  /* *** make sure portal objects have their timer set correctly *** */
-  if (GET_OBJ_TYPE(obj_proto + i) == ITEM_PORTAL) {
-    GET_OBJ_TIMER(obj_proto + i) =  -1;
-  }
-
-  /* *** extra descriptions and affect fields *** */
-
-  for (j = 0; j < MAX_OBJ_AFFECT; j++) {
-    obj_proto[i].affected[j].location = APPLY_NONE;
-    obj_proto[i].affected[j].modifier = 0;
-    obj_proto[i].affected[j].specific = 0;
-  }
-
-  strcat(buf2, ", after numeric constants\n"	/* strcat: OK (for 'buf2 >= 87') */
-	 "...expecting 'E', 'A', '$', or next object number");
-  j = 0;
-
-  for (;;) {
-    if (!get_line(obj_f, line)) {
-      log("SYSERR: Format error in %s", buf2);
-      exit(1);
-    }
-    switch (*line) {
-    case 'V':
-      if (!get_line(obj_f, line)) {
-	log("SYSERR: Format error in 'V' field, %s\n"
-	    "...expecting 16 numeric constants but file ended!", buf2);
-	exit(1);
-      }
-
-      for (j = NUM_OBJ_VAL_POSITIONS; j < (NUM_OBJ_VAL_POSITIONS * 2); j++)
+    for (j = 0; j < NUM_OBJ_VAL_POSITIONS; j++)
         t[j] = 0;
 
-      if ((retval = sscanf(line, "%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d ", t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7, t + 8, t + 9, t + 10, t + 11, t + 12, t + 13, 
-        t + 14, t + 15)) > NUM_OBJ_VAL_POSITIONS) {
+    if ((retval = sscanf(line, "%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7, t + 8, t + 9, t + 10, t + 11, t + 12, t + 13, t + 14, t + 15)) > NUM_OBJ_VAL_POSITIONS)
+    {
         log("SYSERR: Format error in second numeric line (expecting <=%d args, got %d), %s", NUM_OBJ_VAL_POSITIONS, retval, buf2);
         exit(1);
-      }
-
-      for (j = NUM_OBJ_VAL_POSITIONS; j < (NUM_OBJ_VAL_POSITIONS * 2); j++)
-        GET_OBJ_VAL(obj_proto + i, j) = t[j];
-      j = 0;
-      break;
-    case 'E':
-      CREATE(new_descr, struct extra_descr_data, 1);
-      new_descr->keyword = fread_string(obj_f, buf2);
-      new_descr->description = fread_string(obj_f, buf2);
-      new_descr->next = obj_proto[i].ex_description;
-      obj_proto[i].ex_description = new_descr;
-      break;
-    case 'A':
-      if (j >= MAX_OBJ_AFFECT) {
-	log("SYSERR: Too many A fields (%d max), %s", MAX_OBJ_AFFECT, buf2);
-	exit(1);
-      }
-      if (!get_line(obj_f, line)) {
-	log("SYSERR: Format error in 'A' field, %s\n"
-	    "...expecting 2 numeric constants but file ended!", buf2);
-	exit(1);
-      }
-
-      t[1] = 0;
-      if ((retval = sscanf(line, " %d %d %d ", t, t + 1, t + 2)) != 3) {
-        if (retval != 2) {
-	  log("SYSERR: Format error in 'A' field, %s\n"
-	      "...expecting 2 numeric arguments, got %d\n"
-	      "...offending line: '%s'", buf2, retval, line);
-	  exit(1);
-        }
-      }
-
-      if (t[0] >= APPLY_SAVING_PARA && t[0] <= APPLY_SAVING_SPELL) {
-        log("Warning: object #%d (%s) uses deprecated saving throw applies",
-            nr, GET_OBJ_SHORT(obj_proto + i));
-      }
-      obj_proto[i].affected[j].location = t[0];
-      obj_proto[i].affected[j].modifier = t[1];
-      obj_proto[i].affected[j].specific = t[2];
-      j++;
-      break;
-    case 'S':  /* Spells for Spellbooks*/
-      if (j >= SPELLBOOK_SIZE) {
-	log("SYSERR: Unknown spellbook slot in S field, %s", buf2);
-	exit(1);
-      }
-      if (!get_line(obj_f, line)) {
-	log("SYSERR: Format error in 'S' field, %s\n"
-	    "...expecting 2 numeric constants but file ended!", buf2);
-	exit(1);
-      }
-
-      if ((retval = sscanf(line, " %d %d ", t, t + 1)) != 2) {
-	log("SYSERR: Format error in 'S' field, %s\n"
-	    "...expecting 2 numeric arguments, got %d\n"
-	    "...offending line: '%s'", buf2, retval, line);
-	exit(1);
-      }
-      if (!obj_proto[i].sbinfo) {
-        CREATE(obj_proto[i].sbinfo, struct obj_spellbook_spell, SPELLBOOK_SIZE);
-        memset((char *) obj_proto[i].sbinfo, 0, SPELLBOOK_SIZE * sizeof(struct obj_spellbook_spell));
-      }
-      obj_proto[i].sbinfo[j].spellname = t[0];
-      obj_proto[i].sbinfo[j].pages = t[1];
-      j++;
-      break;
-    case 'T':  /* DG triggers */
-      dg_obj_trigger(line, &obj_proto[i]);
-      break;
-    case 'Z':
-      if (!get_line(obj_f, line)) {
-	log("SYSERR: Format error in 'Z' field, %s\n"
-	    "...expecting numeric constant but file ended!", buf2);
-	exit(1);
-      }
-      if (sscanf(line, "%d", t) != 1) {
-	log("SYSERR: Format error in 'Z' field, %s\n"
-	    "...expecting numeric argument\n"
-	    "...offending line: '%s'", buf2, line);
-	exit(1);
-      }
-      GET_OBJ_SIZE(obj_proto + i) = t[0];
-      break;
-    case 'D':
-      if (!get_line(obj_f, line)) {
-	log("SYSERR: Format error in 'Z' field, %s\n"
-	    "...expecting numeric constant but file ended!", buf2);
-	exit(1);
-      }
-      if (sscanf(line, "%ld", (long int *) &date) != 1) {
-	log("SYSERR: Format error in 'Z' field, %s\n"
-	    "...expecting numeric argument\n"
-	    "...offending line: '%s'", buf2, line);
-	exit(1);
-      }
-      (obj_proto + i)->date_sold = date;
-      break;      
-    case '$':
-    case '#':
-      top_of_objt = i;
-      check_object(obj_proto + i);
-      i++;
-      return (line);
-    default:
-      log("SYSERR: Format error in (%c): %s", *line, buf2);
-      exit(1);
     }
-  }
-  /* Objects that set CHARM on players are bad. */
-  if (OBJAFF_FLAGGED(obj_proto + i, AFF_CHARM)) {
-    log("SYSERR: Object #%d has reserved bit AFF_CHARM set.", nr);
-    REMOVE_BIT_AR(GET_OBJ_PERM(obj_proto + i), AFF_CHARM);
-  }
+
+    for (j = 0; j < NUM_OBJ_VAL_POSITIONS; j++)
+        GET_OBJ_VAL(obj_proto + i, j) = t[j];
+
+    if ((GET_OBJ_TYPE(obj_proto + i) == ITEM_PORTAL || \
+            GET_OBJ_TYPE(obj_proto + i) == ITEM_HATCH) && \
+            (!GET_OBJ_VAL(obj_proto + i, VAL_DOOR_DCLOCK) || \
+             !GET_OBJ_VAL(obj_proto + i, VAL_DOOR_DCHIDE)))
+    {
+        GET_OBJ_VAL(obj_proto + i, VAL_DOOR_DCLOCK) = 20;
+        GET_OBJ_VAL(obj_proto + i, VAL_DOOR_DCHIDE) = 20;
+        if(bitsavetodisk)
+        {
+            add_to_save_list(zone_table[real_zone_by_thing(nr)].number, 1);
+            converting = true;
+        }
+    }
+
+    if (GET_OBJ_TYPE(obj_proto + i) == ITEM_WEAPON && GET_OBJ_VAL(obj_proto + i, 0) > 169)
+    {
+        GET_OBJ_VAL(obj_proto + i, 0) = suntzu_weapon_convert(t[0]);
+
+        if(bitsavetodisk)
+        {
+            add_to_save_list(zone_table[real_zone_by_thing(nr)].number, 1);
+            converting = true;
+        }
+    }
+
+    if (GET_OBJ_TYPE(obj_proto + i) == ITEM_ARMOR)
+    {
+        if (suntzu_armor_convert(obj_proto + i))
+        {
+            if(bitsavetodisk)
+            {
+                add_to_save_list(zone_table[real_zone_by_thing(nr)].number, 1);
+                converting = true;
+            }
+        }
+    }
+
+    if (!get_line(obj_f, line))
+    {
+        log("SYSERR: Expecting third numeric line of %s, but file ended!", buf2);
+        exit(1);
+    }
+    if ((retval = sscanf(line, "%d %d %d %d", t, t + 1, t + 2, t + 3)) != 4)
+    {
+        if (retval == 3)
+            t[3] = 0;
+        else
+        {
+            log("SYSERR: Format error in third numeric line (expecting 4 args, got %d), %s", retval, buf2);
+            exit(1);
+        }
+    }
+    GET_OBJ_WEIGHT(obj_proto + i) = t[0];
+    GET_OBJ_COST(obj_proto + i) = t[1];
+    GET_OBJ_RENT(obj_proto + i) = t[2];
+    GET_OBJ_LEVEL(obj_proto + i) = t[3];
+    GET_OBJ_SIZE(obj_proto + i) = SIZE_MEDIUM;
+
+    /* check to make sure that weight of containers exceeds curr. quantity */
+    if (GET_OBJ_TYPE(obj_proto + i) == ITEM_DRINKCON ||
+            GET_OBJ_TYPE(obj_proto + i) == ITEM_FOUNTAIN)
+    {
+        if (GET_OBJ_WEIGHT(obj_proto + i) < GET_OBJ_VAL(obj_proto + i, 1))
+            GET_OBJ_WEIGHT(obj_proto + i) = GET_OBJ_VAL(obj_proto + i, 1) + 5;
+    }
+
+    /* *** make sure portal objects have their timer set correctly *** */
+    if (GET_OBJ_TYPE(obj_proto + i) == ITEM_PORTAL)
+    {
+        GET_OBJ_TIMER(obj_proto + i) =  -1;
+    }
+
+    /* *** extra descriptions and affect fields *** */
+
+    for (j = 0; j < MAX_OBJ_AFFECT; j++)
+    {
+        obj_proto[i].affected[j].location = APPLY_NONE;
+        obj_proto[i].affected[j].modifier = 0;
+        obj_proto[i].affected[j].specific = 0;
+    }
+
+    strcat(buf2, ", after numeric constants\n"  /* strcat: OK (for 'buf2 >= 87') */
+           "...expecting 'E', 'A', '$', or next object number");
+    j = 0;
+
+    for (;;)
+    {
+        if (!get_line(obj_f, line))
+        {
+            log("SYSERR: Format error in %s", buf2);
+            exit(1);
+        }
+        switch (*line)
+        {
+        case 'V':
+            if (!get_line(obj_f, line))
+            {
+                log("SYSERR: Format error in 'V' field, %s\n"
+                    "...expecting 16 numeric constants but file ended!", buf2);
+                exit(1);
+            }
+
+            for (j = NUM_OBJ_VAL_POSITIONS; j < (NUM_OBJ_VAL_POSITIONS * 2); j++)
+                t[j] = 0;
+
+            if ((retval = sscanf(line, "%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d ", t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7, t + 8, t + 9, t + 10, t + 11, t + 12, t + 13,
+                                 t + 14, t + 15)) > NUM_OBJ_VAL_POSITIONS)
+            {
+                log("SYSERR: Format error in second numeric line (expecting <=%d args, got %d), %s", NUM_OBJ_VAL_POSITIONS, retval, buf2);
+                exit(1);
+            }
+
+            for (j = NUM_OBJ_VAL_POSITIONS; j < (NUM_OBJ_VAL_POSITIONS * 2); j++)
+                GET_OBJ_VAL(obj_proto + i, j) = t[j];
+            j = 0;
+            break;
+        case 'E':
+            CREATE(new_descr, struct extra_descr_data, 1);
+            new_descr->keyword = fread_string(obj_f, buf2);
+            new_descr->description = fread_string(obj_f, buf2);
+            new_descr->next = obj_proto[i].ex_description;
+            obj_proto[i].ex_description = new_descr;
+            break;
+        case 'A':
+            if (j >= MAX_OBJ_AFFECT)
+            {
+                log("SYSERR: Too many A fields (%d max), %s", MAX_OBJ_AFFECT, buf2);
+                exit(1);
+            }
+            if (!get_line(obj_f, line))
+            {
+                log("SYSERR: Format error in 'A' field, %s\n"
+                    "...expecting 2 numeric constants but file ended!", buf2);
+                exit(1);
+            }
+
+            t[1] = 0;
+            if ((retval = sscanf(line, " %d %d %d ", t, t + 1, t + 2)) != 3)
+            {
+                if (retval != 2)
+                {
+                    log("SYSERR: Format error in 'A' field, %s\n"
+                        "...expecting 2 numeric arguments, got %d\n"
+                        "...offending line: '%s'", buf2, retval, line);
+                    exit(1);
+                }
+            }
+
+            if (t[0] >= APPLY_SAVING_PARA && t[0] <= APPLY_SAVING_SPELL)
+            {
+                log("    [WORLD BOOT - OBJECT] Warning: object #%d (%s) uses deprecated saving throw applies",
+                    nr, GET_OBJ_SHORT(obj_proto + i));
+            }
+            obj_proto[i].affected[j].location = t[0];
+            obj_proto[i].affected[j].modifier = t[1];
+            obj_proto[i].affected[j].specific = t[2];
+            j++;
+            break;
+        case 'S':  /* Spells for Spellbooks*/
+            if (j >= SPELLBOOK_SIZE)
+            {
+                log("SYSERR: Unknown spellbook slot in S field, %s", buf2);
+                exit(1);
+            }
+            if (!get_line(obj_f, line))
+            {
+                log("SYSERR: Format error in 'S' field, %s\n"
+                    "...expecting 2 numeric constants but file ended!", buf2);
+                exit(1);
+            }
+
+            if ((retval = sscanf(line, " %d %d ", t, t + 1)) != 2)
+            {
+                log("SYSERR: Format error in 'S' field, %s\n"
+                    "...expecting 2 numeric arguments, got %d\n"
+                    "...offending line: '%s'", buf2, retval, line);
+                exit(1);
+            }
+            if (!obj_proto[i].sbinfo)
+            {
+                CREATE(obj_proto[i].sbinfo, struct obj_spellbook_spell, SPELLBOOK_SIZE);
+                memset((char *) obj_proto[i].sbinfo, 0, SPELLBOOK_SIZE * sizeof(struct obj_spellbook_spell));
+            }
+            obj_proto[i].sbinfo[j].spellname = t[0];
+            obj_proto[i].sbinfo[j].pages = t[1];
+            j++;
+            break;
+        case 'T':  /* DG triggers */
+            dg_obj_trigger(line, &obj_proto[i]);
+            break;
+        case 'Z':
+            if (!get_line(obj_f, line))
+            {
+                log("SYSERR: Format error in 'Z' field, %s\n"
+                    "...expecting numeric constant but file ended!", buf2);
+                exit(1);
+            }
+            if (sscanf(line, "%d", t) != 1)
+            {
+                log("SYSERR: Format error in 'Z' field, %s\n"
+                    "...expecting numeric argument\n"
+                    "...offending line: '%s'", buf2, line);
+                exit(1);
+            }
+            GET_OBJ_SIZE(obj_proto + i) = t[0];
+            break;
+        case 'D':
+            if (!get_line(obj_f, line))
+            {
+                log("SYSERR: Format error in 'Z' field, %s\n"
+                    "...expecting numeric constant but file ended!", buf2);
+                exit(1);
+            }
+            if (sscanf(line, "%ld", (long int *) &date) != 1)
+            {
+                log("SYSERR: Format error in 'Z' field, %s\n"
+                    "...expecting numeric argument\n"
+                    "...offending line: '%s'", buf2, line);
+                exit(1);
+            }
+            (obj_proto + i)->date_sold = date;
+            break;
+        case '$':
+        case '#':
+            top_of_objt = i;
+            check_object(obj_proto + i);
+            i++;
+            return (line);
+        default:
+            log("SYSERR: Format error in (%c): %s", *line, buf2);
+            exit(1);
+        }
+    }
+    /* Objects that set CHARM on players are bad. */
+    if (OBJAFF_FLAGGED(obj_proto + i, AFF_CHARM))
+    {
+        log("SYSERR: Object #%d has reserved bit AFF_CHARM set.", nr);
+        REMOVE_BIT_AR(GET_OBJ_PERM(obj_proto + i), AFF_CHARM);
+    }
 }
 
 #define Z	zone_table[zone]

@@ -141,88 +141,135 @@ void trig_data_copy(trig_data *this_data, const trig_data *trg)
 /* for mobs and rooms: */
 void dg_read_trigger(FILE *fp, void *proto, int type)
 {
-  char line[READ_SIZE]={'\0'};
-  char junk[8]={'\0'};
-  int vnum, rnum, count;
-  char_data *mob;
-  room_data *room;
-  struct trig_proto_list *trg_proto, *new_trg;
+    char line[READ_SIZE] = {'\0'};
+    char cmd[8] = {'\0'};
+    char vnum_str[32] = {'\0'};
+    char *endptr = NULL;
 
-  get_line(fp, line);
-  count = sscanf(line,"%7s %d",junk,&vnum);
+    int vnum, rnum;
 
-  if (count != 2) {
-    mudlog(BRF, ADMLVL_BUILDER, TRUE, 
-           "SYSERR: Error assigning trigger! - Line was\n  %s", line);
-    return;
-  }
+    char_data *mob;
+    room_data *room;
+    struct trig_proto_list *trg_proto, *new_trg;
 
-  rnum = real_trigger(vnum);
-  if (rnum == NOTHING) {
-    switch(type) {
-      case MOB_TRIGGER:
-        mudlog(BRF, ADMLVL_BUILDER, TRUE, 
-               "SYSERR: dg_read_trigger: Trigger vnum #%d asked for but non-existant! (mob: %s - %d)", 
-               vnum, GET_NAME((char_data *)proto), GET_MOB_VNUM((char_data *)proto));
+    if (!get_line(fp, line))
+    {
+        mudlog(BRF, ADMLVL_BUILDER, TRUE,
+               "SYSERR: dg_read_trigger: unexpected EOF while reading trigger assignment");
+        return;
+    }
+
+    /*
+     * Expected format:
+     *   T <vnum>
+     * where <vnum> may be decimal or hex
+     */
+    if (sscanf(line, "%7s %31s", cmd, vnum_str) != 2)
+    {
+        mudlog(BRF, ADMLVL_BUILDER, TRUE,
+               "SYSERR: dg_read_trigger: malformed trigger line (expected 'T <vnum>'): '%s'",
+               line);
+        return;
+    }
+
+    /* Validate command token */
+    if (cmd[0] != 'T')
+    {
+        mudlog(BRF, ADMLVL_BUILDER, TRUE,
+               "SYSERR: dg_read_trigger: invalid trigger command '%s' (line: '%s')",
+               cmd, line);
+        return;
+    }
+
+    /* Parse vnum: base 0 allows decimal or hex */
+    vnum = (int)strtol(vnum_str, &endptr, 0);
+
+    if (*vnum_str == '\0' || *endptr != '\0')
+    {
+        mudlog(BRF, ADMLVL_BUILDER, TRUE,
+               "SYSERR: dg_read_trigger: invalid trigger vnum '%s' (line: '%s')",
+               vnum_str, line);
+        return;
+    }
+
+    rnum = real_trigger(vnum);
+    if (rnum == NOTHING)
+    {
+        switch (type)
+        {
+        case MOB_TRIGGER:
+            mudlog(BRF, ADMLVL_BUILDER, TRUE,
+                   "SYSERR: dg_read_trigger: trigger vnum #%d does not exist (mob: %s [%d])",
+                   vnum,
+                   GET_NAME((char_data *)proto),
+                   GET_MOB_VNUM((char_data *)proto));
+            break;
+
+        case WLD_TRIGGER:
+            mudlog(BRF, ADMLVL_BUILDER, TRUE,
+                   "SYSERR: dg_read_trigger: trigger vnum #%d does not exist (room #%d)",
+                   vnum,
+                   ((room_data *)proto)->number);
+            break;
+
+        default:
+            mudlog(BRF, ADMLVL_BUILDER, TRUE,
+                   "SYSERR: dg_read_trigger: trigger vnum #%d does not exist (unknown prototype)",
+                   vnum);
+            break;
+        }
+        return;
+    }
+
+    /* Attach trigger prototype */
+    CREATE(new_trg, struct trig_proto_list, 1);
+    new_trg->vnum = vnum;
+    new_trg->next = NULL;
+
+    switch (type)
+    {
+    case MOB_TRIGGER:
+        mob = (char_data *)proto;
+        trg_proto = mob->proto_script;
+
+        if (!trg_proto)
+            mob->proto_script = new_trg;
+        else
+        {
+            while (trg_proto->next)
+                trg_proto = trg_proto->next;
+            trg_proto->next = new_trg;
+        }
         break;
-      case WLD_TRIGGER:
-        mudlog(BRF, ADMLVL_BUILDER, TRUE, 
-               "SYSERR: dg_read_trigger: Trigger vnum #%d asked for but non-existant! (room:%d)",
-               vnum, GET_ROOM_VNUM( ((room_data *)proto)->number ));
+
+    case WLD_TRIGGER:
+        room = (room_data *)proto;
+        trg_proto = room->proto_script;
+
+        if (!trg_proto)
+            room->proto_script = new_trg;
+        else
+        {
+            while (trg_proto->next)
+                trg_proto = trg_proto->next;
+            trg_proto->next = new_trg;
+        }
+
+        /* Instantiate runtime trigger */
+        if (!room->script)
+            CREATE(room->script, struct script_data, 1);
+
+        add_trigger(SCRIPT(room), read_trigger(rnum), -1);
         break;
-      default:
-        mudlog(BRF, ADMLVL_BUILDER, TRUE, 
-               "SYSERR: dg_read_trigger: Trigger vnum #%d asked for but non-existant! (?)", vnum);
+
+    default:
+        mudlog(BRF, ADMLVL_BUILDER, TRUE,
+               "SYSERR: dg_read_trigger: trigger vnum #%d assigned to unsupported prototype type",
+               vnum);
         break;
     }
-    return;
-  }
-
-  switch(type) {
-    case MOB_TRIGGER:
-      CREATE(new_trg, struct trig_proto_list, 1);
-      new_trg->vnum = vnum;
-      new_trg->next = NULL;
-
-      mob = (char_data *)proto;
-      trg_proto = mob->proto_script;
-      if (!trg_proto) {
-        mob->proto_script = trg_proto = new_trg;
-      } else {
-        while (trg_proto->next) 
-          trg_proto = trg_proto->next;
-        trg_proto->next = new_trg;
-      }
-      break;
-    case WLD_TRIGGER:
-      CREATE(new_trg, struct trig_proto_list, 1);
-      new_trg->vnum = vnum;
-      new_trg->next = NULL;
-      room = (room_data *)proto;
-      trg_proto = room->proto_script;
-      if (!trg_proto) {
-        room->proto_script = trg_proto = new_trg;
-      } else {
-        while (trg_proto->next)
-          trg_proto = trg_proto->next;
-        trg_proto->next = new_trg;
-      }
-
-      if (rnum != NOTHING) {
-        if (!(room->script))
-          CREATE(room->script, struct script_data, 1);
-        add_trigger(SCRIPT(room), read_trigger(rnum), -1);
-      } else {
-        mudlog(BRF, ADMLVL_BUILDER, TRUE, 
-               "SYSERR: non-existant trigger #%d assigned to room #%d",
-               vnum, room->number);
-      }
-      break;
-    default:
-      mudlog(BRF, ADMLVL_BUILDER, TRUE, 
-             "SYSERR: Trigger vnum #%d assigned to non-mob/obj/room", vnum);
-  }
 }
+
 
 void dg_obj_trigger(char *line, struct obj_data *obj)
 {

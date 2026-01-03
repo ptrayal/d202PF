@@ -212,20 +212,22 @@ void parse_quest(FILE *quest_f, int nr)
 
 void assign_the_quests(void)
 {
-  qst_rnum rnum;
+    qst_rnum rnum;
 
-  cmd_tell = find_command("tell");
+    cmd_tell = find_command("tell");
 
-  for (rnum = 0; rnum < total_quests; rnum ++) {
-    if (QST_MASTER(rnum) == NOBODY) {
-      log("SYSERR: Quest #%d has no questmaster specified.", QST_NUM(rnum));
-      continue;
+    for (rnum = 0; rnum < total_quests; rnum ++)
+    {
+        if (QST_MASTER(rnum) == NOBODY)
+        {
+            log("    [WORLD BOOT - QUESTS]: Quest #%d has no questmaster specified.", QST_NUM(rnum));
+            continue;
+        }
+        if (mob_index[QST_MASTER(rnum)].func &&
+                mob_index[QST_MASTER(rnum)].func != questmaster)
+            QST_FUNC(rnum) = mob_index[QST_MASTER(rnum)].func;
+        mob_index[QST_MASTER(rnum)].func = questmaster;
     }
-    if (mob_index[QST_MASTER(rnum)].func &&
-	mob_index[QST_MASTER(rnum)].func != questmaster)
-      QST_FUNC(rnum) = mob_index[QST_MASTER(rnum)].func;
-    mob_index[QST_MASTER(rnum)].func = questmaster;
-  }
 }
 
 /*--------------------------------------------------------------------------*/

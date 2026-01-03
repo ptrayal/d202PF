@@ -795,23 +795,25 @@ void add_follower(struct char_data *ch, struct char_data *leader)
  */
 int get_line(FILE *fl, char *buf)
 {
-  char temp[READ_SIZE]={'\0'};
-  int lines = 0;
-  int sl;
+    char temp[READ_SIZE] = {'\0'};
+    int lines = 0;
+    int sl;
 
-  do {
-    if (!fgets(temp, READ_SIZE, fl))
-      return (0);
-    lines++;
-  } while (*temp == '*' || *temp == '\n' || *temp == '\r');
+    do
+    {
+        if (!fgets(temp, READ_SIZE, fl))
+            return (0);
+        lines++;
+    }
+    while (*temp == '*' || *temp == '\n' || *temp == '\r');
 
-  /* Last line of file doesn't always have a \n, but it should. */
-  sl = strlen(temp);
-  while (sl > 0 && (temp[sl - 1] == '\n' || temp[sl - 1] == '\r'))
-    temp[--sl] = '\0';
+    /* Last line of file doesn't always have a \n, but it should. */
+    sl = strlen(temp);
+    while (sl > 0 && (temp[sl - 1] == '\n' || temp[sl - 1] == '\r'))
+        temp[--sl] = '\0';
 
-  strcpy(buf, temp); /* strcpy: OK, if buf >= READ_SIZE (256) */
-  return (lines);
+    strcpy(buf, temp); /* strcpy: OK, if buf >= READ_SIZE (256) */
+    return (lines);
 }
 
 
