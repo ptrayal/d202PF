@@ -48,9 +48,9 @@ elf.  He is clad in a dark crimson robe, depicting his standing of balance and
 neutrality in his ways of magic.  He stares at you somewhat rudely, and seems a
 little suprised.  
 ~
-abdmnoF 0 0 0 k 0 0 0 -500
+bdmnoF 0 0 0 k 0 0 0 -500
 8 18 1 640d80+1000 0d8+2
-8 0 3 0
+8 0 6 0
 8 8 1
 E
 BareHandAttack: 13
@@ -796,9 +796,9 @@ to the master thumbs through some texts depicting instructions on the summoning
 and animation of other-worldly constructs.  He carefully studies you as you
 enter, seemingly annoyed.  
 ~
-abdD 0 0 0 k 0 0 0 -500
+bdD 0 0 0 k 0 0 0 -500
 6 18 3 216d60+96 1d8+2
-6 0 42 1
+6 0 1 1
 8 8 2
 E
 BareHandAttack: 8

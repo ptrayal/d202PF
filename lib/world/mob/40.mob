@@ -97,7 +97,6 @@ Con: 10
 E
 Cha: 10
 S
-T FA7
 #4005
 carpenter~
 a Carpenter~
@@ -122,7 +121,6 @@ Con: 10
 E
 Cha: 10
 S
-T FA9
 #4006
 shield maker~
 a Shield Maker~
@@ -147,7 +145,6 @@ Con: 10
 E
 Cha: 10
 S
-T FAC
 #4007
 show quest~
 a @YQuest@n is here type: (@YShow Quest@n) to view it.~
@@ -720,7 +717,6 @@ Con: 10
 E
 Cha: 10
 S
-T FC2
 #4030
 shifty underling thief~
 the Lato's Beggar's underling~
@@ -798,7 +794,6 @@ Con: 10
 E
 Cha: 10
 S
-T BE5
 #4033
 priest of justice~
 a @WPriest@n of @CJustice@n~
@@ -1017,7 +1012,6 @@ Con: 10
 E
 Cha: 10
 S
-T FC4
 #4042
 priest of justice~
 a @WPriest@n of @CJustice@n~
@@ -1069,7 +1063,6 @@ Con: 10
 E
 Cha: 10
 S
-T FC5
 #4044
 pile of marker stones~
 a pile of @YMarker Stones@n~

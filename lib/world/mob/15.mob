@@ -216,7 +216,7 @@ sharp teeth.  Not particularly known for their intellect, troglodytes tend to
 favor the more martial callings, though many primitive divine casters are found
 amongst them, and you believe this may be one.  
 ~
-abcd 0 0 0 k 0 0 0 -500
+bcd 0 0 0 k 0 0 0 -500
 10 20 0 99d100+250 1d8+0
 45 0 12 1
 8 8 2
@@ -332,7 +332,7 @@ civilized beings but train to hunt them relentlessly.  These troll hunters are
 fearsome hunters who focus on slaying and devouring humanoid prey.  Trolls are
 extremely powerful, and ruthless at their best.  
 ~
-abdf 0 0 0 k 0 0 0 -500
+bdf 0 0 0 k 0 0 0 -500
 11 20 -1 48d110+291 1d8+0
 60 0 12 0
 8 8 1
@@ -533,9 +533,9 @@ eyes on.  Although he sits here before you, his mind seems to be far, far away.
 He doesn't even notice you stare as he just sits there, staring away into the
 fireplace.  
 ~
-abd 0 0 0 k 0 0 0 -500
+bd 0 0 0 k 0 0 0 -500
 11 20 -1 108d110+151 1d8+0
-27 0 42 1
+27 0 1 1
 8 8 1
 E
 BareHandAttack: 13
@@ -561,9 +561,9 @@ A short woman with long red hair and donning pure white robes sips on her wine.
 flows down her back and lays in curls.  She has beautiful emerald green eyes,
 and she smiles at you as she notices your approach.  
 ~
-abd 0 0 0 k 0 0 0 -500
+bd 0 0 0 k 0 0 0 -500
 11 20 -1 48d110+151 1d8+0
-27 0 42 0
+27 0 1 0
 8 8 2
 E
 BareHandAttack: 13
@@ -618,9 +618,9 @@ back in the corner in as dark an area as he can find, and continually looks back
 and forth as if he is watching for someone, or something.  As he notices your
 penetrating gaze he attempts to sink deeper into the shadows.  
 ~
-abdh 0 0 0 k 0 0 0 -500
+bdh 0 0 0 k 0 0 0 -500
 11 20 -1 72d110+152 1d8+0
-27 0 42 2
+27 0 1 2
 8 8 1
 E
 BareHandAttack: 13
@@ -792,8 +792,8 @@ a @BFortune@n Teller sits at a table worrying over something.
 The fortune teller seems very upset.  Ive lost my Crystal ball!  It was stollen
 i tell you.  
 ~
-abdenopqrA d 0 0 0 0 0 0 0
-60 20 -50 244d100+940 1d1+0
+abdenopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d100+940 1d8+0
 2860 0 43 0
 8 8 2
 E

@@ -153,7 +153,7 @@ eternal life".  He stands at the side of a cloth covered altar chanting in low
 gutteral tones, and though he appears to be aware of your presence he makes no
 move towards you.  
 ~
-abduF 0 0 0 k 0 0 0 0
+bduF 0 0 0 k 0 0 0 0
 10 20 0 198d100+151 1d8+0
 25 0 6 1
 8 8 0

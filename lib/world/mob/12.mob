@@ -239,7 +239,7 @@ cultist priests, but by his excited looks and quivery voice you can tell that he
 is fairly new to the religion.  He seems willing to initiate conversation with
 anyone that nears him.  
 ~
-ad 0 0 0 k 0 0 0 0
+d 0 0 0 k 0 0 0 0
 7 20 3 72d70+152 1d8+0
 105 0 6 1
 8 8 1
@@ -297,9 +297,9 @@ yelling out some of the more prominent aspects of the earth cultist religion, bu
 mostly like a raving madman.  The veins bulge out in his forehead and neck as he
 screams red-faced at the worshipers.  
 ~
-abd 0 0 0 k 0 0 0 0
+bd 0 0 0 k 0 0 0 0
 9 20 1 90d90+151 1d8+0
-180 0 42 1
+180 0 1 1
 8 8 1
 E
 BareHandAttack: 13
@@ -383,9 +383,9 @@ your entrance to the room, making you feel very uncomfortable.  He is
 broad-shouldered and robust, appearing to be a formidable force, unlike most of
 the other priests in the complex.  He continues to glare at you.  
 ~
-abd 0 0 0 k 0 0 0 0
+bd 0 0 0 k 0 0 0 0
 10 20 0 99d100+152 1d8+0
-250 0 42 1
+250 0 7 1
 8 8 1
 E
 BareHandAttack: 13
@@ -440,9 +440,9 @@ disgust on his face, and your entrance doesn't exactly brighten his day.  He
 glances up at you as you enter the room, sighs loudly, and continues on about
 his business.  
 ~
-abd 0 0 0 k 0 0 0 0
+bd 0 0 0 k 0 0 0 0
 9 20 1 90d90+151 1d8+0
-180 0 42 1
+180 0 3 1
 8 8 1
 E
 BareHandAttack: 13
@@ -496,7 +496,7 @@ A noxious, green vaporous cloud swirls about the room.
 all for that matter.  It appears to just be a strange green cloud, but it
 nevertheless attacks you.  
 ~
-adefo 0 0 0 k 0 0 0 0
+defo 0 0 0 k 0 0 0 0
 7 20 3 85d70+151 1d8+1
 0 0 15 3
 8 8 0
