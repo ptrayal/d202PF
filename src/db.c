@@ -301,67 +301,76 @@ struct startup_stats
 
 int suntzu_armor_convert(struct obj_data *obj)
 {
-  int i = 0;
-  int conv = 0;
-  int conv_table[][3] = {
-    { 100, 0, 0 },
-    { 8, 0, 5 },
-    { 6, 0, 10 },
-    { 5, 1, 15 },
-    { 4, 2, 20 },
-    { 2, 5, 30 },
-    { 0, 7, 40 },
-    { 0, 7, 40 },
-    { 1, 6, 35 },
-  };
-  int shield_table[][2] = {
-    { 0, 0 },
-    { 1, 5 },
-    { 2, 15 },
-    { 3, 30 },
-    { 4, 40 },
-    { 5, 50 },
-    { 6, 60 },
-    { 7, 70 },
-    { 8, 80 },
-  };
+    int i = 0;
+    int conv = 0;
+    int conv_table[][3] = {
+        { 100, 0, 0 },
+        { 8, 0, 5 },
+        { 6, 0, 10 },
+        { 5, 1, 15 },
+        { 4, 2, 20 },
+        { 2, 5, 30 },
+        { 0, 7, 40 },
+        { 0, 7, 40 },
+        { 1, 6, 35 },
+    };
+    int shield_table[][2] = {
+        { 0, 0 },
+        { 1, 5 },
+        { 2, 15 },
+        { 3, 30 },
+        { 4, 40 },
+        { 5, 50 },
+        { 6, 60 },
+        { 7, 70 },
+        { 8, 80 },
+    };
 
-  i = GET_OBJ_VAL(obj, 0);
-  if (i && i < 10) {
-    GET_OBJ_VAL(obj, 0) = 10 * i;
-    conv = 1;
-  } else
-    i /= 10;
+    i = GET_OBJ_VAL(obj, 0);
+    if (i && i < 10)
+    {
+        GET_OBJ_VAL(obj, 0) = 10 * i;
+        conv = 1;
+    }
+    else
+        i /= 10;
 
-  i = MAX(0, MIN(8, i));
+    i = MAX(0, MIN(8, i));
 
-  if (CAN_WEAR(obj, ITEM_WEAR_SHIELD)) {
-    if (GET_OBJ_VAL(obj, 6))
-      return conv;
-    GET_OBJ_VAL(obj, 1) = ARMOR_TYPE_SHIELD;
-    GET_OBJ_VAL(obj, 2) = 100;
-    GET_OBJ_VAL(obj, 3) = shield_table[i][0];
-    GET_OBJ_VAL(obj, 6) = shield_table[i][1];
-    conv = 1;
-  } else if (CAN_WEAR(obj, ITEM_WEAR_BODY)) {
-    if (GET_OBJ_VAL(obj, 6))
-      return conv;
-    GET_OBJ_VAL(obj, 2) = conv_table[i][0];
-    GET_OBJ_VAL(obj, 3) = conv_table[i][1];
-    GET_OBJ_VAL(obj, 6) = conv_table[i][2];
-    conv = 1;
-  } else if (GET_OBJ_VAL(obj, 2) || GET_OBJ_VAL(obj, 3)) {
+    if (CAN_WEAR(obj, ITEM_WEAR_SHIELD))
+    {
+        if (GET_OBJ_VAL(obj, 6))
+            return conv;
+        GET_OBJ_VAL(obj, 1) = ARMOR_TYPE_SHIELD;
+        GET_OBJ_VAL(obj, 2) = 100;
+        GET_OBJ_VAL(obj, 3) = shield_table[i][0];
+        GET_OBJ_VAL(obj, 6) = shield_table[i][1];
+        conv = 1;
+    }
+    else if (CAN_WEAR(obj, ITEM_WEAR_BODY))
+    {
+        if (GET_OBJ_VAL(obj, 6))
+            return conv;
+        GET_OBJ_VAL(obj, 2) = conv_table[i][0];
+        GET_OBJ_VAL(obj, 3) = conv_table[i][1];
+        GET_OBJ_VAL(obj, 6) = conv_table[i][2];
+        conv = 1;
+    }
+    else if (GET_OBJ_VAL(obj, 2) || GET_OBJ_VAL(obj, 3))
+    {
+        return conv;
+    }
+    else
+    {
+        GET_OBJ_VAL(obj, 2) = 100;
+        GET_OBJ_VAL(obj, 3) = 0;
+        GET_OBJ_VAL(obj, 6) = 0;
+        conv = 1;
+    }
+    log("Converted armor #%d [%s] armor=%d i=%d maxdex=%d acheck=%d sfail=%d",
+        obj_index[obj - obj_proto].vnum, GET_OBJ_SHORT(obj), GET_OBJ_VAL(obj, 0),
+        i, GET_OBJ_VAL(obj, 2), GET_OBJ_VAL(obj, 3), GET_OBJ_VAL(obj, 6));
     return conv;
-  } else {
-    GET_OBJ_VAL(obj, 2) = 100;
-    GET_OBJ_VAL(obj, 3) = 0;
-    GET_OBJ_VAL(obj, 6) = 0;
-    conv = 1;
-  }
-  log("Converted armor #%d [%s] armor=%d i=%d maxdex=%d acheck=%d sfail=%d",
-      obj_index[obj - obj_proto].vnum, GET_OBJ_SHORT(obj), GET_OBJ_VAL(obj, 0),
-      i, GET_OBJ_VAL(obj, 2), GET_OBJ_VAL(obj, 3), GET_OBJ_VAL(obj, 6));
-  return conv;
 }
 
 /* Convert CWG-SunTzu weapon objects to new weapon types */
@@ -436,17 +445,18 @@ void reboot_wizlists(void)
 /* Wipe out all the loaded text files, for shutting down. */
 void free_text_files(void)
 {
-  char **textfiles[] = {
-	&wizlist, &immlist, &news, &credits, &motd, &imotd, &help, &info,
-	&policies, &handbook, &background, &GREETINGS, &GREETANSI, NULL
-  };
-  int rf;
+    char **textfiles[] = {
+        &wizlist, &immlist, &news, &credits, &motd, &imotd, &help, &info,
+        &policies, &handbook, &background, &GREETINGS, &GREETANSI, NULL
+    };
+    int rf;
 
-  for (rf = 0; textfiles[rf]; rf++)
-    if (*textfiles[rf]) {
-      free(*textfiles[rf]);
-      *textfiles[rf] = NULL;
-    }
+    for (rf = 0; textfiles[rf]; rf++)
+        if (*textfiles[rf])
+        {
+            free(*textfiles[rf]);
+            *textfiles[rf] = NULL;
+        }
 }
 
 
@@ -458,98 +468,131 @@ void free_text_files(void)
  */
 ACMD(do_reboot)
 {
-  char arg[MAX_INPUT_LENGTH]={'\0'};
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (!str_cmp(arg, "all") || *arg == '*') {
-    if (load_levels() < 0)                                                                         
-      send_to_char(ch, "Can not read level configurations\r\n");                                   
-    if (file_to_string_alloc(GREETINGS_FILE, &GREETINGS) == 0)
-      prune_crlf(GREETINGS);
-	if (file_to_string_alloc(GREETANSI_FILE, &GREETANSI) == 0)
-      prune_crlf(GREETANSI);
-    if (file_to_string_alloc(WIZLIST_FILE, &wizlist) < 0) 
-      send_to_char(ch, "Can not read wizlist\r\n");
-    if (file_to_string_alloc(IMMLIST_FILE, &immlist) < 0) 
-      send_to_char(ch, "Can not read immlist\r\n");
-    if (file_to_string_alloc(NEWS_FILE, &news) < 0) 
-      send_to_char(ch, "Can not read news\r\n");
-    if (file_to_string_alloc(CREDITS_FILE, &credits) < 0) 
-      send_to_char(ch, "Can not read credits\r\n");
-    if (file_to_string_alloc(MOTD_FILE, &motd) < 0) 
-      send_to_char(ch, "Can not read motd\r\n");
-    if (file_to_string_alloc(IMOTD_FILE, &imotd) < 0) 
-      send_to_char(ch, "Can not read imotd\r\n");
-    if (file_to_string_alloc(HELP_PAGE_FILE, &help) < 0) 
-      send_to_char(ch, "Can not read help front page\r\n");
-    if (file_to_string_alloc(INFO_FILE, &info) < 0) 
-      send_to_char(ch, "Can not read info file\r\n");
-    if (file_to_string_alloc(POLICIES_FILE, &policies) < 0) 
-      send_to_char(ch, "Can not read policies\r\n");
-    if (file_to_string_alloc(HANDBOOK_FILE, &handbook) < 0) 
-      send_to_char(ch, "Can not read handbook\r\n");
-    if (file_to_string_alloc(BACKGROUND_FILE, &background) < 0) 
-      send_to_char(ch, "Can not read background\r\n");
-    if (help_table)
-      free_help_table();
-    index_boot(DB_BOOT_HLP);
-  } else if (!str_cmp(arg, "levels")) {                                                            
-    if (load_levels() < 0)                                                                         
-      send_to_char(ch, "Can not read level configurations\r\n");                                   
-  } else if (!str_cmp(arg, "wizlist")) {
-    if (file_to_string_alloc(WIZLIST_FILE, &wizlist) < 0) 
-      send_to_char(ch, "Can not read wizlist\r\n");
-  } else if (!str_cmp(arg, "immlist")) {
-    if (file_to_string_alloc(IMMLIST_FILE, &immlist) < 0) 
-      send_to_char(ch, "Can not read immlist\r\n");
-  } else if (!str_cmp(arg, "news")) {
-    if (file_to_string_alloc(NEWS_FILE, &news) < 0) 
-      send_to_char(ch, "Can not read news\r\n");
-  } else if (!str_cmp(arg, "credits")) {
-    if (file_to_string_alloc(CREDITS_FILE, &credits) < 0) 
-      send_to_char(ch, "Can not read credits\r\n");
-  } else if (!str_cmp(arg, "motd")) {
-    if (file_to_string_alloc(MOTD_FILE, &motd) < 0) 
-      send_to_char(ch, "Can not read motd\r\n");
-  } else if (!str_cmp(arg, "imotd")) {
-    if (file_to_string_alloc(IMOTD_FILE, &imotd) < 0) 
-      send_to_char(ch, "Can not read imotd\r\n");
-  } else if (!str_cmp(arg, "help")) {
-    if (file_to_string_alloc(HELP_PAGE_FILE, &help) < 0) 
-      send_to_char(ch, "Can not read help front page\r\n");
-  } else if (!str_cmp(arg, "info")) {
-    if (file_to_string_alloc(INFO_FILE, &info) < 0) 
-      send_to_char(ch, "Can not read info\r\n");
-  } else if (!str_cmp(arg, "policy")) {
-    if (file_to_string_alloc(POLICIES_FILE, &policies) < 0) 
-      send_to_char(ch, "Can not read policy\r\n");
-  } else if (!str_cmp(arg, "handbook")) {
-    if (file_to_string_alloc(HANDBOOK_FILE, &handbook) < 0) 
-      send_to_char(ch, "Can not read handbook\r\n");
-  } else if (!str_cmp(arg, "background")) {
-    if (file_to_string_alloc(BACKGROUND_FILE, &background) < 0) 
-      send_to_char(ch, "Can not read background\r\n");
-  } else if (!str_cmp(arg, "greetings")) {
-    if (file_to_string_alloc(GREETINGS_FILE, &GREETINGS) == 0)
-      prune_crlf(GREETINGS);
+    if (!str_cmp(arg, "all") || *arg == '*')
+    {
+        if (load_levels() < 0)
+            send_to_char(ch, "Can not read level configurations\r\n");
+        if (file_to_string_alloc(GREETINGS_FILE, &GREETINGS) == 0)
+            prune_crlf(GREETINGS);
+        if (file_to_string_alloc(GREETANSI_FILE, &GREETANSI) == 0)
+            prune_crlf(GREETANSI);
+        if (file_to_string_alloc(WIZLIST_FILE, &wizlist) < 0)
+            send_to_char(ch, "Can not read wizlist\r\n");
+        if (file_to_string_alloc(IMMLIST_FILE, &immlist) < 0)
+            send_to_char(ch, "Can not read immlist\r\n");
+        if (file_to_string_alloc(NEWS_FILE, &news) < 0)
+            send_to_char(ch, "Can not read news\r\n");
+        if (file_to_string_alloc(CREDITS_FILE, &credits) < 0)
+            send_to_char(ch, "Can not read credits\r\n");
+        if (file_to_string_alloc(MOTD_FILE, &motd) < 0)
+            send_to_char(ch, "Can not read motd\r\n");
+        if (file_to_string_alloc(IMOTD_FILE, &imotd) < 0)
+            send_to_char(ch, "Can not read imotd\r\n");
+        if (file_to_string_alloc(HELP_PAGE_FILE, &help) < 0)
+            send_to_char(ch, "Can not read help front page\r\n");
+        if (file_to_string_alloc(INFO_FILE, &info) < 0)
+            send_to_char(ch, "Can not read info file\r\n");
+        if (file_to_string_alloc(POLICIES_FILE, &policies) < 0)
+            send_to_char(ch, "Can not read policies\r\n");
+        if (file_to_string_alloc(HANDBOOK_FILE, &handbook) < 0)
+            send_to_char(ch, "Can not read handbook\r\n");
+        if (file_to_string_alloc(BACKGROUND_FILE, &background) < 0)
+            send_to_char(ch, "Can not read background\r\n");
+        if (help_table)
+            free_help_table();
+        index_boot(DB_BOOT_HLP);
+    }
+    else if (!str_cmp(arg, "levels"))
+    {
+        if (load_levels() < 0)
+            send_to_char(ch, "Can not read level configurations\r\n");
+    }
+    else if (!str_cmp(arg, "wizlist"))
+    {
+        if (file_to_string_alloc(WIZLIST_FILE, &wizlist) < 0)
+            send_to_char(ch, "Can not read wizlist\r\n");
+    }
+    else if (!str_cmp(arg, "immlist"))
+    {
+        if (file_to_string_alloc(IMMLIST_FILE, &immlist) < 0)
+            send_to_char(ch, "Can not read immlist\r\n");
+    }
+    else if (!str_cmp(arg, "news"))
+    {
+        if (file_to_string_alloc(NEWS_FILE, &news) < 0)
+            send_to_char(ch, "Can not read news\r\n");
+    }
+    else if (!str_cmp(arg, "credits"))
+    {
+        if (file_to_string_alloc(CREDITS_FILE, &credits) < 0)
+            send_to_char(ch, "Can not read credits\r\n");
+    }
+    else if (!str_cmp(arg, "motd"))
+    {
+        if (file_to_string_alloc(MOTD_FILE, &motd) < 0)
+            send_to_char(ch, "Can not read motd\r\n");
+    }
+    else if (!str_cmp(arg, "imotd"))
+    {
+        if (file_to_string_alloc(IMOTD_FILE, &imotd) < 0)
+            send_to_char(ch, "Can not read imotd\r\n");
+    }
+    else if (!str_cmp(arg, "help"))
+    {
+        if (file_to_string_alloc(HELP_PAGE_FILE, &help) < 0)
+            send_to_char(ch, "Can not read help front page\r\n");
+    }
+    else if (!str_cmp(arg, "info"))
+    {
+        if (file_to_string_alloc(INFO_FILE, &info) < 0)
+            send_to_char(ch, "Can not read info\r\n");
+    }
+    else if (!str_cmp(arg, "policy"))
+    {
+        if (file_to_string_alloc(POLICIES_FILE, &policies) < 0)
+            send_to_char(ch, "Can not read policy\r\n");
+    }
+    else if (!str_cmp(arg, "handbook"))
+    {
+        if (file_to_string_alloc(HANDBOOK_FILE, &handbook) < 0)
+            send_to_char(ch, "Can not read handbook\r\n");
+    }
+    else if (!str_cmp(arg, "background"))
+    {
+        if (file_to_string_alloc(BACKGROUND_FILE, &background) < 0)
+            send_to_char(ch, "Can not read background\r\n");
+    }
+    else if (!str_cmp(arg, "greetings"))
+    {
+        if (file_to_string_alloc(GREETINGS_FILE, &GREETINGS) == 0)
+            prune_crlf(GREETINGS);
+        else
+            send_to_char(ch, "Can not read greetings.\r\n");
+    }
+    else if (!str_cmp(arg, "greetansi"))
+    {
+        if (file_to_string_alloc(GREETANSI_FILE, &GREETANSI) == 0)
+            prune_crlf(GREETANSI);
+        else
+            send_to_char(ch, "Can not read greetings.\r\n");
+    }
+    else if (!str_cmp(arg, "xhelp"))
+    {
+        if (help_table)
+            free_help_table();
+        index_boot(DB_BOOT_HLP);
+    }
     else
-      send_to_char(ch, "Can not read greetings.\r\n");
-  } else if (!str_cmp(arg, "greetansi")) {
-    if (file_to_string_alloc(GREETANSI_FILE, &GREETANSI) == 0)
-      prune_crlf(GREETANSI);
-    else
-      send_to_char(ch, "Can not read greetings.\r\n");
-  } else if (!str_cmp(arg, "xhelp")) {
-    if (help_table)
-      free_help_table();
-    index_boot(DB_BOOT_HLP);
-  } else {
-    send_to_char(ch, "Unknown reload option.\r\n");
-    return;
-  }
+    {
+        send_to_char(ch, "Unknown reload option.\r\n");
+        return;
+    }
 
-  send_to_char(ch, "%s", CONFIG_OK);
+    send_to_char(ch, "%s", CONFIG_OK);
 }
 
 
@@ -639,214 +682,230 @@ void boot_world(void)
 
 void free_extra_descriptions(struct extra_descr_data *edesc)
 {
+    return;
 
+    struct extra_descr_data *enext;
 
-  return;
+    for (; edesc; edesc = enext)
+    {
+        enext = edesc->next;
 
-  struct extra_descr_data *enext;
+        if (!edesc->keyword || !edesc->description)
+            continue;
 
-  for (; edesc; edesc = enext) {
-    enext = edesc->next;
-
-    if (!edesc->keyword || !edesc->description)
-      continue;
-
-    free(edesc->keyword);
-    free(edesc->description);
-    free(edesc);
-  }
+        free(edesc->keyword);
+        free(edesc->description);
+        free(edesc);
+    }
 }
 
 
 /* Free the world, in a memory allocation sense. */
 void destroy_db(void)
 {
-  ssize_t cnt, itr;
-  struct char_data *chtmp;
-  struct obj_data *objtmp;
+    ssize_t cnt, itr;
+    struct char_data *chtmp;
+    struct obj_data *objtmp;
 
-  /* Active Mobiles & Players */
-  while (character_list) {
-    chtmp = character_list;
-    character_list = character_list->next;
-    if (chtmp->master)
-      stop_follower(chtmp);
-    free_char(chtmp);
-  }
-
-  /* Active Objects */
-  while (object_list) {
-    objtmp = object_list;
-    object_list = object_list->next;
-    free_obj(objtmp);
-  }
-
-  /* Rooms */
-  for (cnt = 0; cnt <= top_of_world; cnt++) {
-    if (world[cnt].name)
-      free(world[cnt].name);
-    if (world[cnt].description)
-      free(world[cnt].description);
-    free_extra_descriptions(world[cnt].ex_description);
-
-    /* free any assigned scripts */
-    if (SCRIPT(&world[cnt]))
-      extract_script(&world[cnt], WLD_TRIGGER);
-    /* free script proto list */
-    free_proto_script(&world[cnt], WLD_TRIGGER);
-    
-    for (itr = 0; itr < NUM_OF_DIRS; itr++) {
-      if (!world[cnt].dir_option[itr])
-        continue;
-
-      if (world[cnt].dir_option[itr]->general_description)
-        free(world[cnt].dir_option[itr]->general_description);
-      if (world[cnt].dir_option[itr]->keyword)
-        free(world[cnt].dir_option[itr]->keyword);
-      free(world[cnt].dir_option[itr]);
+    /* Active Mobiles & Players */
+    while (character_list)
+    {
+        chtmp = character_list;
+        character_list = character_list->next;
+        if (chtmp->master)
+            stop_follower(chtmp);
+        free_char(chtmp);
     }
-  }
-  free(world);
-  top_of_world = 0;
-  htree_free(room_htree);
 
-  /* Objects */
-  for (cnt = 0; cnt <= top_of_objt; cnt++) {
-    if (obj_proto[cnt].name)
-      free(obj_proto[cnt].name);
-    if (obj_proto[cnt].description)
-      free(obj_proto[cnt].description);
-    if (obj_proto[cnt].short_description)
-      free(obj_proto[cnt].short_description);
-    if (obj_proto[cnt].action_description)
-      free(obj_proto[cnt].action_description);
-    if (obj_proto[cnt].ex_description)
-    free_extra_descriptions(obj_proto[cnt].ex_description);
-
-    /* free script proto list */
-    free_proto_script(&obj_proto[cnt], OBJ_TRIGGER);
-  }
-  free(obj_proto);
-  free(obj_index);
-  htree_free(obj_htree);
-
-  /* Mobiles */
-  for (cnt = 0; cnt <= top_of_mobt; cnt++) {
-    if (mob_proto[cnt].name)
-      free(mob_proto[cnt].name);
-    if (mob_proto[cnt].title)
-      free(mob_proto[cnt].title);
-    if (mob_proto[cnt].short_descr)
-      free(mob_proto[cnt].short_descr);
-    if (mob_proto[cnt].long_descr)
-      free(mob_proto[cnt].long_descr);
-    if (mob_proto[cnt].description)
-      free(mob_proto[cnt].description);
-
-    /* free script proto list */
-    free_proto_script(&mob_proto[cnt], MOB_TRIGGER);
-
-    while (mob_proto[cnt].affected)
-      affect_remove(&mob_proto[cnt], mob_proto[cnt].affected);
-  }
-  free(mob_proto);
-  free(mob_index);
-  htree_free(mob_htree);
-
-  /* Shops */
-  destroy_shops();
-
-  /* Quests */
-  destroy_quests();
-
-  /* Guilds */
-  destroy_guilds();
-
-  /* Zones */
-  /* zone table reset queue */
-  if (reset_q.head) {
-    struct reset_q_element *ftemp=reset_q.head, *temp;
-    while (ftemp) {
-      temp = ftemp->next;
-      free(ftemp);
-      ftemp = temp;
+    /* Active Objects */
+    while (object_list)
+    {
+        objtmp = object_list;
+        object_list = object_list->next;
+        free_obj(objtmp);
     }
-  }
+
+    /* Rooms */
+    for (cnt = 0; cnt <= top_of_world; cnt++)
+    {
+        if (world[cnt].name)
+            free(world[cnt].name);
+        if (world[cnt].description)
+            free(world[cnt].description);
+        free_extra_descriptions(world[cnt].ex_description);
+
+        /* free any assigned scripts */
+        if (SCRIPT(&world[cnt]))
+            extract_script(&world[cnt], WLD_TRIGGER);
+        /* free script proto list */
+        free_proto_script(&world[cnt], WLD_TRIGGER);
+
+        for (itr = 0; itr < NUM_OF_DIRS; itr++)
+        {
+            if (!world[cnt].dir_option[itr])
+                continue;
+
+            if (world[cnt].dir_option[itr]->general_description)
+                free(world[cnt].dir_option[itr]->general_description);
+            if (world[cnt].dir_option[itr]->keyword)
+                free(world[cnt].dir_option[itr]->keyword);
+            free(world[cnt].dir_option[itr]);
+        }
+    }
+    free(world);
+    top_of_world = 0;
+    htree_free(room_htree);
+
+    /* Objects */
+    for (cnt = 0; cnt <= top_of_objt; cnt++)
+    {
+        if (obj_proto[cnt].name)
+            free(obj_proto[cnt].name);
+        if (obj_proto[cnt].description)
+            free(obj_proto[cnt].description);
+        if (obj_proto[cnt].short_description)
+            free(obj_proto[cnt].short_description);
+        if (obj_proto[cnt].action_description)
+            free(obj_proto[cnt].action_description);
+        if (obj_proto[cnt].ex_description)
+            free_extra_descriptions(obj_proto[cnt].ex_description);
+
+        /* free script proto list */
+        free_proto_script(&obj_proto[cnt], OBJ_TRIGGER);
+    }
+    free(obj_proto);
+    free(obj_index);
+    htree_free(obj_htree);
+
+    /* Mobiles */
+    for (cnt = 0; cnt <= top_of_mobt; cnt++)
+    {
+        if (mob_proto[cnt].name)
+            free(mob_proto[cnt].name);
+        if (mob_proto[cnt].title)
+            free(mob_proto[cnt].title);
+        if (mob_proto[cnt].short_descr)
+            free(mob_proto[cnt].short_descr);
+        if (mob_proto[cnt].long_descr)
+            free(mob_proto[cnt].long_descr);
+        if (mob_proto[cnt].description)
+            free(mob_proto[cnt].description);
+
+        /* free script proto list */
+        free_proto_script(&mob_proto[cnt], MOB_TRIGGER);
+
+        while (mob_proto[cnt].affected)
+            affect_remove(&mob_proto[cnt], mob_proto[cnt].affected);
+    }
+    free(mob_proto);
+    free(mob_index);
+    htree_free(mob_htree);
+
+    /* Shops */
+    destroy_shops();
+
+    /* Quests */
+    destroy_quests();
+
+    /* Guilds */
+    destroy_guilds();
+
+    /* Zones */
+    /* zone table reset queue */
+    if (reset_q.head)
+    {
+        struct reset_q_element *ftemp = reset_q.head, *temp;
+        while (ftemp)
+        {
+            temp = ftemp->next;
+            free(ftemp);
+            ftemp = temp;
+        }
+    }
 
 #define THIS_CMD zone_table[cnt].cmd[itr]
 
-  for (cnt = 0; cnt <= top_of_zone_table; cnt++) {
-    if (zone_table[cnt].name)
-      free(zone_table[cnt].name);
-    if (zone_table[cnt].builders)
-      free(zone_table[cnt].builders);
-    if (zone_table[cnt].cmd) {
-       /* first see if any vars were defined in this zone */
-       for (itr = 0;THIS_CMD.command != 'S';itr++)
-         if (THIS_CMD.command == 'V') {
-           if (THIS_CMD.sarg1)
-             free(THIS_CMD.sarg1);
-           if (THIS_CMD.sarg2)
-             free(THIS_CMD.sarg2);
-         }
-       /* then free the command list */
-      free(zone_table[cnt].cmd);
+    for (cnt = 0; cnt <= top_of_zone_table; cnt++)
+    {
+        if (zone_table[cnt].name)
+            free(zone_table[cnt].name);
+        if (zone_table[cnt].builders)
+            free(zone_table[cnt].builders);
+        if (zone_table[cnt].cmd)
+        {
+            /* first see if any vars were defined in this zone */
+            for (itr = 0; THIS_CMD.command != 'S'; itr++)
+                if (THIS_CMD.command == 'V')
+                {
+                    if (THIS_CMD.sarg1)
+                        free(THIS_CMD.sarg1);
+                    if (THIS_CMD.sarg2)
+                        free(THIS_CMD.sarg2);
+                }
+            /* then free the command list */
+            free(zone_table[cnt].cmd);
+        }
     }
-  }
-  free(zone_table);
+    free(zone_table);
 
 #undef THIS_CMD
 
-  /* zone table reset queue */
-  if (reset_q.head) {
-    struct reset_q_element *ftemp=reset_q.head, *temp;
-    while (ftemp) {
-      temp = ftemp->next;
-      free(ftemp);
-      ftemp = temp;
-    }
-  }
-
-  /* Triggers */
-  for (cnt=0; cnt < top_of_trigt; cnt++) {
-    if (trig_index[cnt]->proto) {
-      /* make sure to nuke the command list (memory leak) */
-      /* free_trigger() doesn't free the command list */
-      if (trig_index[cnt]->proto->cmdlist) {
-        struct cmdlist_element *i, *j;
-        i = trig_index[cnt]->proto->cmdlist;
-        while (i) {
-          j = i->next;
-          if (i->cmd)
-            free(i->cmd);
-          free(i);
-          i = j;
+    /* zone table reset queue */
+    if (reset_q.head)
+    {
+        struct reset_q_element *ftemp = reset_q.head, *temp;
+        while (ftemp)
+        {
+            temp = ftemp->next;
+            free(ftemp);
+            ftemp = temp;
         }
-      }
-      free_trigger(trig_index[cnt]->proto);
     }
-    free(trig_index[cnt]);
-  }
-  free(trig_index);
 
-  /* Events */
-  event_free_all();
+    /* Triggers */
+    for (cnt = 0; cnt < top_of_trigt; cnt++)
+    {
+        if (trig_index[cnt]->proto)
+        {
+            /* make sure to nuke the command list (memory leak) */
+            /* free_trigger() doesn't free the command list */
+            if (trig_index[cnt]->proto->cmdlist)
+            {
+                struct cmdlist_element *i, *j;
+                i = trig_index[cnt]->proto->cmdlist;
+                while (i)
+                {
+                    j = i->next;
+                    if (i->cmd)
+                        free(i->cmd);
+                    free(i);
+                    i = j;
+                }
+            }
+            free_trigger(trig_index[cnt]->proto);
+        }
+        free(trig_index[cnt]);
+    }
+    free(trig_index);
 
-  /* context sensitive help system */
-  free_context_help();
+    /* Events */
+    event_free_all();
 
-  free_feats();
+    /* context sensitive help system */
+    free_context_help();
 
-  free_obj_unique_hash();
+    free_feats();
 
-  free_fightsort();
+    free_obj_unique_hash();
 
-  htree_shutdown();
+    free_fightsort();
 
-  log("Freeing Assemblies.");
-  free_assemblies();
+    htree_shutdown();
 
-  // free_poll();
+    log("Freeing Assemblies.");
+    free_assemblies();
+
+    // free_poll();
 
 
 }
@@ -866,11 +925,12 @@ struct obj_unique_hash_elem **obj_unique_hash_pools = NULL;
 
 void init_obj_unique_hash()
 {
-  int i;
-  CREATE(obj_unique_hash_pools, struct obj_unique_hash_elem *, NUM_OBJ_UNIQUE_POOLS);
-  for (i = 0; i < NUM_OBJ_UNIQUE_POOLS; i++) {
-    obj_unique_hash_pools[i] = NULL;
-  }
+    int i;
+    CREATE(obj_unique_hash_pools, struct obj_unique_hash_elem *, NUM_OBJ_UNIQUE_POOLS);
+    for (i = 0; i < NUM_OBJ_UNIQUE_POOLS; i++)
+    {
+        obj_unique_hash_pools[i] = NULL;
+    }
 }
 
 
@@ -1029,7 +1089,7 @@ void reset_time(void)
 
     if ((bgtime = fopen(TIME_FILE, "r")) == NULL)
         log("SYSERR: Can't read from '%s' time file.", TIME_FILE);
-    else 
+    else
     {
         fclose(bgtime);
     }
@@ -1076,14 +1136,17 @@ void reset_time(void)
 /* Write the time in 'when' to the MUD-time file. */
 void save_mud_time(struct time_info_data *when)
 {
-  FILE *bgtime;
+    FILE *bgtime;
 
-  if ((bgtime = fopen(TIME_FILE, "w")) == NULL)
-    log("SYSERR: Can't write to '%s' time file.", TIME_FILE);
-  else {
-    fprintf(bgtime, "%ld\n", (long int)mud_time_to_secs(when));
-    fclose(bgtime);
-  }
+    if ((bgtime = fopen(TIME_FILE, "w")) == NULL)
+    {
+        log("SYSERR: Can't write to '%s' time file.", TIME_FILE);
+    }
+    else
+    {
+        fprintf(bgtime, "%ld\n", (long int)mud_time_to_secs(when));
+        fclose(bgtime);
+    }
 }
 
 
@@ -1094,42 +1157,47 @@ void save_mud_time(struct time_info_data *when)
  */
 int count_alias_records(FILE *fl)
 {
-  char key[READ_SIZE]={'\0'}, next_key[READ_SIZE]={'\0'};
-  char line[READ_SIZE]={'\0'}, *scan;
-  int total_keywords = 0;
+    char key[READ_SIZE] = {'\0'}, next_key[READ_SIZE] = {'\0'};
+    char line[READ_SIZE] = {'\0'}, *scan;
+    int total_keywords = 0;
 
-  /* get the first keyword line */
-  get_one_line(fl, key);
-
-  while (*key != '$') {
-    /* skip the text */
-    do {
-      get_one_line(fl, line);
-      if (feof(fl))
-	goto ackeof;
-    } while (*line != '#');
-
-    /* now count keywords */
-    scan = key;
-    do {
-      scan = one_word(scan, next_key);
-      if (*next_key)
-        ++total_keywords;
-    } while (*next_key);
-
-    /* get next keyword line (or $) */
+    /* get the first keyword line */
     get_one_line(fl, key);
 
-    if (feof(fl))
-      goto ackeof;
-  }
+    while (*key != '$')
+    {
+        /* skip the text */
+        do
+        {
+            get_one_line(fl, line);
+            if (feof(fl))
+                goto ackeof;
+        }
+        while (*line != '#');
 
-  return (total_keywords);
+        /* now count keywords */
+        scan = key;
+        do
+        {
+            scan = one_word(scan, next_key);
+            if (*next_key)
+                ++total_keywords;
+        }
+        while (*next_key);
 
-  /* No, they are not evil. -gg 6/24/98 */
-ackeof:	
-  log("SYSERR: Unexpected end of help file.");
-  exit(1);	/* Some day we hope to handle these things better... */
+        /* get next keyword line (or $) */
+        get_one_line(fl, key);
+
+        if (feof(fl))
+            goto ackeof;
+    }
+
+    return (total_keywords);
+
+    /* No, they are not evil. -gg 6/24/98 */
+ackeof:
+    log("SYSERR: Unexpected end of help file.");
+    exit(1);  /* Some day we hope to handle these things better... */
 }
 
 /* function to count how many hash-mark delimited records exist in a file */
@@ -1377,98 +1445,111 @@ void index_boot(int mode)
 
 void discrete_load(FILE *fl, int mode, char *filename)
 {
-  int nr = -1, last;
-  char line[READ_SIZE]={'\0'};
+    int nr = -1, last;
+    char line[READ_SIZE] = {'\0'};
 
-  const char *modes[] = {"world", "mob", "obj", "ZON", "SHP", "HLP", "trg", "qst"};
-  /* modes positions correspond to DB_BOOT_xxx in db.h */
+    const char *modes[] = {"world", "mob", "obj", "ZON", "SHP", "HLP", "trg", "qst"};
+    /* modes positions correspond to DB_BOOT_xxx in db.h */
 
-  for (;;) {
-    /*
-     * we have to do special processing with the obj files because they have
-     * no end-of-record marker :(
-     */
-    if (mode != DB_BOOT_OBJ || nr < 0)
-      if (!get_line(fl, line)) {
-	if (nr == -1) {
-	  log("SYSERR: %s file %s is empty!", modes[mode], filename);
-	} else {
-	  log("SYSERR: Format error in %s after %s #%d\n"
-	      "...expecting a new %s, but file ended!\n"
-	      "(maybe the file is not terminated with '$'?)", filename,
-	      modes[mode], nr, modes[mode]);
-	}
-	exit(1);
-      }
-    if (*line == '$')
-      return;
+    for (;;)
+    {
+        /*
+         * we have to do special processing with the obj files because they have
+         * no end-of-record marker :(
+         */
+        if (mode != DB_BOOT_OBJ || nr < 0)
+            if (!get_line(fl, line))
+            {
+                if (nr == -1)
+                {
+                    log("SYSERR: %s file %s is empty!", modes[mode], filename);
+                }
+                else
+                {
+                    log("SYSERR: Format error in %s after %s #%d\n"
+                        "...expecting a new %s, but file ended!\n"
+                        "(maybe the file is not terminated with '$'?)", filename,
+                        modes[mode], nr, modes[mode]);
+                }
+                exit(1);
+            }
+        if (*line == '$')
+            return;
 
-    if (*line == '#') {
-      last = nr;
-      if (sscanf(line, "#%d", &nr) != 1) {
-	log("SYSERR: Format error after %s #%d", modes[mode], last);
-	exit(1);
-      }
-      if (nr >= 99999)
-	return;
-      else
-	switch (mode) {
-	case DB_BOOT_WLD:
-	  parse_room(fl, nr);
-	  break;
-	case DB_BOOT_MOB:
-	  parse_mobile(fl, nr);
-	  break;
-        case DB_BOOT_TRG:
-          parse_trigger(fl, nr);
-          break;
-	case DB_BOOT_OBJ:
-	  strlcpy(line, parse_object(fl, nr), sizeof(line));
-	  break;
-	case DB_BOOT_QST:
-	  parse_quest(fl, nr);
-	  break;
-	}
-    } else {
-      log("SYSERR: Format error in %s file %s near %s #%d", modes[mode],
-	  filename, modes[mode], nr);
-      log("SYSERR: ... offending line: '%s'", line);
-      exit(1);
+        if (*line == '#')
+        {
+            last = nr;
+            if (sscanf(line, "#%d", &nr) != 1)
+            {
+                log("SYSERR: Format error after %s #%d", modes[mode], last);
+                exit(1);
+            }
+            if (nr >= 99999)
+                return;
+            else
+                switch (mode)
+                {
+                case DB_BOOT_WLD:
+                    parse_room(fl, nr);
+                    break;
+                case DB_BOOT_MOB:
+                    parse_mobile(fl, nr);
+                    break;
+                case DB_BOOT_TRG:
+                    parse_trigger(fl, nr);
+                    break;
+                case DB_BOOT_OBJ:
+                    strlcpy(line, parse_object(fl, nr), sizeof(line));
+                    break;
+                case DB_BOOT_QST:
+                    parse_quest(fl, nr);
+                    break;
+                }
+        }
+        else
+        {
+            log("SYSERR: Format error in %s file %s near %s #%d", modes[mode],
+                filename, modes[mode], nr);
+            log("SYSERR: ... offending line: '%s'", line);
+            exit(1);
+        }
     }
-  }
 }
 
 
 
 char fread_letter(FILE *fp)
 {
-  char c;
-  do {
-    c = getc(fp);  
-  } while (isspace(c));
-  return c;
+    char c;
+    do
+    {
+        c = getc(fp);
+    }
+    while (isspace(c));
+    return c;
 }
 
 long asciiflag_conv(char *flag)
 {
-  long flags = 0;
-  int is_number = 1;
-  register char *p;
+    long flags = 0;
+    int is_number = 1;
+    register char *p;
 
-  for (p = flag; *p; p++) {
-    if (islower(*p))
-      flags |= 1 << (*p - 'a');
-    else if (isupper(*p))
-      flags |= 1 << (26 + (*p - 'A'));
+    for (p = flag; *p; p++)
+    {
+        if (islower(*p))
+            flags |= 1 << (*p - 'a');
+        else if (isupper(*p))
+            flags |= 1 << (26 + (*p - 'A'));
 
-    if (!isdigit(*p))
-      is_number = 0;
-  }
+        if (!isdigit(*p))
+            is_number = 0;
+    }
 
-  if (is_number)
-    flags = atol(flag);
+    if (is_number)
+        flags = atol(flag);
 
-  return flags;
+    return flags;
 }
 
 /*
@@ -1497,24 +1578,25 @@ bitvector_t asciiflag_conv(char *flag)
 
 bitvector_t asciiflag_conv_aff(char *flag)
 {
-  bitvector_t flags = 0;
-  int is_num = true;
-  char *p;
+    bitvector_t flags = 0;
+    int is_num = true;
+    char *p;
 
-  for (p = flag; *p; p++) {
-    if (islower(*p))
-      flags |= 1 << (1 + (*p - 'a'));
-    else if (isupper(*p))
-      flags |= 1 << (26 + (*p - 'A'));
+    for (p = flag; *p; p++)
+    {
+        if (islower(*p))
+            flags |= 1 << (1 + (*p - 'a'));
+        else if (isupper(*p))
+            flags |= 1 << (26 + (*p - 'A'));
 
-    if (!(isdigit(*p) || (*p == '-')))
-      is_num = false;
-  }
+        if (!(isdigit(*p) || (*p == '-')))
+            is_num = false;
+    }
 
-  if (is_num)
-    flags = atol(flag);
+    if (is_num)
+        flags = atol(flag);
 
-  return (flags);
+    return (flags);
 }
 
 /* load the rooms */
@@ -1775,34 +1857,37 @@ void setup_dir(FILE *fl, int room, int dir)
 /* make sure the start rooms exist & resolve their vnums to rnums */
 void check_start_rooms(void)
 {
-  if ((r_mortal_start_room = real_room(CONFIG_MORTAL_START)) == NOWHERE) {
-    log("SYSERR:  Mortal start room does not exist.  Change mortal_start_room in lib/etc/config.");
-    exit(1);
-  }
-  if ((r_immort_start_room = real_room(CONFIG_IMMORTAL_START)) == NOWHERE) {
-    if (!mini_mud)
-      log("SYSERR:  Warning: Immort start room does not exist.  Change immort_start_room in /lib/etc/config.");
-    r_immort_start_room = r_mortal_start_room;
-  }
-  if ((r_frozen_start_room = real_room(CONFIG_FROZEN_START)) == NOWHERE) {
-    if (!mini_mud)
-      log("SYSERR:  Warning: Frozen start room does not exist.  Change frozen_start_room in /lib/etc/config.");
-    r_frozen_start_room = r_mortal_start_room;
-  }
+    if ((r_mortal_start_room = real_room(CONFIG_MORTAL_START)) == NOWHERE)
+    {
+        log("SYSERR:  Mortal start room does not exist.  Change mortal_start_room in lib/etc/config.");
+        exit(1);
+    }
+    if ((r_immort_start_room = real_room(CONFIG_IMMORTAL_START)) == NOWHERE)
+    {
+        if (!mini_mud)
+            log("SYSERR:  Warning: Immort start room does not exist.  Change immort_start_room in /lib/etc/config.");
+        r_immort_start_room = r_mortal_start_room;
+    }
+    if ((r_frozen_start_room = real_room(CONFIG_FROZEN_START)) == NOWHERE)
+    {
+        if (!mini_mud)
+            log("SYSERR:  Warning: Frozen start room does not exist.  Change frozen_start_room in /lib/etc/config.");
+        r_frozen_start_room = r_mortal_start_room;
+    }
 }
 
 
 /* resolve all vnums into rnums in the world */
 void renum_world(void)
 {
-  int room, door;
+    int room, door;
 
-  for (room = 0; room <= top_of_world; room++)
-    for (door = 0; door < NUM_OF_DIRS; door++)
-      if (world[room].dir_option[door])
-	if (world[room].dir_option[door]->to_room != NOWHERE)
-	  world[room].dir_option[door]->to_room =
-	    real_room(world[room].dir_option[door]->to_room);
+    for (room = 0; room <= top_of_world; room++)
+        for (door = 0; door < NUM_OF_DIRS; door++)
+            if (world[room].dir_option[door])
+                if (world[room].dir_option[door]->to_room != NOWHERE)
+                    world[room].dir_option[door]->to_room =
+                    real_room(world[room].dir_option[door]->to_room);
 }
 
 
@@ -5224,86 +5309,98 @@ void load_config( void )
 
 void read_level_data(struct char_data *ch, FILE *fl)
 {
-  char buf[READ_SIZE]={'\0'}, *p;
-  int i = 1;
-  int t[16];
-  struct levelup_data *curr = NULL;
-  struct level_data *lvl = NULL;
-  struct level_learn_entry *learn;
+    char buf[READ_SIZE] = {'\0'}, *p;
+    int i = 1;
+    int t[16];
+    struct levelup_data *curr = NULL;
+    struct level_data *lvl = NULL;
+    struct level_learn_entry *learn;
 
-  ch->level_info = NULL;
-  while (!feof(fl)) {
-    i++;
-    if (!get_line(fl, buf)) {
-      log("read_level_data: get_line() failed reading level data line %d for %s", i, GET_NAME(ch));
-      return;
+    ch->level_info = NULL;
+    while (!feof(fl))
+    {
+        i++;
+        if (!get_line(fl, buf))
+        {
+            log("read_level_data: get_line() failed reading level data line %d for %s", i, GET_NAME(ch));
+            return;
+        }
+        for (p = buf; *p && *p != ' '; p++);
+        if (!strcmp(buf, "end"))
+        {
+            return;
+        }
+        if (!*p)
+        {
+            log("read_level_data: malformed line reading level data line %d for %s: %s", i, GET_NAME(ch), buf);
+            return;
+        }
+        *(p++) = 0;
+        if (!strcmp(buf, "level"))
+        {
+            if (sscanf(p, "%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", t, t + 1, t + 2, t + 3,
+                       t + 4, t + 5, t + 6, t + 7, t + 8, t + 9, t + 10, t + 11, t + 12, t + 13, t + 14, t + 15) != 16)
+            {
+                log("read_level_data: missing fields on level_data line %d for %s", i, GET_NAME(ch));
+                curr = NULL;
+                continue;
+            }
+            CREATE(curr, struct levelup_data, 1);
+            curr->prev = NULL;
+            curr->next = ch->level_info;
+            if ((curr->next = ch->level_info))
+            {
+                curr->next->prev = curr;
+            }
+            CREATE(lvl, struct level_data, 1);
+            curr->level_extra = lvl;
+            ch->level_info = curr;
+            curr->type = t[0];
+            curr->spec = t[1];
+            curr->level = t[2];
+            curr->hp_roll = t[3];
+            curr->mana_roll = t[4];
+            curr->ki_roll = t[5];
+            curr->move_roll = t[6];
+            curr->accuracy = t[7];
+            curr->fort = t[8];
+            curr->reflex = t[9];
+            curr->will = t[10];
+            curr->add_skill = t[11];
+            curr->add_gen_feats = t[12];
+            curr->add_epic_feats = t[13];
+            curr->add_class_feats = t[14];
+            curr->add_class_epic_feats = t[15];
+            curr->skills = curr->feats = NULL;
+            continue;
+        }
+        if (!curr)
+        {
+            log("read_level_data: found continuation entry without current level for %s", GET_NAME(ch));
+            continue;
+        }
+        if (sscanf(p, "%d %d %d", t, t + 1, t + 2) != 3)
+        {
+            log("read_level_data: missing fields on level_data %s line %d for %s", buf, i, GET_NAME(ch));
+            continue;
+        }
+        CREATE(learn, struct level_learn_entry, 1);
+        learn->location = t[0];
+        learn->specific = t[1];
+        learn->value = t[2];
+        if (!strcmp(buf, "skill"))
+        {
+            learn->next = curr->skills;
+            curr->skills = learn;
+        }
+        else if (!strcmp(buf, "feat"))
+        {
+            learn->next = curr->feats;
+            curr->feats = learn;
+        }
     }
-    for (p = buf; *p && *p != ' '; p++);
-    if (!strcmp(buf, "end")) {
-      return;
-    }
-    if (!*p) {
-      log("read_level_data: malformed line reading level data line %d for %s: %s", i, GET_NAME(ch), buf);
-      return;
-    }
-    *(p++) = 0;
-    if (!strcmp(buf, "level")) {
-      if (sscanf(p, "%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", t,t+1,t+2,t+3,
-                 t+4,t+5,t+6,t+7,t+8,t+9,t+10,t+11,t+12,t+13,t+14,t+15) != 16) {
-        log("read_level_data: missing fields on level_data line %d for %s", i, GET_NAME(ch));
-        curr = NULL;
-        continue;
-      }
-      CREATE(curr, struct levelup_data, 1);
-      curr->prev = NULL;
-      curr->next = ch->level_info;
-      if ((curr->next = ch->level_info)) {
-        curr->next->prev = curr;
-      }
-      CREATE(lvl, struct level_data, 1);
-      curr->level_extra = lvl;
-      ch->level_info = curr;
-      curr->type = t[0];
-      curr->spec = t[1];
-      curr->level = t[2];
-      curr->hp_roll = t[3];
-      curr->mana_roll = t[4];
-      curr->ki_roll = t[5];
-      curr->move_roll = t[6];
-      curr->accuracy = t[7];
-      curr->fort = t[8];
-      curr->reflex = t[9];
-      curr->will = t[10];
-      curr->add_skill = t[11];
-      curr->add_gen_feats = t[12];
-      curr->add_epic_feats = t[13];
-      curr->add_class_feats = t[14];
-      curr->add_class_epic_feats = t[15];
-      curr->skills = curr->feats = NULL;
-      continue;
-    }
-    if (!curr) {
-      log("read_level_data: found continuation entry without current level for %s", GET_NAME(ch));
-      continue;
-    }
-    if (sscanf(p, "%d %d %d", t, t+1, t+2) != 3) {
-      log("read_level_data: missing fields on level_data %s line %d for %s", buf, i, GET_NAME(ch));
-      continue;
-    }
-    CREATE(learn, struct level_learn_entry, 1);
-    learn->location = t[0];
-    learn->specific = t[1];
-    learn->value = t[2];
-    if (!strcmp(buf, "skill")) {
-      learn->next = curr->skills;
-      curr->skills = learn;
-    } else if (!strcmp(buf, "feat")) {
-      learn->next = curr->feats;
-      curr->feats = learn;
-    }
-  }
-  log("read_level_data: EOF reached reading level_data for %s", GET_NAME(ch));
-  return;
+    log("read_level_data: EOF reached reading level_data for %s", GET_NAME(ch));
+    return;
 }
 
 void write_level_data(struct char_data *ch, FILE *fl)

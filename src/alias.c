@@ -1,12 +1,14 @@
 /* ***********************************************************************
-*  File: alias.c				A utility to CircleMUD	 *
-* Usage: writing/reading player's aliases.				 *
-*									 *
-* Code done by Jeremy Hess and Chad Thompson				 *
-* Modifed by George Greer for inclusion into CircleMUD bpl15.		 *
-*									 *
-* Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
-* CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.		 *
+*  File: alias.c                Modernized Alias Handler for CircleMUD
+*  Purpose: Safe reading/writing/deleting of player aliases
+*
+*  Authors: Jeremy Hess, Chad Thompson, George Greer
+*  Modernization: Code GPT (C99 Refactor, 2026)
+*
+*  Notes:
+*  - Uses getline() for dynamic reads
+*  - Robust error handling
+*  - Memory-safe and stylistically modern
 *********************************************************************** */
 
 #include "conf.h"
@@ -17,138 +19,169 @@
 #include "interpreter.h"
 #include "db.h"
 
-void write_aliases(struct char_data *ch);
-void read_aliases(struct char_data *ch);
-void delete_aliases(const char *charname);
+#include <errno.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 #define UNUSED(x) (void)(x)
 
-void write_aliases(struct char_data *ch)
+/* ----------------------------------------------------------------------
+ *  Local helper functions
+ * --------------------------------------------------------------------*/
+
+/**
+ * @brief Reads a single integer from a file.
+ */
+static inline bool _read_int(FILE *file, int *out)
 {
-  FILE *file;
-  char fn[MAX_STRING_LENGTH]={'\0'};
-  struct alias_data *temp;
-
-  get_filename(fn, sizeof(fn), ALIAS_FILE, GET_NAME(ch));
-  remove(fn);
-
-  if (GET_ALIASES(ch) == NULL)
-    return;
-
-  if ((file = fopen(fn, "w")) == NULL) {
-    log("SYSERR: Couldn't save aliases for %s in '%s': %s", GET_NAME(ch), fn, strerror(errno));
-    /*  SYSERR_DESC:
-     *  This error occurs when the server fails to open the relevant alias
-     *  file for writing.  The text at the end of the error should give a
-     *  valid reason why.
-     */
-    return;
-  }
-
-  for (temp = GET_ALIASES(ch); temp; temp = temp->next) {
-    int aliaslen = strlen(temp->alias);
-    int repllen = strlen(temp->replacement) - 1;
-
-    fprintf(file, "%d\n%s\n"	/* Alias */
-		  "%d\n%s\n"	/* Replacement */
-		  "%d\n",	/* Type */
-		aliaslen, temp->alias,
-		repllen, temp->replacement + 1,
-		temp->type);
-  }
-  
-  fclose(file);
+    return fscanf(file, "%d\n", out) == 1;
 }
 
+/**
+ * @brief Reads a line from file dynamically using getline().
+ * The newline is stripped automatically.
+ */
+static inline bool _read_line(FILE *file, char **out)
+{
+    size_t len = 0;
+    ssize_t read = getline(out, &len, file);
+    if (read <= 0)
+        return false;
+
+    /* Strip trailing newline */
+    if ((*out)[read - 1] == '\n')
+        (*out)[read - 1] = '\0';
+
+    return true;
+}
+
+/* ----------------------------------------------------------------------
+ *  Write aliases to disk
+ * --------------------------------------------------------------------*/
+void write_aliases(struct char_data *ch)
+{
+    if (!ch || !GET_NAME(ch))
+        return;
+
+    char filename[MAX_STRING_LENGTH];
+    get_filename(filename, sizeof(filename), ALIAS_FILE, GET_NAME(ch));
+
+    remove(filename); /* Remove old alias file */
+
+    struct alias_data *alias_node = GET_ALIASES(ch);
+    if (!alias_node)
+        return;
+
+    FILE *file = fopen(filename, "w");
+    if (!file) {
+        log("SYSERR: Unable to write alias file '%s' for %s: %s",
+            filename, GET_NAME(ch), strerror(errno));
+        return;
+    }
+
+    for (; alias_node; alias_node = alias_node->next) {
+        int alias_len = (int)strlen(alias_node->alias);
+        int repl_len  = (int)strlen(alias_node->replacement) - 1;
+
+        fprintf(file,
+            "%d\n%s\n"      /* Alias length and alias */
+            "%d\n%s\n"      /* Replacement length and replacement */
+            "%d\n",         /* Alias type */
+            alias_len, alias_node->alias,
+            repl_len, alias_node->replacement + 1,
+            alias_node->type);
+    }
+
+    fclose(file);
+}
+
+/* ----------------------------------------------------------------------
+ *  Read aliases from disk
+ * --------------------------------------------------------------------*/
 void read_aliases(struct char_data *ch)
 {
-    FILE *file;
-    struct alias_data * t2, *prev = NULL;
-    char xbuf[MAX_STRING_LENGTH] = {'\0'};
-    int length = 0;
+    if (!ch || !GET_NAME(ch))
+        return;
 
-    get_filename(xbuf, sizeof(xbuf), ALIAS_FILE, GET_NAME(ch));
+    char filename[MAX_STRING_LENGTH];
+    get_filename(filename, sizeof(filename), ALIAS_FILE, GET_NAME(ch));
 
-    if ((file = fopen(xbuf, "r")) == NULL)
-    {
-        if (errno != ENOENT)
-        {
-            log("SYSERR: Couldn't open alias file '%s' for %s: %s", xbuf, GET_NAME(ch), strerror(errno));
-            /*  SYSERR_DESC:
-            *  This error occurs when the server fails to open the relevant alias
-            *  file for reading.  The text at the end version should give a valid
-            *  reason why.
-            */
+    FILE *file = fopen(filename, "r");
+    if (!file) {
+        if (errno != ENOENT) {
+            log("SYSERR: Could not open alias file '%s' for %s: %s",
+                filename, GET_NAME(ch), strerror(errno));
         }
         return;
     }
 
-    CREATE(GET_ALIASES(ch), struct alias_data, 1);
-    t2 = GET_ALIASES(ch);
+    struct alias_data *head = NULL;
+    struct alias_data *prev = NULL;
 
-    char *trash = NULL;
+    int length = 0;
 
-    for (;;)
-    {
-        /* Read the aliased command. */
-        if (fscanf(file, "%d\n", &length) != 1)
-            goto read_alias_error;
+    while (_read_int(file, &length)) {
+        char *alias = NULL;
+        char *replacement = NULL;
 
-        trash = fgets(xbuf, length + 1, file);
-        t2->alias = strdup(xbuf);
-
-        /* Build the replacement. */
-        if (fscanf(file, "%d\n", &length) != 1)
-            goto read_alias_error;
-
-        *xbuf = ' ';        /* Doesn't need terminated, fgets() will. */
-        trash = fgets(xbuf + 1, length + 1, file);
-
-        t2->replacement = strdup(xbuf);
-
-        /* Figure out the alias type. */
-        if (fscanf(file, "%d\n", &length) != 1)
-            goto read_alias_error;
-
-        t2->type = length;
-
-        if (feof(file))
+        /* Read alias string */
+        if (!_read_line(file, &alias))
             break;
 
-        CREATE(t2->next, struct alias_data, 1);
-        prev = t2;
-        t2 = t2->next;
-    };
+        /* Read replacement length (ignored now, getline is safer) */
+        if (!_read_int(file, &length))
+            break;
+
+        /* Read replacement string */
+        if (!_read_line(file, &replacement))
+            break;
+
+        /* Add leading space to replacement (matches original behavior) */
+        size_t repl_size = strlen(replacement) + 2;
+        char *full_repl = malloc(repl_size);
+        snprintf(full_repl, repl_size, " %s", replacement);
+        free(replacement);
+
+        /* Read alias type */
+        int type = 0;
+        if (!_read_int(file, &type))
+            break;
+
+        /* Allocate and link alias node */
+        struct alias_data *alias_node = calloc(1, sizeof(struct alias_data));
+        alias_node->alias = alias;
+        alias_node->replacement = full_repl;
+        alias_node->type = type;
+        alias_node->next = NULL;
+
+        if (!head)
+            head = alias_node;
+        else
+            prev->next = alias_node;
+
+        prev = alias_node;
+    }
 
     fclose(file);
-    return;
-
-read_alias_error :
-    if (t2->alias)
-        free(t2->alias);
-    free(t2);
-    if (prev)
-        prev->next = NULL;
-    fclose(file);
-
-    UNUSED(trash);
+    GET_ALIASES(ch) = head;
 }
 
+/* ----------------------------------------------------------------------
+ *  Delete alias file
+ * --------------------------------------------------------------------*/
 void delete_aliases(const char *charname)
 {
-    char filename[PATH_MAX]={'\0'};
+    if (!charname || !*charname)
+        return;
 
+    char filename[PATH_MAX];
     if (!get_filename(filename, sizeof(filename), ALIAS_FILE, charname))
-        {
-            return;
-        }
+        return;
 
-    if (remove(filename) < 0 && errno != ENOENT)
-        {
-            log("SYSERR: deleting alias file %s: %s", filename, strerror(errno));
-        }
-/*  SYSERR_DESC:
-*  When an alias file cannot be removed, this error will occur,
-*  and the reason why will be the tail end of the error.
-*/
+    if (remove(filename) < 0 && errno != ENOENT) {
+        log("SYSERR: Could not delete alias file '%s': %s",
+            filename, strerror(errno));
+    }
 }

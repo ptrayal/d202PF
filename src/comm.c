@@ -248,14 +248,14 @@ void z_free(void *opaque, void *address)
 void gettimeofday(struct timeval *t, struct timezone *dummy)
 {
 #if defined(CIRCLE_WINDOWS)
-  DWORD millisec = GetTickCount();
+    DWORD millisec = GetTickCount();
 #elif defined(CIRCLE_MACINTOSH)
-  unsigned long int millisec;
-  millisec = (int)((float)TickCount() * 1000.0 / 60.0);
+    unsigned long int millisec;
+    millisec = (int)((float)TickCount() * 1000.0 / 60.0);
 #endif
 
-  t->tv_sec = (int) (millisec / 1000);
-  t->tv_usec = (millisec % 1000) * 1000;
+    t->tv_sec = (int) (millisec / 1000);
+    t->tv_usec = (millisec % 1000) * 1000;
 }
 
 #endif	/* CIRCLE_WINDOWS || CIRCLE_MACINTOSH */
