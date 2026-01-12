@@ -150,45 +150,49 @@ void print_show_zone(struct char_data *ch, zone_rnum zone);
 
 ACMD(do_echo)
 {
-  char logmsg[MAX_STRING_LENGTH]={'\0'};
+    char logmsg[MAX_STRING_LENGTH] = {'\0'};
 
-  if (has_curse_word(ch, argument)) {
-    return;
-  }
-
-  skip_spaces(&argument);
-
-
-  if (!*argument)
-    send_to_char(ch, "Yes.. but what?\r\n");
-  else {
-    char buf[MAX_INPUT_LENGTH + 4]={'\0'};
-
-  if ((AFF_FLAGGED(ch, AFF_SILENCE) || PLR_FLAGGED(ch, PLR_NOSHOUT)) && subcmd == SCMD_EMOTE) {
-    send_to_char(ch, "You move your mouth but no sound comes out.\r\n");
-    return;
-  }
-
-
-    if (subcmd == SCMD_EMOTE)
-      snprintf(buf, sizeof(buf), "$n %s", argument);
-    else
-      strlcpy(buf, argument, sizeof(buf));
-
-    act(buf, FALSE, ch, 0, 0, TO_ROOM);
-
-    if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_TAVERN) && subcmd == SCMD_EMOTE) {
-      GET_RP_EXP(ch) += strlen(argument);
-      sprintf(logmsg, "RPLOG: %s\r\n", buf);
-      log("%s", logmsg);
+    if (has_curse_word(ch, argument))
+    {
+        return;
     }
 
+    skip_spaces(&argument);
 
-    if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
-      send_to_char(ch, "%s", CONFIG_OK);
+
+    if (!*argument)
+        send_to_char(ch, "Yes.. but what?\r\n");
     else
-      act(buf, FALSE, ch, 0, 0, TO_CHAR);
-  }
+    {
+        char buf[MAX_INPUT_LENGTH + 4] = {'\0'};
+
+        if ((AFF_FLAGGED(ch, AFF_SILENCE) || PLR_FLAGGED(ch, PLR_NOSHOUT)) && subcmd == SCMD_EMOTE)
+        {
+            send_to_char(ch, "You move your mouth but no sound comes out.\r\n");
+            return;
+        }
+
+
+        if (subcmd == SCMD_EMOTE)
+            snprintf(buf, sizeof(buf), "$n %s", argument);
+        else
+            strlcpy(buf, argument, sizeof(buf));
+
+        act(buf, FALSE, ch, 0, 0, TO_ROOM);
+
+        if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_TAVERN) && subcmd == SCMD_EMOTE)
+        {
+            GET_RP_EXP(ch) += strlen(argument);
+            sprintf(logmsg, "RPLOG: %s\r\n", buf);
+            log("%s", logmsg);
+        }
+
+
+        if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
+            send_to_char(ch, "%s", CONFIG_OK);
+        else
+            act(buf, FALSE, ch, 0, 0, TO_CHAR);
+    }
 }
 
 
@@ -2597,36 +2601,44 @@ ACMD(do_wiznet)
 
 ACMD(do_zreset)
 {
-  char arg[MAX_INPUT_LENGTH]={'\0'};
-  zone_rnum i;
-  zone_vnum j;
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
+    zone_rnum i;
+    zone_vnum j;
 
-  one_argument(argument, arg);
-  if (*arg == '*') {
-    if (GET_LEVEL(ch) < ADMLVL_GOD){
-       send_to_char(ch, "You do not have permission to reset the entire world.\r\n");
-       return;
-    } else {
-      for (i = 0; i <= top_of_zone_table; i++)
-        reset_zone(i);
-      send_to_char(ch, "Reset world.\r\n");
-      mudlog(NRM, MAX(ADMLVL_GRGOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s reset entire world.", GET_NAME(ch));
-      return; 
+    one_argument(argument, arg);
+    if (*arg == '*')
+    {
+        if (GET_LEVEL(ch) < ADMLVL_GOD)
+        {
+            send_to_char(ch, "You do not have permission to reset the entire world.\r\n");
+            return;
+        }
+        else
+        {
+            for (i = 0; i <= top_of_zone_table; i++)
+                reset_zone(i);
+            send_to_char(ch, "Reset world.\r\n");
+            mudlog(NRM, MAX(ADMLVL_GRGOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s reset entire world.", GET_NAME(ch));
+            return;
+        }
     }
-  } else if (*arg == '.' || !*arg)
-    i = world[IN_ROOM(ch)].zone;
-  else {
-    j = atoi(arg);
-    for (i = 0; i <= top_of_zone_table; i++)
-      if (zone_table[i].number == j)
-	break;
-  }
-  if (i <= top_of_zone_table && (can_edit_zone(ch, i) || GET_LEVEL(ch) > ADMLVL_IMMORT)) {
-    reset_zone(i);
-    send_to_char(ch, "Reset zone #%d: %s.\r\n", zone_table[i].number, zone_table[i].name);
-    mudlog(NRM, MAX(ADMLVL_GRGOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s reset zone %d (%s)", GET_NAME(ch), zone_table[i].number, zone_table[i].name);
-  } else
-    send_to_char(ch, "You do not have permission to reset this zone. Try %d.\r\n", GET_OLC_ZONE(ch));
+    else if (*arg == '.' || !*arg)
+        i = world[IN_ROOM(ch)].zone;
+    else
+    {
+        j = atoi(arg);
+        for (i = 0; i <= top_of_zone_table; i++)
+            if (zone_table[i].number == j)
+                break;
+    }
+    if (i <= top_of_zone_table && (can_edit_zone(ch, i) || GET_LEVEL(ch) > ADMLVL_IMMORT))
+    {
+        reset_zone(i);
+        send_to_char(ch, "Reset zone #%d: %s.\r\n", zone_table[i].number, zone_table[i].name);
+        mudlog(NRM, MAX(ADMLVL_GRGOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s reset zone %d (%s)", GET_NAME(ch), zone_table[i].number, zone_table[i].name);
+    }
+    else
+        send_to_char(ch, "You do not have permission to reset this zone. Try %d.\r\n", GET_OLC_ZONE(ch));
 }
 
 
@@ -2635,134 +2647,152 @@ ACMD(do_zreset)
  */
 ACMD(do_wizutil)
 {
-    char arg[MAX_INPUT_LENGTH] = {'\0'};
-    struct char_data *vict;
-    int taeller = 0;
-    long result;
+    char arg[MAX_INPUT_LENGTH] = "";
+    struct char_data *vict = NULL;
 
     one_argument(argument, arg);
 
-    if (!*arg)
+    if (!*arg) {
         send_to_char(ch, "Yes, but for whom?!?\r\n");
-    else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD)))
-        send_to_char(ch, "There is no such player.\r\n");
-    else if (IS_NPC(vict))
-        send_to_char(ch, "You can't do that to a mob!\r\n");
-    else if (GET_ADMLEVEL(vict) > GET_ADMLEVEL(ch))
-        send_to_char(ch, "Hmmm...you'd better not.\r\n");
-    else
-    {
-        switch (subcmd)
-        {
-            bool has_aff = FALSE;
+        return;
+    }
 
+    vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD);
+    if (!vict) {
+        send_to_char(ch, "There is no such player.\r\n");
+        return;
+    }
+
+    if (IS_NPC(vict)) {
+        send_to_char(ch, "You can't do that to a mob!\r\n");
+        return;
+    }
+
+    if (GET_ADMLEVEL(vict) > GET_ADMLEVEL(ch)) {
+        send_to_char(ch, "Hmmm... you'd better not.\r\n");
+        return;
+    }
+
+    switch (subcmd) {
         case SCMD_REROLL:
             send_to_char(ch, "Rerolled...\r\n");
             roll_real_abils(vict);
             log("(GC) %s has rerolled %s.", GET_NAME(ch), GET_NAME(vict));
-            send_to_char(ch, "New stats: Str %d, Int %d, Wis %d, Dex %d, Con %d, Cha %d\r\n",
-                         GET_STR(vict), GET_INT(vict), GET_WIS(vict),
-                         GET_DEX(vict), GET_CON(vict), GET_CHA(vict));
+            send_to_char(ch,
+                "New stats: Str %d, Int %d, Wis %d, Dex %d, Con %d, Cha %d\r\n",
+                GET_STR(vict), GET_INT(vict), GET_WIS(vict),
+                GET_DEX(vict), GET_CON(vict), GET_CHA(vict));
             break;
+
         case SCMD_PARDON:
-            if (!PLR_FLAGGED(vict, PLR_THIEF) &&  !PLR_FLAGGED(vict, PLR_KILLER))
-            {
+            if (!PLR_FLAGGED(vict, PLR_THIEF) && !PLR_FLAGGED(vict, PLR_KILLER)) {
                 send_to_char(ch, "Your victim is not flagged.\r\n");
-                return;
+                break;
             }
             REMOVE_BIT_AR(PLR_FLAGS(vict), PLR_THIEF);
             REMOVE_BIT_AR(PLR_FLAGS(vict), PLR_KILLER);
             send_to_char(ch, "Pardoned.\r\n");
             send_to_char(vict, "You have been pardoned by the Gods!\r\n");
-            mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s pardoned by %s", GET_NAME(vict), GET_NAME(ch));
+            mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE,
+                   "(GC) %s pardoned by %s.", GET_NAME(vict), GET_NAME(ch));
             break;
+
         case SCMD_NOTITLE:
-            result = PLR_TOG_CHK(vict, PLR_NOTITLE);
-            mudlog(NRM, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) Notitle %s for %s by %s.",
-                   ONOFF(result), GET_NAME(vict), GET_NAME(ch));
-            send_to_char(ch, "(GC) Notitle %s for %s by %s.\r\n", ONOFF(result), GET_NAME(vict), GET_NAME(ch));
-            break;
-        case SCMD_SQUELCH:
-            result = PLR_TOG_CHK(vict, PLR_NOSHOUT);
-            mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) Squelch %s for %s by %s.",
-                   ONOFF(result), GET_NAME(vict), GET_NAME(ch));
-            send_to_char(ch, "(GC) Squelch %s for %s by %s.\r\n", ONOFF(result), GET_NAME(vict), GET_NAME(ch));
-            break;
-        case SCMD_FREEZE:
-            if (ch == vict)
             {
-                send_to_char(ch, "Oh, yeah, THAT'S real smart...\r\n");
-                return;
+                long result = PLR_TOG_CHK(vict, PLR_NOTITLE);
+                mudlog(NRM, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE,
+                       "(GC) Notitle %s for %s by %s.",
+                       ONOFF(result), GET_NAME(vict), GET_NAME(ch));
+                send_to_char(ch, "(GC) Notitle %s for %s.\r\n",
+                             ONOFF(result), GET_NAME(vict));
             }
-            if (PLR_FLAGGED(vict, PLR_FROZEN))
+            break;
+
+        case SCMD_SQUELCH:
             {
+                long result = PLR_TOG_CHK(vict, PLR_NOSHOUT);
+                mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE,
+                       "(GC) Squelch %s for %s by %s.",
+                       ONOFF(result), GET_NAME(vict), GET_NAME(ch));
+                send_to_char(ch, "(GC) Squelch %s for %s.\r\n",
+                             ONOFF(result), GET_NAME(vict));
+            }
+            break;
+
+        case SCMD_FREEZE:
+            if (ch == vict) {
+                send_to_char(ch, "Oh, yeah, THAT'S real smart...\r\n");
+                break;
+            }
+            if (PLR_FLAGGED(vict, PLR_FROZEN)) {
                 send_to_char(ch, "Your victim is already pretty cold.\r\n");
-                return;
+                break;
             }
             SET_BIT_AR(PLR_FLAGS(vict), PLR_FROZEN);
             GET_FREEZE_LEV(vict) = GET_ADMLEVEL(ch);
-            send_to_char(vict, "A bitter wind suddenly rises and drains every erg of heat from your body!\r\nYou feel frozen!\r\n");
+            send_to_char(vict, "A bitter wind rises, freezing you solid!\r\n");
             send_to_char(ch, "Frozen.\r\n");
-            act("A sudden cold wind conjured from nowhere freezes $n!", FALSE, vict, 0, 0, TO_ROOM);
-            mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s frozen by %s.", GET_NAME(vict), GET_NAME(ch));
+            act("A sudden cold wind conjured from nowhere freezes $n!",
+                FALSE, vict, 0, 0, TO_ROOM);
+            mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE,
+                   "(GC) %s frozen by %s.", GET_NAME(vict), GET_NAME(ch));
             break;
+
         case SCMD_THAW:
-            if (!PLR_FLAGGED(vict, PLR_FROZEN))
-            {
-                send_to_char(ch, "Sorry, your victim is not morbidly encased in ice at the moment.\r\n");
-                return;
+            if (!PLR_FLAGGED(vict, PLR_FROZEN)) {
+                send_to_char(ch, "Your victim is not frozen.\r\n");
+                break;
             }
-            if (GET_FREEZE_LEV(vict) > GET_ADMLEVEL(ch))
-            {
-                send_to_char(ch, "Sorry, a level %d God froze %s... you can't unfreeze %s.\r\n",
+            if (GET_FREEZE_LEV(vict) > GET_ADMLEVEL(ch)) {
+                send_to_char(ch,
+                             "Sorry, a level %d God froze %s... you can't unfreeze %s.\r\n",
                              GET_FREEZE_LEV(vict), GET_NAME(vict), HMHR(vict));
-                return;
+                break;
             }
-            mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s un-frozen by %s.", GET_NAME(vict), GET_NAME(ch));
             REMOVE_BIT_AR(PLR_FLAGS(vict), PLR_FROZEN);
-            send_to_char(vict, "A fireball suddenly explodes in front of you, melting the ice!\r\nYou feel thawed.\r\n");
+            send_to_char(vict, "A fireball explodes, melting the ice!\r\n");
             send_to_char(ch, "Thawed.\r\n");
-            act("A sudden fireball conjured from nowhere thaws $n!", FALSE, vict, 0, 0, TO_ROOM);
+            act("A sudden fireball conjured from nowhere thaws $n!",
+                FALSE, vict, 0, 0, TO_ROOM);
+            mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE,
+                   "(GC) %s unfrozen by %s.", GET_NAME(vict), GET_NAME(ch));
             break;
+
         case SCMD_UNAFFECT:
-            for (taeller = 0; taeller < AF_ARRAY_MAX; taeller++)
             {
-                if (AFF_FLAGS(vict)[taeller])
-                {
-                    has_aff = TRUE;
-                    break;
+                bool has_aff = FALSE;
+                for (int i = 0; i < AF_ARRAY_MAX; i++) {
+                    if (AFF_FLAGS(vict)[i]) {
+                        has_aff = TRUE;
+                        break;
+                    }
+                }
+
+                if (vict->affected || vict->affectedv || has_aff) {
+                    while (vict->affected)
+                        affect_remove(vict, vict->affected);
+                    while (vict->affectedv)
+                        affectv_remove(vict, vict->affectedv);
+
+                    for (int i = 0; i < AF_ARRAY_MAX; i++)
+                        AFF_FLAGS(vict)[i] = 0;
+
+                    send_to_char(vict,
+                        "A flash of light! You feel slightly different.\r\n");
+                    send_to_char(ch, "All spells removed.\r\n");
+                } else {
+                    send_to_char(ch, "Your victim has no active effects!\r\n");
                 }
             }
+            break;
 
-            if (vict->affected || vict->affectedv || has_aff)
-            {
-                while (vict->affected)
-                    affect_remove(vict, vict->affected);
-                for(taeller = 0; taeller < AF_ARRAY_MAX; taeller++)
-                    AFF_FLAGS(ch)[taeller] = 0;
-                while (vict->affectedv)
-                    affectv_remove(vict, vict->affectedv);
-                for(taeller = 0; taeller < AF_ARRAY_MAX; taeller++)
-                    AFF_FLAGS(ch)[taeller] = 0;
-                send_to_char(vict, "There is a brief flash of light!\r\nYou feel slightly different.\r\n");
-                send_to_char(ch, "All spells removed.\r\n");
-            }
-            else
-            {
-                send_to_char(ch, "Your victim does not have any affections!\r\n");
-                return;
-            }
-            break;
         default:
-            log("SYSERR: Unknown subcmd %d passed to do_wizutil (%s)", subcmd, __FILE__);
-            /*  SYSERR_DESC:
-            *  This is the same as the unhandled case in do_gen_ps(), but this
-            *  function handles 'reroll', 'pardon', 'freeze', etc.
-            */
+            log("SYSERR: Unknown subcmd %d passed to do_wizutil (%s)",
+                subcmd, __FILE__);
             break;
-        }
-        save_char(vict);
     }
+
+    save_char(vict);
 }
 
 
@@ -2831,38 +2861,39 @@ size_t print_zone_to_buf(char *bufptr, size_t left, zone_rnum zone, int listall)
 void print_show_zone(struct char_data *ch, zone_rnum zone)
 {
 
-	int j = 0;
-/*
-	char levelRanges[MAX_STRING_LENGTH];
+    int j = 0;
+    /*
+      char levelRanges[MAX_STRING_LENGTH];
 
-	sprintf(levelRanges, "(");
-	
-	for (j = 1; j < NUM_LEVEL_RANGES; j++)
-		if (IS_SET(zone_table[zone].level_range, (1 << j)))
-			sprintf(levelRanges, "%s%s ", levelRanges, level_ranges[j]);	
+      sprintf(levelRanges, "(");
 
-	if (zone_table[zone].level_range == 0)
-    sprintf(levelRanges, "(Any");
-		
-	sprintf(levelRanges, "%s)", levelRanges);	
-*/
-  send_to_char(ch, "%3d %-30.30s By: %-10.20s State: %-11.11s Lvls: ", zone_table[zone].number, zone_table[zone].name, zone_table[zone].builders, 
-zone_table[zone].zone_status == 2 ? "open" : (zone_table[zone].zone_status == 1 ? "in progress" : "closed"));  
-  
-  
-	send_to_char(ch, "( ");
+      for (j = 1; j < NUM_LEVEL_RANGES; j++)
+        if (IS_SET(zone_table[zone].level_range, (1 << j)))
+          sprintf(levelRanges, "%s%s ", levelRanges, level_ranges[j]);
 
-	if (zone_table[zone].level_range == 0)
-    send_to_char(ch, "Any ");
-    else {	
-		for (j = 1; j < NUM_LEVEL_RANGES; j++)
-			if (IS_SET(zone_table[zone].level_range, (1 << j)))
-				send_to_char(ch, "%s ", level_ranges[j]);	
+      if (zone_table[zone].level_range == 0)
+        sprintf(levelRanges, "(Any");
+
+      sprintf(levelRanges, "%s)", levelRanges);
+    */
+    send_to_char(ch, "%3d %-30.30s By: %-10.20s State: %-11.11s Lvls: ", zone_table[zone].number, zone_table[zone].name, zone_table[zone].builders,
+                 zone_table[zone].zone_status == 2 ? "open" : (zone_table[zone].zone_status == 1 ? "in progress" : "closed"));
+
+
+    send_to_char(ch, "( ");
+
+    if (zone_table[zone].level_range == 0)
+        send_to_char(ch, "Any ");
+    else
+    {
+        for (j = 1; j < NUM_LEVEL_RANGES; j++)
+            if (IS_SET(zone_table[zone].level_range, (1 << j)))
+                send_to_char(ch, "%s ", level_ranges[j]);
     }
-		
-	send_to_char(ch, ")\r\n");	  
-  
-  //send_to_char(ch, "%-15s\r\n", levelRanges);
+
+    send_to_char(ch, ")\r\n");
+
+    //send_to_char(ch, "%-15s\r\n", levelRanges);
 }
 
 
@@ -4001,99 +4032,119 @@ int perform_set(struct char_data *ch, struct char_data *vict, int mode,
 
 ACMD(do_set)
 {
-  struct char_data *vict = NULL, *cbuf = NULL;
-  char field[MAX_INPUT_LENGTH]={'\0'}, name[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_INPUT_LENGTH]={'\0'};
-  int mode = 0, len = 0, player_i = 0, retval = 0;
-  char is_file = 0, is_player = 0;
+    struct char_data *vict = NULL, *cbuf = NULL;
+    char field[MAX_INPUT_LENGTH] = {'\0'}, name[MAX_INPUT_LENGTH] = {'\0'}, buf[MAX_INPUT_LENGTH] = {'\0'};
+    int mode = 0, len = 0, player_i = 0, retval = 0;
+    char is_file = 0, is_player = 0;
 
-  half_chop(argument, name, buf);
+    half_chop(argument, name, buf);
 
-  if (!strcmp(name, "file")) {
-    is_file = 1;
-    half_chop(buf, name, buf);
-  } else if (!str_cmp(name, "player")) {
-    is_player = 1;
-    half_chop(buf, name, buf);
-  } else if (!str_cmp(name, "mob"))
-    half_chop(buf, name, buf);
-
-  half_chop(buf, field, buf);
-
-  if (!*name || !*field) {
-    send_to_char(ch, "Usage: set <victim> <field> <value>\r\n");
-    return;
-  }
-
-  /* find the target */
-  if (!is_file) {
-    if (is_player) {
-      if (!(vict = get_player_vis(ch, name, NULL, FIND_CHAR_WORLD))) {
-	send_to_char(ch, "There is no such player.\r\n");
-	return;
-      }
-    } else { /* is_mob */
-      if (!(vict = get_char_vis(ch, name, NULL, FIND_CHAR_WORLD))) {
-	send_to_char(ch, "There is no such creature.\r\n");
-	return;
-      }
+    if (!strcmp(name, "file"))
+    {
+        is_file = 1;
+        half_chop(buf, name, buf);
     }
-  } else if (is_file) {
-    /* try to load the player off disk */
-    CREATE(cbuf, struct char_data, 1);
-    clear_char(cbuf);
-    CREATE(cbuf->player_specials, struct player_special_data, 1);
-    if ((player_i = load_char(name, cbuf)) > -1) {
-      if (GET_ADMLEVEL(cbuf) >= GET_ADMLEVEL(ch)) {
-	free_char(cbuf);
-	send_to_char(ch, "Sorry, you can't do that.\r\n");
-	return;
-      }
-      vict = cbuf;
-    } else {
-      free_char(cbuf);
-      send_to_char(ch, "There is no such player.\r\n");
-      return;
+    else if (!str_cmp(name, "player"))
+    {
+        is_player = 1;
+        half_chop(buf, name, buf);
     }
-  }
+    else if (!str_cmp(name, "mob"))
+        half_chop(buf, name, buf);
 
-  /* find the command in the list */
-  len = strlen(field);
-  for (mode = 0; *(set_fields[mode].cmd) != '\n'; mode++)
-    if (!strcmp(field, set_fields[mode].cmd))
-      break;
-  if (*(set_fields[mode].cmd) == '\n') 
-    for (mode = 0; *(set_fields[mode].cmd) != '\n'; mode++) 
-      if (!strncmp(field, set_fields[mode].cmd, len)) 
-        break; 
+    half_chop(buf, field, buf);
 
-  /* perform the set */
-  retval = perform_set(ch, vict, mode, buf);
-
-  /* save the character if a change was made */
-  if (retval) {
-    if (!is_file && !IS_NPC(vict))
-      save_char(vict);
-    if (is_file) {
-      GET_PFILEPOS(cbuf) = player_i;
-      save_char(cbuf);
-      send_to_char(ch, "Saved in file.\r\n");
+    if (!*name || !*field)
+    {
+        send_to_char(ch, "Usage: set <victim> <field> <value>\r\n");
+        return;
     }
-  }
 
-  /* free the memory if we allocated it earlier */
-  if (is_file)
-    free_char(cbuf);
+    /* find the target */
+    if (!is_file)
+    {
+        if (is_player)
+        {
+            if (!(vict = get_player_vis(ch, name, NULL, FIND_CHAR_WORLD)))
+            {
+                send_to_char(ch, "There is no such player.\r\n");
+                return;
+            }
+        }
+        else     /* is_mob */
+        {
+            if (!(vict = get_char_vis(ch, name, NULL, FIND_CHAR_WORLD)))
+            {
+                send_to_char(ch, "There is no such creature.\r\n");
+                return;
+            }
+        }
+    }
+    else if (is_file)
+    {
+        /* try to load the player off disk */
+        CREATE(cbuf, struct char_data, 1);
+        clear_char(cbuf);
+        CREATE(cbuf->player_specials, struct player_special_data, 1);
+        if ((player_i = load_char(name, cbuf)) > -1)
+        {
+            if (GET_ADMLEVEL(cbuf) >= GET_ADMLEVEL(ch))
+            {
+                free_char(cbuf);
+                send_to_char(ch, "Sorry, you can't do that.\r\n");
+                return;
+            }
+            vict = cbuf;
+        }
+        else
+        {
+            free_char(cbuf);
+            send_to_char(ch, "There is no such player.\r\n");
+            return;
+        }
+    }
+
+    /* find the command in the list */
+    len = strlen(field);
+    for (mode = 0; * (set_fields[mode].cmd) != '\n'; mode++)
+        if (!strcmp(field, set_fields[mode].cmd))
+            break;
+    if (*(set_fields[mode].cmd) == '\n')
+        for (mode = 0; * (set_fields[mode].cmd) != '\n'; mode++)
+            if (!strncmp(field, set_fields[mode].cmd, len))
+                break;
+
+    /* perform the set */
+    retval = perform_set(ch, vict, mode, buf);
+
+    /* save the character if a change was made */
+    if (retval)
+    {
+        if (!is_file && !IS_NPC(vict))
+            save_char(vict);
+        if (is_file)
+        {
+            GET_PFILEPOS(cbuf) = player_i;
+            save_char(cbuf);
+            send_to_char(ch, "Saved in file.\r\n");
+        }
+    }
+
+    /* free the memory if we allocated it earlier */
+    if (is_file)
+        free_char(cbuf);
 }
 
 ACMD(do_saveall)
 {
- if (GET_ADMLEVEL(ch) < ADMLVL_BUILDER)
-    send_to_char (ch, "You are not holy enough to use this privelege.\n\r");
- else {
-    save_all();
-    House_save_all();
-    send_to_char(ch, "World and house files saved.\n\r");
- }
+    if (GET_ADMLEVEL(ch) < ADMLVL_BUILDER)
+        send_to_char (ch, "You are not holy enough to use this privelege.\n\r");
+    else
+    {
+        save_all();
+        House_save_all();
+        send_to_char(ch, "World and house files saved.\n\r");
+    }
 }
 
 ACMD(do_players)
@@ -4173,18 +4224,21 @@ ACMD(do_players)
 
 ACMD(do_peace)
 {
-  struct char_data *vict, *next_v;
-  send_to_room(IN_ROOM(ch), "Everything is quite peaceful now.\r\n");
+    struct char_data * vict, *next_v;
+    send_to_room(IN_ROOM(ch), "Everything is quite peaceful now.\r\n");
 
-    for (vict = world[IN_ROOM(ch)].people; vict; vict = next_v) {
-      next_v = vict->next_in_room;  
-      if (GET_ADMLEVEL(vict) >= GET_ADMLEVEL(ch)) 
-        continue;
-      stop_fighting(vict);  
-      GET_POS(vict) = POS_SITTING; 
+    for (vict = world[IN_ROOM(ch)].people; vict; vict = next_v)
+    {
+        next_v = vict->next_in_room;
+        if (GET_ADMLEVEL(vict) >= GET_ADMLEVEL(ch))
+        {
+            continue;
+        }
+        stop_fighting(vict);
+        GET_POS(vict) = POS_SITTING;
     }
     stop_fighting(ch);
-    GET_POS(ch) = POS_STANDING;  
+    GET_POS(ch) = POS_STANDING;
 }
 
 ACMD(do_wizupdate)
@@ -4195,46 +4249,50 @@ ACMD(do_wizupdate)
 
 ACMD(do_raise)
 {
-  room_rnum rm;
-  struct char_data *vict = NULL;
-  char name[MAX_INPUT_LENGTH]={'\0'};
+    room_rnum rm;
+    struct char_data *vict = NULL;
+    char name[MAX_INPUT_LENGTH] = {'\0'};
 
-  one_argument(argument, name);
+    one_argument(argument, name);
 
-  if (!(vict = get_player_vis(ch, name, NULL, FIND_CHAR_WORLD))) {
-    send_to_char(ch, "There is no such player.\r\n");
-    return;
-  }
+    if (!(vict = get_player_vis(ch, name, NULL, FIND_CHAR_WORLD)))
+    {
+        send_to_char(ch, "There is no such player.\r\n");
+        return;
+    }
 
-  if (IS_NPC(vict)) {
-    send_to_char(ch, "Sorry, only players get spirits.\r\n");
-    return;
-  }
+    if (IS_NPC(vict))
+    {
+        send_to_char(ch, "Sorry, only players get spirits.\r\n");
+        return;
+    }
 
-  if (!AFF_FLAGGED(vict, AFF_SPIRIT)) {
-    send_to_char(ch, "But they aren't even dead!\r\n");
-    return;
-  }
+    if (!AFF_FLAGGED(vict, AFF_SPIRIT))
+    {
+        send_to_char(ch, "But they aren't even dead!\r\n");
+        return;
+    }
 
-  send_to_char(ch, "@yYou return %s from the @Bspirit@y world, to the world of the living!\r\n", GET_NAME(vict));
-  send_to_char(vict, "@yYour @Bspirit@y has been returned to the world of the living by %s!\r\n", GET_NAME(ch));
+    send_to_char(ch, "@yYou return %s from the @Bspirit@y world, to the world of the living!\r\n", GET_NAME(vict));
+    send_to_char(vict, "@yYour @Bspirit@y has been returned to the world of the living by %s!\r\n", GET_NAME(ch));
 
-  REMOVE_BIT_AR(AFF_FLAGS(vict), AFF_SPIRIT);
-  REMOVE_BIT_AR(AFF_FLAGS(vict), AFF_ETHEREAL);
+    REMOVE_BIT_AR(AFF_FLAGS(vict), AFF_SPIRIT);
+    REMOVE_BIT_AR(AFF_FLAGS(vict), AFF_ETHEREAL);
 
-  if (GET_HIT(vict) < 1)
-    GET_HIT(vict) = 1;
+    if (GET_HIT(vict) < 1)
+        GET_HIT(vict) = 1;
 
-//  if ((rm = real_room(freeres[ALIGN_TYPE(vict)])) == NOWHERE)
-  rm = real_room(CONFIG_MORTAL_START);
+    //  if ((rm = real_room(freeres[ALIGN_TYPE(vict)])) == NOWHERE)
+    rm = real_room(CONFIG_MORTAL_START);
 
-  if (rm != NOWHERE) {
-    char_from_room(vict);
-    char_to_room(vict, rm);
-    look_at_room(IN_ROOM(vict), vict, 0);
-  }
+    if (rm != NOWHERE)
+    {
+        char_from_room(vict);
+        char_to_room(vict, rm);
+        look_at_room(IN_ROOM(vict), vict, 0);
+    }
 
-  act("$n's body forms in a pool of @Bblue light@n.", TRUE, vict, 0, 0, TO_ROOM);
+    act("$n's body forms in a pool of @Bblue light@n.", TRUE, vict, 0, 0, TO_ROOM);
 }
 
 ACMD(do_chown)
@@ -4484,50 +4542,59 @@ ACMD(do_review)
 ACMD(do_awardexp)
 {
 
-  char arg[100]={'\0'};
-  char arg2[100]={'\0'};
-  struct char_data *vict;
-  int amount = 0;
-  int act_exp = 0;
+    char arg[100] = {'\0'};
+    char arg2[100] = {'\0'};
+    struct char_data *vict;
+    int amount = 0;
+    int act_exp = 0;
 
-  two_arguments(argument, arg, arg2);
+    two_arguments(argument, arg, arg2);
 
-  if (!*arg) {
-    send_to_char(ch, "Award Experience to who?\r\n");
-    return;
-  }
-  if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD))) {
-    send_to_char(ch, "%s", CONFIG_NOPERSON);
-    return;
-  }
-  if (!*arg2) {
-    send_to_char(ch, "Award experience for good, great or outstanding role playing?\r\n");
-    return;
-  }
-  if (is_abbrev(arg2, "good")) {
-    amount = mob_exp_by_level(GET_LEVEL(vict)) * 20;
-    act_exp = 250;
-  }
-  else if (is_abbrev(arg2, "great")) {
-    amount = mob_exp_by_level(GET_LEVEL(vict)) * 50;
-    act_exp = 600;    
-  }
-  else if (is_abbrev(arg2, "outstanding")) {
-    amount = mob_exp_by_level(GET_LEVEL(vict)) * 100;
-    act_exp = 1000;
-  }
-  else {
-    send_to_char(ch, "Award experience for good, great or outstanding role playing?\r\n");
-    return;
-  }
+    if (!*arg)
+    {
+        send_to_char(ch, "Award Experience to who?\r\n");
+        return;
+    }
+    if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD)))
+    {
+        send_to_char(ch, "%s", CONFIG_NOPERSON);
+        return;
+    }
+    if (!*arg2)
+    {
+        send_to_char(ch, "Award experience for good, great or outstanding role playing?\r\n");
+        return;
+    }
+    if (is_abbrev(arg2, "good"))
+    {
+        amount = mob_exp_by_level(GET_LEVEL(vict)) * 20;
+        act_exp = 250;
+    }
+    else if (is_abbrev(arg2, "great"))
+    {
+        amount = mob_exp_by_level(GET_LEVEL(vict)) * 50;
+        act_exp = 600;
+    }
+    else if (is_abbrev(arg2, "outstanding"))
+    {
+        amount = mob_exp_by_level(GET_LEVEL(vict)) * 100;
+        act_exp = 1000;
+    }
+    else
+    {
+        send_to_char(ch, "Award experience for good, great or outstanding role playing?\r\n");
+        return;
+    }
 
-  send_to_char(ch, "You award %s with %d experience and %d account exp for their good game play.\r\n", GET_NAME(vict), amount, act_exp);
-  send_to_char(vict, "%s awards you with %d experience and %d account experience for your good game play.\r\n", GET_NAME(ch), amount, act_exp);
-  mudlog(BRF, ADMLVL_IMMORT, TRUE, "%s awards %s with %d experience and %d account experience for their good game play.", GET_NAME(ch), GET_NAME(vict), amount, act_exp);
+    send_to_char(ch, "You award %s with %d experience and %d account exp for their good game play.\r\n", GET_NAME(vict), amount, act_exp);
+    send_to_char(vict, "%s awards you with %d experience and %d account experience for your good game play.\r\n", GET_NAME(ch), amount, act_exp);
+    mudlog(BRF, ADMLVL_IMMORT, TRUE, "%s awards %s with %d experience and %d account experience for their good game play.", GET_NAME(ch), GET_NAME(vict), amount, act_exp);
 
-  gain_exp(vict, amount);
-  if (vict->desc && vict->desc->account)
-    vict->desc->account->experience += act_exp;
+    gain_exp(vict, amount);
+    if (vict->desc && vict->desc->account)
+    {
+        vict->desc->account->experience += act_exp;
+    }
 }
 
 ACMD(do_spellup)
@@ -4570,32 +4637,36 @@ ACMD(do_spellup)
 ACMD(do_reimburse)
 {
 
-  struct char_data *vict;
-  char arg[100]={'\0'};
-  int i = 0;
+    struct char_data *vict;
+    char arg[100] = {'\0'};
+    int i = 0;
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (!*arg) {
-    send_to_char(ch, "Who would you like to reimburse?\r\n");
-    return;
-  }
-
-  if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD))) {
-    send_to_char(ch, "%s", CONFIG_NOPERSON);
-    return;
-  }
-
-  for (i = 0; i < NUM_WEARS; i++) {
-    if (GET_EQ(vict, i)) {
-      send_to_char(ch, "You cannot reimburse them if they are already wearing equipment.\r\n");
-      return;
+    if (!*arg)
+    {
+        send_to_char(ch, "Who would you like to reimburse?\r\n");
+        return;
     }
-  }
 
-  Crash_load(vict, TRUE);
-  send_to_char(ch, "You have reimbursed %s's equipment.\r\n", GET_NAME(vict));
-  send_to_char(vict, "%s has reimbursed your equipment.\r\n", GET_NAME(ch));
+    if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD)))
+    {
+        send_to_char(ch, "%s", CONFIG_NOPERSON);
+        return;
+    }
+
+    for (i = 0; i < NUM_WEARS; i++)
+    {
+        if (GET_EQ(vict, i))
+        {
+            send_to_char(ch, "You cannot reimburse them if they are already wearing equipment.\r\n");
+            return;
+        }
+    }
+
+    Crash_load(vict, TRUE);
+    send_to_char(ch, "You have reimbursed %s's equipment.\r\n", GET_NAME(vict));
+    send_to_char(vict, "%s has reimbursed your equipment.\r\n", GET_NAME(ch));
 
 }
 
@@ -4603,39 +4674,6 @@ ACMD(do_loadcrystal)
 {
   get_random_crystal(ch);
 }
-
-// ACMD(do_test)
-// {
-//     int cls = 0;
-
-//     GRID_DATA *grid;
-//     GRID_ROW *row;
-
-//     grid = create_grid(75);
-//     row = create_row(grid);
-//     // row_append_cell(row, 35, "Base Text[pet_table[0].name]");
-//     // row_append_cell(row, 40, "%s", buf1);
-//     // grid_to_char(grid, ch, TRUE);
-
-//     grid = create_grid(75);
-//     row = create_row(grid);
-//     row_append_cell(row, 5, "#");
-//     row_append_cell(row, 8, "Abbrev");
-//     row_append_cell(row, 20, "Name");
-//     row_append_cell(row, 20, "Type");
-//     // row_append_cell(row, 27, "Prestige");
-//     for (cls = 0; cls < NUM_CLASSES; cls++)
-//     {
-//       row = create_row(grid);
-//       row_append_cell(row, 5, "%d", cls);
-//       row_append_cell(row, 8, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol : class_abbrevs_core)[cls]);
-//       row_append_cell(row, 20, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls]);
-//       row_append_cell(row, 20, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[cls]);
-//       // row_append_cell(row, 27, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? prestige_classes_dl_aol : prestige_classes_core)[cls]);
-//     }
-//     grid_to_char(grid, ch, TRUE);
-
-// }
 
 ACMD(do_test)
 {
