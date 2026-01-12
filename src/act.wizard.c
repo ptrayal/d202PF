@@ -4292,128 +4292,157 @@ ACMD(do_chown)
     }
 }
 
+/*
+ * do_approve.c — Player approval command
+ * 
+ * Refactored for C99 compliance and improved output readability.
+ * Handles two subcommands:
+ *   - approve [player]: Approve a player or list pending approvals
+ *   - reject <player> <reason>: Reject a player's description with reason
+ */
+/* Main approval command */
 ACMD(do_approve)
 {
-  struct char_data * victim;
-  struct descriptor_data * d;
-  char arg[MAX_STRING_LENGTH]={'\0'};
-  char buf[MAX_STRING_LENGTH]={'\0'};
+    struct char_data *victim = NULL;
+    struct descriptor_data *d = NULL;
 
-  switch(subcmd) {
+    char arg[MAX_INPUT_LENGTH] = { '\0' };
+    char buf[MAX_STRING_LENGTH] = { '\0' };
+    char chname[MAX_NAME_LENGTH] = { '\0' };
+    char victname[MAX_NAME_LENGTH] = { '\0' };
 
-  case SCMD_APPROVE:
-    one_argument(argument, arg);
+    switch (subcmd)
+    {
+        case SCMD_APPROVE:
+        {
+            one_argument(argument, arg);
 
-    if ( ! *arg) {
-      /*  show a list of players awaiting approval  */
-      int  count = 0;
+            /* No argument: list all players awaiting approval */
+            if (!*arg)
+            {
+                int count = 0;
+                OUTPUT_TO_CHAR("\r\n"
+                               "==============================================\r\n"
+                               "     Players Awaiting Description Approval\r\n"
+                               "==============================================\r\n",
+                               ch);
 
-      for (d = descriptor_list; d; d = d->next) {
-/* attempt at fixing the approve crash. 11/11/2k --gan
-	if ( (GET_LEVEL(d->character) == 0) && (STATE(d) == CON_PLAYING) ) {
-*/
-        if((STATE(d) == CON_PLAYING) && (IS_APPROVED(d->character) == 0)) {
-	  count++;
-          GET_NAME_I(d->character, chname);
-	  sprintf(buf, " %2d %s\r\n", count, chname);
-          FREE_NAME(chname);
-	  OUTPUT_TO_CHAR(buf, ch);
-	}
-      }
-      if ( count == 0 ) {
-	OUTPUT_TO_CHAR("No one is awaiting approval.\r\n", ch);
-      }
-    } else if ( ! (victim = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD))) {
-      OUTPUT_TO_CHAR(CONFIG_NOPERSON, ch);
-    } else if (victim == ch) {
-      OUTPUT_TO_CHAR("Don't be silly now... approve yourself?!\r\n", ch);
-    } else if (IS_NPC(victim)) {
-      OUTPUT_TO_CHAR("Why are you trying to approve a mob?\r\n", ch);
-    } else if (!victim->desc) {
-      OUTPUT_TO_CHAR("They're linkdead.\r\n", ch);
-    } else if ( STATE(victim->desc) != CON_PLAYING ) {
-      OUTPUT_TO_CHAR("He/she isn't in CON_PLAYING mode yet.\r\n", ch);
-    } else if (IS_APPROVED(victim) != 0) {
-      OUTPUT_TO_CHAR("He/she has already been approved.\r\n", ch);
-    } else {
-      OUTPUT_TO_CHAR(CONFIG_OK, ch);
-      OUTPUT_TO_CHAR("Your character has been approved.", victim);
+                for (d = descriptor_list; d; d = d->next)
+                {
+                    if (STATE(d) == CON_PLAYING && !IS_APPROVED(d->character))
+                    {
+                        count++;
+                        snprintf(chname, sizeof(chname), "%s", GET_NAME(d->character));
+                        snprintf(buf, sizeof(buf), " %2d. %-20s Level %d\r\n",
+                                 count, chname, GET_LEVEL(d->character));
+                        OUTPUT_TO_CHAR(buf, ch);
+                    }
+                }
 
-      GET_NAME_I(ch, chname);
-      GET_NAME_I(victim, victname);
-      sprintf(buf, "%s (lev %d) approved by %s.",
-	      victname, GET_LEVEL(victim), chname);
-      FREE_NAME(victname);
-      FREE_NAME(chname);
-      mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "%s", buf);
+                if (count == 0)
+                {
+                    OUTPUT_TO_CHAR("No players are currently awaiting approval.\r\n", ch);
+                }
+                else
+                {
+                    snprintf(buf, sizeof(buf),
+                             "----------------------------------------------\r\n"
+                             "Total: %d player(s) awaiting approval.\r\n",
+                             count);
+                    OUTPUT_TO_CHAR(buf, ch);
+                }
 
-      IS_APPROVED(victim) = 1;
+                OUTPUT_TO_CHAR("Use 'approve <name>' to approve a player.\r\n", ch);
+            }
+            else
+            {
+                /* Attempt to find and validate target */
+                victim = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD);
 
+                if (!victim)
+                    OUTPUT_TO_CHAR(CONFIG_NOPERSON, ch);
+                else if (victim == ch)
+                    OUTPUT_TO_CHAR("You cannot approve yourself.\r\n", ch);
+                else if (IS_NPC(victim))
+                    OUTPUT_TO_CHAR("You cannot approve NPCs.\r\n", ch);
+                else if (!victim->desc)
+                    OUTPUT_TO_CHAR("That player is currently linkdead.\r\n", ch);
+                else if (STATE(victim->desc) != CON_PLAYING)
+                    OUTPUT_TO_CHAR("That player is not fully connected yet.\r\n", ch);
+                else if (IS_APPROVED(victim))
+                    OUTPUT_TO_CHAR("That player has already been approved.\r\n", ch);
+                else
+                {
+                    /* Success path — approve player */
+                    IS_APPROVED(victim) = 1;
+
+                    OUTPUT_TO_CHAR("You have approved this character.\r\n", ch);
+                    OUTPUT_TO_CHAR("Your character has been approved by an administrator.\r\n", victim);
+
+                    snprintf(chname, sizeof(chname), "%s", GET_NAME(ch));
+                    snprintf(victname, sizeof(victname), "%s", GET_NAME(victim));
+                    snprintf(buf, sizeof(buf),
+                             "[APPROVAL] %s (level %d) approved by %s.",
+                             victname, GET_LEVEL(victim), chname);
+                    mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "%s", buf);
+                }
+            }
+            break;
+        }
+
+        case SCMD_REJECT:
+        {
+            char reason[MAX_INPUT_LENGTH] = { '\0' };
+            argument = one_argument(argument, arg);
+            strlcpy(reason, argument, sizeof(reason));
+
+            if (!*arg)
+                OUTPUT_TO_CHAR("Syntax: reject <player> <reason>\r\n", ch);
+            else if (!(victim = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD)))
+                OUTPUT_TO_CHAR(CONFIG_NOPERSON, ch);
+            else if (victim == ch)
+                OUTPUT_TO_CHAR("You cannot reject yourself.\r\n", ch);
+            else if (IS_NPC(victim))
+                OUTPUT_TO_CHAR("You cannot reject NPCs.\r\n", ch);
+            else if (!victim->desc)
+                OUTPUT_TO_CHAR("That player is linkdead.\r\n", ch);
+            else if (STATE(victim->desc) != CON_PLAYING)
+                OUTPUT_TO_CHAR("That player is not fully connected yet.\r\n", ch);
+            else if (!*reason)
+                OUTPUT_TO_CHAR("You must provide a reason for rejection.\r\n", ch);
+            else
+            {
+                /* Rejection path */
+                OUTPUT_TO_CHAR("Character rejected successfully.\r\n", ch);
+
+                snprintf(victname, sizeof(victname), "%s", GET_NAME(victim));
+                snprintf(buf, sizeof(buf),
+                         "Your character description has been rejected for the following reason:\r\n"
+                         "  %s\r\n"
+                         "Please review and correct it before resubmitting.\r\n",
+                         reason);
+                SEND_TO_Q(buf, victim->desc);
+
+                /* Reset approval and clear descriptions */
+                IS_APPROVED(victim) = 0;
+                GET_PLAYER_KEYWORDS(victim) = NULL;
+                GET_PC_SDESC(victim) = NULL;
+                victim->player_specials->description = NULL;
+                save_char(victim);
+
+                snprintf(chname, sizeof(chname), "%s", GET_NAME(ch));
+                snprintf(buf, sizeof(buf),
+                         "[REJECTION] %s (level %d) rejected by %s. Reason: %s.",
+                         victname, GET_LEVEL(victim), chname, reason);
+                mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "%s", buf);
+            }
+            break;
+        }
+
+        default:
+            log("SYSERR: Invalid subcommand in do_approve()");
+            break;
     }
-
-    break;
-
-  case SCMD_REJECT:
-    argument = one_argument(argument, buf);
-
-    if ( ! *buf) {
-      OUTPUT_TO_CHAR("Whom do you wish to reject?\r\n", ch);
-    } else if ( ! (victim = get_char_vis(ch, buf, NULL, FIND_CHAR_WORLD)) ) {
-      OUTPUT_TO_CHAR(CONFIG_NOPERSON, ch);
-    } else if (victim == ch) {
-      OUTPUT_TO_CHAR("Don't be silly now... reject yourself?!\r\n", ch);
-    } else if (IS_NPC(victim)) {
-      OUTPUT_TO_CHAR("Why are you trying to reject a mob?\r\n", ch);
-    } else if (!victim->desc) {
-      OUTPUT_TO_CHAR("They're linkdead.\r\n", ch);
-    } else if ( STATE(victim->desc) != CON_PLAYING ) {
-      OUTPUT_TO_CHAR("He/she isn't in CON_PLAYING mode yet.\r\n", ch);
-//    } else if (IS_APPROVED(victim)) {
-//      OUTPUT_TO_CHAR("He/she has already been approved.\r\n", ch);
-    } else if ( ! *argument) {
-      OUTPUT_TO_CHAR("What is your reason for rejecting?\r\n", ch);
-    } else {
-      /*  extract and delete victim  */
-      OUTPUT_TO_CHAR(CONFIG_OK, ch);
-
-//      SET_BIT_AR(PLR_FLAGS(victim), PLR_DELETED);
-      GET_NAME_I(victim, victname);
-      sprintf(buf, "Descriptions for character '%s' rejected because:\r\n%s.\r\n",
-	      victname, argument);
-      FREE_NAME(victname);
-      SEND_TO_Q(buf, victim->desc);
-
-
-      /*  PDH  1/28/99
-       *  old erroneous way
-       save_char(victim, NOWHERE);
-       Crash_delete_file(GET_NAME(victim));
-       */
-//      extract_char(victim);
-
-      GET_NAME_I(ch, chname);
-      GET_NAME_I(victim, victname);
-      sprintf(buf, "%s (lev %d) rejected by %s because: %s.",
-	      victname, GET_LEVEL(victim), chname, argument);
-      FREE_NAME(victname);
-      FREE_NAME(chname);
-      mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "%s", buf);
-//      STATE(victim->desc) = CON_CLOSE;
-
-      GET_PLAYER_KEYWORDS(victim) = NULL;
-      GET_PC_SDESC(victim) = NULL;
-      victim->player_specials->description = NULL;
-      IS_APPROVED(victim) = 0;
-      save_char(victim);
-    }
-
-    break;
-
-  default:
-    log("SYSERR: bad SCMD for do_approve");
-    break;
-  }
-
 }
 
 ACMD(do_review)
