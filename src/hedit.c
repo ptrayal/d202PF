@@ -43,7 +43,8 @@ ACMD(do_oasis_hedit)
     if (IS_NPC(ch) || !ch->desc || STATE(ch->desc) != CON_PLAYING)
         return;
 
-    if (GET_OLC_ZONE(ch) != HEDIT_PERMISSION && GET_LEVEL(ch) <= ADMLVL_GRGOD)
+    if (GET_ADMLEVEL(ch) <= ADMLVL_BUILDER)
+
     {
         send_to_char(ch, "You don't have access to editing Help files.\r\n");
         return;
