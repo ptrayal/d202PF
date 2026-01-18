@@ -2477,7 +2477,6 @@ ACMD(do_force)
 }
 
 
-
 ACMD(do_wiznet)
 {
     char buf1[MAX_INPUT_LENGTH + MAX_NAME_LENGTH + 32] = {'\0'},

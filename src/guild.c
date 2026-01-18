@@ -176,22 +176,25 @@ void show_skills(struct char_data *ch)
 
     send_to_char(ch, "@WLanguages:@n (@Gbright green@n if known)\r\n\r\n");
 
+    count = 0;  // ensure count resets
     for (i = MIN_LANGUAGES; i < SKILL_TABLE_SIZE + 1; i++)
     {
-        if ((spell_info[spell_sort_info[i]].skilltype == (SKTYPE_SKILL + SKTYPE_LANG) && spell_sort_info[i] >= SKILL_LANG_LOW && spell_sort_info[i] <=
-                SKILL_LANG_HIGH))
+        if ((spell_info[spell_sort_info[i]].skilltype == (SKTYPE_SKILL + SKTYPE_LANG) &&
+                spell_sort_info[i] >= SKILL_LANG_LOW &&
+                spell_sort_info[i] <= SKILL_LANG_HIGH))
         {
-            send_to_char(ch, "%s%-25s%s", GET_SKILL(ch, spell_sort_info[i]) ? "@G" : "", spell_info[spell_sort_info[i]].name,
+            send_to_char(ch, "%s%-25s%s",
+                         GET_SKILL(ch, spell_sort_info[i]) ? "@G" : "",
+                         spell_info[spell_sort_info[i]].name,
                          GET_SKILL(ch, spell_sort_info[i]) ? "@n" : "");
+
+            count++;
+            if (count % 3 == 0)
+                send_to_char(ch, "\r\n");
         }
-        else
-            continue;
-        if (count % 3 == 1 )
-            send_to_char(ch, "\r\n");
-        count++;
     }
 
-    if (count % 3 == 1 )
+    if (count % 3 != 0)
         send_to_char(ch, "\r\n");
     send_to_char(ch, "\r\n");
 }
