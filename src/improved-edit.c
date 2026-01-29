@@ -101,8 +101,7 @@ void parse_action(int command, char *string, struct descriptor_data *d)
 {
     int indent = 0, rep_all = 0, flags = 0, replaced, i, line_low, line_high, j = 0;
     unsigned int total_len;
-    char *s, *t, temp;
-    char buf[MAX_STRING_LENGTH] = {'\0'};
+    char *s, *t;
     // This may be needed, but gives compiler warnings, so commenting out.
     // char buf2[MAX_STRING_LENGTH] = {'\0'};
 
@@ -254,84 +253,81 @@ void parse_action(int command, char *string, struct descriptor_data *d)
     /* --- Updated section fixing sprintf(buf, "%s...", buf) bug --- */
     case PARSE_LIST_NUM:
     {
-        *buf = '\0';
+        char outbuf[MAX_STRING_LENGTH];
+        size_t used = 0;
+        int line = 1;
+        char *s, *e;
+
+        outbuf[0] = '\0';
+
         if (*string)
+        {
             switch (sscanf(string, " %d - %d ", &line_low, &line_high))
             {
             case 0:
                 line_low = 1;
-                line_high = 999999;
+                line_high = INT_MAX;
                 break;
             case 1:
                 line_high = line_low;
                 break;
             }
+        }
         else
         {
             line_low = 1;
-            line_high = 999999;
+            line_high = INT_MAX;
         }
 
-        if (line_low < 1)
-        {
-            write_to_output(d, "Line numbers must be greater than 0.\r\n");
-            return;
-        }
-        if (line_high < line_low)
+        if (line_low < 1 || line_high < line_low)
         {
             write_to_output(d, "Invalid range.\r\n");
             return;
         }
 
-        i = 1;
-        total_len = 0;
+        if (!*d->str)
+        {
+            write_to_output(d, "Buffer is empty.\r\n");
+            return;
+        }
+
         s = *d->str;
 
-        while (s && i < line_low)
-            if ((s = strchr(s, '\n')) != NULL)
+        while (s && *s && line <= line_high)
+        {
+            e = strchr(s, '\n');
+            if (!e)
+                e = s + strlen(s);
+
+            if (line >= line_low)
             {
-                i++;
-                s++;
+                used += snprintf(outbuf + used, sizeof(outbuf) - used,
+                                 "%4d: %.*s\r\n",
+                                 line,
+                                 (int)(e - s),
+                                 s);
+
+                if (used >= sizeof(outbuf) - 1)
+                    break;
             }
 
-        if (i < line_low || s == NULL)
+            if (*e == '\0')
+                break;
+
+            s = e + 1;
+            line++;
+        }
+
+        if (used == 0)
         {
             write_to_output(d, "Line(s) out of range; no buffer listing.\r\n");
             return;
         }
 
-        t = s;
-        while (s && i <= line_high)
-            if ((s = strchr(s, '\n')) != NULL)
-            {
-                i++;
-                total_len++;
-                s++;
-                temp = *s;
-                *s = '\0';
-
-                char line_buf[64];
-                snprintf(line_buf, sizeof(line_buf), "%4d:\r\n", (i - 1));
-                SAFE_CAT(buf, line_buf);
-                SAFE_CAT(buf, t);
-
-                *s = temp;
-                t = s;
-            }
-
-        if (s && t)
-        {
-            temp = *s;
-            *s = '\0';
-            SAFE_CAT(buf, t);
-            *s = temp;
-        }
-        else if (t)
-            SAFE_CAT(buf, t);
-
-        page_string(d, buf, TRUE);
+        page_string(d, outbuf, TRUE);
         break;
     }
+
 
     default:
         write_to_output(d, "Invalid option.\r\n");
@@ -351,190 +347,167 @@ void parse_action(int command, char *string, struct descriptor_data *d)
  */
 void format_text(char **ptr_string, int mode, struct descriptor_data *d, unsigned int maxlen)
 {
-    int line_chars, cap_next = TRUE, cap_next_next = FALSE, color_chars = 0, i;
-    char *flow, *start = NULL, temp;
-    char formatted[MAX_STRING_LENGTH] = {'\0'};
+    int line_chars = 0, cap_next = TRUE, cap_next_next = FALSE;
+    int color_chars = 0;
+    char *flow, *start = NULL;
+    char formatted[MAX_STRING_LENGTH];
+    size_t used = 0;
+    char temp;
 
-    /* Fix memory overrun. */
-    if (d->max_str > MAX_STRING_LENGTH)
-    {
-        log("SYSERR: format_text: max_str is greater than buffer size.");
+    if (!ptr_string || !*ptr_string)
         return;
-    }
 
-    /* XXX: Want to make sure the string doesn't grow either... */
+    if (maxlen > MAX_STRING_LENGTH)
+        maxlen = MAX_STRING_LENGTH;
 
-    if ((flow = *ptr_string) == NULL)
-        return;
+    flow = *ptr_string;
+    formatted[0] = '\0';
 
     if (IS_SET(mode, FORMAT_INDENT))
     {
-        strcpy(formatted, "   ");
+        snprintf(formatted, sizeof(formatted), "   ");
+        used = 3;
         line_chars = 3;
     }
-    else
-    {
-        *formatted = '\0';
-        line_chars = 0;
-    }
 
-    while (*flow)
+    while (*flow && used < maxlen - 1)
     {
         while (*flow && strchr("\n\r\f\t\v ", *flow))
             flow++;
 
-        if (*flow)
+        if (!*flow)
+            break;
+
+        start = flow;
+        while (*flow && !strchr("\n\r\f\t\v .?!", *flow))
         {
-            start = flow;
-            while (*flow && !strchr("\n\r\f\t\v .?!", *flow))
-            {
-                if (*flow == '@')
-                {
-                    if (*(flow + 1) == '@')
-                        color_chars++;
-                    flow++;
-                }
-                flow++;
-            }
-
-            if (cap_next_next)
-            {
-                cap_next_next = FALSE;
-                cap_next = TRUE;
-            }
-
-            /*
-             * This is so that if we stopped on a sentence .. we move off the
-             * sentence delimiter.
-             */
-            while (strchr(".!?", *flow))
-            {
-                cap_next_next = TRUE;
-                flow++;
-            }
-
-            temp = *flow;
-            *flow = '\0';
-
-            if (line_chars + strlen(start) + 1 - color_chars > PAGE_WIDTH)
-            {
-                strcat(formatted, "\r\n");
-                color_chars = line_chars = 0;
-                for (i = 0; start[i]; i++)
-                    if (start[i] == '@')
-                        color_chars += 2;
-            }
-
-            if (!cap_next)
-            {
-                if (line_chars > 0)
-                {
-                    strcat(formatted, " ");
-                    line_chars++;
-                }
-            }
-            else
-            {
-                cap_next = FALSE;
-                CAP(start);
-            }
-
-            line_chars += strlen(start);
-            strcat(formatted, start);
-
-            *flow = temp;
+            if (*flow == '@' && *(flow + 1) == '@')
+                color_chars += 2;
+            flow++;
         }
+
+        if (cap_next_next)
+        {
+            cap_next_next = FALSE;
+            cap_next = TRUE;
+        }
+
+        while (strchr(".!?", *flow))
+        {
+            cap_next_next = TRUE;
+            flow++;
+        }
+
+        temp = *flow;
+        *flow = '\0';
+
+        if ((line_chars + (int)strlen(start) + 1 - color_chars) > PAGE_WIDTH)
+        {
+            used += snprintf(formatted + used, maxlen - used, "\r\n");
+            line_chars = color_chars = 0;
+        }
+
+        if (!cap_next && line_chars > 0)
+        {
+            used += snprintf(formatted + used, maxlen - used, " ");
+            line_chars++;
+        }
+        else
+        {
+            cap_next = FALSE;
+            CAP(start);
+        }
+
+        used += snprintf(formatted + used, maxlen - used, "%s", start);
+        line_chars += strlen(start);
+
+        *flow = temp;
 
         if (cap_next_next && *flow)
         {
-            if (line_chars + 3 - color_chars > PAGE_WIDTH)
+            if ((line_chars + 3 - color_chars) > PAGE_WIDTH)
             {
-                strcat(formatted, "\r\n");
-                color_chars = line_chars = 0;
-            }
-            else if (*flow == '\"' || *flow == '\'')
-            {
-                char buf[MAX_STRING_LENGTH] = {'\0'};
-                sprintf(buf, "%c  ", *flow);
-                strcat(formatted, buf);
-                flow++;
-                line_chars++;
+                used += snprintf(formatted + used, maxlen - used, "\r\n");
+                line_chars = color_chars = 0;
             }
             else
             {
-                strcat(formatted, "  ");
+                used += snprintf(formatted + used, maxlen - used,
+                                 (*flow == '"' || *flow == '\'') ? "%c  " : "  ",
+                                 *flow);
+                if (*flow == '"' || *flow == '\'')
+                    flow++;
                 line_chars += 2;
             }
         }
     }
-    strcat(formatted, "\r\n");
 
-    if (strlen(formatted) + 1 > maxlen)
-        formatted[maxlen - 1] = '\0';
-    RECREATE(*ptr_string, char, MIN(maxlen, strlen(formatted) + 1));
+    used += snprintf(formatted + used, maxlen - used, "\r\n");
+
+    RECREATE(*ptr_string, char, used + 1);
     strcpy(*ptr_string, formatted);
 }
 
-int replace_str(char **string, char *pattern, char *replacement, int rep_all, unsigned int max_size)
+int replace_str(char **string, char *pattern, char *replacement,
+                int rep_all, unsigned int max_size)
 {
-    char *replace_buffer = NULL;
-    char *flow, *jetsam, temp;
-    int len = 0, i = 0;
+    char *src, *pos;
+    size_t pat_len, rep_len, src_len;
+    size_t used = 0;
+    int count = 0;
 
-    if ((strlen(*string) - strlen(pattern)) + strlen(replacement) > max_size)
+    if (!string || !*string || !pattern || !replacement)
+        return 0;
+
+    src = *string;
+    src_len = strlen(src);
+    pat_len = strlen(pattern);
+    rep_len = strlen(replacement);
+
+    if (pat_len == 0)
+        return 0;
+
+    /* First pass: count replacements */
+    for (pos = src; (pos = strstr(pos, pattern)); pos += pat_len)
+    {
+        count++;
+        if (!rep_all)
+            break;
+    }
+
+    if (count == 0)
+        return 0;
+
+    if (src_len + count * (rep_len - pat_len) > max_size)
         return -1;
 
-    CREATE(replace_buffer, char, max_size);
-    i = 0;
-    jetsam = *string;
-    flow = *string;
-    *replace_buffer = '\0';
+    char *result;
+    CREATE(result, char, max_size + 1);
 
-    if (rep_all)
+    pos = src;
+    while ((src = strstr(pos, pattern)))
     {
-        while ((flow = (char *)strstr(flow, pattern)) != NULL)
-        {
-            i++;
-            temp = *flow;
-            *flow = '\0';
-            if ((strlen(replace_buffer) + strlen(jetsam) + strlen(replacement)) > max_size)
-            {
-                i = -1;
-                break;
-            }
-            strcat(replace_buffer, jetsam);
-            strcat(replace_buffer, replacement);
-            *flow = temp;
-            flow += strlen(pattern);
-            jetsam = flow;
-        }
-        strcat(replace_buffer, jetsam);
-    }
-    else
-    {
-        if ((flow = (char *)strstr(*string, pattern)) != NULL)
-        {
-            i++;
-            flow += strlen(pattern);
-            len = ((char *)flow - (char *)*string) - strlen(pattern);
-            strncpy(replace_buffer, *string, len);
-            strcat(replace_buffer, replacement);
-            strcat(replace_buffer, flow);
-        }
+        size_t chunk = src - pos;
+        memcpy(result + used, pos, chunk);
+        used += chunk;
+
+        memcpy(result + used, replacement, rep_len);
+        used += rep_len;
+
+        pos = src + pat_len;
+
+        if (!rep_all)
+            break;
     }
 
-    if (i <= 0)
-    {
-        free(replace_buffer);
-        return 0;
-    }
-    else
-    {
-        RECREATE(*string, char, strlen(replace_buffer) + 3);
-        strcpy(*string, replace_buffer);
-    }
-    free(replace_buffer);
-    return i;
+    strcpy(result + used, pos);
+
+    RECREATE(*string, char, strlen(result) + 1);
+    strcpy(*string, result);
+    free(result);
+
+    return count;
 }
+
 
 #endif
