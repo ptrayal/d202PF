@@ -52,23 +52,28 @@ char *get_blank_clan_whostring(int clan);
 
 void free_clan(struct clan_type *c)
 {
-  int i = 0;
-  
-  if (c != NULL) {
-    free(c->name);
-    free(c->leadersname);
-    for(i=0; i < NUM_CLAN_RANKS; i++) {
-      free(c->rank_name[i]);
-    }
-    if (c->applicants[0] != NULL) {
-      for (i = 0; i < MAX_CLAN_APPLICANTS; i++) {
-        if (c->applicants[i] != NULL) {
-          free(c->applicants[i]);
+    int i = 0;
+
+    if (c != NULL)
+    {
+        free(c->name);
+        free(c->leadersname);
+        for(i = 0; i < NUM_CLAN_RANKS; i++)
+        {
+            free(c->rank_name[i]);
         }
-      }
+        if (c->applicants[0] != NULL)
+        {
+            for (i = 0; i < MAX_CLAN_APPLICANTS; i++)
+            {
+                if (c->applicants[i] != NULL)
+                {
+                    free(c->applicants[i]);
+                }
+            }
+        }
+        free(c);
     }
-    free(c);
-  }
 }
 
 struct clan_type *enqueue_clan(void)
