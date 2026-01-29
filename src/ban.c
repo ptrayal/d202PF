@@ -213,7 +213,12 @@ ACMD(do_ban)
 
   /* Create new ban entry */
   CREATE(ban_node, struct ban_list_element, 1);
-  snprintf(ban_node->site, sizeof(ban_node->site), "%s", site);
+  snprintf(ban_node->site,
+         sizeof(ban_node->site),
+         "%.*s",
+         (int)sizeof(ban_node->site) - 1,
+         site);
+
   
   /* Convert site to lowercase */
   for (nextchar = ban_node->site; *nextchar; nextchar++)
