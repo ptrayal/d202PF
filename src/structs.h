@@ -3946,6 +3946,8 @@ struct fightsort_elem {
 
 #define NUM_SHIP_COMPONENT_TYPES		19
 
+#define MAX_HOST_LENGTH 256
+
 
 struct ship_data {
 
