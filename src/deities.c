@@ -469,12 +469,6 @@ void assign_deities(void)
         "\r\n"
         );
 
-    add_deity(DEITY_IOMEDAE, "Iomedae", ETHOS_LAWFUL, ALIGNMENT_GOOD, DOMAIN_GOOD, DOMAIN_LAW, DOMAIN_SUN, DOMAIN_WAR,
-        DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_LONG_SWORD, DEITY_PANTHEON_GOLARION,
-        "Honor, Justice, Rulership, Valor",
-        "\r\n"
-        );
-
     add_deity(DEITY_IRORI, "Irori", ETHOS_LAWFUL, ALIGNMENT_NEUTRAL, DOMAIN_HEALING, DOMAIN_KNOWLEDGE, DOMAIN_LAW, DOMAIN_RUNE,
         DOMAIN_STRENGTH, DOMAIN_UNDEFINED, WEAPON_TYPE_UNARMED, DEITY_PANTHEON_GOLARION,
         "History, Knowledge, Self-Perfection",
