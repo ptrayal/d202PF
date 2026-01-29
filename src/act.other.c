@@ -263,119 +263,131 @@ send_to_char(ch, "Just skin corpses ok?\r\n");
 
 ACMD(do_quit)
 {
-  if (IS_NPC(ch) || !ch->desc)
-    return;
+    if (IS_NPC(ch) || !ch->desc)
+        return;
 
-  if (subcmd != SCMD_QUIT)
-    send_to_char(ch, "You have to type quit--no less, to quit!\r\n");
-  else if (GET_POS(ch) == POS_FIGHTING)
-    send_to_char(ch, "No way!  You're fighting for your life!\r\n");
-  else if (GET_POS(ch) < POS_STUNNED) {
-    send_to_char(ch, "You die before your time...\r\n");
-    die(ch, NULL);
-  } else {
-/*
-    if ((ch->time.played % 3600) / 60 < 1) {
-      send_to_char(ch, "@YWe are sorry to see you leave so soon.  Please assist us in making this game better\r\n");
-      send_to_char(ch, "by leaving us with a short message about what we can do to improve our game and your\r\n");
-      send_to_char(ch, "early gaming experience on our mud.  Type your message, with the word \"quit\" on a\r\n");
-      send_to_char(ch, "line by itself in order to finish or quit the game right away without leaving a message.\r\n");
-      send_to_char(ch, "Thanks so much for trying our game.  We wish you the best in your future endeavors.@n\r\n");
-      STATE(ch->desc) = CON_QUIT_GAME_EARLY;
+    if (subcmd != SCMD_QUIT)
+    {
+        send_to_char(ch, "You have to type quit--no less, to quit!\r\n");
     }
-*/
-    award_rp_exp_char(ch);
-    stop_guard(ch);
-    act("$n has left the game.", true, ch, 0, 0, TO_ROOM);
-    mudlog(NRM, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), true, "%s has quit the game.", GET_NAME(ch));
-    if ((ch->time.played % 3600) / 60 >= 1) 
-      send_to_char(ch, "Goodbye, friend.. Come back soon!\r\n");
-
-    /*  We used to check here for duping attempts, but we may as well
-     *  do it right in extract_char(), since there is no check if a
-     *  player rents out and it can leave them in an equally screwy
-     *  situation.
-     */
-
-    if (CONFIG_FREE_RENT || GET_ADMLEVEL(ch) >= ADMLVL_IMMORT) {
-      if (GET_ROOM_VNUM(IN_ROOM(ch)) > 1)
-      GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
-      Crash_rentsave(ch, GET_ROOM_VNUM(IN_ROOM(ch)));
+    else if (GET_POS(ch) == POS_FIGHTING)
+    {
+        send_to_char(ch, "No way!  You're fighting for your life!\r\n");
+    }
+    else if (GET_POS(ch) < POS_STUNNED)
+    {
+        send_to_char(ch, "You die before your time...\r\n");
+        die(ch, NULL);
     }
     else
-      ch->player_specials->extract = TRUE;
+    {
+        award_rp_exp_char(ch);
+        stop_guard(ch);
+        act("$n has left the game.", true, ch, 0, 0, TO_ROOM);
+        mudlog(NRM, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), true, "%s has quit the game.", GET_NAME(ch));
+        if ((ch->time.played % 3600) / 60 >= 1)
+            send_to_char(ch, "Goodbye, friend.. Come back soon!\r\n");
 
-    if (GET_ROOM_VNUM(IN_ROOM(ch)) > 1)
-      GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
+        /*  We used to check here for duping attempts, but we may as well
+         *  do it right in extract_char(), since there is no check if a
+         *  player rents out and it can leave them in an equally screwy
+         *  situation.
+         */
 
-   if (GET_QUEST_TIME(ch) != (ush_int)-1)
-     quest_timeout(ch);
+        if (CONFIG_FREE_RENT || GET_ADMLEVEL(ch) >= ADMLVL_IMMORT)
+        {
+            if (GET_ROOM_VNUM(IN_ROOM(ch)) > 1)
+            {
+                GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
+            }
+            Crash_rentsave(ch, GET_ROOM_VNUM(IN_ROOM(ch)));
+        }
+        else
+        {
+            ch->player_specials->extract = TRUE;
+        }
 
-   if (ch == ch_selling)
-     stop_auction(AUC_QUIT_CANCEL, NULL);
+        if (GET_ROOM_VNUM(IN_ROOM(ch)) > 1)
+        {
+            GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
+        }
 
-    save_char(ch);
+        if (GET_QUEST_TIME(ch) != (ush_int) - 1)
+        {
+            quest_timeout(ch);
+        }
 
-    extract_char(ch);		/* Char is saved before extracting. */
-  }
+        if (ch == ch_selling)
+        {
+            stop_auction(AUC_QUIT_CANCEL, NULL);
+        }
+
+        save_char(ch);
+
+        extract_char(ch);   /* Char is saved before extracting. */
+    }
 }
-
 
 
 ACMD(do_save)
 {
-  if (IS_NPC(ch) || !ch->desc)
-    return;
+    if (IS_NPC(ch) || !ch->desc)
+        return;
 
-  /* Only tell the char we're saving if they actually typed "save" */
-  if (cmd) {
-    /*
-     * this prevents item duplication by two PC's using coordinated saves
-     * (or one PC with a house) and system crashes. Note that houses are
-     * still automatically saved without this enabled. this code assumes
-     * that guest immortals aren't trustworthy. If you've disabled guest
-     * immortal advances from mortality, you may want < instead of <=.
-     */
-    if (CONFIG_AUTO_SAVE && !GET_ADMLEVEL(ch)) {
-      send_to_char(ch, "Saving.\r\n");
-      write_aliases(ch);
-      save_char(ch);      
-      save_char_pets(ch);
-      Crash_crashsave(ch, FALSE); 
-      if (GET_ROOM_VNUM(IN_ROOM(ch)) > 1) {
+    /* Only tell the char we're saving if they actually typed "save" */
+    if (cmd)
+    {
+        /*
+         * this prevents item duplication by two PC's using coordinated saves
+         * (or one PC with a house) and system crashes. Note that houses are
+         * still automatically saved without this enabled. this code assumes
+         * that guest immortals aren't trustworthy. If you've disabled guest
+         * immortal advances from mortality, you may want < instead of <=.
+         */
+        if (CONFIG_AUTO_SAVE && !GET_ADMLEVEL(ch))
+        {
+            send_to_char(ch, "Saving.\r\n");
+            write_aliases(ch);
+            save_char(ch);
+            save_char_pets(ch);
+            Crash_crashsave(ch, FALSE);
+            if (GET_ROOM_VNUM(IN_ROOM(ch)) > 1)
+            {
+                GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
+                //        send_to_char(ch, "LOADROOM: %d, REAL ROOM: %d\r\n", GET_LOADROOM(ch), real_room(GET_LOADROOM(ch)));
+            }
+            if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_HOUSE_CRASH))
+                House_crashsave(GET_ROOM_VNUM(IN_ROOM(ch)));
+            return;
+        }
+        send_to_char(ch, "Saving.\r\n");
+        if (GET_ROOM_VNUM(IN_ROOM(ch)) > 1)
+        {
+            GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
+            //      send_to_char(ch, "LOADROOM: %d, REAL ROOM: %d\r\n", GET_LOADROOM(ch), real_room(GET_LOADROOM(ch)));
+        }
+        write_aliases(ch);
+        save_char(ch);
+        save_char_pets(ch);
+        Crash_crashsave(ch, FALSE);
+        if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_HOUSE_CRASH))
+            House_crashsave(GET_ROOM_VNUM(IN_ROOM(ch)));
+        return;
+    }
+
+    if (GET_ROOM_VNUM(IN_ROOM(ch)) > 1)
+    {
         GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
-//        send_to_char(ch, "LOADROOM: %d, REAL ROOM: %d\r\n", GET_LOADROOM(ch), real_room(GET_LOADROOM(ch)));
-      }
-      if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_HOUSE_CRASH))
-        House_crashsave(GET_ROOM_VNUM(IN_ROOM(ch)));             
-      return;
+        //    send_to_char(ch, "LOADROOM: %d, REAL ROOM: %d\r\n", GET_LOADROOM(ch), real_room(GET_LOADROOM(ch)));
     }
-    send_to_char(ch, "Saving.\r\n");
-    if (GET_ROOM_VNUM(IN_ROOM(ch)) > 1) {
-      GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
-//      send_to_char(ch, "LOADROOM: %d, REAL ROOM: %d\r\n", GET_LOADROOM(ch), real_room(GET_LOADROOM(ch)));
-    }
+
+
     write_aliases(ch);
-    save_char(ch);      
+    save_char(ch);
     save_char_pets(ch);
-    Crash_crashsave(ch, FALSE); 
+    Crash_crashsave(ch, FALSE);
     if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_HOUSE_CRASH))
-      House_crashsave(GET_ROOM_VNUM(IN_ROOM(ch)));  
-    return;    
-  }
-
-  if (GET_ROOM_VNUM(IN_ROOM(ch)) > 1) {
-    GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
-//    send_to_char(ch, "LOADROOM: %d, REAL ROOM: %d\r\n", GET_LOADROOM(ch), real_room(GET_LOADROOM(ch)));
-  }
-
-
-  write_aliases(ch);
-  save_char(ch);
-  save_char_pets(ch);
-  Crash_crashsave(ch, FALSE);
-  if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_HOUSE_CRASH))
-    House_crashsave(GET_ROOM_VNUM(IN_ROOM(ch)));
+        House_crashsave(GET_ROOM_VNUM(IN_ROOM(ch)));
 }
 
 
@@ -389,143 +401,180 @@ ACMD(do_not_here)
 
 ACMD(do_steal)
 {
-  struct char_data *vict;
-  struct obj_data *obj;
-  char vict_name[MAX_INPUT_LENGTH]={'\0'}, obj_name[MAX_INPUT_LENGTH]={'\0'};
-  int roll = 0, detect = 0, diffc = 20, gold = 0, eq_pos = 0, pcsteal = 0, ohoh = 0;
+    struct char_data *vict;
+    struct obj_data *obj;
+    char vict_name[MAX_INPUT_LENGTH] = {'\0'}, obj_name[MAX_INPUT_LENGTH] = {'\0'};
+    int roll = 0, detect = 0, diffc = 20, gold = 0, eq_pos = 0, pcsteal = 0, ohoh = 0;
 
-  if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL)) {
-    send_to_char(ch, "This room just has such a peaceful, easy feeling...\r\n");
-    return;
-  }
+    if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL))
+    {
+        send_to_char(ch, "This room just has such a peaceful, easy feeling...\r\n");
+        return;
+    }
 
-  two_arguments(argument, obj_name, vict_name);
+    two_arguments(argument, obj_name, vict_name);
 
-  /* STEALING is not an untrained skill */
-  if (!GET_SKILL_BASE(ch, SKILL_SLEIGHT_OF_HAND)) {
-    send_to_char(ch, "You'd be sure to be caught!\r\n");
-    return;
-  }
+    /* STEALING is not an untrained skill */
+    if (!GET_SKILL_BASE(ch, SKILL_SLEIGHT_OF_HAND))
+    {
+        send_to_char(ch, "You'd be sure to be caught!\r\n");
+        return;
+    }
 
-  if (!(vict = get_char_vis(ch, vict_name, NULL, FIND_CHAR_ROOM))) {
-    send_to_char(ch, "Steal what from who?\r\n");
-    return;
-  } else if (vict == ch) {
-    send_to_char(ch, "Come on now, that's rather stupid!\r\n");
-    return;
-  }
-  if (MOB_FLAGGED(vict, MOB_NOKILL)) {
-    send_to_char(ch, "That isn't such a good idea...\r\n");
-    return;
-  }
+    if (!(vict = get_char_vis(ch, vict_name, NULL, FIND_CHAR_ROOM)))
+    {
+        send_to_char(ch, "Steal what from who?\r\n");
+        return;
+    }
+    else if (vict == ch)
+    {
+        send_to_char(ch, "Come on now, that's rather stupid!\r\n");
+        return;
+    }
+    if (MOB_FLAGGED(vict, MOB_NOKILL))
+    {
+        send_to_char(ch, "That isn't such a good idea...\r\n");
+        return;
+    }
 
-  roll = roll_skill(ch, SKILL_SLEIGHT_OF_HAND);
+    roll = roll_skill(ch, SKILL_SLEIGHT_OF_HAND);
 
-  /* Can also add +2 synergy bonus for bluff of 5 or more */
-  if (GET_SKILL(ch, SKILL_BLUFF) > 4)
-    roll = roll +2;
+    /* Can also add +2 synergy bonus for bluff of 5 or more */
+    if (GET_SKILL(ch, SKILL_BLUFF) > 4)
+        roll = roll + 2;
 
-  if (GET_POS(vict) < POS_SLEEPING)
-    detect = 0;
-  else
-    detect = (roll_skill(vict, SKILL_PERCEPTION) > roll);
+    if (GET_POS(vict) < POS_SLEEPING)
+        detect = 0;
+    else
+        detect = (roll_skill(vict, SKILL_PERCEPTION) > roll);
 
-  if (!CONFIG_PT_ALLOWED && !IS_NPC(vict))
-    pcsteal = 1;
+    if (!CONFIG_PT_ALLOWED && !IS_NPC(vict))
+        pcsteal = 1;
 
-  /* NO NO With Imp's and Shopkeepers, and if player thieving is not allowed */
-  if (ADM_FLAGGED(vict, ADM_NOSTEAL) || pcsteal ||
-      GET_MOB_SPEC(vict) == shop_keeper)
-    roll = -10;		/* Failure */
+    /* NO NO With Imp's and Shopkeepers, and if player thieving is not allowed */
+    if (ADM_FLAGGED(vict, ADM_NOSTEAL) || pcsteal ||
+            GET_MOB_SPEC(vict) == shop_keeper)
+        roll = -10;   /* Failure */
 
-  if (str_cmp(obj_name, "coins") && str_cmp(obj_name, "gold")) {
-    if (!(obj = get_obj_in_list_vis(ch, obj_name, NULL, vict->carrying))) {
-      for (eq_pos = 0; eq_pos < NUM_WEARS; eq_pos++)
-	if (GET_EQ(vict, eq_pos) &&
-	    (isname(obj_name, GET_EQ(vict, eq_pos)->name)) &&
-	    CAN_SEE_OBJ(ch, GET_EQ(vict, eq_pos))) {
-	  obj = GET_EQ(vict, eq_pos);
-	  break;
-	}
-      if (!obj) {
-	act("$E hasn't got that item.", false, ch, 0, vict, TO_CHAR);
-	return;
-      } else {			/* It is equipment */
-	if ((GET_POS(vict) > POS_STUNNED)) {
-	  send_to_char(ch, "Steal the equipment now?  Impossible!\r\n");
-	  return;
-	} else {
-          if (!give_otrigger(obj, vict, ch) ||
-              !receive_mtrigger(ch, vict, obj) ) {
-             send_to_char(ch, "Impossible!\r\n");
-             return;
-           }
-	  act("You unequip $p and steal it.", false, ch, obj, 0, TO_CHAR);
-	  act("$n steals $p from $N.", false, ch, obj, vict, TO_NOTVICT);
-	  obj_to_char(unequip_char(vict, eq_pos), ch);
-	}
-      }
-    } else {			/* obj found in inventory */
-      diffc += GET_OBJ_WEIGHT(obj);
-      if (roll >= diffc) {	/* Steal the item */
-	if (IS_CARRYING_N(ch) + 1 < CAN_CARRY_N(ch)) {
-          if (!give_otrigger(obj, vict, ch) || 
-              !receive_mtrigger(ch, vict, obj) ) {
-            send_to_char(ch, "Impossible!\r\n");
-            return;
-          }
-	  if (IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(obj) < CAN_CARRY_W(ch)) {
-	    obj_from_char(obj);
-	    obj_to_char(obj, ch);
-	    send_to_char(ch, "Got it!\r\n");
-	  }
-	} else
-	  send_to_char(ch, "You cannot carry that much.\r\n");
-      }
-      if (detect > roll) {	/* Are you noticed? */
-      ohoh = true;
-	send_to_char(ch, "Oops..you were noticed.\r\n");
-        if (roll >= diffc) {
-	  act("$n has stolen $p from you!", false, ch, obj, vict, TO_VICT);
-	  act("$n steals $p from $N.", true, ch, obj, vict, TO_NOTVICT);
-    } else {
-	  act("$n tried to steal something from you!", false, ch, 0, vict, TO_VICT);
-	  act("$n tries to steal something from $N.", true, ch, 0, vict, TO_NOTVICT);
+    if (str_cmp(obj_name, "coins") && str_cmp(obj_name, "gold"))
+    {
+        if (!(obj = get_obj_in_list_vis(ch, obj_name, NULL, vict->carrying)))
+        {
+            for (eq_pos = 0; eq_pos < NUM_WEARS; eq_pos++)
+                if (GET_EQ(vict, eq_pos) &&
+                        (isname(obj_name, GET_EQ(vict, eq_pos)->name)) &&
+                        CAN_SEE_OBJ(ch, GET_EQ(vict, eq_pos)))
+                {
+                    obj = GET_EQ(vict, eq_pos);
+                    break;
+                }
+            if (!obj)
+            {
+                act("$E hasn't got that item.", false, ch, 0, vict, TO_CHAR);
+                return;
+            }
+            else        /* It is equipment */
+            {
+                if ((GET_POS(vict) > POS_STUNNED))
+                {
+                    send_to_char(ch, "Steal the equipment now?  Impossible!\r\n");
+                    return;
+                }
+                else
+                {
+                    if (!give_otrigger(obj, vict, ch) ||
+                            !receive_mtrigger(ch, vict, obj) )
+                    {
+                        send_to_char(ch, "Impossible!\r\n");
+                        return;
+                    }
+                    act("You unequip $p and steal it.", false, ch, obj, 0, TO_CHAR);
+                    act("$n steals $p from $N.", false, ch, obj, vict, TO_NOTVICT);
+                    obj_to_char(unequip_char(vict, eq_pos), ch);
+                }
+            }
         }
-      }
+        else        /* obj found in inventory */
+        {
+            diffc += GET_OBJ_WEIGHT(obj);
+            if (roll >= diffc)    /* Steal the item */
+            {
+                if (IS_CARRYING_N(ch) + 1 < CAN_CARRY_N(ch))
+                {
+                    if (!give_otrigger(obj, vict, ch) ||
+                            !receive_mtrigger(ch, vict, obj) )
+                    {
+                        send_to_char(ch, "Impossible!\r\n");
+                        return;
+                    }
+                    if (IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(obj) < CAN_CARRY_W(ch))
+                    {
+                        obj_from_char(obj);
+                        obj_to_char(obj, ch);
+                        send_to_char(ch, "Got it!\r\n");
+                    }
+                }
+                else
+                    send_to_char(ch, "You cannot carry that much.\r\n");
+            }
+            if (detect > roll)    /* Are you noticed? */
+            {
+                ohoh = true;
+                send_to_char(ch, "Oops..you were noticed.\r\n");
+                if (roll >= diffc)
+                {
+                    act("$n has stolen $p from you!", false, ch, obj, vict, TO_VICT);
+                    act("$n steals $p from $N.", true, ch, obj, vict, TO_NOTVICT);
+                }
+                else
+                {
+                    act("$n tried to steal something from you!", false, ch, 0, vict, TO_VICT);
+                    act("$n tries to steal something from $N.", true, ch, 0, vict, TO_NOTVICT);
+                }
+            }
+        }
     }
-  } else {			/* Steal some coins */
-    diffc += 5;	/* People take care of their money */
-    if (roll >= diffc) {
-      /* Steal some gold coins */
-      gold = (GET_GOLD(vict) * rand_number(1, 10)) / 100;
-      gold = MIN(1782, gold);
-      if (gold > 0) {
-	GET_GOLD(ch) += gold;
-	GET_GOLD(vict) -= gold;
-        if (gold > 1)
-	  send_to_char(ch, "Bingo!  You got %d gold coins.\r\n", gold);
-	else
-	  send_to_char(ch, "You manage to swipe a solitary gold coin.\r\n");
-      } else {
-	send_to_char(ch, "You couldn't get any gold...\r\n");
-      }
+    else        /* Steal some coins */
+    {
+        diffc += 5; /* People take care of their money */
+        if (roll >= diffc)
+        {
+            /* Steal some gold coins */
+            gold = (GET_GOLD(vict) * rand_number(1, 10)) / 100;
+            gold = MIN(1782, gold);
+            if (gold > 0)
+            {
+                GET_GOLD(ch) += gold;
+                GET_GOLD(vict) -= gold;
+                if (gold > 1)
+                    send_to_char(ch, "Bingo!  You got %d gold coins.\r\n", gold);
+                else
+                    send_to_char(ch, "You manage to swipe a solitary gold coin.\r\n");
+            }
+            else
+            {
+                send_to_char(ch, "You couldn't get any gold...\r\n");
+            }
+        }
+        if (detect > roll)
+        {
+            ohoh = true;
+            send_to_char(ch, "Oops..\r\n");
+            if (roll >= diffc)
+            {
+                act("$n has stolen your gold!", false, ch, 0, vict, TO_VICT);
+                act("$n steals some gold from $N.", true, ch, 0, vict, TO_NOTVICT);
+            }
+            else
+            {
+                act("You discover that $n has $s hands in your wallet.", false, ch, 0, vict, TO_VICT);
+                act("$n tries to steal gold from $N.", true, ch, 0, vict, TO_NOTVICT);
+            }
+        }
     }
-    if (detect > roll) {
-      ohoh = true;
-      send_to_char(ch, "Oops..\r\n");
-      if (roll >= diffc) {
-        act("$n has stolen your gold!", false, ch, 0, vict, TO_VICT);
-        act("$n steals some gold from $N.", true, ch, 0, vict, TO_NOTVICT);
-      } else {
-        act("You discover that $n has $s hands in your wallet.", false, ch, 0, vict, TO_VICT);
-        act("$n tries to steal gold from $N.", true, ch, 0, vict, TO_NOTVICT);
-      }
-    }
-  }
 
-  if (ohoh && IS_NPC(vict) && AWAKE(vict))
-    hit(vict, ch, TYPE_UNDEFINED);
+    if (ohoh && IS_NPC(vict) && AWAKE(vict))
+        hit(vict, ch, TYPE_UNDEFINED);
 }
 
 
@@ -549,639 +598,701 @@ ACMD(do_practice)
 
 ACMD(do_visible)
 {
-  int appeared = 0;
+    int appeared = 0;
 
-  if (GET_ADMLEVEL(ch)) {
-    perform_immort_vis(ch);
-  }
-
-  if AFF_FLAGGED(ch, AFF_INVISIBLE) {
-    appear(ch);
-    appeared = 1;
-    send_to_char(ch, "You break the spell of invisibility.\r\n");
-  }
-
-  if (AFF_FLAGGED(ch, AFF_ETHEREAL) && affectedv_by_spell(ch, ART_EMPTY_BODY)) {
-    affectv_from_char(ch, ART_EMPTY_BODY);
-    if (AFF_FLAGGED(ch, AFF_ETHEREAL)) {
-      send_to_char(ch, "Returning to the material plane will not be so easy.\r\n");
-    } else {
-      send_to_char(ch, "You return to the material plane.\r\n");
-      if (!appeared)
-        act("$n flashes into existence.", false, ch, 0, 0, TO_ROOM);
+    if (GET_ADMLEVEL(ch))
+    {
+        perform_immort_vis(ch);
     }
-    appeared = 1;
-  }
 
-  if (!appeared)
-    send_to_char(ch, "You are already visible.\r\n");
+    if AFF_FLAGGED(ch, AFF_INVISIBLE)
+    {
+        appear(ch);
+        appeared = 1;
+        send_to_char(ch, "You break the spell of invisibility.\r\n");
+    }
+
+    if (AFF_FLAGGED(ch, AFF_ETHEREAL) && affectedv_by_spell(ch, ART_EMPTY_BODY))
+    {
+        affectv_from_char(ch, ART_EMPTY_BODY);
+        if (AFF_FLAGGED(ch, AFF_ETHEREAL))
+        {
+            send_to_char(ch, "Returning to the material plane will not be so easy.\r\n");
+        }
+        else
+        {
+            send_to_char(ch, "You return to the material plane.\r\n");
+            if (!appeared)
+                act("$n flashes into existence.", false, ch, 0, 0, TO_ROOM);
+        }
+        appeared = 1;
+    }
+
+    if (!appeared)
+        send_to_char(ch, "You are already visible.\r\n");
 }
 
 
 ACMD(do_title)
 {
-  skip_spaces(&argument);
-  delete_doubledollar(argument);
+    skip_spaces(&argument);
+    delete_doubledollar(argument);
 
-  if (IS_NPC(ch))
-    send_to_char(ch, "Your title is fine... go away.\r\n");
-  else if (PLR_FLAGGED(ch, PLR_NOTITLE))
-    send_to_char(ch, "You can't title yourself, read HELP RULES TITLES for more info.\r\n");
-  else if (strstr(argument, "(") || strstr(argument, ")"))
-    send_to_char(ch, "Titles can't contain the ( or ) characters.\r\n");
-  else if (strlencolor(argument) > MAX_TITLE_LENGTH)
-    send_to_char(ch, "Sorry, titles can't be longer than %d characters.\r\n", MAX_TITLE_LENGTH);
-  else if (!strstr(argument, GET_NAME(ch)))
-    send_to_char(ch, "Titles must contain your character's name.\r\n");
-  else if (!*argument) {
-    set_title(ch, GET_NAME(ch));
-    send_to_char(ch, "Okay, you're now %s.\r\n", GET_TITLE(ch)); 
-  }
-  else {
-    set_title(ch, argument);
-    send_to_char(ch, "Okay, you're now %s.\r\n", GET_TITLE(ch));
-  }
+    if (IS_NPC(ch))
+        send_to_char(ch, "Your title is fine... go away.\r\n");
+    else if (PLR_FLAGGED(ch, PLR_NOTITLE))
+        send_to_char(ch, "You can't title yourself, read HELP RULES TITLES for more info.\r\n");
+    else if (strstr(argument, "(") || strstr(argument, ")"))
+        send_to_char(ch, "Titles can't contain the ( or ) characters.\r\n");
+    else if (strlencolor(argument) > MAX_TITLE_LENGTH)
+        send_to_char(ch, "Sorry, titles can't be longer than %d characters.\r\n", MAX_TITLE_LENGTH);
+    else if (!strstr(argument, GET_NAME(ch)))
+        send_to_char(ch, "Titles must contain your character's name.\r\n");
+    else if (!*argument)
+    {
+        set_title(ch, GET_NAME(ch));
+        send_to_char(ch, "Okay, you're now %s.\r\n", GET_TITLE(ch));
+    }
+    else
+    {
+        set_title(ch, argument);
+        send_to_char(ch, "Okay, you're now %s.\r\n", GET_TITLE(ch));
+    }
 }
 
 int valid_group(struct char_data *ch, struct char_data *vict)
 {
 
-  struct follow_type *f;
-  struct char_data *k;
-  int maxlevel = 0;
-  int minlevel = 0;
+    struct follow_type *f;
+    struct char_data *k;
+    int maxlevel = 0;
+    int minlevel = 0;
 
-  k = ch->master ? ch->master : ch;
+    k = ch->master ? ch->master : ch;
 
-  if (is_player_grouped(ch, k)) {
-    maxlevel = GET_LEVEL(k);
-    minlevel = GET_LEVEL(k);
-  }
-
-  for (f = k->followers; f; f = f->next)
-    if (!IS_NPC(f->follower) && is_player_grouped(ch, f->follower)) {
-      maxlevel = MAX(maxlevel, GET_LEVEL(f->follower));
-      maxlevel = MIN(minlevel, GET_LEVEL(f->follower));
+    if (is_player_grouped(ch, k))
+    {
+        maxlevel = GET_LEVEL(k);
+        minlevel = GET_LEVEL(k);
     }
 
-  maxlevel = MAX(maxlevel, GET_LEVEL(vict));
-  minlevel = MIN(minlevel, GET_LEVEL(vict));
+    for (f = k->followers; f; f = f->next)
+        if (!IS_NPC(f->follower) && is_player_grouped(ch, f->follower))
+        {
+            maxlevel = MAX(maxlevel, GET_LEVEL(f->follower));
+            maxlevel = MIN(minlevel, GET_LEVEL(f->follower));
+        }
 
-  if ((maxlevel - minlevel) > 10)
-    return FALSE;
+    maxlevel = MAX(maxlevel, GET_LEVEL(vict));
+    minlevel = MIN(minlevel, GET_LEVEL(vict));
 
-  return TRUE;
+    if ((maxlevel - minlevel) > 10)
+        return FALSE;
+
+    return TRUE;
 }
 
 
 int perform_group(struct char_data *ch, struct char_data *vict)
 {
-  if (AFF_FLAGGED(vict, AFF_GROUP) || !CAN_SEE(ch, vict))
-    return (0);
+    if (AFF_FLAGGED(vict, AFF_GROUP) || !CAN_SEE(ch, vict))
+        return (0);
 
-/*
-  if (!valid_group(ch, vict)) {
-    send_to_char(ch, "%s is not within the required level limit of the group.\r\n", GET_NAME(vict));
-    send_to_char(vict, "You are not within the required level limit of the group.\r\n");
-    return (0);
-  }
-*/
-  SET_BIT_AR(AFF_FLAGS(vict), AFF_GROUP);
+    SET_BIT_AR(AFF_FLAGS(vict), AFF_GROUP);
 
-  if (ch != vict) {
-    act("$N is now a member of your group.", false, ch, 0, vict, TO_CHAR);
-    REMOVE_BIT_AR(PRF_FLAGS(vict), PRF_LFG);
-    GET_LFG_STRING(vict) = NULL;
-  }
-  act("You are now a member of $n's group.", false, ch, 0, vict, TO_VICT);
-  act("$N is now a member of $n's group.", false, ch, 0, vict, TO_NOTVICT);
-  return (1);
+    if (ch != vict)
+    {
+        act("$N is now a member of your group.", false, ch, 0, vict, TO_CHAR);
+        REMOVE_BIT_AR(PRF_FLAGS(vict), PRF_LFG);
+        GET_LFG_STRING(vict) = NULL;
+    }
+    act("You are now a member of $n's group.", false, ch, 0, vict, TO_VICT);
+    act("$N is now a member of $n's group.", false, ch, 0, vict, TO_NOTVICT);
+    return (1);
 }
 
 
 void print_group(struct char_data *ch)
 {
-//  send_to_char(ch, "This display is currently disabled for debugging purposes.\r\n");
-//  return;
+    //  send_to_char(ch, "This display is currently disabled for debugging purposes.\r\n");
+    //  return;
 
-  struct char_data *k;
-  struct follow_type *f;
-  int found = FALSE;
-  char colora[5]={'\0'}; char color2[5]={'\0'};
+    struct char_data *k;
+    struct follow_type *f;
+    int found = FALSE;
+    char colora[5] = {'\0'};
+    char color2[5] = {'\0'};
 
-  sprintf(colora, "@C");
-  sprintf(color2, "@C");
+    sprintf(colora, "@C");
+    sprintf(color2, "@C");
 
-  float xp = 0.0;
-  int percent = 0;
-  int int_xp = 0;
-  int int_percent = 0;
-
-
-  if (!AFF_FLAGGED(ch, AFF_GROUP))
-    send_to_char(ch, "But you are not the member of a group!\r\n");
-  else {
-    char buf[MAX_STRING_LENGTH]={'\0'};
-
-    send_to_char(ch, "Your group consists of:\r\n");
-  
-    k = (ch->master ? ch->master : ch);
-
-    if (k != NULL && AFF_FLAGGED(k, AFF_GROUP)) {
-
-      if (k == ch)
-        found = TRUE;
-
-      if (GET_HIT(k) >= GET_MAX_HIT(k))
-        sprintf(colora, "@C");
-      else if (GET_HIT(k) >= (GET_MAX_HIT(k) * 76 / 100))
-        sprintf(colora, "@G");
-      else if (GET_HIT(k) >= (GET_MAX_HIT(k) * 51 / 100))
-        sprintf(colora, "@Y");
-      else if (GET_HIT(k) >= (GET_MAX_HIT(k) * 26 / 100))
-        sprintf(colora, "@M");
-      else if (GET_HIT(k) >= (GET_MAX_HIT(k) * 1 / 100))
-        sprintf(colora, "@R");
-      else
-        sprintf(colora, "@r");
-
-      sprintf(buf, "@W    %-15s [ %s%3d@W/@C%3d@W Hp ",
-               GET_NAME(k), colora, GET_HIT(k), GET_MAX_HIT(k));
-      send_to_char(ch, "%s", buf);
-
-      if (GET_MOVE(k) >= GET_MAX_MOVE(k))
-        sprintf(color2, "@C");
-      else if (GET_MOVE(k) >= (GET_MAX_MOVE(k) * 76 / 100))
-        sprintf(color2, "@G");
-      else if (GET_MOVE(k) >= (GET_MAX_MOVE(k) * 51 / 100))
-        sprintf(color2, "@Y");
-      else if (GET_MOVE(k) >= (GET_MAX_MOVE(k) * 26 / 100))
-        sprintf(color2, "@M");
-      else if (GET_MOVE(k) >= (GET_MAX_MOVE(k) * 1 / 100))
-        sprintf(color2, "@R");
-      else
-        sprintf(color2, "@r");
-
-      // Determine exp percent to next level
-
-       if (GET_LEVEL(k) == 1 && race_list[GET_RACE(k)].level_adjustment) {
-         xp = ((float) GET_EXP(k)) /
-                ((float) level_exp((GET_CLASS_LEVEL(k) + 1), GET_REAL_RACE(k)));
-       }
-       else {
-         xp = (((float) GET_EXP(k)) - ((float) level_exp(GET_CLASS_LEVEL(k), GET_REAL_RACE(k)))) /
-                (((float) level_exp((GET_CLASS_LEVEL(k) + 1), GET_REAL_RACE(k)) -
-                (float) level_exp(GET_CLASS_LEVEL(k), GET_REAL_RACE(k))));
-      }
-
-      xp *= (float) 1000.0;
-      percent = (int) xp % 10;
-      xp /= (float) 10;
-      int_xp = MAX(0, (int) xp);
-      int_percent = MAX(0, MIN((int) percent, 99));
+    float xp = 0.0;
+    int percent = 0;
+    int int_xp = 0;
+    int int_percent = 0;
 
 
-      sprintf(buf, "| %s%4d@W/@C%4d@W Mv ] %d.%d%% TNL %-7s %s @M(Group Leader)@n\r\n",
-               color2, GET_MOVE(k), GET_MAX_MOVE(k),
-               int_xp, int_percent,
-               race_list[GET_RACE(k)].abbrev, class_desc_str(k, 1, 0));
-      send_to_char(ch, "%s", buf);
+    if (!AFF_FLAGGED(ch, AFF_GROUP))
+        send_to_char(ch, "But you are not the member of a group!\r\n");
+    else
+    {
+        char buf[MAX_STRING_LENGTH] = {'\0'};
 
+        send_to_char(ch, "Your group consists of:\r\n");
+
+        k = (ch->master ? ch->master : ch);
+
+        if (k != NULL && AFF_FLAGGED(k, AFF_GROUP))
+        {
+
+            if (k == ch)
+                found = TRUE;
+
+            if (GET_HIT(k) >= GET_MAX_HIT(k))
+                sprintf(colora, "@C");
+            else if (GET_HIT(k) >= (GET_MAX_HIT(k) * 76 / 100))
+                sprintf(colora, "@G");
+            else if (GET_HIT(k) >= (GET_MAX_HIT(k) * 51 / 100))
+                sprintf(colora, "@Y");
+            else if (GET_HIT(k) >= (GET_MAX_HIT(k) * 26 / 100))
+                sprintf(colora, "@M");
+            else if (GET_HIT(k) >= (GET_MAX_HIT(k) * 1 / 100))
+                sprintf(colora, "@R");
+            else
+                sprintf(colora, "@r");
+
+            sprintf(buf, "@W    %-15s [ %s%3d@W/@C%3d@W Hp ",
+                    GET_NAME(k), colora, GET_HIT(k), GET_MAX_HIT(k));
+            send_to_char(ch, "%s", buf);
+
+            if (GET_MOVE(k) >= GET_MAX_MOVE(k))
+                sprintf(color2, "@C");
+            else if (GET_MOVE(k) >= (GET_MAX_MOVE(k) * 76 / 100))
+                sprintf(color2, "@G");
+            else if (GET_MOVE(k) >= (GET_MAX_MOVE(k) * 51 / 100))
+                sprintf(color2, "@Y");
+            else if (GET_MOVE(k) >= (GET_MAX_MOVE(k) * 26 / 100))
+                sprintf(color2, "@M");
+            else if (GET_MOVE(k) >= (GET_MAX_MOVE(k) * 1 / 100))
+                sprintf(color2, "@R");
+            else
+                sprintf(color2, "@r");
+
+            // Determine exp percent to next level
+
+            if (GET_LEVEL(k) == 1 && race_list[GET_RACE(k)].level_adjustment)
+            {
+                xp = ((float) GET_EXP(k)) /
+                     ((float) level_exp((GET_CLASS_LEVEL(k) + 1), GET_REAL_RACE(k)));
+            }
+            else
+            {
+                xp = (((float) GET_EXP(k)) - ((float) level_exp(GET_CLASS_LEVEL(k), GET_REAL_RACE(k)))) /
+                     (((float) level_exp((GET_CLASS_LEVEL(k) + 1), GET_REAL_RACE(k)) -
+                       (float) level_exp(GET_CLASS_LEVEL(k), GET_REAL_RACE(k))));
+            }
+
+            xp *= (float) 1000.0;
+            percent = (int) xp % 10;
+            xp /= (float) 10;
+            int_xp = MAX(0, (int) xp);
+            int_percent = MAX(0, MIN((int) percent, 99));
+
+
+            sprintf(buf, "| %s%4d@W/@C%4d@W Mv ] %d.%d%% TNL %-7s %s @M(Group Leader)@n\r\n",
+                    color2, GET_MOVE(k), GET_MAX_MOVE(k),
+                    int_xp, int_percent,
+                    race_list[GET_RACE(k)].abbrev, class_desc_str(k, 1, 0));
+            send_to_char(ch, "%s", buf);
+
+        }
+
+        for (f = k->followers; f; f = f->next)
+        {
+            if (!AFF_FLAGGED(f->follower, AFF_GROUP) || (f->follower == ch && found))
+                continue;
+
+            if (f->follower == ch)
+                found = TRUE;
+
+            if (AFF_FLAGGED(f->follower, AFF_GROUP))
+            {
+
+                if (GET_HIT(f->follower) >= GET_MAX_HIT(f->follower))
+                    sprintf(colora, "@C");
+                else if (GET_HIT(f->follower) >= GET_MAX_HIT(f->follower) * 76 / 100)
+                    sprintf(colora, "@G");
+                else if (GET_HIT(f->follower) >= GET_MAX_HIT(f->follower) * 51 / 100)
+                    sprintf(colora, "@Y");
+                else if (GET_HIT(f->follower) >= GET_MAX_HIT(f->follower) * 26 / 100)
+                    sprintf(colora, "@M");
+                else if (GET_HIT(f->follower) >= GET_MAX_HIT(f->follower) * 1 / 100)
+                    sprintf(colora, "@R");
+                else
+                    sprintf(colora, "@r");
+
+
+                sprintf(buf, "@W    %-15s [ %s%3d@W/@C%3d@W Hp ",
+                        GET_NAME(f->follower), colora, GET_HIT(f->follower),
+                        GET_MAX_HIT(f->follower));
+                send_to_char(ch, "%s", buf);
+
+                if (GET_MOVE(f->follower) >= GET_MAX_MOVE(f->follower))
+                    sprintf(color2, "@C");
+                else if (GET_MOVE(f->follower) >= GET_MAX_MOVE(f->follower) * 76 / 100)
+                    sprintf(color2, "@G");
+                else if (GET_MOVE(f->follower) >= GET_MAX_MOVE(f->follower) * 51 / 100)
+                    sprintf(color2, "@Y");
+                else if (GET_MOVE(f->follower) >= GET_MAX_MOVE(f->follower) * 26 / 100)
+                    sprintf(color2, "@M");
+                else if (GET_MOVE(f->follower) >= GET_MAX_MOVE(f->follower) * 1 / 100)
+                    sprintf(color2, "@R");
+                else
+                    sprintf(color2, "@r");
+
+
+                // Determine exp percent to next level
+
+                if (GET_LEVEL(f->follower) == 1 && race_list[GET_RACE(f->follower)].level_adjustment)
+                {
+                    xp = ((float) GET_EXP(f->follower)) /
+                         ((float) level_exp((GET_CLASS_LEVEL(f->follower) + 1), GET_REAL_RACE(f->follower)));
+                }
+                else
+                {
+                    xp = (((float) GET_EXP(f->follower)) - ((float) level_exp(GET_CLASS_LEVEL(f->follower), GET_REAL_RACE(f->follower)))) /
+                         (((float) level_exp((GET_CLASS_LEVEL(f->follower) + 1), GET_REAL_RACE(f->follower)) -
+                           (float) level_exp(GET_CLASS_LEVEL(f->follower), GET_REAL_RACE(f->follower))));
+                }
+
+                xp *= (float) 1000.0;
+                percent = (int) xp % 10;
+                xp /= (float) 10;
+                int_xp = MAX(0, (int) xp);
+                int_percent = MAX(0, MIN((int) percent, 99));
+
+
+                sprintf(buf, "| %s%4d@W/@C%4d@W Mv ] %d.%d%% TNL %-7s %s@n\r\n",
+                        color2, GET_MOVE(f->follower), GET_MAX_MOVE(f->follower),
+                        int_xp, int_percent,
+                        race_list[GET_RACE(f->follower)].abbrev, class_desc_str(f->follower, 1, 0));
+                send_to_char(ch, "%s", buf);
+            }
+        }
     }
-
-    for (f = k->followers; f; f = f->next) {
-      if (!AFF_FLAGGED(f->follower, AFF_GROUP) || (f->follower == ch && found))
-	continue;
-
-    if (f->follower == ch)
-      found = TRUE;
-
-    if (AFF_FLAGGED(f->follower, AFF_GROUP)) {
-
-      if (GET_HIT(f->follower) >= GET_MAX_HIT(f->follower))
-        sprintf(colora, "@C");
-      else if (GET_HIT(f->follower) >= GET_MAX_HIT(f->follower) * 76 / 100)
-        sprintf(colora, "@G");
-      else if (GET_HIT(f->follower) >= GET_MAX_HIT(f->follower) * 51 / 100)
-        sprintf(colora, "@Y");
-      else if (GET_HIT(f->follower) >= GET_MAX_HIT(f->follower) * 26 / 100)
-        sprintf(colora, "@M");
-      else if (GET_HIT(f->follower) >= GET_MAX_HIT(f->follower) * 1 / 100)
-        sprintf(colora, "@R");
-      else
-        sprintf(colora, "@r");
-
-
-      sprintf(buf, "@W    %-15s [ %s%3d@W/@C%3d@W Hp ",
-               GET_NAME(f->follower), colora, GET_HIT(f->follower), 
-               GET_MAX_HIT(f->follower));
-      send_to_char(ch, "%s", buf);
-
-      if (GET_MOVE(f->follower) >= GET_MAX_MOVE(f->follower))
-        sprintf(color2, "@C");
-      else if (GET_MOVE(f->follower) >= GET_MAX_MOVE(f->follower) * 76 / 100)
-        sprintf(color2, "@G");
-      else if (GET_MOVE(f->follower) >= GET_MAX_MOVE(f->follower) * 51 / 100)
-        sprintf(color2, "@Y");
-      else if (GET_MOVE(f->follower) >= GET_MAX_MOVE(f->follower) * 26 / 100)
-        sprintf(color2, "@M");
-      else if (GET_MOVE(f->follower) >= GET_MAX_MOVE(f->follower) * 1 / 100)
-        sprintf(color2, "@R");
-      else
-        sprintf(color2, "@r");
-
-
-      // Determine exp percent to next level
-
-       if (GET_LEVEL(f->follower) == 1 && race_list[GET_RACE(f->follower)].level_adjustment) {
-         xp = ((float) GET_EXP(f->follower)) /
-                ((float) level_exp((GET_CLASS_LEVEL(f->follower) + 1), GET_REAL_RACE(f->follower)));
-       }
-       else {
-         xp = (((float) GET_EXP(f->follower)) - ((float) level_exp(GET_CLASS_LEVEL(f->follower), GET_REAL_RACE(f->follower)))) /
-                (((float) level_exp((GET_CLASS_LEVEL(f->follower) + 1), GET_REAL_RACE(f->follower)) -
-                (float) level_exp(GET_CLASS_LEVEL(f->follower), GET_REAL_RACE(f->follower))));
-      }
-
-      xp *= (float) 1000.0;
-      percent = (int) xp % 10;
-      xp /= (float) 10;
-      int_xp = MAX(0, (int) xp);
-      int_percent = MAX(0, MIN((int) percent, 99));
-
-
-      sprintf(buf, "| %s%4d@W/@C%4d@W Mv ] %d.%d%% TNL %-7s %s@n\r\n",
-               color2, GET_MOVE(f->follower), GET_MAX_MOVE(f->follower),
-               int_xp, int_percent,
-               race_list[GET_RACE(f->follower)].abbrev, class_desc_str(f->follower, 1, 0));
-      send_to_char(ch, "%s", buf);
-    }
-  }
-  }
 }
-
 
 
 ACMD(do_group)
 {
-  char buf[MAX_STRING_LENGTH]={'\0'};
-  struct char_data *vict;
-  struct follow_type *f;
-  int found = 0;
+    char buf[MAX_STRING_LENGTH] = {'\0'};
+    struct char_data *vict;
+    struct follow_type *f;
+    int found = 0;
 
-  one_argument(argument, buf);
+    one_argument(argument, buf);
 
-  if (!*buf) {
-    print_group(ch);
-    return;
-  }
-
-  if (ch->master) {
-    act("You can not enroll group members without being head of a group.",
-	false, ch, 0, 0, TO_CHAR);
-    return;
-  }
-
-  if (!str_cmp(buf, "all")) {
-    perform_group(ch, ch);
-    for (found = 0, f = ch->followers; f; f = f->next)
-      found += perform_group(ch, f->follower);
-    if (!found)
-      send_to_char(ch, "Everyone following you is already in your group.\r\n");
-    return;
-  }
-
-  if (!(vict = get_char_vis(ch, buf, NULL, FIND_CHAR_ROOM)))
-    send_to_char(ch, "%s", CONFIG_NOPERSON);
-  else if ((vict->master != ch) && (vict != ch))
-    act("$N must follow you to enter your group.", false, ch, 0, vict, TO_CHAR);
-  else {
-    if (!AFF_FLAGGED(vict, AFF_GROUP))
-      perform_group(ch, vict);
-    else {
-      if (ch != vict)
-	act("$N is no longer a member of your group.", false, ch, 0, vict, TO_CHAR);
-      act("You have been kicked out of $n's group!", false, ch, 0, vict, TO_VICT);
-      act("$N has been kicked out of $n's group!", false, ch, 0, vict, TO_NOTVICT);
-      REMOVE_BIT_AR(AFF_FLAGS(vict), AFF_GROUP);
+    if (!*buf)
+    {
+        print_group(ch);
+        return;
     }
-  }
-}
 
+    if (ch->master)
+    {
+        act("You can not enroll group members without being head of a group.",
+            false, ch, 0, 0, TO_CHAR);
+        return;
+    }
+
+    if (!str_cmp(buf, "all"))
+    {
+        perform_group(ch, ch);
+        for (found = 0, f = ch->followers; f; f = f->next)
+            found += perform_group(ch, f->follower);
+        if (!found)
+            send_to_char(ch, "Everyone following you is already in your group.\r\n");
+        return;
+    }
+
+    if (!(vict = get_char_vis(ch, buf, NULL, FIND_CHAR_ROOM)))
+        send_to_char(ch, "%s", CONFIG_NOPERSON);
+    else if ((vict->master != ch) && (vict != ch))
+        act("$N must follow you to enter your group.", false, ch, 0, vict, TO_CHAR);
+    else
+    {
+        if (!AFF_FLAGGED(vict, AFF_GROUP))
+            perform_group(ch, vict);
+        else
+        {
+            if (ch != vict)
+                act("$N is no longer a member of your group.", false, ch, 0, vict, TO_CHAR);
+            act("You have been kicked out of $n's group!", false, ch, 0, vict, TO_VICT);
+            act("$N has been kicked out of $n's group!", false, ch, 0, vict, TO_NOTVICT);
+            REMOVE_BIT_AR(AFF_FLAGS(vict), AFF_GROUP);
+        }
+    }
+}
 
 
 ACMD(do_ungroup)
 {
-  char buf[MAX_INPUT_LENGTH]={'\0'};
-  struct follow_type *f, *next_fol;
-  struct char_data *tch;
+    char buf[MAX_INPUT_LENGTH] = {'\0'};
+    struct follow_type * f, *next_fol;
+    struct char_data *tch;
 
-  one_argument(argument, buf);
+    one_argument(argument, buf);
 
-  if (!*buf) {
-    if (ch->master || !(AFF_FLAGGED(ch, AFF_GROUP))) {
-      send_to_char(ch, "But you lead no group!\r\n");
-      return;
+    if (!*buf)
+    {
+        if (ch->master || !(AFF_FLAGGED(ch, AFF_GROUP)))
+        {
+            send_to_char(ch, "But you lead no group!\r\n");
+            return;
+        }
+
+        for (f = ch->followers; f; f = next_fol)
+        {
+            next_fol = f->next;
+            if (AFF_FLAGGED(f->follower, AFF_GROUP))
+            {
+                REMOVE_BIT_AR(AFF_FLAGS(f->follower), AFF_GROUP);
+                act("$N has disbanded the group.", true, f->follower, NULL, ch, TO_CHAR);
+                if (!AFF_FLAGGED(f->follower, AFF_CHARM))
+                    stop_follower(f->follower);
+            }
+        }
+
+        REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_GROUP);
+        send_to_char(ch, "You disband the group.\r\n");
+        return;
+    }
+    if (!(tch = get_char_vis(ch, buf, NULL, FIND_CHAR_ROOM)))
+    {
+        send_to_char(ch, "There is no such person!\r\n");
+        return;
+    }
+    if (tch->master != ch)
+    {
+        send_to_char(ch, "That person is not following you!\r\n");
+        return;
     }
 
-    for (f = ch->followers; f; f = next_fol) {
-      next_fol = f->next;
-      if (AFF_FLAGGED(f->follower, AFF_GROUP)) {
-	REMOVE_BIT_AR(AFF_FLAGS(f->follower), AFF_GROUP);
-        act("$N has disbanded the group.", true, f->follower, NULL, ch, TO_CHAR);
-        if (!AFF_FLAGGED(f->follower, AFF_CHARM))
-	  stop_follower(f->follower);
-      }
+    if (!AFF_FLAGGED(tch, AFF_GROUP))
+    {
+        send_to_char(ch, "That person isn't in your group.\r\n");
+        return;
     }
 
-    REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_GROUP);
-    send_to_char(ch, "You disband the group.\r\n");
-    return;
-  }
-  if (!(tch = get_char_vis(ch, buf, NULL, FIND_CHAR_ROOM))) {
-    send_to_char(ch, "There is no such person!\r\n");
-    return;
-  }
-  if (tch->master != ch) {
-    send_to_char(ch, "That person is not following you!\r\n");
-    return;
-  }
+    REMOVE_BIT_AR(AFF_FLAGS(tch), AFF_GROUP);
 
-  if (!AFF_FLAGGED(tch, AFF_GROUP)) {
-    send_to_char(ch, "That person isn't in your group.\r\n");
-    return;
-  }
+    act("$N is no longer a member of your group.", false, ch, 0, tch, TO_CHAR);
+    act("You have been kicked out of $n's group!", false, ch, 0, tch, TO_VICT);
+    act("$N has been kicked out of $n's group!", false, ch, 0, tch, TO_NOTVICT);
 
-  REMOVE_BIT_AR(AFF_FLAGS(tch), AFF_GROUP);
-
-  act("$N is no longer a member of your group.", false, ch, 0, tch, TO_CHAR);
-  act("You have been kicked out of $n's group!", false, ch, 0, tch, TO_VICT);
-  act("$N has been kicked out of $n's group!", false, ch, 0, tch, TO_NOTVICT);
- 
-  if (!AFF_FLAGGED(tch, AFF_CHARM))
-    stop_follower(tch);
+    if (!AFF_FLAGGED(tch, AFF_CHARM))
+        stop_follower(tch);
 }
 
 
 ACMD(do_report)
 {
-  char buf[MAX_STRING_LENGTH]={'\0'};
-  struct char_data *k;
-  struct follow_type *f;
+    char buf[MAX_STRING_LENGTH] = {'\0'};
+    struct char_data *k;
+    struct follow_type *f;
 
-  if (!AFF_FLAGGED(ch, AFF_GROUP)) {
-    send_to_char(ch, "But you are not a member of any group!\r\n");
-    return;
-  }
+    if (!AFF_FLAGGED(ch, AFF_GROUP))
+    {
+        send_to_char(ch, "But you are not a member of any group!\r\n");
+        return;
+    }
 
-  snprintf(buf, sizeof(buf), "$n reports: %d/%d Hit Points & %d/%d Stamina\r\n",
-	  GET_HIT(ch), GET_MAX_HIT(ch),
-	  GET_MOVE(ch), GET_MAX_MOVE(ch));
+    snprintf(buf, sizeof(buf), "$n reports: %d/%d Hit Points & %d/%d Stamina\r\n",
+             GET_HIT(ch), GET_MAX_HIT(ch),
+             GET_MOVE(ch), GET_MAX_MOVE(ch));
 
-  k = (ch->master ? ch->master : ch);
+    k = (ch->master ? ch->master : ch);
 
-  for (f = k->followers; f; f = f->next)
-    if (AFF_FLAGGED(f->follower, AFF_GROUP) && f->follower != ch)
-      act(buf, true, ch, NULL, f->follower, TO_VICT);
+    for (f = k->followers; f; f = f->next)
+        if (AFF_FLAGGED(f->follower, AFF_GROUP) && f->follower != ch)
+            act(buf, true, ch, NULL, f->follower, TO_VICT);
 
-  if (k != ch)
-    act(buf, true, ch, NULL, k, TO_VICT);
+    if (k != ch)
+        act(buf, true, ch, NULL, k, TO_VICT);
 
-  send_to_char(ch, "You report to the group.\r\n");
+    send_to_char(ch, "You report to the group.\r\n");
 }
-
 
 
 ACMD(do_split)
 {
-  char buf[MAX_INPUT_LENGTH]={'\0'};
-  int amount = 0, num = 0, share = 0, rest = 0;
-  size_t len;
-  struct char_data *k;
-  struct follow_type *f;
+    char buf[MAX_INPUT_LENGTH] = {'\0'};
+    int amount = 0, num = 0, share = 0, rest = 0;
+    size_t len;
+    struct char_data *k;
+    struct follow_type *f;
 
-  if (IS_NPC(ch))
-    return;
+    if (IS_NPC(ch))
+        return;
 
-  one_argument(argument, buf);
+    one_argument(argument, buf);
 
-  if (is_number(buf)) {
-    amount = atoi(buf);
-    if (amount <= 0) {
-      send_to_char(ch, "Sorry, you can't do that.\r\n");
-      return;
+    if (is_number(buf))
+    {
+        amount = atoi(buf);
+        if (amount <= 0)
+        {
+            send_to_char(ch, "Sorry, you can't do that.\r\n");
+            return;
+        }
+        if (amount > GET_GOLD(ch))
+        {
+            send_to_char(ch, "You don't seem to have that much gold to split.\r\n");
+            return;
+        }
+        k = (ch->master ? ch->master : ch);
+
+        if (AFF_FLAGGED(k, AFF_GROUP) && (IN_ROOM(k) == IN_ROOM(ch)))
+            num = 1;
+        else
+            num = 0;
+
+        for (f = k->followers; f; f = f->next)
+            if (AFF_FLAGGED(f->follower, AFF_GROUP) &&
+                    (!IS_NPC(f->follower)) &&
+                    (IN_ROOM(f->follower) == IN_ROOM(ch)))
+                num++;
+
+        if (num && AFF_FLAGGED(ch, AFF_GROUP))
+        {
+            share = amount / num;
+            rest = amount % num;
+        }
+        else
+        {
+            send_to_char(ch, "With whom do you wish to share your gold?\r\n");
+            return;
+        }
+
+        GET_GOLD(ch) -= share * (num - 1);
+
+        /* Abusing signed/unsigned to make sizeof work. */
+        char *tmpdesc = NULL;
+        len = snprintf(buf, sizeof(buf), "%s splits %d coins; you receive %d.\r\n",
+                       has_intro(k, ch) ? GET_NAME(ch) : (tmpdesc = which_desc(ch)), amount, share);
+        if (rest && len < sizeof(buf))
+        {
+            snprintf(buf + len, sizeof(buf) - len,
+                     "%d coin%s %s not splitable, so %s keeps the money.\r\n", rest,
+                     (rest == 1) ? "" : "s", (rest == 1) ? "was" : "were", has_intro(k, ch) ? GET_NAME(ch) : tmpdesc);
+        }
+        free(tmpdesc);
+        if (AFF_FLAGGED(k, AFF_GROUP) && IN_ROOM(k) == IN_ROOM(ch) &&
+                !IS_NPC(k) && k != ch)
+        {
+            GET_GOLD(k) += share;
+            send_to_char(k, "%s", buf);
+        }
+
+        for (f = k->followers; f; f = f->next)
+        {
+            if (AFF_FLAGGED(f->follower, AFF_GROUP) &&
+                    (!IS_NPC(f->follower)) &&
+                    (IN_ROOM(f->follower) == IN_ROOM(ch)) &&
+                    f->follower != ch)
+            {
+
+                GET_GOLD(f->follower) += share;
+                send_to_char(f->follower, "%s", buf);
+            }
+        }
+        send_to_char(ch, "You split %d coins among %d members -- %d coins each.\r\n",
+                     amount, num, share);
+
+        if (rest)
+        {
+            send_to_char(ch, "%d coin%s %s not splitable, so you keep the money.\r\n",
+                         rest, (rest == 1) ? "" : "s", (rest == 1) ? "was" : "were");
+            GET_GOLD(ch) += rest;
+        }
     }
-    if (amount > GET_GOLD(ch)) {
-      send_to_char(ch, "You don't seem to have that much gold to split.\r\n");
-      return;
-    }
-    k = (ch->master ? ch->master : ch);
-
-    if (AFF_FLAGGED(k, AFF_GROUP) && (IN_ROOM(k) == IN_ROOM(ch)))
-      num = 1;
     else
-      num = 0;
-
-    for (f = k->followers; f; f = f->next)
-      if (AFF_FLAGGED(f->follower, AFF_GROUP) &&
-	  (!IS_NPC(f->follower)) &&
-	  (IN_ROOM(f->follower) == IN_ROOM(ch)))
-	num++;
-
-    if (num && AFF_FLAGGED(ch, AFF_GROUP)) {
-      share = amount / num;
-      rest = amount % num;
-    } else {
-      send_to_char(ch, "With whom do you wish to share your gold?\r\n");
-      return;
+    {
+        send_to_char(ch, "How many coins do you wish to split with your group?\r\n");
+        return;
     }
-
-    GET_GOLD(ch) -= share * (num - 1);
-
-    /* Abusing signed/unsigned to make sizeof work. */
-		char *tmpdesc = NULL;
-    len = snprintf(buf, sizeof(buf), "%s splits %d coins; you receive %d.\r\n",
-		has_intro(k, ch)? GET_NAME(ch) : (tmpdesc = which_desc(ch)), amount, share);
-    if (rest && len < sizeof(buf)) {
-      snprintf(buf + len, sizeof(buf) - len,
-		"%d coin%s %s not splitable, so %s keeps the money.\r\n", rest,
-		(rest == 1) ? "" : "s", (rest == 1) ? "was" : "were", has_intro(k, ch) ? GET_NAME(ch) : tmpdesc);
-    }
-		free(tmpdesc);
-    if (AFF_FLAGGED(k, AFF_GROUP) && IN_ROOM(k) == IN_ROOM(ch) &&
-		!IS_NPC(k) && k != ch) {
-      GET_GOLD(k) += share;
-      send_to_char(k, "%s", buf);
-    }
-
-    for (f = k->followers; f; f = f->next) {
-      if (AFF_FLAGGED(f->follower, AFF_GROUP) &&
-	  (!IS_NPC(f->follower)) &&
-	  (IN_ROOM(f->follower) == IN_ROOM(ch)) &&
-	  f->follower != ch) {
-
-	GET_GOLD(f->follower) += share;
-	send_to_char(f->follower, "%s", buf);
-      }
-    }
-    send_to_char(ch, "You split %d coins among %d members -- %d coins each.\r\n",
-	    amount, num, share);
-
-    if (rest) {
-      send_to_char(ch, "%d coin%s %s not splitable, so you keep the money.\r\n",
-		rest, (rest == 1) ? "" : "s", (rest == 1) ? "was" : "were");
-      GET_GOLD(ch) += rest;
-    }
-  } else {
-    send_to_char(ch, "How many coins do you wish to split with your group?\r\n");
-    return;
-  }
 }
-
 
 
 ACMD(do_use)
 {
-  char buf[MAX_INPUT_LENGTH]={'\0'}, arg[MAX_INPUT_LENGTH]={'\0'};
-  struct obj_data *mag_item;
+    char buf[MAX_INPUT_LENGTH] = {'\0'}, arg[MAX_INPUT_LENGTH] = {'\0'};
+    struct obj_data *mag_item;
 
-  half_chop(argument, arg, buf);
-  if (!*arg) {
-    send_to_char(ch, "What do you want to %s?\r\n", CMD_NAME);
-    return;
-  }
+    half_chop(argument, arg, buf);
+    if (!*arg)
+    {
+        send_to_char(ch, "What do you want to %s?\r\n", CMD_NAME);
+        return;
+    }
 
-  mag_item = GET_EQ(ch, WEAR_WIELD2);
+    mag_item = GET_EQ(ch, WEAR_WIELD2);
 
-  if (!mag_item || !isname(arg, mag_item->name)) {
-    switch (subcmd) {
-    case SCMD_RECITE:
+    if (!mag_item || !isname(arg, mag_item->name))
+    {
+        switch (subcmd)
+        {
+        case SCMD_RECITE:
+        case SCMD_QUAFF:
+        case SCMD_USE:
+            if (!(mag_item = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))
+            {
+                send_to_char(ch, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+                return;
+            }
+            break;
+        default:
+            log("SYSERR: Unknown subcmd %d passed to do_use.", subcmd);
+            /*  SYSERR_DESC:
+             *  This is the same as the unhandled case in do_gen_ps(), but in the
+             *  function which handles 'quaff', 'recite', and 'use'.
+             */
+            return;
+        }
+    }
+
+    if (FIGHTING(ch))
+        SET_BIT_AR(AFF_FLAGS(ch), AFF_NEXTNOACTION);
+
+    switch (subcmd)
+    {
     case SCMD_QUAFF:
+        if (GET_OBJ_TYPE(mag_item) != ITEM_POTION)
+        {
+            send_to_char(ch, "You can only quaff potions.\r\n");
+            return;
+        }
+        break;
+    case SCMD_RECITE:
+        if (GET_OBJ_TYPE(mag_item) != ITEM_SCROLL)
+        {
+            send_to_char(ch, "You can only recite scrolls.\r\n");
+            return;
+        }
+        break;
     case SCMD_USE:
-      if (!(mag_item = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) {
-	send_to_char(ch, "You don't seem to have %s %s.\r\n", AN(arg), arg);
-	return;
-      }
-      break;
-    default:
-      log("SYSERR: Unknown subcmd %d passed to do_use.", subcmd);
-      /*  SYSERR_DESC:
-       *  This is the same as the unhandled case in do_gen_ps(), but in the
-       *  function which handles 'quaff', 'recite', and 'use'.
-       */
-      return;
+        if ((GET_OBJ_TYPE(mag_item) != ITEM_WAND) &&
+                (GET_OBJ_TYPE(mag_item) != ITEM_STAFF))
+        {
+            send_to_char(ch, "You can't seem to figure out how to use it.\r\n");
+            return;
+        }
+        break;
     }
-  }
 
-  if (FIGHTING(ch))
-    SET_BIT_AR(AFF_FLAGS(ch), AFF_NEXTNOACTION);
-
-  switch (subcmd) {
-  case SCMD_QUAFF:
-    if (GET_OBJ_TYPE(mag_item) != ITEM_POTION) {
-      send_to_char(ch, "You can only quaff potions.\r\n");
-      return;
-    }
-    break;
-  case SCMD_RECITE:
-    if (GET_OBJ_TYPE(mag_item) != ITEM_SCROLL) {
-      send_to_char(ch, "You can only recite scrolls.\r\n");
-      return;
-    }
-    break;
-  case SCMD_USE:
-    if ((GET_OBJ_TYPE(mag_item) != ITEM_WAND) &&
-	(GET_OBJ_TYPE(mag_item) != ITEM_STAFF)) {
-      send_to_char(ch, "You can't seem to figure out how to use it.\r\n");
-      return;
-    }
-    break;
-  }
-
-  mag_objectmagic(ch, mag_item, buf);
+    mag_objectmagic(ch, mag_item, buf);
 }
 
 
 
 ACMD(do_value)
 {
-  char arg[MAX_INPUT_LENGTH]={'\0'};
-  int value_lev = 0;
-  int max = 0;
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
+    int value_lev = 0;
+    int max = 0;
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (!*arg) {
-    switch (subcmd) {
-    case SCMD_WIMPY:
-        if (GET_WIMP_LEV(ch)) {
-          send_to_char(ch, "Your current wimp level is %d hit points.\r\n", GET_WIMP_LEV(ch));
-          return;
-        } else {
-          send_to_char(ch, "At the moment, you're not a wimp.  (sure, sure...)\r\n");
-          return;
+    if (!*arg)
+    {
+        switch (subcmd)
+        {
+        case SCMD_WIMPY:
+            if (GET_WIMP_LEV(ch))
+            {
+                send_to_char(ch, "Your current wimp level is %d hit points.\r\n", GET_WIMP_LEV(ch));
+                return;
+            }
+            else
+            {
+                send_to_char(ch, "At the moment, you're not a wimp.  (sure, sure...)\r\n");
+                return;
+            }
+            break;
+        case SCMD_POWERATT:
+            if (GET_POWERATTACK(ch))
+            {
+                send_to_char(ch, "Your current power attack level -%d accuracy +%ddamage.\r\n",
+                             GET_POWERATTACK(ch), GET_POWERATTACK(ch));
+                return;
+            }
+            else
+            {
+                send_to_char(ch, "You are not currently using power attack.\r\n");
+                return;
+            }
+            break;
         }
-      break;
-    case SCMD_POWERATT:
-        if (GET_POWERATTACK(ch)) {
-          send_to_char(ch, "Your current power attack level -%d accuracy +%ddamage.\r\n",
-                       GET_POWERATTACK(ch), GET_POWERATTACK(ch));
-          return;
-        } else {
-          send_to_char(ch, "You are not currently using power attack.\r\n");
-          return;
-        }
-      break;
     }
-  }
 
-  if (isdigit(*arg)) {
-    switch (subcmd) {
-    case SCMD_WIMPY:
-      /* 'wimp_level' is a player_special. -gg 2/25/98 */
-      if (IS_NPC(ch))
-        return;
-      if ((value_lev = atoi(arg)) != 0) {
-        if (value_lev < 0)
-	  send_to_char(ch, "Heh, heh, heh.. we are jolly funny today, eh?\r\n");
-        else if (value_lev > GET_MAX_HIT(ch))
-	  send_to_char(ch, "That doesn't make much sense, now does it?\r\n");
-        else if (value_lev > (GET_MAX_HIT(ch) / 2))
-	  send_to_char(ch, "You can't set your wimp level above half your hit points.\r\n");
-        else {
-	  send_to_char(ch, "Okay, you'll wimp out if you drop below %d hit points.\r\n", value_lev);
-	  GET_WIMP_LEV(ch) = value_lev;
+    if (isdigit(*arg))
+    {
+        switch (subcmd)
+        {
+        case SCMD_WIMPY:
+            /* 'wimp_level' is a player_special. -gg 2/25/98 */
+            if (IS_NPC(ch))
+                return;
+            if ((value_lev = atoi(arg)) != 0)
+            {
+                if (value_lev < 0)
+                    send_to_char(ch, "Heh, heh, heh.. we are jolly funny today, eh?\r\n");
+                else if (value_lev > GET_MAX_HIT(ch))
+                    send_to_char(ch, "That doesn't make much sense, now does it?\r\n");
+                else if (value_lev > (GET_MAX_HIT(ch) / 2))
+                    send_to_char(ch, "You can't set your wimp level above half your hit points.\r\n");
+                else
+                {
+                    send_to_char(ch, "Okay, you'll wimp out if you drop below %d hit points.\r\n", value_lev);
+                    GET_WIMP_LEV(ch) = value_lev;
+                }
+            }
+            else
+            {
+                send_to_char(ch, "Okay, you'll now tough out fights to the bitter end.\r\n");
+                GET_WIMP_LEV(ch) = 0;
+            }
+            break;
+        case SCMD_POWERATT:
+            if (HAS_FEAT(ch, FEAT_IMPROVED_POWER_ATTACK))
+                max = 10;
+            else
+                max = 5;
+            if ((value_lev = atoi(arg)) != 0)
+            {
+                if (value_lev < 0)
+                    send_to_char(ch, "Heh, heh, heh.. we are jolly funny today, eh?\r\n");
+                else if (value_lev > MIN(max, GET_ACCURACY_BASE(ch)))
+                    send_to_char(ch, "You may only specify a value up to %d.\r\n", MIN(max, GET_ACCURACY_BASE(ch)));
+                else
+                {
+                    send_to_char(ch, "Okay, you'll sacrifice %d points of accuracy for damage.\r\n", value_lev);
+                    GET_POWERATTACK(ch) = value_lev;
+                }
+            }
+            else
+            {
+                send_to_char(ch, "Okay, you will no longer use power attack.\r\n");
+                GET_POWERATTACK(ch) = 0;
+            }
+            break;
+        default:
+            log("Unknown subcmd to do_value %d called by %s", subcmd, GET_NAME(ch));
+            break;
         }
-      } else {
-        send_to_char(ch, "Okay, you'll now tough out fights to the bitter end.\r\n");
-        GET_WIMP_LEV(ch) = 0;
-      }
-      break;
-    case SCMD_POWERATT:
-      if (HAS_FEAT(ch, FEAT_IMPROVED_POWER_ATTACK))
-        max = 10;
-      else
-        max = 5;
-      if ((value_lev = atoi(arg)) != 0) {
-        if (value_lev < 0)
-	  send_to_char(ch, "Heh, heh, heh.. we are jolly funny today, eh?\r\n");
-        else if (value_lev > MIN(max, GET_ACCURACY_BASE(ch)))
-	  send_to_char(ch, "You may only specify a value up to %d.\r\n", MIN(max, GET_ACCURACY_BASE(ch)));
-        else {
-	  send_to_char(ch, "Okay, you'll sacrifice %d points of accuracy for damage.\r\n", value_lev);
-	  GET_POWERATTACK(ch) = value_lev;
-        }
-      } else {
-        send_to_char(ch, "Okay, you will no longer use power attack.\r\n");
-        GET_POWERATTACK(ch) = 0;
-      }
-      break;
-    default:
-      log("Unknown subcmd to do_value %d called by %s", subcmd, GET_NAME(ch));
-      break;
     }
-  } else
-    send_to_char(ch, "Specify a value.  (0 to disable)\r\n");
+    else
+        send_to_char(ch, "Specify a value.  (0 to disable)\r\n");
 }
 
 
@@ -1264,88 +1375,96 @@ ACMD(do_display)
 
 ACMD(do_gen_write)
 {
-  FILE *fl;
-  const char *filename;
-  struct stat fbuf;
-  time_t rawtime;
-  struct tm *info;
-  char buffer[80]={'\0'};
+    FILE *fl;
+    const char *filename;
+    struct stat fbuf;
+    time_t rawtime;
+    struct tm *info;
+    char buffer[80] = {'\0'};
 
-  switch (subcmd) {
-  case SCMD_BUG:
-    filename = BUG_FILE;
-    break;
-  case SCMD_TYPO:
-    filename = TYPO_FILE;
-    break;
-  case SCMD_IDEA:
-    filename = IDEA_FILE;
-    break;
-  case SCMD_NEWS:
-    filename = NEWS_FILE;
-    break;
-  default:
-    send_to_char(ch, "That option does not exist.\r\n");
-    return;
-  }
-
-  time(&rawtime);
-  info = localtime( &rawtime);
-  strftime(buffer, 80, "%b-%d-%Y", info);
-
-  if (IS_NPC(ch)) {
-    send_to_char(ch, "Monsters can't have ideas - Go away.\r\n");
-    return;
-  }
-
-  skip_spaces(&argument);
-  delete_doubledollar(argument);
-
-  if (!*argument) {
-    send_to_char(ch, "That must be a mistake...\r\n");
-    return;
-  }
-
-  if (stat(filename, &fbuf) < 0) {
-    send_to_char(ch, "Cannot find file, please contact an immortal.\r\n");
-    log("SYSERR: Can't stat() file: %s", strerror(errno));
-    /*  SYSERR_DESC:
-     *  This is from do_gen_write() and indicates that it cannot call the
-     *  stat() system call on the file required.  The error string at the
-     *  end of the line should explain what the problem is.
-     */
-    return;
-  }
-  if (fbuf.st_size >= CONFIG_MAX_FILESIZE) {
-    send_to_char(ch, "Sorry, the file is full right now.. try again later.\r\n");
-    return;
-  }
-  if (!(fl = fopen(filename, "a"))) {
-    log("SYSERR: do_gen_write: %s", strerror(errno));
-    /*  SYSERR_DESC:
-     *  This is from do_gen_write(), and will be output if the file in
-     *  question cannot be opened for appending to.  The error string
-     *  at the end of the line should explain what the problem is.
-     */
-
-    send_to_char(ch, "Could not open the file.  Sorry.\r\n");
-    return;
-  }
-  if (subcmd == SCMD_NEWS)
-    fprintf(fl, "@W%-8s@n @Y(%11s)@n %s\n", GET_NAME(ch), (buffer), argument);
-  else
-    fprintf(fl, "%-8s (%11s) [%5d] %s\n", GET_NAME(ch), (buffer),
-	  GET_ROOM_VNUM(IN_ROOM(ch)), argument);
-  if (subcmd == SCMD_NEWS) {
-    struct char_data *tch;
-    for (tch = character_list; tch; tch = tch->next) {
-      if (!IS_NPC(tch) && tch->desc)
-        send_to_char(tch, "@C%s has added news: @W%s@n\r\n", GET_NAME(ch), argument);
+    switch (subcmd)
+    {
+    case SCMD_BUG:
+        filename = BUG_FILE;
+        break;
+    case SCMD_TYPO:
+        filename = TYPO_FILE;
+        break;
+    case SCMD_IDEA:
+        filename = IDEA_FILE;
+        break;
+    case SCMD_NEWS:
+        filename = NEWS_FILE;
+        break;
+    default:
+        send_to_char(ch, "That option does not exist.\r\n");
+        return;
     }
-  }
-  log("%s %s: %s", GET_NAME(ch), CMD_NAME, argument);
-  fclose(fl);
-  send_to_char(ch, "Okay.  Thanks!\r\n");
+
+    time(&rawtime);
+    info = localtime( &rawtime);
+    strftime(buffer, 80, "%b-%d-%Y", info);
+
+    if (IS_NPC(ch))
+    {
+        send_to_char(ch, "Monsters can't have ideas - Go away.\r\n");
+        return;
+    }
+
+    skip_spaces(&argument);
+    delete_doubledollar(argument);
+
+    if (!*argument)
+    {
+        send_to_char(ch, "That must be a mistake...\r\n");
+        return;
+    }
+
+    if (stat(filename, &fbuf) < 0)
+    {
+        send_to_char(ch, "Cannot find file, please contact an immortal.\r\n");
+        log("SYSERR: Can't stat() file: %s", strerror(errno));
+        /*  SYSERR_DESC:
+         *  This is from do_gen_write() and indicates that it cannot call the
+         *  stat() system call on the file required.  The error string at the
+         *  end of the line should explain what the problem is.
+         */
+        return;
+    }
+    if (fbuf.st_size >= CONFIG_MAX_FILESIZE)
+    {
+        send_to_char(ch, "Sorry, the file is full right now.. try again later.\r\n");
+        return;
+    }
+    if (!(fl = fopen(filename, "a")))
+    {
+        log("SYSERR: do_gen_write: %s", strerror(errno));
+        /*  SYSERR_DESC:
+         *  This is from do_gen_write(), and will be output if the file in
+         *  question cannot be opened for appending to.  The error string
+         *  at the end of the line should explain what the problem is.
+         */
+
+        send_to_char(ch, "Could not open the file.  Sorry.\r\n");
+        return;
+    }
+    if (subcmd == SCMD_NEWS)
+        fprintf(fl, "@W%-8s@n @Y(%11s)@n %s\n", GET_NAME(ch), (buffer), argument);
+    else
+        fprintf(fl, "%-8s (%11s) [%5d] %s\n", GET_NAME(ch), (buffer),
+                GET_ROOM_VNUM(IN_ROOM(ch)), argument);
+    if (subcmd == SCMD_NEWS)
+    {
+        struct char_data *tch;
+        for (tch = character_list; tch; tch = tch->next)
+        {
+            if (!IS_NPC(tch) && tch->desc)
+                send_to_char(tch, "@C%s has added news: @W%s@n\r\n", GET_NAME(ch), argument);
+        }
+    }
+    log("%s %s: %s", GET_NAME(ch), CMD_NAME, argument);
+    fclose(fl);
+    send_to_char(ch, "Okay.  Thanks!\r\n");
 }
 
 
@@ -1355,316 +1474,420 @@ ACMD(do_gen_write)
 
 ACMD(do_gen_tog)
 {
-  long result = 0;
+    long result = 0;
 
-  const char *tog_messages[][2] = {
-    {"You are now safe from summoning by other players.\r\n",
-    "You may now be summoned by other players.\r\n"},
-    {"Nohassle disabled.\r\n",
-    "Nohassle enabled.\r\n"},
-    {"Brief mode off.\r\n",
-    "Brief mode on.\r\n"},
-    {"Compact mode off.\r\n",
-    "Compact mode on.\r\n"},
-    {"You can now hear tells.\r\n",
-    "You are now deaf to tells.\r\n"},
-    {"You can now hear auctions.\r\n",
-    "You are now deaf to auctions.\r\n"},
-    {"You can now hear shouts.\r\n",
-    "You are now deaf to shouts.\r\n"},
-    {"You can now hear gossip.\r\n",
-    "You are now deaf to gossip.\r\n"},
-    {"You can now hear the congratulation messages.\r\n",
-    "You are now deaf to the congratulation messages.\r\n"},
-    {"You can now hear the Wiz-channel.\r\n",
-    "You are now deaf to the Wiz-channel.\r\n"},
-    {"You are no longer part of the Quest.\r\n",
-    "Okay, you are part of the Quest!\r\n"},
-    {"You will no longer see the room flags.\r\n",
-    "You will now see the room flags.\r\n"},
-    {"You will now have your communication repeated.\r\n",
-    "You will no longer have your communication repeated.\r\n"},
-    {"HolyLight mode off.\r\n",
-    "HolyLight mode on.\r\n"},
-    {"Nameserver_is_slow changed to NO; IP addresses will now be resolved.\r\n",
-    "Nameserver_is_slow changed to YES; sitenames will no longer be resolved.\r\n"},
-    {"Autoexits disabled.\r\n",
-    "Autoexits enabled.\r\n"},
-    {"Will no longer track through doors.\r\n",
-    "Will now track through doors.\r\n"},
-    {"Buildwalk Off.\r\n",
-    "Buildwalk On.\r\n"}, 
-    {"AFK flag is now off.\r\n",
-    "AFK flag is now on.\r\n"},
-    {"You will no longer Auto-Assist.\r\n",
-     "You will now Auto-Assist.\r\n"},
-    {"Autoloot disabled.\r\n",
-    "Autoloot enabled.\r\n"},
-    {"Autogold disabled.\r\n",
-    "Autogold enabled.\r\n"},
-    {"Will no longer clear screen in OLC.\r\n",
-    "Will now clear screen in OLC.\r\n"},
-    {"Autosplit disabled.\r\n",
-    "Autosplit enabled.\r\n"},
-    {"Autosac disabled.\r\n",
-    "Autosac enabled.\r\n"},
-    {"You will no longer attempt to be sneaky.\r\n",
-    "You will try to move as silently as you can.\r\n"},
-    {"You will no longer attempt to stay hidden.\r\n",
-    "You will try to stay hidden.\r\n"},
-    {"You will no longer automatically memorize spells in your list.\r\n",
-    "You will automatically memorize spells in your list.\r\n"},
-    {"Viewing newest board messages first.\r\n",
-      "Viewing eldest board messages first.  Wierdo.\r\n"},
-    {"Compression will be used if your client supports it.\r\n",
-     "Compression will not be used even if your client supports it.\r\n"},
-    {"You are now deaf to the clan channel.\r\n",
-    "You can now hear the clan channel.\r\n"},
-    {"You will now hear all clan channels.\r\n",
-    "You will no longer see all clan channels.\r\n"},
-    {"Autoattack disabled.\r\n",
-    "Autoattack enabled.\r\n"},
-    {"Bleeding attack disabled.\r\n",
-    "Bleeding attack enabled.\r\n"},
-    {"Powerful sneak disabled.\r\n",
-    "Powerful sneak enabled.\r\n"},
-    {"Knockdown disabled.\r\n",
-    "Knockdown enabled.\r\n"},
-    {"Robilars gambit disabled.\r\n",
-    "Robilars gambit enabled.\r\n"},
-    {"You will no longer take 10 on eligible dice rolls.\r\n",
-    "You will now take ten on eligible dice rolls.\r\n"},
-    {"You will no longer have your summon tank for you.\r\n",
-    "You will now have your summon tank for you.\r\n"},
-    {"You will no longer have your mount tank for you.\r\n",
-    "You will now have your mount tank for you.\r\n"},
-    {"You will no longer use your divine bond with your weapon.\r\n",
-    "You will now use your divine bond with your weapon.\r\n"},
-    {"You will no longer tank for your party.\r\n",
-    "You will now tank for your party.\r\n"},
-    {"You will no longer have your animal companion tank for you.\r\n",
-    "You will now have your animal companion tank for you.\r\n"},
-    {"Brief mode with map disabled.\r\n",
-    "Brief mode with map enabled.\r\n"},
-    {"Parry mode disabled.\r\n",
-    "Parry mode enabled.\r\n"},
-    {"Player vs player mode disabled.\r\n",
-    "Player vs player mode enabled.\r\n"},
-    {"Text output during fights has been reset to normal.\r\n",
-    "Text output during fights has been minimized.\r\n"}
-  };
+    const char *tog_messages[][2] = {
+        {
+            "You are now safe from summoning by other players.\r\n",
+            "You may now be summoned by other players.\r\n"
+        },
+        {
+            "Nohassle disabled.\r\n",
+            "Nohassle enabled.\r\n"
+        },
+        {
+            "Brief mode off.\r\n",
+            "Brief mode on.\r\n"
+        },
+        {
+            "Compact mode off.\r\n",
+            "Compact mode on.\r\n"
+        },
+        {
+            "You can now hear tells.\r\n",
+            "You are now deaf to tells.\r\n"
+        },
+        {
+            "You can now hear auctions.\r\n",
+            "You are now deaf to auctions.\r\n"
+        },
+        {
+            "You can now hear shouts.\r\n",
+            "You are now deaf to shouts.\r\n"
+        },
+        {
+            "You can now hear gossip.\r\n",
+            "You are now deaf to gossip.\r\n"
+        },
+        {
+            "You can now hear the congratulation messages.\r\n",
+            "You are now deaf to the congratulation messages.\r\n"
+        },
+        {
+            "You can now hear the Wiz-channel.\r\n",
+            "You are now deaf to the Wiz-channel.\r\n"
+        },
+        {
+            "You are no longer part of the Quest.\r\n",
+            "Okay, you are part of the Quest!\r\n"
+        },
+        {
+            "You will no longer see the room flags.\r\n",
+            "You will now see the room flags.\r\n"
+        },
+        {
+            "You will now have your communication repeated.\r\n",
+            "You will no longer have your communication repeated.\r\n"
+        },
+        {
+            "HolyLight mode off.\r\n",
+            "HolyLight mode on.\r\n"
+        },
+        {
+            "Nameserver_is_slow changed to NO; IP addresses will now be resolved.\r\n",
+            "Nameserver_is_slow changed to YES; sitenames will no longer be resolved.\r\n"
+        },
+        {
+            "Autoexits disabled.\r\n",
+            "Autoexits enabled.\r\n"
+        },
+        {
+            "Will no longer track through doors.\r\n",
+            "Will now track through doors.\r\n"
+        },
+        {
+            "Buildwalk Off.\r\n",
+            "Buildwalk On.\r\n"
+        },
+        {
+            "AFK flag is now off.\r\n",
+            "AFK flag is now on.\r\n"
+        },
+        {
+            "You will no longer Auto-Assist.\r\n",
+            "You will now Auto-Assist.\r\n"
+        },
+        {
+            "Autoloot disabled.\r\n",
+            "Autoloot enabled.\r\n"
+        },
+        {
+            "Autogold disabled.\r\n",
+            "Autogold enabled.\r\n"
+        },
+        {
+            "Will no longer clear screen in OLC.\r\n",
+            "Will now clear screen in OLC.\r\n"
+        },
+        {
+            "Autosplit disabled.\r\n",
+            "Autosplit enabled.\r\n"
+        },
+        {
+            "Autosac disabled.\r\n",
+            "Autosac enabled.\r\n"
+        },
+        {
+            "You will no longer attempt to be sneaky.\r\n",
+            "You will try to move as silently as you can.\r\n"
+        },
+        {
+            "You will no longer attempt to stay hidden.\r\n",
+            "You will try to stay hidden.\r\n"
+        },
+        {
+            "You will no longer automatically memorize spells in your list.\r\n",
+            "You will automatically memorize spells in your list.\r\n"
+        },
+        {
+            "Viewing newest board messages first.\r\n",
+            "Viewing eldest board messages first.  Wierdo.\r\n"
+        },
+        {
+            "Compression will be used if your client supports it.\r\n",
+            "Compression will not be used even if your client supports it.\r\n"
+        },
+        {
+            "You are now deaf to the clan channel.\r\n",
+            "You can now hear the clan channel.\r\n"
+        },
+        {
+            "You will now hear all clan channels.\r\n",
+            "You will no longer see all clan channels.\r\n"
+        },
+        {
+            "Autoattack disabled.\r\n",
+            "Autoattack enabled.\r\n"
+        },
+        {
+            "Bleeding attack disabled.\r\n",
+            "Bleeding attack enabled.\r\n"
+        },
+        {
+            "Powerful sneak disabled.\r\n",
+            "Powerful sneak enabled.\r\n"
+        },
+        {
+            "Knockdown disabled.\r\n",
+            "Knockdown enabled.\r\n"
+        },
+        {
+            "Robilars gambit disabled.\r\n",
+            "Robilars gambit enabled.\r\n"
+        },
+        {
+            "You will no longer take 10 on eligible dice rolls.\r\n",
+            "You will now take ten on eligible dice rolls.\r\n"
+        },
+        {
+            "You will no longer have your summon tank for you.\r\n",
+            "You will now have your summon tank for you.\r\n"
+        },
+        {
+            "You will no longer have your mount tank for you.\r\n",
+            "You will now have your mount tank for you.\r\n"
+        },
+        {
+            "You will no longer use your divine bond with your weapon.\r\n",
+            "You will now use your divine bond with your weapon.\r\n"
+        },
+        {
+            "You will no longer tank for your party.\r\n",
+            "You will now tank for your party.\r\n"
+        },
+        {
+            "You will no longer have your animal companion tank for you.\r\n",
+            "You will now have your animal companion tank for you.\r\n"
+        },
+        {
+            "Brief mode with map disabled.\r\n",
+            "Brief mode with map enabled.\r\n"
+        },
+        {
+            "Parry mode disabled.\r\n",
+            "Parry mode enabled.\r\n"
+        },
+        {
+            "Player vs player mode disabled.\r\n",
+            "Player vs player mode enabled.\r\n"
+        },
+        {
+            "Text output during fights has been reset to normal.\r\n",
+            "Text output during fights has been minimized.\r\n"
+        }
+    };
 
 
-  if (IS_NPC(ch))
-    return;
+    if (IS_NPC(ch))
+        return;
 
-  switch (subcmd) {
-  case SCMD_PVP:
-    if (PRF_FLAGGED(ch, PRF_PVP) && ch->pvp_timer > 0) {
-      send_to_char(ch, "You cannot turn off your pvp timer for another %d minutes.\r\n", ch->pvp_timer);
-      return;
-    }
-    result = PRF_TOG_CHK(ch, PRF_PVP);
-    break;
-  case SCMD_PARRY:
-    result = PRF_TOG_CHK(ch, PRF_PARRY);
-    break;
-  case SCMD_BRIEFMAP:
-    result = PRF_TOG_CHK(ch, PRF_BRIEFMAP);
-    break;
-  case SCMD_FIGHT_SPAM:
-//    result = PRF_TOG_CHK(ch, PRF_FIGHT_SPAM);
-    break;
-  case SCMD_SUMMON_TANK:
-    result = PRF_TOG_CHK(ch, PRF_SUMMON_TANK);
-    break;
-  case SCMD_COMPANION_TANK:
-    result = PRF_TOG_CHK(ch, PRF_COMPANION_TANK);
-    break;
-  case SCMD_MOUNT_TANK:
-    result = PRF_TOG_CHK(ch, PRF_MOUNT_TANK);
-    break;
-  case SCMD_NOSUMMON:
-    result = PRF_TOG_CHK(ch, PRF_SUMMONABLE);
-    break;
-  case SCMD_NOHASSLE:
-    result = PRF_TOG_CHK(ch, PRF_NOHASSLE);
-    break;
-  case SCMD_BRIEF:
-    result = PRF_TOG_CHK(ch, PRF_BRIEF);
-    break;
-  case SCMD_KNOCKDOWN:
-    result = PRF_TOG_CHK(ch, PRF_KNOCKDOWN);
-    break;
-  case SCMD_ROBILARS_GAMBIT:
-    result = PRF_TOG_CHK(ch, PRF_ROBILARS_GAMBIT);
-    break;
-  case SCMD_COMPACT:
-    result = PRF_TOG_CHK(ch, PRF_COMPACT);
-    break;
-  case SCMD_NOTELL:
-    result = PRF_TOG_CHK(ch, PRF_NOTELL);
-    break;
-  case SCMD_TANK:
-    result = AFF_TOG_CHK(ch, AFF_TANKING);
-    break;
-  case SCMD_NOAUCTION:
-    result = PRF_TOG_CHK(ch, PRF_NOAUCT);
-    break;
-  case SCMD_DEAF:
-    result = PRF_TOG_CHK(ch, PRF_DEAF);
-    break;
-  case SCMD_NOGOSSIP:
-    result = PRF_TOG_CHK(ch, PRF_NOGOSS);
-    break;
-  case SCMD_NOGRATZ:
-    result = PRF_TOG_CHK(ch, PRF_NOGRATZ);
-    break;
-  case SCMD_NOWIZ:
-    result = PRF_TOG_CHK(ch, PRF_NOWIZ);
-    break;
-  case SCMD_QUEST:
-    result = PRF_TOG_CHK(ch, PRF_QUEST);
-    break;
-  case SCMD_ROOMFLAGS:
-    result = PRF_TOG_CHK(ch, PRF_ROOMFLAGS);
-    break;
-  case SCMD_NOREPEAT:
-    result = PRF_TOG_CHK(ch, PRF_NOREPEAT);
-    break;
-  case SCMD_HOLYLIGHT:
-    result = PRF_TOG_CHK(ch, PRF_HOLYLIGHT);
-    break;
-  case SCMD_SLOWNS:
-    result = (CONFIG_NS_IS_SLOW = !CONFIG_NS_IS_SLOW);
-    break;
-  case SCMD_AUTOEXIT:
-    result = PRF_TOG_CHK(ch, PRF_AUTOEXIT);
-    break;
-  case SCMD_TRACK:
-    result = (CONFIG_TRACK_T_DOORS = !CONFIG_TRACK_T_DOORS);
-    break;
-  case SCMD_AFK:
-    result = PRF_TOG_CHK(ch, PRF_AFK);
-    if (PRF_FLAGGED(ch, PRF_AFK))
-      act("$n has gone AFK.", true, ch, 0, 0, TO_ROOM);
-    else
-      act("$n has come back from AFK.", true, ch, 0, 0, TO_ROOM);
-    break;
-  case SCMD_AUTOLOOT:
-    result = PRF_TOG_CHK(ch, PRF_AUTOLOOT);
-    break;
-  case SCMD_AUTOGOLD:
-    result = PRF_TOG_CHK(ch, PRF_AUTOGOLD);
-    break;
-  case SCMD_CLS:
-    result = PRF_TOG_CHK(ch, PRF_CLS);
-    break;
-  case SCMD_BUILDWALK:
-    if (GET_ADMLEVEL(ch) < ADMLVL_BUILDER) {
-      send_to_char(ch, "Builders only, sorry.\r\n");  	
-      return;
-    }
-    result = PRF_TOG_CHK(ch, PRF_BUILDWALK);
-    if (PRF_FLAGGED(ch, PRF_BUILDWALK))
-      mudlog(CMP, GET_LEVEL(ch), true, 
-             "OLC: %s turned buildwalk on. Allowed zone %d", GET_NAME(ch), GET_OLC_ZONE(ch));
-    else
-      mudlog(CMP, GET_LEVEL(ch), true,
-             "OLC: %s turned buildwalk off. Allowed zone %d", GET_NAME(ch), GET_OLC_ZONE(ch));
-    break;
-  case SCMD_AUTOSPLIT:
-    result = PRF_TOG_CHK(ch, PRF_AUTOSPLIT);
-    break;
-  case SCMD_AUTOSAC: 
-    result = PRF_TOG_CHK(ch, PRF_AUTOSAC); 
-    break; 
-  case SCMD_SNEAK:
-    if (affected_by_spell(ch, SPELL_FAERIE_FIRE)) {
-      send_to_char(ch, "You cannot sneak while covered in faerie fire.\r\n");
-      return;
-    }
-    result = AFF_TOG_CHK(ch, AFF_SNEAK);
-    break;
-  case SCMD_HIDE:
-    if (affected_by_spell(ch, SPELL_FAERIE_FIRE)) {
-      send_to_char(ch, "You cannot hide while covered in faerie fire.\r\n");
-      return;
-    }
-    if (FIGHTING(ch) && HAS_FEAT(ch, FEAT_HIDE_IN_PLAIN_SIGHT) && 
-      skill_roll(FIGHTING(ch), SKILL_PERCEPTION) < skill_roll(ch, SKILL_STEALTH)) 
+    switch (subcmd)
     {
-      stop_fighting(FIGHTING(ch));
-      stop_fighting(ch);
+    case SCMD_PVP:
+        if (PRF_FLAGGED(ch, PRF_PVP) && ch->pvp_timer > 0)
+        {
+            send_to_char(ch, "You cannot turn off your pvp timer for another %d minutes.\r\n", ch->pvp_timer);
+            return;
+        }
+        result = PRF_TOG_CHK(ch, PRF_PVP);
+        break;
+    case SCMD_PARRY:
+        result = PRF_TOG_CHK(ch, PRF_PARRY);
+        break;
+    case SCMD_BRIEFMAP:
+        result = PRF_TOG_CHK(ch, PRF_BRIEFMAP);
+        break;
+    case SCMD_FIGHT_SPAM:
+        //    result = PRF_TOG_CHK(ch, PRF_FIGHT_SPAM);
+        break;
+    case SCMD_SUMMON_TANK:
+        result = PRF_TOG_CHK(ch, PRF_SUMMON_TANK);
+        break;
+    case SCMD_COMPANION_TANK:
+        result = PRF_TOG_CHK(ch, PRF_COMPANION_TANK);
+        break;
+    case SCMD_MOUNT_TANK:
+        result = PRF_TOG_CHK(ch, PRF_MOUNT_TANK);
+        break;
+    case SCMD_NOSUMMON:
+        result = PRF_TOG_CHK(ch, PRF_SUMMONABLE);
+        break;
+    case SCMD_NOHASSLE:
+        result = PRF_TOG_CHK(ch, PRF_NOHASSLE);
+        break;
+    case SCMD_BRIEF:
+        result = PRF_TOG_CHK(ch, PRF_BRIEF);
+        break;
+    case SCMD_KNOCKDOWN:
+        result = PRF_TOG_CHK(ch, PRF_KNOCKDOWN);
+        break;
+    case SCMD_ROBILARS_GAMBIT:
+        result = PRF_TOG_CHK(ch, PRF_ROBILARS_GAMBIT);
+        break;
+    case SCMD_COMPACT:
+        result = PRF_TOG_CHK(ch, PRF_COMPACT);
+        break;
+    case SCMD_NOTELL:
+        result = PRF_TOG_CHK(ch, PRF_NOTELL);
+        break;
+    case SCMD_TANK:
+        result = AFF_TOG_CHK(ch, AFF_TANKING);
+        break;
+    case SCMD_NOAUCTION:
+        result = PRF_TOG_CHK(ch, PRF_NOAUCT);
+        break;
+    case SCMD_DEAF:
+        result = PRF_TOG_CHK(ch, PRF_DEAF);
+        break;
+    case SCMD_NOGOSSIP:
+        result = PRF_TOG_CHK(ch, PRF_NOGOSS);
+        break;
+    case SCMD_NOGRATZ:
+        result = PRF_TOG_CHK(ch, PRF_NOGRATZ);
+        break;
+    case SCMD_NOWIZ:
+        result = PRF_TOG_CHK(ch, PRF_NOWIZ);
+        break;
+    case SCMD_QUEST:
+        result = PRF_TOG_CHK(ch, PRF_QUEST);
+        break;
+    case SCMD_ROOMFLAGS:
+        result = PRF_TOG_CHK(ch, PRF_ROOMFLAGS);
+        break;
+    case SCMD_NOREPEAT:
+        result = PRF_TOG_CHK(ch, PRF_NOREPEAT);
+        break;
+    case SCMD_HOLYLIGHT:
+        result = PRF_TOG_CHK(ch, PRF_HOLYLIGHT);
+        break;
+    case SCMD_SLOWNS:
+        result = (CONFIG_NS_IS_SLOW = !CONFIG_NS_IS_SLOW);
+        break;
+    case SCMD_AUTOEXIT:
+        result = PRF_TOG_CHK(ch, PRF_AUTOEXIT);
+        break;
+    case SCMD_TRACK:
+        result = (CONFIG_TRACK_T_DOORS = !CONFIG_TRACK_T_DOORS);
+        break;
+    case SCMD_AFK:
+        result = PRF_TOG_CHK(ch, PRF_AFK);
+        if (PRF_FLAGGED(ch, PRF_AFK))
+            act("$n has gone AFK.", true, ch, 0, 0, TO_ROOM);
+        else
+            act("$n has come back from AFK.", true, ch, 0, 0, TO_ROOM);
+        break;
+    case SCMD_AUTOLOOT:
+        result = PRF_TOG_CHK(ch, PRF_AUTOLOOT);
+        break;
+    case SCMD_AUTOGOLD:
+        result = PRF_TOG_CHK(ch, PRF_AUTOGOLD);
+        break;
+    case SCMD_CLS:
+        result = PRF_TOG_CHK(ch, PRF_CLS);
+        break;
+    case SCMD_BUILDWALK:
+        if (GET_ADMLEVEL(ch) < ADMLVL_BUILDER)
+        {
+            send_to_char(ch, "Builders only, sorry.\r\n");
+            return;
+        }
+        result = PRF_TOG_CHK(ch, PRF_BUILDWALK);
+        if (PRF_FLAGGED(ch, PRF_BUILDWALK))
+            mudlog(CMP, GET_LEVEL(ch), true,
+                   "OLC: %s turned buildwalk on. Allowed zone %d", GET_NAME(ch), GET_OLC_ZONE(ch));
+        else
+            mudlog(CMP, GET_LEVEL(ch), true,
+                   "OLC: %s turned buildwalk off. Allowed zone %d", GET_NAME(ch), GET_OLC_ZONE(ch));
+        break;
+    case SCMD_AUTOSPLIT:
+        result = PRF_TOG_CHK(ch, PRF_AUTOSPLIT);
+        break;
+    case SCMD_AUTOSAC:
+        result = PRF_TOG_CHK(ch, PRF_AUTOSAC);
+        break;
+    case SCMD_SNEAK:
+        if (affected_by_spell(ch, SPELL_FAERIE_FIRE))
+        {
+            send_to_char(ch, "You cannot sneak while covered in faerie fire.\r\n");
+            return;
+        }
+        result = AFF_TOG_CHK(ch, AFF_SNEAK);
+        break;
+    case SCMD_HIDE:
+        if (affected_by_spell(ch, SPELL_FAERIE_FIRE))
+        {
+            send_to_char(ch, "You cannot hide while covered in faerie fire.\r\n");
+            return;
+        }
+        if (FIGHTING(ch) && HAS_FEAT(ch, FEAT_HIDE_IN_PLAIN_SIGHT) &&
+                skill_roll(FIGHTING(ch), SKILL_PERCEPTION) < skill_roll(ch, SKILL_STEALTH))
+        {
+            stop_fighting(FIGHTING(ch));
+            stop_fighting(ch);
+        }
+        result = AFF_TOG_CHK(ch, AFF_HIDE);
+        break;
+    case SCMD_AUTOMEM:
+        result = PRF_TOG_CHK(ch, PRF_AUTOMEM);
+        break;
+    case SCMD_VIEWORDER:
+        result = PRF_TOG_CHK(ch, PRF_VIEWORDER);
+        break;
+    case SCMD_NOCOMPRESS:
+        if (CONFIG_ENABLE_COMPRESSION)
+        {
+            result = PRF_TOG_CHK(ch, PRF_NOCOMPRESS);
+            break;
+        }
+        else
+        {
+            send_to_char(ch, "Sorry, compression is globally disabled.\r\n");
+        }
+    case SCMD_AUTOASSIST:
+        result = PRF_TOG_CHK(ch, PRF_AUTOASSIST);
+        break;
+
+    case SCMD_AUTOATTACK:
+        result = PRF_TOG_CHK(ch, PRF_AUTOATTACK);
+        break;
+
+    case SCMD_BLEEDING_ATTACK:
+        result = PRF_TOG_CHK(ch, PRF_BLEEDING_ATTACK);
+        break;
+
+    case SCMD_TAKE_TEN:
+        result = PRF_TOG_CHK(ch, PRF_TAKE_TEN);
+        break;
+
+    case SCMD_DIVINE_BOND:
+        result = PRF_TOG_CHK(ch, PRF_DIVINE_BOND);
+        break;
+
+    case SCMD_POWERFUL_SNEAK:
+        result = PRF_TOG_CHK(ch, PRF_POWERFUL_SNEAK);
+        break;
+
+    case SCMD_CLANTALK:
+        if (!GET_CLAN(ch) && (GET_ADMLEVEL(ch) < ADMLVL_GRGOD))
+        {
+            send_to_char(ch, "You don't belong to any clan.\r\n");
+            return;
+        }
+        result = PRF_TOG_CHK(ch, PRF_CLANTALK);
+        break;
+    case SCMD_ALLCTELL:
+        if (GET_ADMLEVEL(ch) < ADMLVL_IMPL)
+        {
+            send_to_char(ch, "You are not high enough to listen to all clan channels.\r\n");
+            return;
+        }
+        result = PRF_TOG_CHK(ch, PRF_ALLCTELL);
+        break;
+    default:
+        log("SYSERR: Unknown subcmd %d in do_gen_toggle.", subcmd);
+        /*  SYSERR_DESC:
+         *  This is the same as the unhandled case in do_gen_ps(), but in the
+         *  function which handles 'compact', 'brief', and so forth.
+         */
+        return;
     }
-    result = AFF_TOG_CHK(ch, AFF_HIDE);
-    break;
-  case SCMD_AUTOMEM: 
-    result = PRF_TOG_CHK(ch, PRF_AUTOMEM); 
-    break; 
-  case SCMD_VIEWORDER:
-    result = PRF_TOG_CHK(ch, PRF_VIEWORDER);
-    break;
-  case SCMD_NOCOMPRESS:
-    if (CONFIG_ENABLE_COMPRESSION) {
-      result = PRF_TOG_CHK(ch, PRF_NOCOMPRESS);
-      break;
-    } else {
-      send_to_char(ch, "Sorry, compression is globally disabled.\r\n");
-    }
-  case SCMD_AUTOASSIST:
-    result = PRF_TOG_CHK(ch, PRF_AUTOASSIST);
-    break;
 
-  case SCMD_AUTOATTACK:
-    result = PRF_TOG_CHK(ch, PRF_AUTOATTACK);
-    break;
+    if (result)
+        send_to_char(ch, "%s", tog_messages[subcmd][TOG_ON]);
+    else
+        send_to_char(ch, "%s", tog_messages[subcmd][TOG_OFF]);
 
-  case SCMD_BLEEDING_ATTACK:
-    result = PRF_TOG_CHK(ch, PRF_BLEEDING_ATTACK);
-    break;
-
-  case SCMD_TAKE_TEN:
-    result = PRF_TOG_CHK(ch, PRF_TAKE_TEN);
-    break;
-
-  case SCMD_DIVINE_BOND:
-    result = PRF_TOG_CHK(ch, PRF_DIVINE_BOND);
-    break;
-
-  case SCMD_POWERFUL_SNEAK:
-    result = PRF_TOG_CHK(ch, PRF_POWERFUL_SNEAK);
-    break;
-
-  case SCMD_CLANTALK:
-    if (!GET_CLAN(ch) && (GET_ADMLEVEL(ch) < ADMLVL_GRGOD)) {
-      send_to_char(ch, "You don't belong to any clan.\r\n");
-      return;
-    }
-    result = PRF_TOG_CHK(ch, PRF_CLANTALK);
-    break;
-  case SCMD_ALLCTELL:
-    if (GET_ADMLEVEL(ch) < ADMLVL_IMPL) {
-      send_to_char(ch, "You are not high enough to listen to all clan channels.\r\n");      
-      return;
-    }
-    result = PRF_TOG_CHK(ch, PRF_ALLCTELL);
-    break;
-  default:
-    log("SYSERR: Unknown subcmd %d in do_gen_toggle.", subcmd);
-    /*  SYSERR_DESC:
-     *  This is the same as the unhandled case in do_gen_ps(), but in the
-     *  function which handles 'compact', 'brief', and so forth.
-     */
     return;
-  }
-
-  if (result)
-    send_to_char(ch, "%s", tog_messages[subcmd][TOG_ON]);
-  else
-    send_to_char(ch, "%s", tog_messages[subcmd][TOG_OFF]);
-
-  return;
 }
 
 ACMD(do_file)
@@ -1699,7 +1922,8 @@ ACMD(do_file)
     skip_spaces(&argument);
 
     /* Show usage if no argument and not viewing news */
-    if (!*argument && subcmd != SCMD_NEWS) {
+    if (!*argument && subcmd != SCMD_NEWS)
+    {
         strcpy(buf, "USAGE: file <option> <num lines>\r\n\r\nFile options:\r\n");
         for (j = 0, i = 1; fields[i].level; i++)
             if (fields[i].level <= GET_LEVEL(ch))
@@ -1709,25 +1933,30 @@ ACMD(do_file)
     }
 
     /* Handle file lookup logic */
-    if (subcmd != SCMD_NEWS) {
+    if (subcmd != SCMD_NEWS)
+    {
         two_arguments(argument, field, value);
 
-        for (l = 0; *(fields[l].cmd) != '\n'; l++)
+        for (l = 0; * (fields[l].cmd) != '\n'; l++)
             if (!strncmp(field, fields[l].cmd, strlen(field)))
                 break;
 
-        if (*(fields[l].cmd) == '\n') {
+        if (*(fields[l].cmd) == '\n')
+        {
             send_to_char(ch, "That is not a valid option!\r\n");
             return;
         }
 
-        if (GET_ADMLEVEL(ch) < fields[l].level) {
+        if (GET_ADMLEVEL(ch) < fields[l].level)
+        {
             send_to_char(ch, "You are not godly enough to view that file!\r\n");
             return;
         }
 
         req_lines = (*value) ? atoi(value) : 30; /* default 30 */
-    } else {
+    }
+    else
+    {
         one_argument(argument, value);
         l = 3; /* news is always at index 3 */
         send_to_char(ch, "\r\n@W%s News@n\r\n@Y-----------@n\r\n", MUD_NAME);
@@ -1735,16 +1964,21 @@ ACMD(do_file)
     }
 
     /* Open file safely */
-    if (subcmd != SCMD_NEWS) {
+    if (subcmd != SCMD_NEWS)
+    {
         req_file = fopen(fields[l].file, "r");
-        if (!req_file) {
+        if (!req_file)
+        {
             mudlog(BRF, ADMLVL_IMPL, true,
                    "SYSERR: Error opening file %s using 'file' command.", fields[l].file);
             return;
         }
-    } else {
+    }
+    else
+    {
         req_file = fopen("../lib/misc/news", "r");
-        if (!req_file) {
+        if (!req_file)
+        {
             mudlog(BRF, ADMLVL_IMPL, true,
                    "SYSERR: Error opening news file using 'file' command.");
             return;
@@ -1763,9 +1997,11 @@ ACMD(do_file)
     cur_line = 0;
 
     /* Collect last req_lines */
-    while (get_line(req_file, line)) {
+    while (get_line(req_file, line))
+    {
         cur_line++;
-        if (cur_line > (num_lines - req_lines)) {
+        if (cur_line > (num_lines - req_lines))
+        {
             size_t remaining = sizeof(buf) - strlen(buf) - 3;
             if (remaining > 0)
                 strncat(buf, line, remaining);
@@ -1785,232 +2021,260 @@ ACMD(do_file)
 
 ACMD(do_compare)
 {
-  char arg1[MAX_INPUT_LENGTH]={'\0'};
-  char arg2[MAX_INPUT_LENGTH]={'\0'};
-  struct obj_data *obj1, *obj2;
-  struct char_data *tchar;
-  int value1 = 0, value2 = 0, o1 = 0, o2 = 0;
-  char *msg = NULL;
+    char arg1[MAX_INPUT_LENGTH] = {'\0'};
+    char arg2[MAX_INPUT_LENGTH] = {'\0'};
+    struct obj_data * obj1, *obj2;
+    struct char_data *tchar;
+    int value1 = 0, value2 = 0, o1 = 0, o2 = 0;
+    char *msg = NULL;
 
-  two_arguments(argument, arg1, arg2);
+    two_arguments(argument, arg1, arg2);
 
-  if (!*arg1 || !*arg2) {
-    send_to_char(ch, "Compare what to what?\n\r");
-    return;
-  }
-
-  o1 = generic_find(arg1, FIND_OBJ_INV| FIND_OBJ_EQUIP, ch, &tchar, &obj1);
-  o2 = generic_find(arg2, FIND_OBJ_INV| FIND_OBJ_EQUIP, ch, &tchar, &obj2);
-
-  if (!o1 || !o2) {
-    send_to_char(ch, "You do not have that item.\r\n");
-    return;
-  }
-  if ( obj1 == obj2 ) {
-    msg = "You compare $p to itself.  It looks about the same.";
-  } else if (GET_OBJ_TYPE(obj1) != GET_OBJ_TYPE(obj2)) {
-    msg = "You can't compare $p and $P.";
-  } else {
-    switch ( GET_OBJ_TYPE(obj1) ) {
-      default:
-      msg = "You can't compare $p and $P.";
-      break;
-      case ITEM_ARMOR:
-      value1 = GET_OBJ_VAL(obj1, VAL_ARMOR_APPLYAC);
-      value2 = GET_OBJ_VAL(obj2, VAL_ARMOR_APPLYAC);
-      break;
-      case ITEM_WEAPON:
-      value1 = (1 + GET_OBJ_VAL(obj1, VAL_WEAPON_DAMSIZE)) * GET_OBJ_VAL(obj1, VAL_WEAPON_DAMDICE);
-      value2 = (1 + GET_OBJ_VAL(obj2, VAL_WEAPON_DAMSIZE)) * GET_OBJ_VAL(obj2, VAL_WEAPON_DAMDICE);
-      break;
+    if (!*arg1 || !*arg2)
+    {
+        send_to_char(ch, "Compare what to what?\n\r");
+        return;
     }
-  }
 
-  if ( msg == NULL ) {
-    if ( value1 == value2 )
-      msg = "$p and $P look about the same.";
-    else if ( value1  > value2 )
-      msg = "$p looks better than $P.";
+    o1 = generic_find(arg1, FIND_OBJ_INV | FIND_OBJ_EQUIP, ch, &tchar, &obj1);
+    o2 = generic_find(arg2, FIND_OBJ_INV | FIND_OBJ_EQUIP, ch, &tchar, &obj2);
+
+    if (!o1 || !o2)
+    {
+        send_to_char(ch, "You do not have that item.\r\n");
+        return;
+    }
+    if ( obj1 == obj2 )
+    {
+        msg = "You compare $p to itself.  It looks about the same.";
+    }
+    else if (GET_OBJ_TYPE(obj1) != GET_OBJ_TYPE(obj2))
+    {
+        msg = "You can't compare $p and $P.";
+    }
     else
-      msg = "$p looks worse than $P.";
-  }
+    {
+        switch ( GET_OBJ_TYPE(obj1) )
+        {
+        default:
+            msg = "You can't compare $p and $P.";
+            break;
+        case ITEM_ARMOR:
+            value1 = GET_OBJ_VAL(obj1, VAL_ARMOR_APPLYAC);
+            value2 = GET_OBJ_VAL(obj2, VAL_ARMOR_APPLYAC);
+            break;
+        case ITEM_WEAPON:
+            value1 = (1 + GET_OBJ_VAL(obj1, VAL_WEAPON_DAMSIZE)) * GET_OBJ_VAL(obj1, VAL_WEAPON_DAMDICE);
+            value2 = (1 + GET_OBJ_VAL(obj2, VAL_WEAPON_DAMSIZE)) * GET_OBJ_VAL(obj2, VAL_WEAPON_DAMDICE);
+            break;
+        }
+    }
 
-  act( msg, false, ch, obj1, obj2, TO_CHAR );
-  return;
+    if ( msg == NULL )
+    {
+        if ( value1 == value2 )
+            msg = "$p and $P look about the same.";
+        else if ( value1  > value2 )
+            msg = "$p looks better than $P.";
+        else
+            msg = "$p looks worse than $P.";
+    }
+
+    act( msg, false, ch, obj1, obj2, TO_CHAR );
+    return;
 }
 
 ACMD(do_break)
 {
-  char arg[MAX_INPUT_LENGTH]={'\0'};
-  struct obj_data *obj;
-  struct char_data *dummy = NULL;
-  int brk = 0;
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
+    struct obj_data *obj;
+    struct char_data *dummy = NULL;
+    int brk = 0;
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (!*arg) {
-    send_to_char(ch, "Usually you break SOMETHING.\r\n");
+    if (!*arg)
+    {
+        send_to_char(ch, "Usually you break SOMETHING.\r\n");
+        return;
+    }
+
+    if (!(brk = generic_find(arg, FIND_OBJ_INV | FIND_OBJ_EQUIP, ch, &dummy, &obj)))
+    {
+        send_to_char(ch, "Can't seem to find what you want to break!\r\n");
+        return;
+    }
+
+
+    if (OBJ_FLAGGED(obj, ITEM_BROKEN))
+    {
+        send_to_char(ch, "Seems like it's already broken!\r\n");
+        return;
+    }
+
+    /* Ok, break it! */
+    send_to_char(ch, "You ruin %s.\r\n", obj->short_description);
+    act("$n ruins $p.", false, ch, obj, 0, TO_ROOM);
+    GET_OBJ_VAL(obj, VAL_ALL_HEALTH) = -1;
+    TOGGLE_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_BROKEN);
+
     return;
-  }
-
-  if (!(brk = generic_find(arg, FIND_OBJ_INV|FIND_OBJ_EQUIP, ch, &dummy, &obj))) { 
-    send_to_char(ch, "Can't seem to find what you want to break!\r\n");
-    return;
-  }
-
-
-  if (OBJ_FLAGGED(obj, ITEM_BROKEN)) {
-    send_to_char(ch, "Seems like it's already broken!\r\n");
-    return;
-  }
-
-  /* Ok, break it! */
-  send_to_char(ch, "You ruin %s.\r\n", obj->short_description);
-  act("$n ruins $p.", false, ch, obj, 0, TO_ROOM);
-  GET_OBJ_VAL(obj, VAL_ALL_HEALTH) = -1;
-  TOGGLE_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_BROKEN);
-
-  return;
 }
 
 ACMD(do_fix)
 {
-  char arg[MAX_INPUT_LENGTH]={'\0'};
-  struct obj_data *obj;
-  struct char_data *dummy = NULL;
-  int brk = 0;
-  int roll = 0;
-  int dc = 0;
-  int valnum = 0;
-  
-  one_argument(argument, arg);
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
+    struct obj_data *obj;
+    struct char_data *dummy = NULL;
+    int brk = 0;
+    int roll = 0;
+    int dc = 0;
+    int valnum = 0;
 
-  if (!*arg) {
-    send_to_char(ch, "Usually you fix SOMETHING.\r\n");
-    return;
-  }
-  
-  if (!(brk = generic_find(arg, FIND_OBJ_INV|FIND_OBJ_EQUIP, ch, &dummy, &obj))) { 
-    send_to_char(ch, "Can't seem to find what you want to fix!\r\n");
-    return;
-  }
+    one_argument(argument, arg);
 
-  if (GET_OBJ_TYPE(obj) == ITEM_WEAPON) {
-    valnum = VAL_WEAPON_HEALTH;
-    GET_OBJ_VAL(obj, VAL_WEAPON_MAXHEALTH) = 100;
-    if (GET_OBJ_VAL(obj, VAL_WEAPON_HEALTH) >= 100) {
-      send_to_char(ch, "This item is not in need of repair.\r\n");
-	return;
+    if (!*arg)
+    {
+        send_to_char(ch, "Usually you fix SOMETHING.\r\n");
+        return;
     }
-  }
-  else if (GET_OBJ_TYPE(obj) == ITEM_ARMOR || GET_OBJ_TYPE(obj) == ITEM_ARMOR_SUIT) {
-    valnum = VAL_ARMOR_HEALTH;
-    GET_OBJ_VAL(obj, VAL_ARMOR_MAXHEALTH) = 100;
-    if (GET_OBJ_VAL(obj, VAL_ARMOR_HEALTH) >= 100) {
-      send_to_char(ch, "This item is not in need of repair.\r\n");
-	return;
-    }
-  }
-  else {
-    valnum = VAL_ALL_HEALTH;
-    GET_OBJ_VAL(obj, VAL_ALL_MAXHEALTH) = 100;
-    if (GET_OBJ_VAL(obj, VAL_ALL_HEALTH) >= 100) {
-      send_to_char(ch, "This item is not in need of repair.\r\n");
-	return;
-    }
-  }
-  
-  dc = 0;
-  
-  if ((brk) && OBJ_FLAGGED(obj, ITEM_BROKEN)) {
-  dc += 5;
-  }
-  
-  dc += MAX(0, GET_OBJ_LEVEL(obj) - 10);
 
-  int cost = GET_OBJ_LEVEL(obj) * MAX(1, GET_OBJ_LEVEL(obj) / 5) * 2;
+    if (!(brk = generic_find(arg, FIND_OBJ_INV | FIND_OBJ_EQUIP, ch, &dummy, &obj)))
+    {
+        send_to_char(ch, "Can't seem to find what you want to fix!\r\n");
+        return;
+    }
 
-  if (GET_GOLD(ch) < cost) {
-    send_to_char(ch, "Repairing that has a material cost of %d %s.\r\n", cost, MONEY_STRING);
+    if (GET_OBJ_TYPE(obj) == ITEM_WEAPON)
+    {
+        valnum = VAL_WEAPON_HEALTH;
+        GET_OBJ_VAL(obj, VAL_WEAPON_MAXHEALTH) = 100;
+        if (GET_OBJ_VAL(obj, VAL_WEAPON_HEALTH) >= 100)
+        {
+            send_to_char(ch, "This item is not in need of repair.\r\n");
+            return;
+        }
+    }
+    else if (GET_OBJ_TYPE(obj) == ITEM_ARMOR || GET_OBJ_TYPE(obj) == ITEM_ARMOR_SUIT)
+    {
+        valnum = VAL_ARMOR_HEALTH;
+        GET_OBJ_VAL(obj, VAL_ARMOR_MAXHEALTH) = 100;
+        if (GET_OBJ_VAL(obj, VAL_ARMOR_HEALTH) >= 100)
+        {
+            send_to_char(ch, "This item is not in need of repair.\r\n");
+            return;
+        }
+    }
+    else
+    {
+        valnum = VAL_ALL_HEALTH;
+        GET_OBJ_VAL(obj, VAL_ALL_MAXHEALTH) = 100;
+        if (GET_OBJ_VAL(obj, VAL_ALL_HEALTH) >= 100)
+        {
+            send_to_char(ch, "This item is not in need of repair.\r\n");
+            return;
+        }
+    }
+
+    dc = 0;
+
+    if ((brk) && OBJ_FLAGGED(obj, ITEM_BROKEN))
+    {
+        dc += 5;
+    }
+
+    dc += MAX(0, GET_OBJ_LEVEL(obj) - 10);
+
+    int cost = GET_OBJ_LEVEL(obj) * MAX(1, GET_OBJ_LEVEL(obj) / 5) * 2;
+
+    if (GET_GOLD(ch) < cost)
+    {
+        send_to_char(ch, "Repairing that has a material cost of %d %s.\r\n", cost, MONEY_STRING);
+        return;
+    }
+
+    int skill_type = SKILL_BLACKSMITHING;
+
+    int material = GET_OBJ_MATERIAL(obj);
+
+    if (IS_CLOTH(material))
+        skill_type = SKILL_TAILORING;
+    else if (IS_LEATHER(material))
+        skill_type = SKILL_TANNING;
+    else if (IS_PRECIOUS_METAL(material))
+        skill_type = SKILL_GOLDSMITHING;
+    else if (IS_WOOD(material))
+        skill_type = SKILL_WOODWORKING;
+
+
+    if (get_skill_value(ch, skill_type) + 20 < dc)
+    {
+        send_to_char(ch, "This item is beyond your ability to repair.\r\n");
+        return;
+    }
+
+    //  GET_GOLD(ch) -= cost;
+    gain_gold(ch, -cost, GOLD_ONHAND);
+
+    send_to_char(ch, "You use your %s skill to try and repair %s.\r\n", spell_info[skill_type].name, obj->short_description);
+
+    if ((roll = skill_roll(ch, skill_type)) >= dc)
+    {
+
+        send_to_char(ch, "You repair %s at a material cost of %d.\r\n", obj->short_description, cost);
+        act("$n repairs $p.", false, ch, obj, 0, TO_ROOM);
+        GET_OBJ_VAL(obj, valnum) = MAX(0, GET_OBJ_VAL(obj, valnum));
+
+        // if they beat the dc by 10 ormore the object gets extradamage and hitpoints
+        if (roll >= (dc))
+            GET_OBJ_VAL(obj, valnum) += (roll - dc) * 5;
+
+        if (IS_SET_AR(GET_OBJ_EXTRA(obj), ITEM_BROKEN))
+            REMOVE_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_BROKEN);
+    }
+    else
+    {
+        GET_OBJ_VAL(obj, valnum) -= (dc - roll) / 2;
+        if (GET_OBJ_VAL(obj, valnum) > 0)
+        {
+            send_to_char(ch, "Your attempt to repair %s damages it even further, costing you %d %s in materials.", obj->short_description, cost, MONEY_STRING);
+            act("$n's attempt to repair $p damages it further.", false, ch, obj, 0, TO_ROOM);
+        }
+        else
+        {
+            send_to_char(ch, "Your attempt to repair %s breaks it completely, also costing you %d %s in materials.", obj->short_description, cost, MONEY_STRING );
+            act("$n's attempt to repair $p breaks it completely.", false, ch, obj, 0, TO_ROOM);
+        }
+    }
+
     return;
-  }
-
-  int skill_type = SKILL_BLACKSMITHING;
-
-  int material = GET_OBJ_MATERIAL(obj);
-
-  if (IS_CLOTH(material))
-    skill_type = SKILL_TAILORING;
-  else if (IS_LEATHER(material))
-    skill_type = SKILL_TANNING;
-  else if (IS_PRECIOUS_METAL(material))
-    skill_type = SKILL_GOLDSMITHING;
-  else if (IS_WOOD(material))
-    skill_type = SKILL_WOODWORKING;
-  
-  
-  if (get_skill_value(ch, skill_type) + 20 < dc) {
-  send_to_char(ch, "This item is beyond your ability to repair.\r\n");
-  return;
-  }
-  
-//  GET_GOLD(ch) -= cost;
-  gain_gold(ch, -cost, GOLD_ONHAND);
-
-  send_to_char(ch, "You use your %s skill to try and repair %s.\r\n", spell_info[skill_type].name, obj->short_description);
-
-  if ((roll = skill_roll(ch, skill_type)) >= dc) {
-  
-  send_to_char(ch, "You repair %s at a material cost of %d.\r\n", obj->short_description, cost);
-  act("$n repairs $p.", false, ch, obj, 0, TO_ROOM);
-  GET_OBJ_VAL(obj, valnum) = MAX(0, GET_OBJ_VAL(obj, valnum));
-
-  // if they beat the dc by 10 ormore the object gets extradamage and hitpoints
-  if (roll >= (dc))
-    GET_OBJ_VAL(obj, valnum) += (roll - dc) * 5;
-
-  if (IS_SET_AR(GET_OBJ_EXTRA(obj), ITEM_BROKEN))
-    REMOVE_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_BROKEN);
-  }
-  else {
-    GET_OBJ_VAL(obj, valnum) -= (dc - roll) / 2;
-	if (GET_OBJ_VAL(obj, valnum) > 0) {
-	  send_to_char(ch, "Your attempt to repair %s damages it even further, costing you %d %s in materials.", obj->short_description, cost, MONEY_STRING);
-	  act("$n's attempt to repair $p damages it further.", false, ch, obj, 0, TO_ROOM);
-	}
-	else {
-	  send_to_char(ch, "Your attempt to repair %s breaks it completely, also costing you %d %s in materials.", obj->short_description, cost, MONEY_STRING );
-	  act("$n's attempt to repair $p breaks it completely.", false, ch, obj, 0, TO_ROOM);	
-	}
-  }
-
-  return;
 }
 
 /* new spell memorization code */
 /* remove a spell from a character's innate linked list */
 void innate_remove(struct char_data * ch, struct innate_node * inn)
 {
-  struct innate_node *temp;
+    struct innate_node *temp;
 
-  if (ch->innate == NULL) {
-    core_dump();
-    return;
-  }
+    if (ch->innate == NULL)
+    {
+        core_dump();
+        return;
+    }
 
-  REMOVE_FROM_LIST(inn, ch->innate, next);
-  free(inn);
+    REMOVE_FROM_LIST(inn, ch->innate, next);
+    free(inn);
 }
 
 void innate_add(struct char_data * ch, int innate, int timer)
 {
-  struct innate_node * inn;
+    struct innate_node *inn;
 
-  CREATE(inn, struct innate_node, 1);
-  inn->timer = timer;
-  inn->spellnum = innate;
-  inn->next = ch->innate;
-  ch->innate = inn;
+    CREATE(inn, struct innate_node, 1);
+    inn->timer = timer;
+    inn->spellnum = innate;
+    inn->next = ch->innate;
+    ch->innate = inn;
 }
 
 /* Returns true if the spell/skillnum is innate to the character
