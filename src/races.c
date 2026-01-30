@@ -470,21 +470,23 @@ void racial_ability_modifiers(struct char_data *ch)
 
 void set_height_and_weight_by_race(struct char_data *ch)
 {
-  int race = 0, sex= 0, mod= 0;
+    int race = 0, sex = 0, mod = 0;
 
-  race = GET_RACE(ch);
-  sex = GET_SEX(ch);
-  if (sex < SEX_NEUTRAL || sex >= NUM_SEX) {
-    log("Invalid gender in set_height_and_weight_by_race: %d", sex);
-    sex = SEX_NEUTRAL;
-  }
-  if (race <= RACE_UNDEFINED || race >= NUM_RACES) {
-    log("Invalid gender in set_height_and_weight_by_race: %d", GET_SEX(ch));
-    race = RACE_UNDEFINED + 1; /* first defined race */
-  }
-  mod = 89 + dice(1, 21);
-  GET_HEIGHT(ch) = race_list[race].height[sex] * mod / 100;
-  GET_WEIGHT(ch) = race_list[race].weight[sex] * mod / 100;
+    race = GET_RACE(ch);
+    sex = GET_SEX(ch);
+    if (sex < SEX_NEUTRAL || sex >= NUM_SEX)
+    {
+        log("Invalid gender in set_height_and_weight_by_race: %d", sex);
+        sex = SEX_NEUTRAL;
+    }
+    if (race <= RACE_UNDEFINED || race >= NUM_RACES)
+    {
+        log("Invalid gender in set_height_and_weight_by_race: %d", GET_SEX(ch));
+        race = RACE_UNDEFINED + 1; /* first defined race */
+    }
+    mod = 89 + dice(1, 21);
+    GET_HEIGHT(ch) = race_list[race].height[sex] * mod / 100;
+    GET_WEIGHT(ch) = race_list[race].weight[sex] * mod / 100;
 
 }
 

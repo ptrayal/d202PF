@@ -1915,46 +1915,47 @@ void elemental_spell(int spellnum) {
 void spello(int spl, const char *name, int max_mana, int min_mana, int mana_change, int minpos,
 int targets, int violent, int routines, int save_flags, int comp_flags, const char *wearoff,
 int spell_level, int school, int domain, int mageLevel, int clericLevel, int druidLevel,
-int rangerLevel, int paladinLevel, int bardLevel) {
+int rangerLevel, int paladinLevel, int bardLevel)
+{
 
-  int i;
+    int i;
 
-  for (i = 0; i < NUM_CLASSES; i++)
-    spell_info[spl].min_level[i] = CONFIG_LEVEL_CAP;
-  for (i = 0; i < NUM_RACES; i++)
-    spell_info[spl].race_can_learn[i] = CONFIG_LEVEL_CAP;
-  spell_info[spl].mana_max = max_mana;
-  spell_info[spl].mana_min = min_mana;
-  spell_info[spl].mana_change = mana_change;
-  spell_info[spl].ki_max = 0;
-  spell_info[spl].ki_min = 0;
-  spell_info[spl].ki_change = 0;
-  spell_info[spl].min_position = minpos;
-  spell_info[spl].targets = targets;
-  spell_info[spl].violent = violent;
-  spell_info[spl].routines = routines;
-  spell_info[spl].name = name;
-  spell_info[spl].wear_off_msg = wearoff;
-  spell_info[spl].skilltype = SKTYPE_SPELL;
-  spell_info[spl].flags = 0;
-  spell_info[spl].save_flags = save_flags;
-  spell_info[spl].comp_flags = comp_flags;
-  spell_info[spl].spell_level = spell_level;
-  spell_info[spl].school = school;
-  spell_info[spl].domain = domain;
-  if (IS_SET(spell_info[spl].routines, MAG_DAMAGE))
-    spell_info[spl].hate = 0;
-   else
-    spell_info[spl].hate = (spell_level * 8);
+    for (i = 0; i < NUM_CLASSES; i++)
+        spell_info[spl].min_level[i] = CONFIG_LEVEL_CAP;
+    for (i = 0; i < NUM_RACES; i++)
+        spell_info[spl].race_can_learn[i] = CONFIG_LEVEL_CAP;
+    spell_info[spl].mana_max = max_mana;
+    spell_info[spl].mana_min = min_mana;
+    spell_info[spl].mana_change = mana_change;
+    spell_info[spl].ki_max = 0;
+    spell_info[spl].ki_min = 0;
+    spell_info[spl].ki_change = 0;
+    spell_info[spl].min_position = minpos;
+    spell_info[spl].targets = targets;
+    spell_info[spl].violent = violent;
+    spell_info[spl].routines = routines;
+    spell_info[spl].name = name;
+    spell_info[spl].wear_off_msg = wearoff;
+    spell_info[spl].skilltype = SKTYPE_SPELL;
+    spell_info[spl].flags = 0;
+    spell_info[spl].save_flags = save_flags;
+    spell_info[spl].comp_flags = comp_flags;
+    spell_info[spl].spell_level = spell_level;
+    spell_info[spl].school = school;
+    spell_info[spl].domain = domain;
+    if (IS_SET(spell_info[spl].routines, MAG_DAMAGE))
+        spell_info[spl].hate = 0;
+    else
+        spell_info[spl].hate = (spell_level * 8);
 
-  spell_info[spl].class_level[CLASS_WIZARD] = mageLevel;
-  spell_info[spl].class_level[CLASS_SORCERER] = mageLevel;
-  spell_info[spl].class_level[CLASS_FAVORED_SOUL] = clericLevel;
-  spell_info[spl].class_level[CLASS_CLERIC] = clericLevel;
-  spell_info[spl].class_level[CLASS_DRUID] = druidLevel;
-  spell_info[spl].class_level[CLASS_PALADIN] = paladinLevel;
-  spell_info[spl].class_level[CLASS_RANGER] = rangerLevel;
-  spell_info[spl].class_level[CLASS_BARD] = bardLevel;
+    spell_info[spl].class_level[CLASS_WIZARD] = mageLevel;
+    spell_info[spl].class_level[CLASS_SORCERER] = mageLevel;
+    spell_info[spl].class_level[CLASS_FAVORED_SOUL] = clericLevel;
+    spell_info[spl].class_level[CLASS_CLERIC] = clericLevel;
+    spell_info[spl].class_level[CLASS_DRUID] = druidLevel;
+    spell_info[spl].class_level[CLASS_PALADIN] = paladinLevel;
+    spell_info[spl].class_level[CLASS_RANGER] = rangerLevel;
+    spell_info[spl].class_level[CLASS_BARD] = bardLevel;
 
 
 }
@@ -1972,44 +1973,46 @@ void arto(int spl, const char *name, int max_ki, int min_ki, int ki_change, int 
 
 void unused_spell(int spl)
 {
-  int i;
+    int i;
 
-  for (i = 0; i < NUM_CLASSES; i++) {
-    spell_info[spl].min_level[i] = CONFIG_LEVEL_CAP;
-    spell_info[spl].can_learn_skill[i] = SKLEARN_CROSSCLASS;
-  }
-  for (i = 0; i < NUM_RACES; i++)
-    spell_info[spl].race_can_learn[i] = SKLEARN_CROSSCLASS;
-  spell_info[spl].mana_max = 0;
-  spell_info[spl].mana_min = 0;
-  spell_info[spl].mana_change = 0;
-  spell_info[spl].ki_max = 0;
-  spell_info[spl].ki_min = 0;
-  spell_info[spl].ki_change = 0;
-  spell_info[spl].min_position = 0;
-  spell_info[spl].targets = 0;
-  spell_info[spl].violent = 0;
-  spell_info[spl].routines = 0;
-  spell_info[spl].name = unused_spellname;
-  spell_info[spl].skilltype = SKTYPE_NONE;
-  spell_info[spl].flags = 0;
-  spell_info[spl].save_flags = 0;
-  spell_info[spl].comp_flags = 0;
-  spell_info[spl].spell_level = 0;
-  spell_info[spl].school = 0;
-  spell_info[spl].domain = 0;
-  for (i = 0; i < NUM_CLASSES; i++)
-    spell_info[spl].class_level[i] = 99;
-  spell_info[spl].bard_song = FALSE;
-  spell_info[spl].perform_rank = 0;
-  spell_info[spl].bard_feat = 0;
-  spell_info[spl].elemental = FALSE;
+    for (i = 0; i < NUM_CLASSES; i++)
+    {
+        spell_info[spl].min_level[i] = CONFIG_LEVEL_CAP;
+        spell_info[spl].can_learn_skill[i] = SKLEARN_CROSSCLASS;
+    }
+    for (i = 0; i < NUM_RACES; i++)
+        spell_info[spl].race_can_learn[i] = SKLEARN_CROSSCLASS;
+    spell_info[spl].mana_max = 0;
+    spell_info[spl].mana_min = 0;
+    spell_info[spl].mana_change = 0;
+    spell_info[spl].ki_max = 0;
+    spell_info[spl].ki_min = 0;
+    spell_info[spl].ki_change = 0;
+    spell_info[spl].min_position = 0;
+    spell_info[spl].targets = 0;
+    spell_info[spl].violent = 0;
+    spell_info[spl].routines = 0;
+    spell_info[spl].name = unused_spellname;
+    spell_info[spl].skilltype = SKTYPE_NONE;
+    spell_info[spl].flags = 0;
+    spell_info[spl].save_flags = 0;
+    spell_info[spl].comp_flags = 0;
+    spell_info[spl].spell_level = 0;
+    spell_info[spl].school = 0;
+    spell_info[spl].domain = 0;
+    for (i = 0; i < NUM_CLASSES; i++)
+        spell_info[spl].class_level[i] = 99;
+    spell_info[spl].bard_song = FALSE;
+    spell_info[spl].perform_rank = 0;
+    spell_info[spl].bard_feat = 0;
+    spell_info[spl].elemental = FALSE;
 }
 
-void bard_song(int spellnum, int rank, int feat) {
-  spell_info[spellnum].bard_song = TRUE;
-  spell_info[spellnum].perform_rank = rank;
-  spell_info[spellnum].bard_feat = feat;
+void bard_song(int spellnum, int rank, int feat)
+{
+    spell_info[spellnum].bard_song = TRUE;
+    spell_info[spellnum].perform_rank = rank;
+    spell_info[spellnum].bard_feat = feat;
 
 }
 
@@ -2020,8 +2023,9 @@ void skillo(int skill, const char *name, int flags)
   spell_info[skill].flags = flags;
 }
 
-void artisan_skill(int skill, int type) {
-  spell_info[skill].artisan_type = type;
+void artisan_skill(int skill, int type)
+{
+    spell_info[skill].artisan_type = type;
 }
 
 /*
