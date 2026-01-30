@@ -53,3 +53,7 @@ Temporary Items
 .apdisk
 
 src/output.txt
+
+src/warnings.txt
+
+src/do_disguise.txt
