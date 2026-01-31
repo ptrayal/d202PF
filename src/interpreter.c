@@ -441,6 +441,7 @@ ACMD(do_teleport);
 ACMD(do_tell);
 ACMD(do_test);
 ACMD(do_feat_dump);
+ACMD(do_epic_feat_dump);
 ACMD(do_time);
 ACMD(do_timers);
 ACMD(do_title);
@@ -704,6 +705,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "feats"    , "fea"		, POS_DEAD    , do_feats    , 0, ADMLVL_NONE	, 0 },
   { "featset"  , "featset"      , POS_DEAD    , do_featset  , 1, ADMLVL_GRGOD	, 0 },
   { "feat_dump"     , "testdump"     , POS_DEAD    , do_feat_dump     , 0, ADMLVL_IMPL    , 0 },
+  { "epic_dump"     , "epicdump"     , POS_DEAD    , do_epic_feat_dump     , 0, ADMLVL_IMPL    , 0 },
   { "feint"    , "fei"    , POS_FIGHTING, do_feint    , 0, ADMLVL_NONE,  0 },
   { "fightspam", "fightspam"    , POS_DEAD    , do_gen_tog  , 0, ADMLVL_NONE    , SCMD_FIGHT_SPAM },
   { "fill"     , "fil"		, POS_STANDING, do_pour     , 0, ADMLVL_NONE	, SCMD_FILL },

@@ -4927,27 +4927,35 @@ static void escape_csv_field( const char *src, char *dst, size_t dst_size)
 
 ACMD(do_feat_dump)
 {
-    FILE *fp;
+    FILE *fp = NULL;
     int sortpos;
+    int fd;
+
+    const char *final_path = "../dumps/dump_feats.txt";
+    const char *temp_path  = "../dumps/dump_feats.txt.tmp";
 
     char esc_name[MAX_STRING_LENGTH];
     char esc_pre[MAX_STRING_LENGTH];
     char esc_desc[MAX_STRING_LENGTH];
 
-    fp = fopen("../dumps/dump_feats.txt", "w");
+    /* Open temp file */
+    fp = fopen(temp_path, "w");
     if (!fp)
     {
         send_to_char(ch,
-            "Error opening feat dump file: %s\r\n",
-            strerror(errno));
+                     "Error opening feat dump temp file: %s\r\n",
+                     strerror(errno));
         return;
     }
 
+    /* Buffered I/O for performance */
     setvbuf(fp, NULL, _IOFBF, 64 * 1024);
 
+    /* Write header */
     if (fprintf(fp, "Feat Name|In-Game|Prerequisite|Description\n") < 0)
         goto write_error;
 
+    /* Write feat rows */
     for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++)
     {
         int i = feat_sort_info[sortpos];
@@ -4967,15 +4975,120 @@ ACMD(do_feat_dump)
             goto write_error;
     }
 
+    /* Flush stdio buffers */
+    if (fflush(fp) != 0)
+        goto write_error;
+
+    /* Force data to disk */
+    fd = fileno(fp);
+    if (fd == -1 || fsync(fd) != 0)
+        goto write_error;
+
     fclose(fp);
-    send_to_char(ch, "Feat dump successfully written.\r\n");
+    fp = NULL;
+
+    /* Atomic replace */
+    if (rename(temp_path, final_path) != 0)
+    {
+        send_to_char(ch,
+                     "Error replacing feat dump file: %s\r\n",
+                     strerror(errno));
+        unlink(temp_path);
+        return;
+    }
+
+    send_to_char(ch, "Feat dump written atomically and safely.\r\n");
     return;
 
 write_error:
-    fclose(fp);
+    if (fp)
+        fclose(fp);
+    unlink(temp_path);
     send_to_char(ch, "Error writing feat dump file.\r\n");
 }
 
+
+ACMD(do_epic_feat_dump)
+{
+    FILE *fp = NULL;
+    int sortpos;
+    int fd;
+
+    const char *final_path = "../dumps/dump_epic_feats.txt";
+    const char *temp_path  = "../dumps/dump_epic_feats.txt.tmp";
+
+    char esc_name[MAX_STRING_LENGTH];
+    char esc_pre[MAX_STRING_LENGTH];
+    char esc_desc[MAX_STRING_LENGTH];
+
+    /* Open temp file */
+    fp = fopen(temp_path, "w");
+    if (!fp)
+    {
+        send_to_char(ch,
+            "Error opening epic feat dump temp file: %s\r\n",
+            strerror(errno));
+        return;
+    }
+
+    setvbuf(fp, NULL, _IOFBF, 64 * 1024);
+
+    /* Header */
+    if (fprintf(fp, "Feat Name|In-Game|Prerequisite|Description\n") < 0)
+        goto write_error;
+
+    for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++)
+    {
+        int i = feat_sort_info[sortpos];
+
+        /* Bounds check */
+        if (i < 0 || i >= NUM_FEATS_DEFINED)
+            continue;
+
+        /* Epic-only filter */
+        if (feat_list[i].epic != TRUE)
+            continue;
+
+        escape_csv_field(feat_list[i].name,          esc_name, sizeof(esc_name));
+        escape_csv_field(feat_list[i].prerequisites, esc_pre,  sizeof(esc_pre));
+        escape_csv_field(feat_list[i].description,   esc_desc, sizeof(esc_desc));
+
+        if (fprintf(fp, "%s|%d|%s|%s\n",
+                    esc_name,
+                    feat_list[i].in_game,
+                    esc_pre,
+                    esc_desc) < 0)
+            goto write_error;
+    }
+
+    if (fflush(fp) != 0)
+        goto write_error;
+
+    fd = fileno(fp);
+    if (fd == -1 || fsync(fd) != 0)
+        goto write_error;
+
+    fclose(fp);
+    fp = NULL;
+
+    if (rename(temp_path, final_path) != 0)
+    {
+        send_to_char(ch,
+            "Error replacing epic feat dump file: %s\r\n",
+            strerror(errno));
+        unlink(temp_path);
+        return;
+    }
+
+    send_to_char(ch, "Epic feat dump written atomically.\r\n");
+    return;
+
+write_error:
+    if (fp)
+        fclose(fp);
+    unlink(temp_path);
+    send_to_char(ch, "Error writing epic feat dump file.\r\n");
+}
 
 
 void check_auto_shutdown(void)
