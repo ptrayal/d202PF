@@ -4883,31 +4883,99 @@ ACMD(do_test)
     grid_to_char(grid, ch, TRUE);
 }
 
+static void escape_csv_field( const char *src, char *dst, size_t dst_size)
+{
+    size_t di = 0;
+
+    if (!src || !dst || dst_size == 0)
+        return;
+
+    while (*src && di + 2 < dst_size)
+    {
+        switch (*src)
+        {
+            case '|':
+                dst[di++] = '\\';
+                dst[di++] = '|';
+                break;
+
+            case '\n':
+                dst[di++] = '\\';
+                dst[di++] = 'n';
+                break;
+
+            case '\r':
+                dst[di++] = '\\';
+                dst[di++] = 'r';
+                break;
+
+            case '\\':
+                dst[di++] = '\\';
+                dst[di++] = '\\';
+                break;
+
+            default:
+                dst[di++] = *src;
+                break;
+        }
+        src++;
+    }
+
+    dst[di] = '\0';
+}
+
 
 ACMD(do_feat_dump)
 {
     FILE *fp;
-    char error_buffer[MAX_STRING_LENGTH] = {'\0'};
     int sortpos;
 
-    if (!(fp = fopen("../dumps/dump_feats.txt", "w")))
+    char esc_name[MAX_STRING_LENGTH];
+    char esc_pre[MAX_STRING_LENGTH];
+    char esc_desc[MAX_STRING_LENGTH];
+
+    fp = fopen("../dumps/dump_feats.txt", "w");
+    if (!fp)
     {
-        snprintf(error_buffer, sizeof(error_buffer), "There was an error accessing dump_feats.txt.");
-        send_to_char(ch, "%s", error_buffer);
-        perror("../dumps/dump_feats.txt");
+        send_to_char(ch,
+            "Error opening feat dump file: %s\r\n",
+            strerror(errno));
         return;
     }
 
-    fprintf(fp, "Feat Name|In-Game|Prerequisite|Description\n");
+    setvbuf(fp, NULL, _IOFBF, 64 * 1024);
+
+    if (fprintf(fp, "Feat Name|In-Game|Prerequisite|Description\n") < 0)
+        goto write_error;
 
     for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++)
     {
         int i = feat_sort_info[sortpos];
-        fprintf(fp, "%s|%d|%s|%s\n", feat_list[i].name, feat_list[i].in_game, feat_list[i].prerequisites, feat_list[i].description);
+
+        if (i < 0 || i >= NUM_FEATS_DEFINED)
+            continue;
+
+        escape_csv_field(feat_list[i].name,          esc_name, sizeof(esc_name));
+        escape_csv_field(feat_list[i].prerequisites, esc_pre,  sizeof(esc_pre));
+        escape_csv_field(feat_list[i].description,   esc_desc, sizeof(esc_desc));
+
+        if (fprintf(fp, "%s|%d|%s|%s\n",
+                    esc_name,
+                    feat_list[i].in_game,
+                    esc_pre,
+                    esc_desc) < 0)
+            goto write_error;
     }
 
     fclose(fp);
+    send_to_char(ch, "Feat dump successfully written.\r\n");
+    return;
+
+write_error:
+    fclose(fp);
+    send_to_char(ch, "Error writing feat dump file.\r\n");
 }
+
 
 
 void check_auto_shutdown(void)
