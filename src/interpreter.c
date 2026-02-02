@@ -1148,159 +1148,184 @@ const char *reserved[] =
  */
 void command_interpreter(struct char_data *ch, char *argument)
 {
-  struct char_data *k = NULL, *temp = NULL;
-  struct follow_type *f = NULL;
-  char *line;
-  char arg[MAX_INPUT_LENGTH]={'\0'};
-  int cmd = 0, length = 0;
-  int save = 0, dc = 0;
-  ubyte found = FALSE;
+    struct char_data *k = NULL, *temp = NULL;
+    struct follow_type *f = NULL;
+    char *line;
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
+    int cmd = 0, length = 0;
+    int save = 0, dc = 0;
+    ubyte found = FALSE;
 
-  /* REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_HIDE); */
+    /* REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_HIDE); */
 
-  /* just drop to next line for hitting CR */
-  skip_spaces(&argument);
-  if (!*argument)
-    return;
-
-  /*
-   * special case to handle one-character, non-alphanumeric commands;
-   * requested by many people so "'hi" or ";godnet test" is possible.
-   * Patch sent by Eric Green and Stefan Wasilewski.
-   */
-  if (!isalpha(*argument)) {
-    arg[0] = argument[0];
-    arg[1] = '\0';
-    line = argument + 1;
-  } else
-    line = any_one_arg(argument, arg);
-
-  /* Since all command triggers check for valid_dg_target before acting, the levelcheck
-   * here has been removed.
-   */
-
-  /* otherwise, find the command */
-  {
-  int cont;                                            /* continue the command checks */
-  cont = command_wtrigger(ch, arg, line);              /* any world triggers ? */
-  if (!cont) cont = command_mtrigger(ch, arg, line);   /* any mobile triggers ? */
-  if (!cont) cont = command_otrigger(ch, arg, line);   /* any object triggers ? */
-  if (cont) return;                                    /* yes, command trigger took over */
-  }
-  for (length = strlen(arg), cmd = 0; *complete_cmd_info[cmd].command != '\n'; cmd++) {
-    if (!strncmp(complete_cmd_info[cmd].command, arg, length))
-      if (GET_LEVEL(ch) >= complete_cmd_info[cmd].minimum_level &&
-          GET_ADMLEVEL(ch) >= complete_cmd_info[cmd].minimum_admlevel)
-        break;
-  }
-
-  if (*complete_cmd_info[cmd].command == '\n') {
-   // if (command_unique_exit(ch, arg))
-   //   return;
-   // else
-    send_to_char(ch, "Huh?!?\r\n");
-  }
-  else if (check_disabled(&complete_cmd_info[cmd]))    /* is it disabled? */
-      send_to_char(ch, "This command has been temporarily disabled.\r\n");
-  else if (!IS_NPC(ch) && PLR_FLAGGED(ch, PLR_FROZEN) && GET_LEVEL(ch) < ADMLVL_IMPL)
-    send_to_char(ch, "You try, but the mind-numbing cold prevents you...\r\n");
-  else if (complete_cmd_info[cmd].command_pointer == NULL)
-    send_to_char(ch, "Sorry, that command hasn't been implemented yet.\r\n");
-
-  else if (IS_NPC(ch) && complete_cmd_info[cmd].minimum_admlevel >= ADMLVL_IMMORT)
-    send_to_char(ch, "You can't use immortal commands while switched.\r\n");
-  else if (GET_POS(ch) < complete_cmd_info[cmd].minimum_position) {
-    switch (GET_POS(ch)) {
-    case POS_DEAD:
-    case POS_INCAP:
-    case POS_MORTALLYW:
-    case POS_STUNNED:
-      if (FIGHTING(ch)) {
-        save = d20 + get_saving_throw_value(ch, SAVING_FORTITUDE);
-        dc = 10;
-        if (GET_HIT(ch) < 0)
-          dc -= GET_HIT(ch);
-        if ((save + 10) >= dc) {
-          GET_HIT(ch) = 1;
-          update_pos(ch);
-          send_to_char(ch, "You stablize and regain consciousness.\r\n");
-          act("$n stablizes and regains consciousness.", FALSE, ch, 0, 0, TO_ROOM);
-          return;
-        } else if ((save + 5) >= dc) {
-          GET_HIT(ch) = 0;
-          update_pos(ch);
-          send_to_char(ch, "You stablize but remain unconscious.\r\n");
-          act("$n stablizes but remains unconscious.", FALSE, ch, 0, 0, TO_ROOM);
-          return;
-        } else if (save >= dc) {
-          send_to_char(ch, "Your condition neither worsens nor improves.\r\n");
-          return;
-        } else {
-          send_to_char(ch, "You slide a little bit closer to death.\r\n");
-          damage(ch, ch, 1, TYPE_SUFFERING, 0, -1, 0, TYPE_SUFFERING, 1);
-        }
-      }
-      break;
-    }
-
-    switch (GET_POS(ch)) {
-    case POS_DEAD:
-      send_to_char(ch, "Lie still; you are DEAD!!! :-(\r\n");
-      break;
-    case POS_INCAP:
-    case POS_MORTALLYW:
-      send_to_char(ch, "You are in a pretty bad shape, unable to do anything!\r\n");
-      break;
-    case POS_STUNNED:
-      send_to_char(ch, "All you can do right now is think about the stars!\r\n");
-      break;
-    case POS_SLEEPING:
-      send_to_char(ch, "In your dreams, or what?\r\n");
-      break;
-    case POS_RESTING:
-      send_to_char(ch, "Nah... You feel too relaxed to do that..\r\n");
-      break;
-    case POS_SITTING:
-      send_to_char(ch, "Maybe you should get on your feet first?\r\n");
-      break;
-    case POS_FIGHTING:
-      for (k = world[IN_ROOM(ch)].people; k; k = temp) {
-        temp = k->next_in_room;
-        if (FIGHTING(k) == ch) {
-          found = TRUE;
-        }
-      }
-      if (!found) {
-        stop_fighting(ch);
-        GET_POS(ch) = POS_STANDING;
-        update_pos(ch);
-        for (f = ch->followers; f; f = f->next) {
-          found = FALSE;
-          for (k = world[IN_ROOM(f->follower)].people; k; k = temp) {
-            temp = k->next_in_room;
-            if (FIGHTING(k) == f->follower) {
-              found = TRUE;
-            }
-          }
-          if (!found) {
-            stop_fighting(f->follower);
-            GET_POS(f->follower) = POS_STANDING;
-            update_pos(f->follower);
-          }
-        }
-        command_interpreter(ch, argument);
+    /* just drop to next line for hitting CR */
+    skip_spaces(&argument);
+    if (!*argument)
         return;
-      }
-      else {
-        send_to_char(ch, "No way!  You're fighting for your life!\r\n");
-      }
-      break;
+
+    /*
+     * special case to handle one-character, non-alphanumeric commands;
+     * requested by many people so "'hi" or ";godnet test" is possible.
+     * Patch sent by Eric Green and Stefan Wasilewski.
+     */
+    if (!isalpha(*argument))
+    {
+        arg[0] = argument[0];
+        arg[1] = '\0';
+        line = argument + 1;
     }
-  } else if (no_specials || !special(ch, cmd, line)) {
-    ((*complete_cmd_info[cmd].command_pointer) (ch, line, cmd, complete_cmd_info[cmd].subcmd));
-    return;
-  }
-  /* it's not a 'real' command, so it's a social */
+    else
+        line = any_one_arg(argument, arg);
+
+    /* Since all command triggers check for valid_dg_target before acting, the levelcheck
+     * here has been removed.
+     */
+
+    /* otherwise, find the command */
+    {
+        int cont;                                            /* continue the command checks */
+        cont = command_wtrigger(ch, arg, line);              /* any world triggers ? */
+        if (!cont) cont = command_mtrigger(ch, arg, line);   /* any mobile triggers ? */
+        if (!cont) cont = command_otrigger(ch, arg, line);   /* any object triggers ? */
+        if (cont) return;                                    /* yes, command trigger took over */
+    }
+    for (length = strlen(arg), cmd = 0; *complete_cmd_info[cmd].command != '\n'; cmd++)
+    {
+        if (!strncmp(complete_cmd_info[cmd].command, arg, length))
+            if (GET_LEVEL(ch) >= complete_cmd_info[cmd].minimum_level &&
+                    GET_ADMLEVEL(ch) >= complete_cmd_info[cmd].minimum_admlevel)
+                break;
+    }
+
+    if (*complete_cmd_info[cmd].command == '\n')
+    {
+        // if (command_unique_exit(ch, arg))
+        //   return;
+        // else
+        send_to_char(ch, "Huh?!?\r\n");
+    }
+    else if (check_disabled(&complete_cmd_info[cmd]))    /* is it disabled? */
+        send_to_char(ch, "This command has been temporarily disabled.\r\n");
+    else if (!IS_NPC(ch) && PLR_FLAGGED(ch, PLR_FROZEN) && GET_LEVEL(ch) < ADMLVL_IMPL)
+        send_to_char(ch, "You try, but the mind-numbing cold prevents you...\r\n");
+    else if (complete_cmd_info[cmd].command_pointer == NULL)
+        send_to_char(ch, "Sorry, that command hasn't been implemented yet.\r\n");
+
+    else if (IS_NPC(ch) && complete_cmd_info[cmd].minimum_admlevel >= ADMLVL_IMMORT)
+        send_to_char(ch, "You can't use immortal commands while switched.\r\n");
+    else if (GET_POS(ch) < complete_cmd_info[cmd].minimum_position)
+    {
+        switch (GET_POS(ch))
+        {
+        case POS_DEAD:
+        case POS_INCAP:
+        case POS_MORTALLYW:
+        case POS_STUNNED:
+            if (FIGHTING(ch))
+            {
+                save = d20 + get_saving_throw_value(ch, SAVING_FORTITUDE);
+                dc = 10;
+                if (GET_HIT(ch) < 0)
+                    dc -= GET_HIT(ch);
+                if ((save + 10) >= dc)
+                {
+                    GET_HIT(ch) = 1;
+                    update_pos(ch);
+                    send_to_char(ch, "You stablize and regain consciousness.\r\n");
+                    act("$n stablizes and regains consciousness.", FALSE, ch, 0, 0, TO_ROOM);
+                    return;
+                }
+                else if ((save + 5) >= dc)
+                {
+                    GET_HIT(ch) = 0;
+                    update_pos(ch);
+                    send_to_char(ch, "You stablize but remain unconscious.\r\n");
+                    act("$n stablizes but remains unconscious.", FALSE, ch, 0, 0, TO_ROOM);
+                    return;
+                }
+                else if (save >= dc)
+                {
+                    send_to_char(ch, "Your condition neither worsens nor improves.\r\n");
+                    return;
+                }
+                else
+                {
+                    send_to_char(ch, "You slide a little bit closer to death.\r\n");
+                    damage(ch, ch, 1, TYPE_SUFFERING, 0, -1, 0, TYPE_SUFFERING, 1);
+                }
+            }
+            break;
+        }
+
+        switch (GET_POS(ch))
+        {
+        case POS_DEAD:
+            send_to_char(ch, "Lie still; you are DEAD!!! :-(\r\n");
+            break;
+        case POS_INCAP:
+        case POS_MORTALLYW:
+            send_to_char(ch, "You are in a pretty bad shape, unable to do anything!\r\n");
+            break;
+        case POS_STUNNED:
+            send_to_char(ch, "All you can do right now is think about the stars!\r\n");
+            break;
+        case POS_SLEEPING:
+            send_to_char(ch, "In your dreams, or what?\r\n");
+            break;
+        case POS_RESTING:
+            send_to_char(ch, "Nah... You feel too relaxed to do that..\r\n");
+            break;
+        case POS_SITTING:
+            send_to_char(ch, "Maybe you should get on your feet first?\r\n");
+            break;
+        case POS_FIGHTING:
+            for (k = world[IN_ROOM(ch)].people; k; k = temp)
+            {
+                temp = k->next_in_room;
+                if (FIGHTING(k) == ch)
+                {
+                    found = TRUE;
+                }
+            }
+            if (!found)
+            {
+                stop_fighting(ch);
+                GET_POS(ch) = POS_STANDING;
+                update_pos(ch);
+                for (f = ch->followers; f; f = f->next)
+                {
+                    found = FALSE;
+                    for (k = world[IN_ROOM(f->follower)].people; k; k = temp)
+                    {
+                        temp = k->next_in_room;
+                        if (FIGHTING(k) == f->follower)
+                        {
+                            found = TRUE;
+                        }
+                    }
+                    if (!found)
+                    {
+                        stop_fighting(f->follower);
+                        GET_POS(f->follower) = POS_STANDING;
+                        update_pos(f->follower);
+                    }
+                }
+                command_interpreter(ch, argument);
+                return;
+            }
+            else
+            {
+                send_to_char(ch, "No way!  You're fighting for your life!\r\n");
+            }
+            break;
+        }
+    }
+    else if (no_specials || !special(ch, cmd, line))
+    {
+        ((*complete_cmd_info[cmd].command_pointer) (ch, line, cmd, complete_cmd_info[cmd].subcmd));
+        return;
+    }
+    /* it's not a 'real' command, so it's a social */
 
 
 }
@@ -4734,261 +4759,310 @@ void display_levelup_classes(struct descriptor_data *d)
 
 void init_levelup(struct char_data *ch)
 {
-  struct level_data *l = ch->levelup;
-  int i = 0;
-  int isepic = FALSE;
-  int epiclevel = 21;
+    struct level_data *l;
+    int i;
+    int isepic;
+    const int epiclevel = 21;
 
-  l->level = GET_CLASS_LEVEL(ch) + 1;
-  if ((l->level + 1) >= epiclevel)
-    isepic = TRUE;
-  for (i = 0; i <= 9; i++)
-  {
-    l->spell_slots[i] = MAX(0, sorcerer_spells_known[MIN(21, GET_CLASS_RANKS(ch, l->class) + 1)][i]);
-  }
+    /* Defensive guards (cheap, safe) */
+    if (!ch || !(l = ch->levelup))
+        return;
 
-  for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++)
-  {
-    l->spells_known[i] = ch->player_specials->spells_known[i];
-    if (l->spells_known[i] >= 0 && l->spells_known[i] <= TOP_SPELL && spell_info[l->spells_known[i]].class_level[l->class] <= 9)
-      l->spell_slots[spell_info[l->spells_known[i]].class_level[l->class]]--;
-  }
+    /* Cache frequently-used values */
+    const int current_level = GET_CLASS_LEVEL(ch);
+    const int next_level = current_level + 1;
+    const int feat_points = GET_FEAT_POINTS(ch);
+    const int epic_feat_points = GET_EPIC_FEAT_POINTS(ch);
+    const int class_ranks = GET_CLASS_RANKS(ch, l->class);
 
+    l->level = next_level;
 
-  l->feat_points = GET_FEAT_POINTS(ch) + (isepic ? 0 : (l->level % 2 == 1 ? 1 : 0));
-  l->practices = 0;
-  if (l->level == 1)
-  {
-    l->feat_points++;
-  }
-  l->epic_feat_points = GET_EPIC_FEAT_POINTS(ch) + (isepic ? (l->level % 3 == 0 ? 1 : 0) : 0);
-  for (i = 0; i < NUM_FEATS_DEFINED; i++)
-  {
-    l->feats[i] = 0;
-    l->feat_skills[i] = 0;
-    l->feat_weapons[i] = 0;
-  }
-  l->num_trains = GET_TRAINS(ch) + (l->level % 4 == 0 ? 1 : 0);
-  l->practices += GET_PRACTICES(ch, l->class) + num_levelup_practices(ch, l->class);
-  for (i = 0; i < SKILL_TABLE_SIZE + 1; i++)
-  {
-    l->skills[i] = 0;
-  }
-  l->tempFeat = 0;
-  for (i = 0; i < 6; i ++)
-    l->trains[i] = 0;
-  l->num_class_feats = GET_CLASS_FEATS(ch, l->class) + (isepic ? 0 : num_levelup_class_feats(ch, l->class, l->level));
-  l->num_epic_class_feats = GET_EPIC_CLASS_FEATS(ch, l->class) + (isepic ? num_levelup_class_feats(ch, l->class, l->level) : 0);
+    /* Explicit epic determination */
+    isepic = (next_level >= epiclevel);
+
+    /* Spell slots */
+    for (i = 0; i <= 9; i++)
+    {
+        l->spell_slots[i] =
+        MAX(0, sorcerer_spells_known[MIN(21, class_ranks + 1)][i]);
+    }
+
+    /* Known spells & slot adjustment */
+    for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++)
+    {
+        const int spell = ch->player_specials->spells_known[i];
+        l->spells_known[i] = spell;
+
+        if (spell >= 0 && spell <= TOP_SPELL)
+        {
+            const int lvl = spell_info[spell].class_level[l->class];
+            if (lvl <= 9)
+                l->spell_slots[lvl]--;
+        }
+    }
+
+    /* Feats (Pathfinder-consistent) */
+    l->feat_points = feat_points;
+    if (next_level == 1 || (!isepic && (next_level & 1)))
+        l->feat_points++;
+
+    /* Epic feats */
+    l->epic_feat_points = epic_feat_points;
+    if (isepic && (next_level % 3 == 0))
+        l->epic_feat_points++;
+
+    /* Zero feat-related arrays */
+    memset(l->feats, 0, sizeof(l->feats));
+    memset(l->feat_skills, 0, sizeof(l->feat_skills));
+    memset(l->feat_weapons, 0, sizeof(l->feat_weapons));
+
+    /* Trains & practices */
+    l->num_trains = GET_TRAINS(ch) + ((next_level % 4 == 0) ? 1 : 0);
+    l->practices = GET_PRACTICES(ch, l->class)
+                   + num_levelup_practices(ch, l->class);
+
+    /* Skills */
+    memset(l->skills, 0, sizeof(l->skills));
+
+    l->tempFeat = 0;
+    memset(l->trains, 0, sizeof(l->trains));
+
+    /* Class feats */
+    l->num_class_feats =
+        GET_CLASS_FEATS(ch, l->class)
+        + (!isepic ? num_levelup_class_feats(ch, l->class, next_level) : 0);
+
+    l->num_epic_class_feats =
+        GET_EPIC_CLASS_FEATS(ch, l->class)
+        + (isepic ? num_levelup_class_feats(ch, l->class, next_level) : 0);
 }
+
 
 ACMD(do_levelup)
 {
 
-  if (!has_unlocked_race(ch, GET_RACE(ch)))
-  {
-    send_to_char(ch, "You cannot gain more levels on this character until you've unlocked your current race.  See @YHELP ACCOUNT EXPERIENCE@n.\r\n");
-    return;
-  }
+    if (!has_unlocked_race(ch, GET_RACE(ch)))
+    {
+        send_to_char(ch, "You cannot gain more levels on this character until you've unlocked your current race.  See @YHELP ACCOUNT EXPERIENCE@n.\r\n");
+        return;
+    }
 
-  if (STATE(ch->desc) == CON_PLAYING &&
-      (GET_CLASS_LEVEL(ch) == 0 || (GET_LEVEL(ch) < (CONFIG_LEVEL_CAP - 1) && GET_EXP(ch) >=
-      level_exp(GET_CLASS_LEVEL(ch) + 1, GET_REAL_RACE(ch)))))
-  {
-	send_to_char(ch, "Proceeding to level-up screen. Press enter to continue.\r\n\r\n");
-	STATE(ch->desc) = CON_LEVELUP_START;
-  }
-  else
-  {
-    send_to_char(ch, "You are not yet ready for further advancement.\r\n");
-  }
+    if (STATE(ch->desc) == CON_PLAYING &&
+            (GET_CLASS_LEVEL(ch) == 0 || (GET_LEVEL(ch) < (CONFIG_LEVEL_CAP - 1) && GET_EXP(ch) >=
+                                          level_exp(GET_CLASS_LEVEL(ch) + 1, GET_REAL_RACE(ch)))))
+    {
+        send_to_char(ch, "Proceeding to level-up screen. Press enter to continue.\r\n\r\n");
+        STATE(ch->desc) = CON_LEVELUP_START;
+    }
+    else
+    {
+        send_to_char(ch, "You are not yet ready for further advancement.\r\n");
+    }
 
 }
 
 void display_levelup_trains(struct char_data *ch)
 {
 
-	send_to_char(ch,
-	"Ability Trains Remaining: %d\r\n"
-	"\r\n"
-	"1) Strength     : %d\r\n"
-	"2) Dexterity    : %d\r\n"
-	"3) Constitution : %d\r\n"
-	"4) Intelligence : %d\r\n"
-	"5) Wisdom       : %d\r\n"
-	"6) Charisma     : %d\r\n"
-	"\r\n"
-	"Please select the ability that you wish to increase, or type -1 to continue: ",
+    send_to_char(ch,
+                 "Ability Trains Remaining: %d\r\n"
+                 "\r\n"
+                 "1) Strength     : %d\r\n"
+                 "2) Dexterity    : %d\r\n"
+                 "3) Constitution : %d\r\n"
+                 "4) Intelligence : %d\r\n"
+                 "5) Wisdom       : %d\r\n"
+                 "6) Charisma     : %d\r\n"
+                 "\r\n"
+                 "Please select the ability that you wish to increase, or type -1 to continue: ",
 
-	ch->levelup->num_trains,
-	ch->real_abils.str + ch->levelup->trains[0],
-	ch->real_abils.dex + ch->levelup->trains[1],
-	ch->real_abils.con + ch->levelup->trains[2],
-	ch->real_abils.intel + ch->levelup->trains[3],
-	ch->real_abils.wis + ch->levelup->trains[4],
-	ch->real_abils.cha + ch->levelup->trains[5]
-	);
-
-}
-
-void display_levelup_summary(struct char_data *ch) {
-
-	display_levelup_changes(ch, FALSE);
-
-	send_to_char(ch,
-			"\r\n"
-			"Do you wish to accept these changes?\r\n"
-			"Type yes to accept or no to cancel and start over.\r\n"
-			);
+                 ch->levelup->num_trains,
+                 ch->real_abils.str + ch->levelup->trains[0],
+                 ch->real_abils.dex + ch->levelup->trains[1],
+                 ch->real_abils.con + ch->levelup->trains[2],
+                 ch->real_abils.intel + ch->levelup->trains[3],
+                 ch->real_abils.wis + ch->levelup->trains[4],
+                 ch->real_abils.cha + ch->levelup->trains[5]
+                );
 
 }
 
+void display_levelup_summary(struct char_data *ch)
+{
 
-void display_levelup_changes(struct char_data *ch, int apply_changes) {
+    display_levelup_changes(ch, FALSE);
 
-	if (ch == NULL || ch->levelup == NULL) {
-	  return;
-	}
+    send_to_char(ch,
+                 "\r\n"
+                 "Do you wish to accept these changes?\r\n"
+                 "Type yes to accept or no to cancel and start over.\r\n"
+                );
 
-	int i = 0;
+}
 
-	send_to_char(ch,
-			"\r\n"
-			"Your Level Summary:\r\n"
-			"\r\n"
-			"Skills:\r\n"
-			"\r\n"
-			);
 
-	for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) {
-		if (ch->levelup && ch->levelup->skills[i] > 0) {
-			send_to_char(ch, "%s raised from %d to %d.\r\n", spell_info[i].name, GET_SKILL(ch, i), GET_SKILL(ch, i) + ch->levelup->skills[i]);
-			if (apply_changes)
-				GET_SKILL_BASE(ch, i) += ch->levelup->skills[i];
-		}
-	}
+void display_levelup_changes(struct char_data *ch, int apply_changes)
+{
 
-	send_to_char(ch,
-			"\r\n"
-			"Feats:\r\n"
-			"\r\n"
-			);
-
-	for (i = 0; i < NUM_FEATS_DEFINED; i++) {
-		if (ch->levelup->feats[i] > 0) {
-			send_to_char(ch, "%s", feat_list[i].name);
-			if (apply_changes)
-                          process_add_feat(ch, i);
-
-			switch (i) {
-			case FEAT_IMPROVED_CRITICAL:
-			case FEAT_WEAPON_FINESSE:
-			case FEAT_WEAPON_FOCUS:
-			case FEAT_WEAPON_SPECIALIZATION:
-			case FEAT_GREATER_WEAPON_FOCUS:
-			case FEAT_GREATER_WEAPON_SPECIALIZATION:
-			case FEAT_IMPROVED_WEAPON_FINESSE:
-			case FEAT_WEAPON_PROFICIENCY_EXOTIC:
-			case FEAT_MONKEY_GRIP:
-			case FEAT_CRITICAL_FOCUS:
-			case FEAT_WEAPON_MASTERY:
-			case FEAT_WEAPON_FLURRY:
-			case FEAT_WEAPON_SUPREMACY:
-
-				if (apply_changes)
-					SET_COMBAT_FEAT(ch, feat_to_subfeat(i), ch->levelup->feat_weapons[i]);
-				send_to_char(ch, " (%s)", weapon_damage_types[ch->levelup->feat_weapons[i]-MIN_WEAPON_DAMAGE_TYPES]);
-				break;
-			case FEAT_SKILL_FOCUS:
-			case FEAT_EPIC_SKILL_FOCUS:
-				if (apply_changes)
-					ch->player_specials->skill_focus[ch->levelup->feat_skills[i] - SKILL_LOW_SKILL] += 1;
-				send_to_char(ch, " (%s)", spell_info[ch->levelup->feat_skills[i]].name);
-				break;
-			}
-			send_to_char(ch, "\r\n");
-		}
-	}
-
-	send_to_char(ch,
-			"\r\n"
-			"Ability Score Trains:\r\n"
-			"\r\n"
-			);
-
-	for (i = 0; i < 6; i++) {
-		if (ch->levelup->trains[i] > 0) {
-			switch (i) {
-			case 0:
-				if (apply_changes)
-					ch->real_abils.str += ch->levelup->trains[i];
-				send_to_char(ch, "Strength raised from %d to %d.\r\n", ch->real_abils.str, ch->real_abils.str + ch->levelup->trains[i]);
-				break;
-			case 1:
-				if (apply_changes)
-					ch->real_abils.dex += ch->levelup->trains[i];
-				send_to_char(ch, "Dexterity raised from %d to %d.\r\n", ch->real_abils.dex, ch->real_abils.dex + ch->levelup->trains[i]);
-				break;
-			case 2:
-				if (apply_changes)
-					ch->real_abils.con += ch->levelup->trains[i];
-				send_to_char(ch, "Constitution raised from %d to %d.\r\n", ch->real_abils.con, ch->real_abils.con + ch->levelup->trains[i]);
-				break;
-			case 3:
-				if (apply_changes)
-					ch->real_abils.intel += ch->levelup->trains[i];
-				send_to_char(ch, "Intelligence raised from %d to %d.\r\n", ch->real_abils.intel, ch->real_abils.intel + ch->levelup->trains[i]);
-				break;
-			case 4:
-				if (apply_changes)
-					ch->real_abils.wis += ch->levelup->trains[i];
-				send_to_char(ch, "Wisdom raised from %d to %d.\r\n", ch->real_abils.wis, ch->real_abils.wis + ch->levelup->trains[i]);
-				break;
-			case 5:
-				if (apply_changes)
-					ch->real_abils.cha += ch->levelup->trains[i];
-				send_to_char(ch, "Charisma raised from %d to %d.\r\n", ch->real_abils.cha, ch->real_abils.cha + ch->levelup->trains[i]);
-				break;
-
-			}
-		}
-	}
-
-  if (apply_changes) {
-
-    // MySQL Save
-
-    char query[MAX_INPUT_LENGTH]={'\0'};
-
-    conn = mysql_init(NULL);
-
-    /* Connect to database */
-    if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0)) {
-      log("Cannot connect to mysql database in display_levelup_changes.");
+    if (ch == NULL || ch->levelup == NULL)
+    {
+        return;
     }
 
-    sprintf(query, "INSERT INTO player_levels (idnum,char_name,char_level,char_class) VALUES('%ld','%s','%d','%s')", GET_IDNUM(ch), GET_NAME(ch), ch->levelup->level, class_names_dl_aol[ch->levelup->class]);
-    if (mysql_query(conn, query)) {
-      log("Mysql Query Error in display_levelup_changes: %s", query);
-    }
+    int i = 0;
 
-    MYSQL_RES *res = NULL;
-    MYSQL_ROW row = NULL;
+    send_to_char(ch,
+                 "\r\n"
+                 "Your Level Summary:\r\n"
+                 "\r\n"
+                 "Skills:\r\n"
+                 "\r\n"
+                );
 
-    sprintf(query, "SELECT id FROM player_levels WHERE idnum='%ld' AND char_name='%s' ORDER BY char_level DESC LIMIT 1", GET_IDNUM(ch), GET_NAME(ch));
-    mysql_query(conn, query);
-    res = mysql_use_result(conn);
-    if (res != NULL) {
-      if ((row = mysql_fetch_row(res)) != NULL) {
-        if (atoi(row[0]) > 0) {
-          send_to_char(ch, "@YPost this on your facebook wall!  http://www.ageofdragons.org/fblevelup.php?id=%s\r\n@n", row[0]);
+    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++)
+    {
+        if (ch->levelup && ch->levelup->skills[i] > 0)
+        {
+            send_to_char(ch, "%s raised from %d to %d.\r\n", spell_info[i].name, GET_SKILL(ch, i), GET_SKILL(ch, i) + ch->levelup->skills[i]);
+            if (apply_changes)
+                GET_SKILL_BASE(ch, i) += ch->levelup->skills[i];
         }
-      }
     }
-    mysql_free_result(res);
+
+    send_to_char(ch,
+                 "\r\n"
+                 "Feats:\r\n"
+                 "\r\n"
+                );
+
+    for (i = 0; i < NUM_FEATS_DEFINED; i++)
+    {
+        if (ch->levelup->feats[i] > 0)
+        {
+            send_to_char(ch, "%s", feat_list[i].name);
+            if (apply_changes)
+                process_add_feat(ch, i);
+
+            switch (i)
+            {
+            case FEAT_IMPROVED_CRITICAL:
+            case FEAT_WEAPON_FINESSE:
+            case FEAT_WEAPON_FOCUS:
+            case FEAT_WEAPON_SPECIALIZATION:
+            case FEAT_GREATER_WEAPON_FOCUS:
+            case FEAT_GREATER_WEAPON_SPECIALIZATION:
+            case FEAT_IMPROVED_WEAPON_FINESSE:
+            case FEAT_WEAPON_PROFICIENCY_EXOTIC:
+            case FEAT_MONKEY_GRIP:
+            case FEAT_CRITICAL_FOCUS:
+            case FEAT_WEAPON_MASTERY:
+            case FEAT_WEAPON_FLURRY:
+            case FEAT_WEAPON_SUPREMACY:
+
+                if (apply_changes)
+                    SET_COMBAT_FEAT(ch, feat_to_subfeat(i), ch->levelup->feat_weapons[i]);
+                send_to_char(ch, " (%s)", weapon_damage_types[ch->levelup->feat_weapons[i] - MIN_WEAPON_DAMAGE_TYPES]);
+                break;
+            case FEAT_SKILL_FOCUS:
+            case FEAT_EPIC_SKILL_FOCUS:
+                if (apply_changes)
+                    ch->player_specials->skill_focus[ch->levelup->feat_skills[i] - SKILL_LOW_SKILL] += 1;
+                send_to_char(ch, " (%s)", spell_info[ch->levelup->feat_skills[i]].name);
+                break;
+            }
+            send_to_char(ch, "\r\n");
+        }
+    }
+
+    send_to_char(ch,
+                 "\r\n"
+                 "Ability Score Trains:\r\n"
+                 "\r\n"
+                );
+
+    for (i = 0; i < 6; i++)
+    {
+        if (ch->levelup->trains[i] > 0)
+        {
+            switch (i)
+            {
+            case 0:
+                if (apply_changes)
+                    ch->real_abils.str += ch->levelup->trains[i];
+                send_to_char(ch, "Strength raised from %d to %d.\r\n", ch->real_abils.str, ch->real_abils.str + ch->levelup->trains[i]);
+                break;
+            case 1:
+                if (apply_changes)
+                    ch->real_abils.dex += ch->levelup->trains[i];
+                send_to_char(ch, "Dexterity raised from %d to %d.\r\n", ch->real_abils.dex, ch->real_abils.dex + ch->levelup->trains[i]);
+                break;
+            case 2:
+                if (apply_changes)
+                    ch->real_abils.con += ch->levelup->trains[i];
+                send_to_char(ch, "Constitution raised from %d to %d.\r\n", ch->real_abils.con, ch->real_abils.con + ch->levelup->trains[i]);
+                break;
+            case 3:
+                if (apply_changes)
+                    ch->real_abils.intel += ch->levelup->trains[i];
+                send_to_char(ch, "Intelligence raised from %d to %d.\r\n", ch->real_abils.intel, ch->real_abils.intel + ch->levelup->trains[i]);
+                break;
+            case 4:
+                if (apply_changes)
+                    ch->real_abils.wis += ch->levelup->trains[i];
+                send_to_char(ch, "Wisdom raised from %d to %d.\r\n", ch->real_abils.wis, ch->real_abils.wis + ch->levelup->trains[i]);
+                break;
+            case 5:
+                if (apply_changes)
+                    ch->real_abils.cha += ch->levelup->trains[i];
+                send_to_char(ch, "Charisma raised from %d to %d.\r\n", ch->real_abils.cha, ch->real_abils.cha + ch->levelup->trains[i]);
+                break;
+
+            }
+        }
+    }
+
+    if (apply_changes)
+    {
+
+        // MySQL Save
+
+        char query[MAX_INPUT_LENGTH] = {'\0'};
+
+        conn = mysql_init(NULL);
+
+        /* Connect to database */
+        if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0))
+        {
+            log("Cannot connect to mysql database in display_levelup_changes.");
+        }
+
+        sprintf(query, "INSERT INTO player_levels (idnum,char_name,char_level,char_class) VALUES('%ld','%s','%d','%s')", GET_IDNUM(ch), GET_NAME(ch), ch->levelup->level, class_names_dl_aol[ch->levelup->class]);
+        if (mysql_query(conn, query))
+        {
+            log("Mysql Query Error in display_levelup_changes: %s", query);
+        }
+
+        MYSQL_RES *res = NULL;
+        MYSQL_ROW row = NULL;
+
+        sprintf(query, "SELECT id FROM player_levels WHERE idnum='%ld' AND char_name='%s' ORDER BY char_level DESC LIMIT 1", GET_IDNUM(ch), GET_NAME(ch));
+        mysql_query(conn, query);
+        res = mysql_use_result(conn);
+        if (res != NULL)
+        {
+            if ((row = mysql_fetch_row(res)) != NULL)
+            {
+                if (atoi(row[0]) > 0)
+                {
+                    send_to_char(ch, "@YPost this on your facebook wall!  http://www.ageofdragons.org/fblevelup.php?id=%s\r\n@n", row[0]);
+                }
+            }
+        }
+        mysql_free_result(res);
 
 
-    mysql_close(conn);
-  }
+        mysql_close(conn);
+    }
 }
 
 void display_combat_menu(struct descriptor_data *d)
