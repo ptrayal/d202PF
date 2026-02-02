@@ -3391,704 +3391,389 @@ void oedit_parse(struct descriptor_data *d, char *arg)
 
 
 void oedit_string_cleanup(struct descriptor_data *d, int terminator)
-
 {
+    switch (OLC_MODE(d))
+    {
+    case OEDIT_ACTDESC:
+        oedit_disp_menu(d);
+        break;
 
-  switch (OLC_MODE(d)) {
-
-  case OEDIT_ACTDESC:
-
-    oedit_disp_menu(d);
-
-    break;
-
-  case OEDIT_EXTRADESC_DESCRIPTION:
-
-    oedit_disp_extradesc_menu(d);
-
-    break;
-
-  }
-
+    case OEDIT_EXTRADESC_DESCRIPTION:
+        oedit_disp_extradesc_menu(d);
+        break;
+    }
 }
-
 
 
 /* this is all iedit stuff */
-
 void iedit_setup_existing(struct descriptor_data *d, struct obj_data *real_num)
-
 {
+    struct obj_data *obj;
 
-  struct obj_data *obj;
+    OLC_IOBJ(d) = real_num;
+    obj = create_obj();
+    copy_object(obj, real_num);
 
+    /* free any assigned scripts */
+    if (SCRIPT(obj))
+        extract_script(obj, OBJ_TRIGGER);
 
+    SCRIPT(obj) = NULL;
+    /* find_obj helper */
+    remove_from_lookup_table(GET_ID(obj));
 
-  OLC_IOBJ(d) = real_num;
-
-
-
-  obj = create_obj();
-
-  copy_object(obj,real_num);
-
-
-
-  /* free any assigned scripts */
-
-  if (SCRIPT(obj))
-
-    extract_script(obj, OBJ_TRIGGER);
-
-  SCRIPT(obj) = NULL;
-
-  /* find_obj helper */
-
-  remove_from_lookup_table(GET_ID(obj));
-
-
-
-  OLC_OBJ(d) = obj;
-
-  OLC_IOBJ(d) = real_num;
-
-  OLC_VAL(d) = 0;
-
-  oedit_disp_menu(d);
+    OLC_OBJ(d) = obj;
+    OLC_IOBJ(d) = real_num;
+    OLC_VAL(d) = 0;
+    oedit_disp_menu(d);
 
 }
-
 
 
 ACMD(do_iedit)
 {
-  struct obj_data *k;
-  int found=0;
-  extern struct room_data *world;
-  char arg[MAX_INPUT_LENGTH]={'\0'};
+    struct obj_data *k;
+    int found = 0;
+    extern struct room_data *world;
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if(!*arg || !*argument) {
+    if(!*arg || !*argument)
+    {
+        send_to_char(ch, "You must supply an object name.\r\n");
+    }
 
-    send_to_char(ch, "You must supply an object name.\r\n");
+    if ((k = get_obj_in_equip_vis(ch, arg, NULL, ch->equipment)))
+    {
+        found = 1;
+    }
+    else if ((k = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))
+    {
+        found = 1;
+    }
+    else if ((k = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents)))
+    {
+        found = 1;
+    }
+    else if ((k = get_obj_vis(ch, arg, NULL)))
+    {
+        found = 1;
+    }
 
-  }
+    if (!found)
+    {
+        send_to_char(ch, "Couldn't find that object. Sorry.\r\n");
+        return;
+    }
 
+    /* set up here */
+    CREATE(OLC(ch->desc), struct oasis_olc_data, 1);
+    SET_BIT_AR(GET_OBJ_EXTRA(k), ITEM_UNIQUE_SAVE);
 
+    SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
+    iedit_setup_existing(ch->desc, k);
+    OLC_VAL(ch->desc) = 0;
 
-  if ((k = get_obj_in_equip_vis(ch, arg, NULL, ch->equipment))) {
-
-    found=1;
-
-  } else if ((k = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) {
-
-    found=1;
-
-  } else if ((k = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents))) {
-
-    found =1;
-
-  } else if ((k = get_obj_vis(ch, arg, NULL))) {
-
-    found=1;
-
-  }
-
-
-
-  if (!found) {
-
-    send_to_char(ch, "Couldn't find that object. Sorry.\r\n");
-
+    act("$n starts using OLC.", TRUE, ch, 0, 0, TO_ROOM);
+    STATE(ch->desc) = CON_IEDIT;
     return;
 
-  }
-
-
-
-                /* set up here */
-
-  CREATE(OLC(ch->desc), struct oasis_olc_data, 1);
-
-  SET_BIT_AR(GET_OBJ_EXTRA(k), ITEM_UNIQUE_SAVE);
-
-
-
-  SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
-
-  iedit_setup_existing(ch->desc,k);
-
-  OLC_VAL(ch->desc) = 0;
-
-
-
-  act("$n starts using OLC.", TRUE, ch, 0, 0, TO_ROOM);
-
-
-
-  STATE(ch->desc) = CON_IEDIT;
-
-
-
-  return;
-
 }
-
-
-
 
 
 void set_armor_values(struct obj_data *obj, int type)
-
 {
-
-
-
-  GET_OBJ_MATERIAL(obj) = armor_list[type].material;
-
-  GET_OBJ_SIZE(obj)     = SIZE_MEDIUM;
-
-
+    GET_OBJ_MATERIAL(obj) = armor_list[type].material;
+    GET_OBJ_SIZE(obj)     = SIZE_MEDIUM;
     GET_OBJ_VAL(obj, 0) = armor_list[type].armorBonus;
-
     GET_OBJ_VAL(obj, 1) = armor_list[type].armorType;
-
-	GET_OBJ_VAL(obj, 2) = armor_list[type].dexBonus;
-
-	GET_OBJ_VAL(obj, 3) = armor_list[type].armorCheck;
-
-	GET_OBJ_VAL(obj, 4) = 100;
-
-	GET_OBJ_VAL(obj, 5) = 100;
-
-	GET_OBJ_VAL(obj, 6) = armor_list[type].spellFail;
-
-	GET_OBJ_VAL(obj, 8) = armor_list[type].thirtyFoot;
-
-	GET_OBJ_VAL(obj, 10) = armor_list[type].twentyFoot;
-
-	GET_OBJ_VAL(obj, 9) = type;
-
-	GET_OBJ_WEIGHT(obj) = armor_list[type].weight;
-
-	GET_OBJ_COST(obj)   = armor_list[type].cost;
-
+    GET_OBJ_VAL(obj, 2) = armor_list[type].dexBonus;
+    GET_OBJ_VAL(obj, 3) = armor_list[type].armorCheck;
+    GET_OBJ_VAL(obj, 4) = 100;
+    GET_OBJ_VAL(obj, 5) = 100;
+    GET_OBJ_VAL(obj, 6) = armor_list[type].spellFail;
+    GET_OBJ_VAL(obj, 8) = armor_list[type].thirtyFoot;
+    GET_OBJ_VAL(obj, 10) = armor_list[type].twentyFoot;
+    GET_OBJ_VAL(obj, 9) = type;
+    GET_OBJ_WEIGHT(obj) = armor_list[type].weight;
+    GET_OBJ_COST(obj)   = armor_list[type].cost;
 }
 
 
-
 void set_weapon_values(struct obj_data *obj, int type)
-
 {
+    GET_OBJ_VAL(obj, 0) = type;
+    GET_OBJ_VAL(obj, 1) = weapon_list[type].numDice;
+    GET_OBJ_VAL(obj, 2) = weapon_list[type].diceSize;
+    GET_OBJ_VAL(obj, 4) = 100;
+    GET_OBJ_VAL(obj, 5) = 100;
+    GET_OBJ_VAL(obj, 6) = weapon_list[type].critMult;
 
-  GET_OBJ_VAL(obj, 0) = type;
+    if (IS_SET(weapon_list[type].weaponFlags, WEAPON_FLAG_RANGED))
+        GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) = TYPE_SHOOT;
+    else if (IS_SET(weapon_list[type].damageTypes, DAMAGE_TYPE_BLUDGEONING))
+        GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) = TYPE_BLUDGEON;
+    else if (IS_SET(weapon_list[type].damageTypes, DAMAGE_TYPE_SLASHING))
+        GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) = TYPE_SLASH;
+    else if (IS_SET(weapon_list[type].damageTypes, DAMAGE_TYPE_PIERCING))
+        GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) = TYPE_PIERCE;
+    else
+        GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) = TYPE_HIT;
 
-  GET_OBJ_VAL(obj, 1) = weapon_list[type].numDice;
+    GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) -= TYPE_HIT;
 
-  GET_OBJ_VAL(obj, 2) = weapon_list[type].diceSize;
+    GET_OBJ_VAL(obj, 8) = weapon_list[type].critRange;
 
-  GET_OBJ_VAL(obj, 4) = 100;
+    GET_OBJ_VAL(obj, 9) = weapon_list[type].weaponFlags;
 
-  GET_OBJ_VAL(obj, 5) = 100;
+    GET_OBJ_VAL(obj, 10) = weapon_list[type].range;
 
-  GET_OBJ_VAL(obj, 6) = weapon_list[type].critMult;
+    GET_OBJ_VAL(obj, 11) = weapon_list[type].weaponFamily;
 
-  if (IS_SET(weapon_list[type].weaponFlags, WEAPON_FLAG_RANGED))
-    GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) = TYPE_SHOOT;
-  else if (IS_SET(weapon_list[type].damageTypes, DAMAGE_TYPE_BLUDGEONING))
-    GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) = TYPE_BLUDGEON;
-  else if (IS_SET(weapon_list[type].damageTypes, DAMAGE_TYPE_SLASHING))
-    GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) = TYPE_SLASH;
-  else if (IS_SET(weapon_list[type].damageTypes, DAMAGE_TYPE_PIERCING))
-    GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) = TYPE_PIERCE;
-  else
-    GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) = TYPE_HIT;
+    GET_OBJ_COST(obj) = weapon_list[type].cost;
 
-  GET_OBJ_VAL(obj, VAL_WEAPON_DAMTYPE) -= TYPE_HIT;
+    GET_OBJ_WEIGHT(obj) = weapon_list[type].weight;
 
-  GET_OBJ_VAL(obj, 8) = weapon_list[type].critRange;
+    GET_OBJ_SIZE(obj) = weapon_list[type].size;
 
-  GET_OBJ_VAL(obj, 9) = weapon_list[type].weaponFlags;
-
-  GET_OBJ_VAL(obj, 10) = weapon_list[type].range;
-
-  GET_OBJ_VAL(obj, 11) = weapon_list[type].weaponFamily;
-
-  GET_OBJ_COST(obj) = weapon_list[type].cost;
-
-  GET_OBJ_WEIGHT(obj) = weapon_list[type].weight;
-
-  GET_OBJ_SIZE(obj) = weapon_list[type].size;
-
-  GET_OBJ_MATERIAL(obj) = weapon_list[type].material;
-
+    GET_OBJ_MATERIAL(obj) = weapon_list[type].material;
 }
 
 int set_object_level(struct obj_data *obj)
 {
-  int leveladd = 0;
-  int levelminus = 0;
-  int applymod = 0;
-  int mod = 0;
-  int level = 0;
-  int i = 0;
+    int leveladd = 0;
+    int levelminus = 0;
+    int applymod = 0;
+    int mod = 0;
+    int level = 0;
+    int i = 0;
 
-  switch(GET_OBJ_TYPE(obj))
-	{
-	  case ITEM_SCROLL:
-
-            leveladd += MAX(1, ((spell_info[GET_OBJ_VAL(obj, VAL_SCROLL_SPELL1)].spell_level - 1) * 2) + 1) * 100;
-            break;
-
-	  case ITEM_POTION:
-
-
-            leveladd += MAX(1, ((spell_info[GET_OBJ_VAL(obj, VAL_POTION_SPELL1)].spell_level - 1) * 2) + 1) * 100;
-            break;
-
-	  case ITEM_WAND:
-
-            leveladd += MAX(1, ((spell_info[GET_OBJ_VAL(obj, VAL_WAND_SPELL)].spell_level - 1) * 2) + 1) * 100;
-            break;
-
-
-	  case ITEM_STAFF:
-
-            leveladd += MAX(1, ((spell_info[GET_OBJ_VAL(obj, VAL_WAND_SPELL)].spell_level - 1) * 2) + 1) * 100;
-            break;
-
-	  case ITEM_ARMOR:
-          case ITEM_ARMOR_SUIT:
-
-	    leveladd += GET_OBJ_VAL(obj, 0) * 10 / 5;
-
-		break;
-
-
-
-
+    switch(GET_OBJ_TYPE(obj))
+    {
+    case ITEM_SCROLL:
+        leveladd += MAX(1, ((spell_info[GET_OBJ_VAL(obj, VAL_SCROLL_SPELL1)].spell_level - 1) * 2) + 1) * 100;
+        break;
+    case ITEM_POTION:
+        leveladd += MAX(1, ((spell_info[GET_OBJ_VAL(obj, VAL_POTION_SPELL1)].spell_level - 1) * 2) + 1) * 100;
+        break;
+    case ITEM_WAND:
+        leveladd += MAX(1, ((spell_info[GET_OBJ_VAL(obj, VAL_WAND_SPELL)].spell_level - 1) * 2) + 1) * 100;
+        break;
+    case ITEM_STAFF:
+        leveladd += MAX(1, ((spell_info[GET_OBJ_VAL(obj, VAL_WAND_SPELL)].spell_level - 1) * 2) + 1) * 100;
+        break;
+    case ITEM_ARMOR:
+    case ITEM_ARMOR_SUIT:
+        leveladd += GET_OBJ_VAL(obj, 0) * 10 / 5;
+        break;
     default:
-
-		break;
-
-	}
-
-
-
-	for (i = 0; i < MAX_OBJ_AFFECT; i++) {
-
-
-
-                applymod = 0;
-
-
-
-		mod = obj->affected[i].modifier;
-
-
-
-		switch(obj->affected[i].location) {
-
-
-
-		case APPLY_FEAT:
-
-                  applymod += feat_list[obj->affected[i].specific].epic ? 20 : 10;
-                  break;
-
-		case APPLY_SKILL:
-
-                  applymod += mod * 200;
-                  break;
-
-		case APPLY_STR:
-
-		case APPLY_DEX:
-
-		case APPLY_INT:
-
-		case APPLY_WIS:
-
-		case APPLY_CON:
-
-		case APPLY_CHA:
-
-		  applymod += mod * 400;
-
-		  break;
-
-		case APPLY_AGE:
-
-		  applymod += (mod > 0) ? mod * 30 : mod * 50;
-
-		  break;
-
-		case APPLY_HIT:
-
-		  applymod += mod * 50;
-
-		  break;
-
-		case APPLY_KI:
-
-		  applymod += mod * 40;
-
-		  break;
-
-		case APPLY_MOVE:
-
-		  applymod += mod * 5;
-
-		  break;
-
-		case APPLY_CARRY_WEIGHT:
-
-		  applymod += mod * 200;
-
-		  break;
-
-		case APPLY_AC_DEFLECTION:
-		case APPLY_AC_SHIELD:
-		case APPLY_AC_ARMOR:
-		case APPLY_AC_NATURAL:
-
-                  applymod += mod * 40;
-
-		  break;
-
-		case APPLY_AC_DODGE:
-
-                  applymod += mod * 80;
-
-		  break;
-
-		case APPLY_HITROLL:
-
-		case APPLY_ACCURACY:
-
-		case APPLY_DAMROLL:
-
-		case APPLY_DAMAGE:
-
-		  if (GET_OBJ_TYPE(obj) == ITEM_WEAPON) {
-
-		    applymod += mod * 170;
-
-                  }
-
-		  else {
-
-		    applymod += mod * 600;
-
-                  }
-
-		  break;
-
-		case APPLY_TURN_LEVEL:
-
-		  applymod += 200 * mod;
-
-		  break;
-
-		case APPLY_SPELL_LVL_0:
-
-		  applymod += 70 * mod;
-
-		  break;
-
-		case APPLY_SPELL_LVL_1:
-
-		  applymod += 130 * mod;
-
-		  break;
-
-		case APPLY_SPELL_LVL_2:
-
-		  applymod += 200 * mod;
-
-		  break;
-
-		case APPLY_SPELL_LVL_3:
-
-		  applymod += 270 * mod;
-
-		  break;
-
-		case APPLY_SPELL_LVL_4:
-
-		  applymod += 330 * mod;
-
-		  break;
-
-		case APPLY_SPELL_LVL_5:
-
-		  applymod += 400 * mod;
-
-		  break;
-
-		case APPLY_SPELL_LVL_6:
-
-		  applymod += 470 * mod;
-
-		  break;
-
-		case APPLY_SPELL_LVL_7:
-
-		  applymod += 530 * mod;
-
-		  break;
-
-		case APPLY_SPELL_LVL_8:
-
-		  applymod += 600 * mod;
-
-		  break;
-
-		case APPLY_SPELL_LVL_9:
-
-		  applymod += 670 * mod;
-
-		  break;
-
-		case APPLY_FORTITUDE:
-
-		case APPLY_REFLEX:
-
-		case APPLY_WILL:
-
-		  applymod += 400 * mod;
-
-		  break;
-
-
-		case APPLY_ALLSAVES:
-
-		case APPLY_RESISTANCE:
-
-		  applymod += 1200 * mod;
-
-		  break;
-
-		default:
-
-		  break;
-
-		}
-
-	  if (obj->affected[i].modifier < 0 && obj->affected[i].location != APPLY_AGE)
-
-	    levelminus += applymod;
-
-	  else
-
-	    leveladd += applymod;
-
-	}
-
-
-
-	if (OBJ_FLAGGED(obj, ITEM_NO_REMOVE))
-
-	  levelminus += 70;
-
-
-
-	if (OBJ_FLAGGED(obj, ITEM_NOINVIS))
-
-	  levelminus += 20;
-
-
-
-	if (OBJ_FLAGGED(obj, ITEM_INVISIBLE))
-
-	  leveladd += 200;
-
-
-
-	if (OBJ_FLAGGED(obj, ITEM_NODROP))
-
-	  leveladd += 50;
-
-
-
-  if (OBJ_FLAGGED(obj, ITEM_UNBREAKABLE))
-
-	  leveladd += 200;
-
-
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_GOOD))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_EVIL))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_NEUTRAL))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_WIZARD))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_CLERIC))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_ROGUE))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_FIGHTER))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_KNIGHT))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_PALADIN))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_RANGER))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_DRUID))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_BARBARIAN))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_DWARF))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_ELF))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_HALFELF))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_KENDER))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_MINOTAUR))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_GNOME))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_HUMAN))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_BARD))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_WIZARD))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_CLERIC))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_ROGUE))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_FIGHTER))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_DRUID))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_BARD))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_RANGER))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_PALADIN))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_BARBARIAN))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_KNIGHT))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_HUMAN))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_ELF))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_DWARF))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_KENDER))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_MINOTAUR))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_HALFELF))
-
-	  levelminus += 20;
-
-  if (OBJ_FLAGGED(obj, ITEM_ONLY_GNOME))
-
-	  levelminus += 20;
-
- if (OBJAFF_FLAGGED(obj, AFF_INVISIBLE))
-    leveladd += 600;
-
-
-//  write_to_output(d, "leveladd = %d, levelminus = %d, applymod = %d, wearmod = %d\r\n",
-
-//                     leveladd, levelminus, applymod, wearmod);
-
-
-
-  levelminus /= 2;
-
-
-
-  level = (MAX(1, leveladd - MIN(50, MAX(0, levelminus))) / 100);
-
-
-
-  return level;
-
+        break;
+    }
+
+    for (i = 0; i < MAX_OBJ_AFFECT; i++)
+    {
+        applymod = 0;
+        mod = obj->affected[i].modifier;
+        switch(obj->affected[i].location)
+        {
+        case APPLY_FEAT:
+            applymod += feat_list[obj->affected[i].specific].epic ? 20 : 10;
+            break;
+        case APPLY_SKILL:
+            applymod += mod * 200;
+            break;
+        case APPLY_STR:
+        case APPLY_DEX:
+        case APPLY_INT:
+        case APPLY_WIS:
+        case APPLY_CON:
+        case APPLY_CHA:
+            applymod += mod * 400;
+            break;
+        case APPLY_AGE:
+            applymod += (mod > 0) ? mod * 30 : mod * 50;
+            break;
+        case APPLY_HIT:
+            applymod += mod * 50;
+            break;
+        case APPLY_KI:
+            applymod += mod * 40;
+            break;
+        case APPLY_MOVE:
+            applymod += mod * 5;
+            break;
+        case APPLY_CARRY_WEIGHT:
+            applymod += mod * 200;
+            break;
+        case APPLY_AC_DEFLECTION:
+        case APPLY_AC_SHIELD:
+        case APPLY_AC_ARMOR:
+        case APPLY_AC_NATURAL:
+            applymod += mod * 40;
+            break;
+        case APPLY_AC_DODGE:
+            applymod += mod * 80;
+            break;
+        case APPLY_HITROLL:
+        case APPLY_ACCURACY:
+        case APPLY_DAMROLL:
+        case APPLY_DAMAGE:
+            if (GET_OBJ_TYPE(obj) == ITEM_WEAPON)
+            {
+                applymod += mod * 170;
+            }
+            else
+            {
+                applymod += mod * 600;
+            }
+            break;
+        case APPLY_TURN_LEVEL:
+            applymod += 200 * mod;
+            break;
+        case APPLY_SPELL_LVL_0:
+            applymod += 70 * mod;
+            break;
+        case APPLY_SPELL_LVL_1:
+            applymod += 130 * mod;
+            break;
+        case APPLY_SPELL_LVL_2:
+            applymod += 200 * mod;
+            break;
+        case APPLY_SPELL_LVL_3:
+            applymod += 270 * mod;
+            break;
+        case APPLY_SPELL_LVL_4:
+            applymod += 330 * mod;
+            break;
+        case APPLY_SPELL_LVL_5:
+            applymod += 400 * mod;
+            break;
+        case APPLY_SPELL_LVL_6:
+            applymod += 470 * mod;
+            break;
+        case APPLY_SPELL_LVL_7:
+            applymod += 530 * mod;
+            break;
+        case APPLY_SPELL_LVL_8:
+            applymod += 600 * mod;
+            break;
+        case APPLY_SPELL_LVL_9:
+            applymod += 670 * mod;
+            break;
+        case APPLY_FORTITUDE:
+        case APPLY_REFLEX:
+        case APPLY_WILL:
+            applymod += 400 * mod;
+            break;
+        case APPLY_ALLSAVES:
+        case APPLY_RESISTANCE:
+            applymod += 1200 * mod;
+            break;
+        default:
+            break;
+        }
+        if (obj->affected[i].modifier < 0 && obj->affected[i].location != APPLY_AGE)
+            levelminus += applymod;
+        else
+            leveladd += applymod;
+    }
+
+    if (OBJ_FLAGGED(obj, ITEM_NO_REMOVE))
+        levelminus += 70;
+    if (OBJ_FLAGGED(obj, ITEM_NOINVIS))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_INVISIBLE))
+        leveladd += 200;
+    if (OBJ_FLAGGED(obj, ITEM_NODROP))
+        leveladd += 50;
+    if (OBJ_FLAGGED(obj, ITEM_UNBREAKABLE))
+        leveladd += 200;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_GOOD))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_EVIL))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_NEUTRAL))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_WIZARD))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_CLERIC))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_ROGUE))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_FIGHTER))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_KNIGHT))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_PALADIN))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_RANGER))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_DRUID))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_BARBARIAN))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_DWARF))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_ELF))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_HALFELF))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_KENDER))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_MINOTAUR))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_GNOME))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_HUMAN))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_BARD))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_WIZARD))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_CLERIC))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_ROGUE))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_FIGHTER))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_DRUID))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_BARD))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_RANGER))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_PALADIN))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_BARBARIAN))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_KNIGHT))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_HUMAN))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_ELF))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_DWARF))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_KENDER))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_MINOTAUR))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_HALFELF))
+        levelminus += 20;
+    if (OBJ_FLAGGED(obj, ITEM_ONLY_GNOME))
+        levelminus += 20;
+    if (OBJAFF_FLAGGED(obj, AFF_INVISIBLE))
+        leveladd += 600;
+
+    //  write_to_output(d, "leveladd = %d, levelminus = %d, applymod = %d, wearmod = %d\r\n",
+    //                     leveladd, levelminus, applymod, wearmod);
+
+    levelminus /= 2;
+    level = (MAX(1, leveladd - MIN(50, MAX(0, levelminus))) / 100);
+
+    return level;
 }
 

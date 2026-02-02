@@ -12,6 +12,9 @@
 
 #define __INTERPRETER_C__
 
+
+#include <ctype.h>
+
 #include "conf.h"
 #include "sysdep.h"
 
@@ -1569,19 +1572,22 @@ int search_block_2(char *arg, char **list, int exact)
 
 int is_number(const char *str)
 {
-  while (*str)
-    if (!isdigit(*(str++)))
-      return (0);
+    while (*str)
+        if (!isdigit(*(str++)))
+            return (0);
 
-  return (1);
+    return (1);
 }
 
 /*
  * Function to skip over the leading spaces of a string.
  */
-void skip_spaces(char **string)
+void skip_spaces(char **str)
 {
-  for (; **string && isspace(**string); (*string)++);
+    while (**str && isspace((unsigned char) **str))
+    {
+        (*str)++;
+    }
 }
 
 
