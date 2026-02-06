@@ -73,179 +73,187 @@ void displayslotnum(struct char_data *ch, int class);
 
 void do_mem_display(struct char_data *ch)
 {
-    char buf[MAX_STRING_LENGTH]={'\0'};
+    char buf[MAX_STRING_LENGTH];
+    size_t len = 0;
+
+    int class = -1;
     int memcursor = 0;
-    int class = 0;
-    int spellmem = 0;
-    int speedfx, count, i, sortpos, len;
+    int i, sortpos, count;
+    int speedfx;
     struct memorize_node *mem = NULL;
 
-    switch (GET_MEM_TYPE(ch)) 
+    memset(buf, 0, sizeof(buf));
+
+    /* Resolve class + cursor once */
+    switch (GET_MEM_TYPE(ch))
     {
-        case MEM_TYPE_MAGE:
+    case MEM_TYPE_MAGE:
         class = CLASS_WIZARD;
         memcursor = GET_MEMCURSOR(ch);
         break;
-        case MEM_TYPE_CLERIC:
+    case MEM_TYPE_CLERIC:
         class = CLASS_CLERIC;
         memcursor = GET_MEMCURSOR_C(ch);
         break;
-        case MEM_TYPE_PALADIN:
-        memcursor = GET_MEMCURSOR_P(ch);
+    case MEM_TYPE_PALADIN:
         class = CLASS_PALADIN;
+        memcursor = GET_MEMCURSOR_P(ch);
         break;
-        case MEM_TYPE_DRUID:
-        memcursor = GET_MEMCURSOR_D(ch);
+    case MEM_TYPE_DRUID:
         class = CLASS_DRUID;
+        memcursor = GET_MEMCURSOR_D(ch);
         break;
-        case MEM_TYPE_RANGER:
-        memcursor = GET_MEMCURSOR_R(ch);
+    case MEM_TYPE_RANGER:
         class = CLASS_RANGER;
+        memcursor = GET_MEMCURSOR_R(ch);
         break;
-        case MEM_TYPE_BARD:
-        memcursor = GET_MEMCURSOR_B(ch);
+    case MEM_TYPE_BARD:
         class = CLASS_BARD;
+        memcursor = GET_MEMCURSOR_B(ch);
         break;
-        case MEM_TYPE_SORCERER:
+    case MEM_TYPE_SORCERER:
         class = CLASS_SORCERER;
         break;
-        case MEM_TYPE_FAVORED_SOUL:
+    case MEM_TYPE_FAVORED_SOUL:
         class = CLASS_FAVORED_SOUL;
         break;
-        case MEM_TYPE_ASSASSIN:
+    case MEM_TYPE_ASSASSIN:
         class = CLASS_ASSASSIN;
-    }
-
-    if (!findslotnum(ch, 1)) 
-    {
-        snprintf(buf, MAX_STRING_LENGTH, "You do not have any spellcasting ability in the %s class.\r\n", 
-            (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[class]);
-        send_to_char(ch, "%s", buf);
+        break;
+    default:
+        send_to_char(ch, "Invalid memorization type.\r\n");
         return;
     }
 
-    len = sprintf(buf, "@cSpells in memory:\r\n@n");
-/* List the memorized spells
-* Using sprintf since it will be a cold day in hell before
-* we overflow the buffer here */
-    for(i = 0; i < 10; i++)
-    {    
-        if((i >= 1) && (findslotnum(ch, i) < 1))
+    if (findslotnum(ch, 1) < 1)
+    {
+        send_to_char(ch,
+                     "You do not have any spellcasting ability in the %s class.\r\n",
+                     (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ?
+                      class_names_dl_aol : class_names_core)[class]);
+        return;
+    }
+
+    len += snprintf(buf + len, sizeof(buf) - len,
+                    "@cSpells in memory:\r\n@n");
+
+    /* Display memorized spells by level */
+    for (i = 1; i < 10; i++)
+    {
+        int slots = findslotnum(ch, i);
+        if (slots < 1)
             break;
-        len += sprintf(buf+len,
-            "@c---@wLevel @R%d @wSpells@c---=============================@c---@w[@R%d @yslots@w]@c---@n\r\n",
-            i, findslotnum(ch, i));
+
+        len += snprintf(buf + len, sizeof(buf) - len,
+                        "@c---@wLevel @R%d @wSpells@c---=============================@c---@w[@R%d @yslots@w]@c---@n\r\n",
+                        i, slots);
+
         count = 0;
-        for(sortpos = 0; sortpos < memcursor; sortpos++)
+
+        for (sortpos = 0; sortpos < memcursor && len < sizeof(buf) - 128; sortpos++)
         {
-            if (len >= MAX_STRING_LENGTH - 128) 
+            int spellmem = 0;
+
+            switch (GET_MEM_TYPE(ch))
             {
-                strcat(buf, "**OVERFLOW**\r\n");
+            case MEM_TYPE_MAGE:
+                spellmem = GET_SPELLMEM(ch, sortpos);
+                break;
+            case MEM_TYPE_CLERIC:
+                spellmem = GET_SPELLMEM_C(ch, sortpos);
+                break;
+            case MEM_TYPE_PALADIN:
+                spellmem = GET_SPELLMEM_P(ch, sortpos);
+                break;
+            case MEM_TYPE_DRUID:
+                spellmem = GET_SPELLMEM_D(ch, sortpos);
+                break;
+            case MEM_TYPE_RANGER:
+                spellmem = GET_SPELLMEM_R(ch, sortpos);
+                break;
+            case MEM_TYPE_BARD:
+                spellmem = GET_SPELLMEM_B(ch, sortpos);
+                break;
+            default:
                 break;
             }
 
-            spellmem = 0;
-
-            switch (GET_MEM_TYPE(ch)) {
-                case MEM_TYPE_MAGE:
-                spellmem = GET_SPELLMEM(ch, sortpos);
-                break;   
-                case MEM_TYPE_CLERIC:
-                spellmem = GET_SPELLMEM_C(ch, sortpos);
-                break;   
-                case MEM_TYPE_PALADIN:
-                spellmem = GET_SPELLMEM_P(ch, sortpos);
-                break;   
-                case MEM_TYPE_DRUID:
-                spellmem = GET_SPELLMEM_D(ch, sortpos);
-                break;   
-                case MEM_TYPE_RANGER:
-                spellmem = GET_SPELLMEM_R(ch, sortpos);
-                break;   
-                case MEM_TYPE_BARD:
-                spellmem = GET_SPELLMEM_B(ch, sortpos);
-                break;   
-            }
-
-            if ((spellmem != 0) && (spell_info[spellmem].class_level[class] == i))
+            if (spellmem > 0 && spell_info[spellmem].class_level[class] == i)
             {
-                count++;
-                len += sprintf(buf+len, "@y%-22.22s@n", spell_info[spellmem].name);         
-                if(count%3 == 0) {
-                    strcat(buf, "\r\n");
-                    len += 2;
-                }
+                len += snprintf(buf + len, sizeof(buf) - len,
+                                "@y%-22.22s@n", spell_info[spellmem].name);
+                if (++count % 3 == 0)
+                    len += snprintf(buf + len, sizeof(buf) - len, "\r\n");
             }
         }
-        if(count%3 != 0) 
-        {
-            strcat(buf, "\r\n");
-            len += 2;
-        }
-        len += sprintf(buf+len, "@w(@r%d@y/@r%d@w)@n\r\n", class == CLASS_BARD ? GET_BARD_SPELLS(ch, i) : 
-            (class == CLASS_SORCERER ? GET_SORCERER_SPELLS(ch, i) : (class == CLASS_ASSASSIN ? GET_ASSASSIN_SPELLS(ch, i) : 
-                (class == CLASS_FAVORED_SOUL ? GET_FAVORED_SOUL_SPELLS(ch, i) : count))), 
-            findslotnum(ch, i));
-    }		
 
-/* here, list of spells being memorized and time till */
-/* memorization complete                              */ 
-    speedfx = find_memspeed(ch, TRUE);
+        if (count % 3 != 0)
+            len += snprintf(buf + len, sizeof(buf) - len, "\r\n");
 
-    len += sprintf(buf+len, "@c----------------------------------------------------------------@n\r\n");
-    len += sprintf(buf+len, "@cSpells being memorized:@n\r\n");
-    count = 0;
+        len += snprintf(buf + len, sizeof(buf) - len,
+                        "@w(@r%d@y/@r%d@w)@n\r\n",
+                        count, slots);
+    }
 
-    switch (GET_MEM_TYPE(ch)) 
+    /* Memorizing list */
+    speedfx = MAX(1, find_memspeed(ch, TRUE));
+
+    len += snprintf(buf + len, sizeof(buf) - len,
+                    "@c----------------------------------------------------------------@n\r\n"
+                    "@cSpells being memorized:@n\r\n");
+
+    switch (GET_MEM_TYPE(ch))
     {
-        case MEM_TYPE_MAGE:
+    case MEM_TYPE_MAGE:
         mem = ch->memorized;
         break;
-        case MEM_TYPE_CLERIC:
+    case MEM_TYPE_CLERIC:
         mem = ch->memorized_c;
         break;
-        case MEM_TYPE_PALADIN:
+    case MEM_TYPE_PALADIN:
         mem = ch->memorized_p;
         break;
-        case MEM_TYPE_DRUID:
+    case MEM_TYPE_DRUID:
         mem = ch->player_specials->memorized_d;
         break;
-        case MEM_TYPE_RANGER:
+    case MEM_TYPE_RANGER:
         mem = ch->player_specials->memorized_r;
         break;
-        case MEM_TYPE_BARD:
+    case MEM_TYPE_BARD:
         mem = ch->player_specials->memorized_b;
         break;
-        default:
-        mem = ch->memorized;
+    default:
+        mem = NULL;
         break;
     }
 
+    count = 0;
+    for (; mem && len < sizeof(buf) - 128; mem = mem->next)
+    {
+        len += snprintf(buf + len, sizeof(buf) - len,
+                        "@y%-20.20s@w(@r%2d rounds@w)@n ",
+                        spell_info[mem->spell].name,
+                        (mem->timer + speedfx - 1) / speedfx);
 
-    for (mem = mem; mem; mem = mem->next) 
-    {
-        len += sprintf(buf+len, "@y%-20.20s@w(@r%2d rounds@w)@n ",
-            spell_info[mem->spell].name, 
-            (mem->timer/speedfx) + ((mem->timer%speedfx) != 0));
-        count++;
-        if (count%2 == 0) {
-            strcat(buf, "\r\n");
-            len += 2;
-        }
+        if (++count % 2 == 0)
+            len += snprintf(buf + len, sizeof(buf) - len, "\r\n");
     }
-    if(count%2 != 0) 
-    {
-        strcat(buf, "\r\n");
-        len += 2;
-    }
-    if(count == 0)
-        len += sprintf(buf + len, "@w(@rNone@w)@n\r\n");
+
+    if (count == 0)
+        len += snprintf(buf + len, sizeof(buf) - len,
+                        "@w(@rNone@w)@n\r\n");
 
     if (HAS_FEAT(ch, FEAT_EPIC_SPELLCASTING))
-        sprintf(buf+len, "Epic Spells: [%d/%d]\r\n", GET_EPIC_SPELLS(ch), get_skill_value(ch, SKILL_KNOWLEDGE) / 10);
+    {
+        len += snprintf(buf + len, sizeof(buf) - len,
+                        "Epic Spells: [%d/%d]\r\n",
+                        GET_EPIC_SPELLS(ch),
+                        get_skill_value(ch, SKILL_KNOWLEDGE) / 10);
+    }
 
-    page_string(ch->desc, buf, 1);
+    page_string(ch->desc, buf, TRUE);
 }
+
 
 
 /*****************************************************************************+
@@ -316,107 +324,132 @@ int find_memspeed(struct char_data *ch, bool display)
 /********************************************/
 void update_mem(struct char_data *ch, bool mem_all)
 {
-  struct memorize_node *mem, *next_mem;
-  struct memorize_node *mem_c, *next_mem_c;
-  struct descriptor_data *d;
-  struct char_data *i;
-  int speedfx = 0;
+    struct memorize_node * mem, *next_mem;
+    struct memorize_node * mem_c, *next_mem_c;
+    struct descriptor_data *d;
+    struct char_data *i;
+    int speedfx = 0;
 
-  for (d = descriptor_list; d; d = d->next) {
-    if(ch)
-      i = ch;
-    else if(d->original)
-      i = d->original;
-    else if(!(i = d->character))
-      continue;
-    speedfx = find_memspeed(i, FALSE);
-    for (mem = i->memorized; mem; mem = next_mem) {
-      next_mem = mem->next;
-      if (speedfx < mem->timer && !mem_all) {
-        mem->timer -= speedfx;
-      } else {
-        send_to_char(i, "You have finished memorizing the mage spell %s.\r\n", 
-          spell_info[mem->spell].name);
+    for (d = descriptor_list; d; d = d->next)
+    {
+        if(ch)
+            i = ch;
+        else if(d->original)
+            i = d->original;
+        else if(!(i = d->character))
+            continue;
+        speedfx = find_memspeed(i, FALSE);
+        for (mem = i->memorized; mem; mem = next_mem)
+        {
+            next_mem = mem->next;
+            if (speedfx < mem->timer && !mem_all)
+            {
+                mem->timer -= speedfx;
+            }
+            else
+            {
+                send_to_char(i, "You have finished memorizing the mage spell %s.\r\n",
+                             spell_info[mem->spell].name);
 
-        GET_SPELLMEM(i, GET_MEMCURSOR(i)) = mem->spell;
-        GET_MEMCURSOR(i)++;
+                GET_SPELLMEM(i, GET_MEMCURSOR(i)) = mem->spell;
+                GET_MEMCURSOR(i)++;
 
-        memorize_remove(i, mem);
-      }
+                memorize_remove(i, mem);
+            }
+        }
+        for (mem_c = i->memorized_c; mem_c; mem_c = next_mem_c)
+        {
+            next_mem_c = mem_c->next;
+            if (speedfx < mem_c->timer && !mem_all)
+            {
+                mem_c->timer -= speedfx;
+            }
+            else
+            {
+                send_to_char(i, "You have finished memorizing the cleric spell %s.\r\n",
+                             spell_info[mem_c->spell].name);
+
+                GET_SPELLMEM_C(i, GET_MEMCURSOR_C(i)) = mem_c->spell;
+                GET_MEMCURSOR_C(i)++;
+
+                memorize_remove_c(i, mem_c);
+            }
+        }
+        for (mem = i->memorized_p; mem; mem = next_mem)
+        {
+            next_mem = mem->next;
+            if (speedfx < mem->timer && !mem_all)
+            {
+                mem->timer -= speedfx;
+            }
+            else
+            {
+                send_to_char(i, "You have finished memorizing the paladin spell %s.\r\n",
+                             spell_info[mem->spell].name);
+
+                GET_SPELLMEM_P(i, GET_MEMCURSOR_P(i)) = mem->spell;
+                GET_MEMCURSOR_P(i)++;
+
+                memorize_remove_p(i, mem);
+            }
+        }
+        for (mem = i->player_specials->memorized_d; mem; mem = next_mem)
+        {
+            next_mem = mem->next;
+            if (speedfx < mem->timer && !mem_all)
+            {
+                mem->timer -= speedfx;
+            }
+            else
+            {
+                send_to_char(i, "You have finished memorizing the druid spell %s.\r\n",
+                             spell_info[mem->spell].name);
+
+                GET_SPELLMEM_D(i, GET_MEMCURSOR_D(i)) = mem->spell;
+                GET_MEMCURSOR_D(i)++;
+
+                memorize_remove_d(i, mem);
+            }
+        }
+        for (mem = i->player_specials->memorized_r; mem; mem = next_mem)
+        {
+            next_mem = mem->next;
+            if (speedfx < mem->timer && !mem_all)
+            {
+                mem->timer -= speedfx;
+            }
+            else
+            {
+                send_to_char(i, "You have finished memorizing the ranger spell %s.\r\n",
+                             spell_info[mem->spell].name);
+
+                GET_SPELLMEM_R(i, GET_MEMCURSOR_R(i)) = mem->spell;
+                GET_MEMCURSOR_R(i)++;
+
+                memorize_remove_r(i, mem);
+            }
+        }
+        for (mem = i->player_specials->memorized_b; mem; mem = next_mem)
+        {
+            next_mem = mem->next;
+            if (speedfx < mem->timer && !mem_all)
+            {
+                mem->timer -= speedfx;
+            }
+            else
+            {
+                send_to_char(i, "You have finished memorizing the bard spell %s.\r\n",
+                             spell_info[mem->spell].name);
+
+                GET_SPELLMEM_B(i, GET_MEMCURSOR_B(i)) = mem->spell;
+                GET_MEMCURSOR_B(i)++;
+
+                memorize_remove_b(i, mem);
+            }
+        }
+        if(ch)
+            return;
     }
-    for (mem_c = i->memorized_c; mem_c; mem_c = next_mem_c) {
-      next_mem_c = mem_c->next;
-      if (speedfx < mem_c->timer && !mem_all) {
-        mem_c->timer -= speedfx;
-      } else {
-        send_to_char(i, "You have finished memorizing the cleric spell %s.\r\n", 
-          spell_info[mem_c->spell].name);
-
-        GET_SPELLMEM_C(i, GET_MEMCURSOR_C(i)) = mem_c->spell;
-        GET_MEMCURSOR_C(i)++;
-
-        memorize_remove_c(i, mem_c);
-      }
-    }
-    for (mem = i->memorized_p; mem; mem = next_mem) {
-      next_mem = mem->next;
-      if (speedfx < mem->timer && !mem_all) {
-        mem->timer -= speedfx;
-      } else {
-        send_to_char(i, "You have finished memorizing the paladin spell %s.\r\n", 
-          spell_info[mem->spell].name);
-
-        GET_SPELLMEM_P(i, GET_MEMCURSOR_P(i)) = mem->spell;
-        GET_MEMCURSOR_P(i)++;
-
-        memorize_remove_p(i, mem);
-      }
-    }
-    for (mem = i->player_specials->memorized_d; mem; mem = next_mem) {
-      next_mem = mem->next;
-      if (speedfx < mem->timer && !mem_all) {
-        mem->timer -= speedfx;
-      } else {
-        send_to_char(i, "You have finished memorizing the druid spell %s.\r\n", 
-          spell_info[mem->spell].name);
-
-        GET_SPELLMEM_D(i, GET_MEMCURSOR_D(i)) = mem->spell;
-        GET_MEMCURSOR_D(i)++;
-
-        memorize_remove_d(i, mem);
-      }
-    }
-    for (mem = i->player_specials->memorized_r; mem; mem = next_mem) {
-      next_mem = mem->next;
-      if (speedfx < mem->timer && !mem_all) {
-        mem->timer -= speedfx;
-      } else {
-        send_to_char(i, "You have finished memorizing the ranger spell %s.\r\n", 
-          spell_info[mem->spell].name);
-
-        GET_SPELLMEM_R(i, GET_MEMCURSOR_R(i)) = mem->spell;
-        GET_MEMCURSOR_R(i)++;
-
-        memorize_remove_r(i, mem);
-      }
-    }
-    for (mem = i->player_specials->memorized_b; mem; mem = next_mem) {
-      next_mem = mem->next;
-      if (speedfx < mem->timer && !mem_all) {
-        mem->timer -= speedfx;
-      } else {
-        send_to_char(i, "You have finished memorizing the bard spell %s.\r\n", 
-          spell_info[mem->spell].name);
-
-        GET_SPELLMEM_B(i, GET_MEMCURSOR_B(i)) = mem->spell;
-        GET_MEMCURSOR_B(i)++;
-
-        memorize_remove_b(i, mem);
-      }
-    }
-    if(ch)
-      return;
-  }
 }
 
 /* remove a spell from a character's memorize(in progress) linked list */
