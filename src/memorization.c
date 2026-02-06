@@ -276,46 +276,46 @@ void do_mem_display(struct char_data *ch)
 ******************************************************************************/
 int find_memspeed(struct char_data *ch, bool display)
 {
-    int speedfx = 0; 
+    int speedfx;
 
-    if (GET_POS(ch) < POS_RESTING || GET_POS(ch) == POS_FIGHTING) {
-        if(display)
-        {
-            return 1;
-        }
-        return speedfx;
-    } 
-    else 
+    /* Characters below resting or fighting cannot memorize */
+    if (GET_POS(ch) < POS_RESTING || GET_POS(ch) == POS_FIGHTING)
+        return display ? 1 : 0;
+
+    /* Base speed by position */
+    switch (GET_POS(ch))
     {
-        if ((GET_POS(ch) == POS_RESTING) || (GET_POS(ch) == POS_SITTING))
-        {
-            speedfx = 15;
-        }
-        speedfx += HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION) * 3;
-        if (GET_POS(ch) == POS_STANDING)
-        {
-            speedfx = 2;
-        }
-        speedfx += HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION);
-        if (GET_COND(ch, DRUNK) > 10)
-        {
-            speedfx = speedfx - 1;
-        }
-        if (GET_COND(ch, FULL) == 0)
-        {
-            speedfx = speedfx - 1;
-        }
-        if (GET_COND(ch, THIRST) == 0)
-        {
-            speedfx = speedfx - 1;
-        }
-        speedfx = MAX(speedfx, 0);
-        if(display)
-        {
-            speedfx = MAX(speedfx, 1);
-        }
-        return speedfx;
+    case POS_RESTING:
+    case POS_SITTING:
+        speedfx = 15;
+        break;
+    case POS_STANDING:
+        speedfx = 2;
+        break;
+    default:
+        speedfx = 1;
+        break;
     }
+
+    /* Faster memorization feat bonuses */
+    if (HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION))
+    {
+        speedfx += 4; /* preserves original 3 + 1 behavior */
+    }
+
+    /* Condition penalties */
+    if (GET_COND(ch, DRUNK) > 10)
+        speedfx -= 1;
+    if (GET_COND(ch, FULL) == 0)
+        speedfx -= 1;
+    if (GET_COND(ch, THIRST) == 0)
+        speedfx -= 1;
+
+    /* Clamp result */
+    if (display)
+        return MAX(speedfx, 1);
+
+    return MAX(speedfx, 0);
 }
 
 /********************************************/
