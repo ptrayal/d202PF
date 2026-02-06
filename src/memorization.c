@@ -138,7 +138,7 @@ void do_mem_display(struct char_data *ch)
                     "@cSpells in memory:\r\n@n");
 
     /* Display memorized spells by level */
-    for (i = 1; i < 10; i++)
+    for (i = 0; i < 10; i++)
     {
         int slots = findslotnum(ch, i);
         if (slots < 1)
