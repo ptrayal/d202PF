@@ -269,20 +269,21 @@ int dice(int num, int size)
 
 int min_dice(int num, int size, int min)
 {
-  int sum = 0;
-  int roll = 0;
+    int sum = 0;
+    int roll = 0;
 
-  if (size <= 0 || num <= 0)
-    return (0);
+    if (size <= 0 || num <= 0)
+        return (0);
 
-  while (num-- > 0) {
-    roll = rand_number(1, size);
-    if (roll < min)
-      roll = min;
-    sum += roll;
-  }
+    while (num-- > 0)
+    {
+        roll = rand_number(1, size);
+        if (roll < min)
+            roll = min;
+        sum += roll;
+    }
 
-  return (sum);
+    return (sum);
 }
 
 
@@ -465,15 +466,18 @@ void basic_mud_log(const char *format, ...)
 /* the "touch" command, essentially. */
 int touch(const char *path)
 {
-  FILE *fl;
+    FILE *fl;
 
-  if (!(fl = fopen(path, "a"))) {
-    log("SYSERR: %s: %s", path, strerror(errno));
-    return (-1);
-  } else {
-    fclose(fl);
-    return (0);
-  }
+    if (!(fl = fopen(path, "a")))
+    {
+        log("SYSERR: %s: %s", path, strerror(errno));
+        return (-1);
+    }
+    else
+    {
+        fclose(fl);
+        return (0);
+    }
 }
 
 
@@ -682,78 +686,83 @@ struct time_info_data *age(struct char_data *ch)
 /* Follow "Loop/circle"                                    */
 bool circle_follow(struct char_data *ch, struct char_data *victim)
 {
-  struct char_data *k;
+    struct char_data *k;
 
-  for (k = victim; k; k = k->master) {
-    if (k == ch)
-      return (true);
-  }
+    for (k = victim; k; k = k->master)
+    {
+        if (k == ch)
+            return (true);
+    }
 
-  return (false);
+    return (false);
 }
-
 
 
 /* Called when stop following persons, or stopping charm */
 /* This will NOT do if a character quits/dies!!          */
 void stop_follower(struct char_data *ch)
 {
-  struct follow_type *j, *k;
+    struct follow_type * j, *k;
 
-  if (ch->master == NULL) {
-    core_dump();
-    return;
-  }
+    if (ch->master == NULL)
+    {
+        core_dump();
+        return;
+    }
 
     act("You stop following $N.", false, ch, 0, ch->master, TO_CHAR);
     act("$n stops following $N.", true, ch, 0, ch->master, TO_NOTVICT);
-  if (!(DEAD(ch->master) || (ch->master->desc && STATE(ch->master->desc) == CON_MENU)))
-    act("$n stops following you.", true, ch, 0, ch->master, TO_VICT);
+    if (!(DEAD(ch->master) || (ch->master->desc && STATE(ch->master->desc) == CON_MENU)))
+        act("$n stops following you.", true, ch, 0, ch->master, TO_VICT);
 
-  if (ch->master->followers->follower == ch) {	/* Head of follower-list? */
-    k = ch->master->followers;
-    ch->master->followers = k->next;
-    free(k);
-  } else {			/* locate follower who is not head of list */
-    for (k = ch->master->followers; k->next->follower != ch; k = k->next);
+    if (ch->master->followers->follower == ch)    /* Head of follower-list? */
+    {
+        k = ch->master->followers;
+        ch->master->followers = k->next;
+        free(k);
+    }
+    else        /* locate follower who is not head of list */
+    {
+        for (k = ch->master->followers; k->next->follower != ch; k = k->next);
 
-    j = k->next;
-    k->next = j->next;
-    free(j);
-  }
+        j = k->next;
+        k->next = j->next;
+        free(j);
+    }
 
-  ch->master = NULL;
+    ch->master = NULL;
 }
 
 
 int num_followers_charmed(struct char_data *ch)
 {
-  struct follow_type *lackey;
-  int total = 0;
+    struct follow_type *lackey;
+    int total = 0;
 
-  /* Summoned creatures don't count against total */
-  for (lackey = ch->followers; lackey; lackey = lackey->next)
-    if (AFF_FLAGGED(lackey->follower, AFF_CHARM) &&
-        !AFF_FLAGGED(lackey->follower, AFF_SUMMONED) &&
-        lackey->follower->master == ch)
-      total++;
+    /* Summoned creatures don't count against total */
+    for (lackey = ch->followers; lackey; lackey = lackey->next)
+        if (AFF_FLAGGED(lackey->follower, AFF_CHARM) &&
+                !AFF_FLAGGED(lackey->follower, AFF_SUMMONED) &&
+                lackey->follower->master == ch)
+            total++;
 
-  return (total);
+    return (total);
 }
 
 
 /* Called when a character that follows/is followed dies */
 void die_follower(struct char_data *ch)
 {
-  struct follow_type *j, *k;
+    struct follow_type * j, *k;
 
-  if (ch->master)
-    stop_follower(ch);
+    if (ch->master)
+        stop_follower(ch);
 
-  for (k = ch->followers; k; k = j) {
-    j = k->next;
-    stop_follower(k->follower);
-  }
+    for (k = ch->followers; k; k = j)
+    {
+        j = k->next;
+        stop_follower(k->follower);
+    }
 }
 
 
@@ -762,26 +771,28 @@ void die_follower(struct char_data *ch)
 /* will arise. CH will follow leader                               */
 void add_follower(struct char_data *ch, struct char_data *leader)
 {
-  struct follow_type *k;
+    struct follow_type *k;
 
-  if (ch->master) {
-    core_dump();
-    return;
-  }
+    if (ch->master)
+    {
+        core_dump();
+        return;
+    }
 
-  ch->master = leader;
+    ch->master = leader;
 
-  CREATE(k, struct follow_type, 1);
+    CREATE(k, struct follow_type, 1);
 
-  k->follower = ch;
-  k->next = leader->followers;
-  leader->followers = k;
+    k->follower = ch;
+    k->next = leader->followers;
+    leader->followers = k;
 
-  act("You now follow $N.", false, ch, 0, leader, TO_CHAR);
-  if (IN_ROOM(ch) != NOWHERE && IN_ROOM(leader) != NOWHERE && CAN_SEE(leader, ch)) {
-    act("$n starts following you.", true, ch, 0, leader, TO_VICT);
-  act("$n starts to follow $N.", true, ch, 0, leader, TO_NOTVICT);
-  }
+    act("You now follow $N.", false, ch, 0, leader, TO_CHAR);
+    if (IN_ROOM(ch) != NOWHERE && IN_ROOM(leader) != NOWHERE && CAN_SEE(leader, ch))
+    {
+        act("$n starts following you.", true, ch, 0, leader, TO_VICT);
+        act("$n starts to follow $N.", true, ch, 0, leader, TO_NOTVICT);
+    }
 }
 
 
@@ -939,24 +950,24 @@ int num_pc_in_room(struct room_data *room)
 extern FILE *player_fl;
 void core_dump_real(const char *who, int line)
 {
-  log("SYSERR: Assertion failed at %s:%d!", who, line);
+    log("SYSERR: Assertion failed at %s:%d!", who, line);
 
-#if 0	/* By default, let's not litter. */
+#if 0 /* By default, let's not litter. */
 #if defined(CIRCLE_UNIX)
-  /* These would be duplicated otherwise...make very sure. */
-  fflush(stdout);
-  fflush(stderr);
-  fflush(logfile);
-  fflush(player_fl);
-  /* Everything, just in case, for the systems that support it. */
-  fflush(NULL);
+    /* These would be duplicated otherwise...make very sure. */
+    fflush(stdout);
+    fflush(stderr);
+    fflush(logfile);
+    fflush(player_fl);
+    /* Everything, just in case, for the systems that support it. */
+    fflush(NULL);
 
-  /*
-   * Kill the child so the debugger or script doesn't think the MUD
-   * crashed.  The 'autorun' script would otherwise run it again.
-   */
-  if (fork() == 0)
-    abort();
+    /*
+     * Kill the child so the debugger or script doesn't think the MUD
+     * crashed.  The 'autorun' script would otherwise run it again.
+     */
+    if (fork() == 0)
+        abort();
 #endif
 #endif
 }
@@ -970,24 +981,25 @@ void core_dump_real(const char *who, int line)
  */
 int room_is_dark(room_rnum room)
 {
-  if (!VALID_ROOM_RNUM(room)) {
-    log("room_is_dark: Invalid room rnum %d. (0-%d)", room, top_of_world);
+    if (!VALID_ROOM_RNUM(room))
+    {
+        log("room_is_dark: Invalid room rnum %d. (0-%d)", room, top_of_world);
+        return (false);
+    }
+
+    if (world[room].light)
+        return (false);
+
+    if (ROOM_FLAGGED(room, ROOM_DARK))
+        return (true);
+
+    if (SECT(room) == SECT_INSIDE || SECT(room) == SECT_CITY)
+        return (false);
+
+    if (weather_info.sunlight == SUN_SET || weather_info.sunlight == SUN_DARK)
+        return (true);
+
     return (false);
-  }
-
-  if (world[room].light)
-    return (false);
-
-  if (ROOM_FLAGGED(room, ROOM_DARK))
-    return (true);
-
-  if (SECT(room) == SECT_INSIDE || SECT(room) == SECT_CITY)
-    return (false);
-
-  if (weather_info.sunlight == SUN_SET || weather_info.sunlight == SUN_DARK)
-    return (true);
-
-  return (false);
 }
 
 int count_metamagic_feats(struct char_data *ch)
@@ -1033,46 +1045,50 @@ int count_metamagic_feats(struct char_data *ch)
 
 int xdir_scan(char *dir_name, struct xap_dir *xapdirptest) 
 {
-  HANDLE dirhandle;
-  WIN32_FIND_DATA wtfd;
-  int i, total = 0;
-  struct xap_dir *xapdirp;
+    HANDLE dirhandle;
+    WIN32_FIND_DATA wtfd;
+    int i, total = 0;
+    struct xap_dir *xapdirp;
 
-  xapdirp = xapdirptest;
+    xapdirp = xapdirptest;
 
-  xapdirp->current = -1;
-  xapdirp->total = -1;
-
-  dirhandle = FindFirstFile(dir_name, &wtfd);
-
-  if(dirhandle == INVALID_HANDLE_VALUE) {
-    return -1;
-  }
-
-  (xapdirp->total)++;
-  while(FindNextFile(dirhandle, &wtfd)) {
-    (xapdirp->total)++;
-  }
-
-  if(GetLastError() != ERROR_NO_MORE_FILES) {
+    xapdirp->current = -1;
     xapdirp->total = -1;
-    return -1;
-  }
 
-  FindClose(dirhandle);
-  dirhandle = FindFirstFile(dir_name, &wtfd);
+    dirhandle = FindFirstFile(dir_name, &wtfd);
 
-  xapdirp->namelist = (char **) malloc(sizeof(char *) * total);
+    if(dirhandle == INVALID_HANDLE_VALUE)
+    {
+        return -1;
+    }
 
-  i = 0;
-  while(FindNextFile(dirhandle, &wtfd) != 0) {
-    xapdirp->namelist[i] = strdup(wtfd.cFileName);
-    i++;
-  }
-  FindClose(dirhandle);
+    (xapdirp->total)++;
+    while(FindNextFile(dirhandle, &wtfd))
+    {
+        (xapdirp->total)++;
+    }
 
-  xapdirp->current=0;
-  return xapdirp->total;
+    if(GetLastError() != ERROR_NO_MORE_FILES)
+    {
+        xapdirp->total = -1;
+        return -1;
+    }
+
+    FindClose(dirhandle);
+    dirhandle = FindFirstFile(dir_name, &wtfd);
+
+    xapdirp->namelist = (char **) malloc(sizeof(char *) * total);
+
+    i = 0;
+    while(FindNextFile(dirhandle, &wtfd) != 0)
+    {
+        xapdirp->namelist[i] = strdup(wtfd.cFileName);
+        i++;
+    }
+    FindClose(dirhandle);
+
+    xapdirp->current = 0;
+    return xapdirp->total;
 }
 
 char *xdir_get_name(struct xap_dir *xd,int i) 
@@ -1115,14 +1131,16 @@ char *xdir_get_next(struct xap_dir *xd)
 
 #endif
 
-void xdir_close(struct xap_dir *xd) {
-  int i;
-  for(i=0;i < xd->total;i++) {
-    free(xd->namelist[i]);
-  }
-  free(xd->namelist);
-  xd->namelist = NULL;
-  xd->current = xd->total = -1;
+void xdir_close(struct xap_dir *xd)
+{
+    int i;
+    for(i = 0; i < xd->total; i++)
+    {
+        free(xd->namelist[i]);
+    }
+    free(xd->namelist);
+    xd->namelist = NULL;
+    xd->current = xd->total = -1;
 }
 
 int xdir_get_total(struct xap_dir *xd) {
@@ -1238,54 +1256,61 @@ int *default_admin_flags[ADMLVL_OWNER + 1] = {
 
 void admin_set(struct char_data *ch, int value)
 {
-  void run_autowiz(void);
-  int i;
-  int orig = GET_ADMLEVEL(ch);
+    void run_autowiz(void);
+    int i;
+    int orig = GET_ADMLEVEL(ch);
 
-  if (GET_ADMLEVEL(ch) == value)
-    return;
-  if (GET_ADMLEVEL(ch) < value) { /* Promotion */
-    mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), true,
-           "%s promoted from %s to %s", GET_NAME(ch), admin_level_names[GET_ADMLEVEL(ch)],
-           admin_level_names[value]);
-    while (GET_ADMLEVEL(ch) < value) {
-      GET_ADMLEVEL(ch)++;
-      for (i = 0; default_admin_flags[GET_ADMLEVEL(ch)][i] != -1; i++)
-        SET_BIT_AR(ADM_FLAGS(ch), default_admin_flags[GET_ADMLEVEL(ch)][i]);
+    if (GET_ADMLEVEL(ch) == value)
+        return;
+    if (GET_ADMLEVEL(ch) < value)   /* Promotion */
+    {
+        mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), true,
+               "%s promoted from %s to %s", GET_NAME(ch), admin_level_names[GET_ADMLEVEL(ch)],
+               admin_level_names[value]);
+        while (GET_ADMLEVEL(ch) < value)
+        {
+            GET_ADMLEVEL(ch)++;
+            for (i = 0; default_admin_flags[GET_ADMLEVEL(ch)][i] != -1; i++)
+                SET_BIT_AR(ADM_FLAGS(ch), default_admin_flags[GET_ADMLEVEL(ch)][i]);
+        }
+        run_autowiz();
+        if (orig < ADMLVL_IMMORT && value >= ADMLVL_IMMORT)
+        {
+            SET_BIT_AR(PRF_FLAGS(ch), PRF_LOG2);
+            SET_BIT_AR(PRF_FLAGS(ch), PRF_HOLYLIGHT);
+            SET_BIT_AR(PRF_FLAGS(ch), PRF_ROOMFLAGS);
+            SET_BIT_AR(PRF_FLAGS(ch), PRF_AUTOEXIT);
+        }
+        if (GET_ADMLEVEL(ch) >= ADMLVL_IMMORT)
+        {
+            for (i = 0; i < 3; i++)
+                GET_COND(ch, i) = (char) -1;
+            SET_BIT_AR(PRF_FLAGS(ch), PRF_HOLYLIGHT);
+        }
+        return;
     }
-    run_autowiz();
-    if (orig < ADMLVL_IMMORT && value >= ADMLVL_IMMORT) {
-      SET_BIT_AR(PRF_FLAGS(ch), PRF_LOG2);
-      SET_BIT_AR(PRF_FLAGS(ch), PRF_HOLYLIGHT);
-      SET_BIT_AR(PRF_FLAGS(ch), PRF_ROOMFLAGS);
-      SET_BIT_AR(PRF_FLAGS(ch), PRF_AUTOEXIT);
+    if (GET_ADMLEVEL(ch) > value)   /* Demotion */
+    {
+        mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), true,
+               "%s demoted from %s to %s", GET_NAME(ch), admin_level_names[GET_ADMLEVEL(ch)],
+               admin_level_names[value]);
+        while (GET_ADMLEVEL(ch) > value)
+        {
+            for (i = 0; default_admin_flags[GET_ADMLEVEL(ch)][i] != -1; i++)
+                REMOVE_BIT_AR(ADM_FLAGS(ch), default_admin_flags[GET_ADMLEVEL(ch)][i]);
+            GET_ADMLEVEL(ch)--;
+        }
+        run_autowiz();
+        if (orig >= ADMLVL_IMMORT && value < ADMLVL_IMMORT)
+        {
+            REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_LOG1);
+            REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_LOG2);
+            REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_NOHASSLE);
+            REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_HOLYLIGHT);
+            REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_ROOMFLAGS);
+        }
+        return;
     }
-    if (GET_ADMLEVEL(ch) >= ADMLVL_IMMORT) {
-      for (i = 0; i < 3; i++)
-        GET_COND(ch, i) = (char) -1;
-      SET_BIT_AR(PRF_FLAGS(ch), PRF_HOLYLIGHT);
-    }
-    return;
-  }
-  if (GET_ADMLEVEL(ch) > value) { /* Demotion */
-    mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), true,
-           "%s demoted from %s to %s", GET_NAME(ch), admin_level_names[GET_ADMLEVEL(ch)],
-           admin_level_names[value]);
-    while (GET_ADMLEVEL(ch) > value) {
-      for (i = 0; default_admin_flags[GET_ADMLEVEL(ch)][i] != -1; i++)
-        REMOVE_BIT_AR(ADM_FLAGS(ch), default_admin_flags[GET_ADMLEVEL(ch)][i]);
-      GET_ADMLEVEL(ch)--;
-    }
-    run_autowiz();
-    if (orig >= ADMLVL_IMMORT && value < ADMLVL_IMMORT) {
-      REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_LOG1);
-      REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_LOG2);
-      REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_NOHASSLE);
-      REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_HOLYLIGHT);
-      REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_ROOMFLAGS);
-    }
-    return;
-  }
 }
 
 int has_intro(struct char_data *ch, struct char_data *target) 
@@ -3354,50 +3379,56 @@ char * list_crafting_descs(int vnum)
   return ("");
 }
 
-int calc_spellfail(struct char_data *ch) {
+int calc_spellfail(struct char_data *ch)
+{
 
-  int spellfail = 0;
-  struct obj_data *armor = GET_EQ(ch, WEAR_BODY);
-  struct obj_data *shield = GET_EQ(ch, WEAR_SHIELD);
-  int bone_armor = HAS_FEAT(ch, FEAT_BONE_ARMOR) * 10;
-  int armored_spellcasting = HAS_FEAT(ch, FEAT_ARMORED_SPELLCASTING) * 5;
+    int spellfail = 0;
+    struct obj_data *armor = GET_EQ(ch, WEAR_BODY);
+    struct obj_data *shield = GET_EQ(ch, WEAR_SHIELD);
+    int bone_armor = HAS_FEAT(ch, FEAT_BONE_ARMOR) * 10;
+    int armored_spellcasting = HAS_FEAT(ch, FEAT_ARMORED_SPELLCASTING) * 5;
 
-  if (armor && (GET_OBJ_TYPE(armor) == ITEM_ARMOR || GET_OBJ_TYPE(armor) == ITEM_ARMOR_SUIT)) {
-    if (GET_CLASS_RANKS(ch, CLASS_BARD) > 0 && GET_MEM_TYPE(ch) == MEM_TYPE_BARD && 
-        highest_armor_type(ch) == ARMOR_TYPE_LIGHT && !shield)
-      spellfail += 0;
-    else
-      spellfail += GET_OBJ_VAL(armor, 6);
-  }
+    if (armor && (GET_OBJ_TYPE(armor) == ITEM_ARMOR || GET_OBJ_TYPE(armor) == ITEM_ARMOR_SUIT))
+    {
+        if (GET_CLASS_RANKS(ch, CLASS_BARD) > 0 && GET_MEM_TYPE(ch) == MEM_TYPE_BARD &&
+                highest_armor_type(ch) == ARMOR_TYPE_LIGHT && !shield)
+            spellfail += 0;
+        else
+            spellfail += GET_OBJ_VAL(armor, 6);
+    }
 
-  if (shield && (GET_OBJ_TYPE(shield) == ITEM_ARMOR || GET_OBJ_TYPE(shield) == ITEM_ARMOR_SUIT)) {
-    spellfail += GET_OBJ_VAL(shield, 6);
-  }
+    if (shield && (GET_OBJ_TYPE(shield) == ITEM_ARMOR || GET_OBJ_TYPE(shield) == ITEM_ARMOR_SUIT))
+    {
+        spellfail += GET_OBJ_VAL(shield, 6);
+    }
 
-  if (bone_armor && armor && GET_OBJ_MATERIAL(armor) == MATERIAL_BONE) {
-    bone_armor -= spellfail;
-    spellfail -= HAS_FEAT(ch, FEAT_BONE_ARMOR) * 10;
-  }
-  if (bone_armor > 0 && shield && GET_OBJ_MATERIAL(shield) == MATERIAL_BONE)
-    spellfail -= bone_armor;
+    if (bone_armor && armor && GET_OBJ_MATERIAL(armor) == MATERIAL_BONE)
+    {
+        bone_armor -= spellfail;
+        spellfail -= HAS_FEAT(ch, FEAT_BONE_ARMOR) * 10;
+    }
+    if (bone_armor > 0 && shield && GET_OBJ_MATERIAL(shield) == MATERIAL_BONE)
+        spellfail -= bone_armor;
 
-  if (armored_spellcasting) {
-    armored_spellcasting -= spellfail;
-    spellfail -= HAS_FEAT(ch, FEAT_ARMORED_SPELLCASTING) * 5;
-  }
-  if (armored_spellcasting > 0)
-    spellfail -= armored_spellcasting;
+    if (armored_spellcasting)
+    {
+        armored_spellcasting -= spellfail;
+        spellfail -= HAS_FEAT(ch, FEAT_ARMORED_SPELLCASTING) * 5;
+    }
+    if (armored_spellcasting > 0)
+        spellfail -= armored_spellcasting;
 
-  spellfail = MAX(0, spellfail);
+    spellfail = MAX(0, spellfail);
 
-  return spellfail;
+    return spellfail;
 }
 
 /* Ugly hack to remove memory leak /Malar */
-char * change_coins(int coins) {
-  static char buf[100];
-  sprintf(buf, "%d gold coins", coins);
-  return buf;
+char *change_coins(int coins)
+{
+    static char buf[100];
+    sprintf(buf, "%d gold coins", coins);
+    return buf;
 }
 
 double get_artisan_exp(struct char_data *ch)
@@ -3617,15 +3648,15 @@ int get_feat_value(struct char_data *ch, int featnum)
 
 char *alignment_string(struct char_data *ch)
 {
-  char align[100]={'\0'};
+    char align[100] = {'\0'};
 
-  if (GET_ALIGNMENT(ch) == 0 && GET_ETHIC_ALIGNMENT(ch) == 0)
-    sprintf(align, "True Neutral");
-  else
-    sprintf(align, "%s %s", GET_ETHIC_ALIGNMENT(ch) > 0 ? "Lawful" : (GET_ETHIC_ALIGNMENT(ch) < 0 ? "Chaotic" : "Neutral"),
-            GET_ALIGNMENT(ch) > 0 ? "Good" : (GET_ALIGNMENT(ch) < 0 ? "Evil" : "Neutral"));
+    if (GET_ALIGNMENT(ch) == 0 && GET_ETHIC_ALIGNMENT(ch) == 0)
+        sprintf(align, "True Neutral");
+    else
+        sprintf(align, "%s %s", GET_ETHIC_ALIGNMENT(ch) > 0 ? "Lawful" : (GET_ETHIC_ALIGNMENT(ch) < 0 ? "Chaotic" : "Neutral"),
+                GET_ALIGNMENT(ch) > 0 ? "Good" : (GET_ALIGNMENT(ch) < 0 ? "Evil" : "Neutral"));
 
-  return strdup(align);
+    return strdup(align);
 }
 
 int get_combat_bonus(struct char_data *ch) {
@@ -3843,63 +3874,65 @@ int convert_material_vnum(int vnum)
 
   return 0;
 }
-int get_crafting_material(int obj_vnum, int mat_type) {
 
-  return 0;
-/*
+int get_crafting_material(int obj_vnum, int mat_type)
+{
 
-  struct obj_data *obj = read_obj(obj_vnum, VIRTUAL);
+    return 0;
+    /*
 
-  if (!obj)
-    return 64000;
+      struct obj_data *obj = read_obj(obj_vnum, VIRTUAL);
 
-  int mat = GET_OBJ_MATERIAL(obj);
+      if (!obj)
+        return 64000;
 
-  if (IS_HARD_METAL(mat)) {
-    if (mat_type == MAT_RARE)
-      return 64007;
-    if (mat_type == MAT_UNCOMMON)
-      return 64002;
-    else
-      return 64000;
-  }
-  else if (IS_PRECIOUS_METAL(mat)) {
-    if (mat_type == MAT_RARE)
-      return 64005;
-    if (mat_type == MAT_UNCOMMON)
-      return 64004;
-    else
-      return 64027;
-  }
-  else if (IS_WOOD(mat)) {
-    if (mat_type == MAT_RARE)
-      return 64005;
-    if (mat_type == MAT_UNCOMMON)
-      return 64004;
-    else
-      return 64027;
-  }
-  else if (IS_LEATHER(mat)) {
-    if (mat_type == MAT_RARE)
-      return 64005;
-    if (mat_type == MAT_UNCOMMON)
-      return 64004;
-    else
-      return 64027;
-  }
-  else if (IS_CLOTH(mat)) {
-    if (mat_type == MAT_RARE)
-      return 64005;
-    if (mat_type == MAT_UNCOMMON)
-      return 64004;
-    else
-      return 64027;
-  }
-  else {
-    RETURN 64000;
-  }
+      int mat = GET_OBJ_MATERIAL(obj);
 
-*/
+      if (IS_HARD_METAL(mat)) {
+        if (mat_type == MAT_RARE)
+          return 64007;
+        if (mat_type == MAT_UNCOMMON)
+          return 64002;
+        else
+          return 64000;
+      }
+      else if (IS_PRECIOUS_METAL(mat)) {
+        if (mat_type == MAT_RARE)
+          return 64005;
+        if (mat_type == MAT_UNCOMMON)
+          return 64004;
+        else
+          return 64027;
+      }
+      else if (IS_WOOD(mat)) {
+        if (mat_type == MAT_RARE)
+          return 64005;
+        if (mat_type == MAT_UNCOMMON)
+          return 64004;
+        else
+          return 64027;
+      }
+      else if (IS_LEATHER(mat)) {
+        if (mat_type == MAT_RARE)
+          return 64005;
+        if (mat_type == MAT_UNCOMMON)
+          return 64004;
+        else
+          return 64027;
+      }
+      else if (IS_CLOTH(mat)) {
+        if (mat_type == MAT_RARE)
+          return 64005;
+        if (mat_type == MAT_UNCOMMON)
+          return 64004;
+        else
+          return 64027;
+      }
+      else {
+        RETURN 64000;
+      }
+
+    */
 }
 /*
 char *randomString(int length) {
