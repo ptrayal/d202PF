@@ -181,59 +181,68 @@ ACMD(do_synthesize)
 
 ACMD(do_divide)
 {
-  struct obj_data *obj = NULL;
+    struct obj_data *obj = NULL;
 
-  skip_spaces(&argument);
+    skip_spaces(&argument);
 
-  if (!*argument) {
-    send_to_char(ch, "What would you like to divide?\r\n");
-    return;
-  }
+    if (!*argument)
+    {
+        send_to_char(ch, "What would you like to divide?\r\n");
+        return;
+    }
 
-  if (!(obj = get_obj_in_list_vis(ch, argument, NULL, ch->carrying))) {
-    send_to_char(ch, "There doesn't seem to be %s in your inventory.\r\n", argument);
-    return;
-  }
+    if (!(obj = get_obj_in_list_vis(ch, argument, NULL, ch->carrying)))
+    {
+        send_to_char(ch, "There doesn't seem to be %s in your inventory.\r\n", argument);
+        return;
+    }
 
-  if (!IS_ESSENCE(obj) || GET_OBJ_LEVEL(obj) <= 1) {
-    send_to_char(ch, "That isn't a valid magical essence to divide into smaller ones.\r\n");
-    return;
-  }
+    if (!IS_ESSENCE(obj) || GET_OBJ_LEVEL(obj) <= 1)
+    {
+        send_to_char(ch, "That isn't a valid magical essence to divide into smaller ones.\r\n");
+        return;
+    }
 
 
-  GET_CRAFTING_OBJ(ch) = read_object(64100, VIRTUAL);
-  if (GET_OBJ_VNUM(obj) == 64101) {
-    GET_CRAFTING_REPEAT(ch) = 2;
-  }
-  else if (GET_OBJ_VNUM(obj) == 64102) {
-    GET_CRAFTING_REPEAT(ch) = 3;
-  }
-  else if (GET_OBJ_VNUM(obj) == 64103) {
-    GET_CRAFTING_REPEAT(ch) = 4;
-  }
-  else if (GET_OBJ_VNUM(obj) == 64104) {
-    GET_CRAFTING_REPEAT(ch) = 5;
-  }
-  else {
-    send_to_char(ch, "That is not a valid magical essence or it cannot be divided further.\r\n");
-  }
+    GET_CRAFTING_OBJ(ch) = read_object(64100, VIRTUAL);
+    if (GET_OBJ_VNUM(obj) == 64101)
+    {
+        GET_CRAFTING_REPEAT(ch) = 2;
+    }
+    else if (GET_OBJ_VNUM(obj) == 64102)
+    {
+        GET_CRAFTING_REPEAT(ch) = 3;
+    }
+    else if (GET_OBJ_VNUM(obj) == 64103)
+    {
+        GET_CRAFTING_REPEAT(ch) = 4;
+    }
+    else if (GET_OBJ_VNUM(obj) == 64104)
+    {
+        GET_CRAFTING_REPEAT(ch) = 5;
+    }
+    else
+    {
+        send_to_char(ch, "That is not a valid magical essence or it cannot be divided further.\r\n");
+    }
 
-  if (GET_CRAFTING_OBJ(ch) == NULL) {
-    send_to_char(ch, "Error, please report to an imm.\r\n");
-    return;
-  }
+    if (GET_CRAFTING_OBJ(ch) == NULL)
+    {
+        send_to_char(ch, "Error, please report to an imm.\r\n");
+        return;
+    }
 
-  GET_CRAFTING_TYPE(ch) = SCMD_DIVIDE;
-  GET_CRAFTING_TICKS(ch) = 1;
+    GET_CRAFTING_TYPE(ch) = SCMD_DIVIDE;
+    GET_CRAFTING_TICKS(ch) = 1;
 
-  char buf[200]={'\0'};
+    char buf[200] = {'\0'};
 
-  sprintf(buf, "You begin to create %s (x%d) from %s.\r\n", GET_CRAFTING_OBJ(ch)->short_description, GET_CRAFTING_REPEAT(ch), obj->short_description);
-  send_to_char(ch, "%s", buf);
-  sprintf(buf, "$n begins to synthesize %s (x%d) from %s.", GET_CRAFTING_OBJ(ch)->short_description, GET_CRAFTING_REPEAT(ch), obj->short_description);
-  act(buf, FALSE, ch, GET_CRAFTING_OBJ(ch), 0, TO_ROOM);
-  obj_from_char(obj);
-  extract_obj(obj);
+    sprintf(buf, "You begin to create %s (x%d) from %s.\r\n", GET_CRAFTING_OBJ(ch)->short_description, GET_CRAFTING_REPEAT(ch), obj->short_description);
+    send_to_char(ch, "%s", buf);
+    sprintf(buf, "$n begins to synthesize %s (x%d) from %s.", GET_CRAFTING_OBJ(ch)->short_description, GET_CRAFTING_REPEAT(ch), obj->short_description);
+    act(buf, FALSE, ch, GET_CRAFTING_OBJ(ch), 0, TO_ROOM);
+    obj_from_char(obj);
+    extract_obj(obj);
 
 }
 
@@ -3585,89 +3594,90 @@ void start_auction(struct char_data * ch, struct obj_data * obj, int bid)
 
 void check_auction(void)
 {
-	
-	switch (aucstat)
-	{
-	case AUC_NULL_STATE:
-		return;
-	case AUC_OFFERING:
-	{
-		sprintf(buf, auctioneer[AUC_OFFERING], curbid);
-		CAP(buf);
-		auc_send_to_all(buf, FALSE);
-		aucstat = AUC_GOING_ONCE;
-		return;
-	}
-	case AUC_GOING_ONCE:
-	{
-		
-		sprintf(buf, auctioneer[AUC_GOING_ONCE], curbid);
-		CAP(buf);
-		auc_send_to_all(buf, FALSE);
-		aucstat = AUC_GOING_TWICE;
-		return;
-	}
-	case AUC_GOING_TWICE:
-	{
-		
-		sprintf(buf, auctioneer[AUC_GOING_TWICE], curbid);
-		CAP(buf);
-		auc_send_to_all(buf, FALSE);
-		aucstat = AUC_LAST_CALL;
-		return;
-	}
-	case AUC_LAST_CALL:
-	{
-		
-		if (ch_buying == NULL) {
-			
-			sprintf(buf, "%s", auctioneer[AUC_LAST_CALL]);
-			
-			CAP(buf);
-			auc_send_to_all(buf, FALSE);
-			
-			sprintf(buf, "%s flies out the sky and into your hands.\r\n", obj_selling->short_description);
-			CAP(buf);
-			send_to_char(ch_selling, "%s", buf);
-			obj_to_char(obj_selling, ch_selling);
-			
-			/* Reset auctioning values */
-			obj_selling = NULL;
-			ch_selling = NULL;
-			ch_buying = NULL;
-			curbid = 0;
-			aucstat = AUC_NULL_STATE;
-			return;
-		}
-		else
-		{
-			
-			sprintf(buf, auctioneer[AUC_SOLD], curbid);
-			auc_send_to_all(buf, TRUE);
-			
-			/* Give the object to the buyer */
-			obj_to_char(obj_selling, ch_buying);
-			sprintf(buf, "%s flies out the sky and into your hands, what a steel!\r\n", obj_selling->short_description);
-			CAP(buf);
-			send_to_char(ch_buying, "%s", buf);
 
-			sprintf(buf, "Congrats! You have sold %s for %d coins!\r\n", obj_selling->short_description, curbid);
-			send_to_char(ch_buying, "%s", buf);
-	
-			/* Give selling char the money for his stuff */
-			GET_GOLD(ch_selling) += curbid;
-			
-			/* Reset auctioning values */
-			obj_selling = NULL;
-			ch_selling = NULL;
-			ch_buying = NULL;
-			curbid = 0;
-			aucstat = AUC_NULL_STATE;
-			return;						
-		}
+    switch (aucstat)
+    {
+    case AUC_NULL_STATE:
+        return;
+    case AUC_OFFERING:
+    {
+        sprintf(buf, auctioneer[AUC_OFFERING], curbid);
+        CAP(buf);
+        auc_send_to_all(buf, FALSE);
+        aucstat = AUC_GOING_ONCE;
+        return;
+    }
+    case AUC_GOING_ONCE:
+    {
 
-	}
-	}
+        sprintf(buf, auctioneer[AUC_GOING_ONCE], curbid);
+        CAP(buf);
+        auc_send_to_all(buf, FALSE);
+        aucstat = AUC_GOING_TWICE;
+        return;
+    }
+    case AUC_GOING_TWICE:
+    {
+
+        sprintf(buf, auctioneer[AUC_GOING_TWICE], curbid);
+        CAP(buf);
+        auc_send_to_all(buf, FALSE);
+        aucstat = AUC_LAST_CALL;
+        return;
+    }
+    case AUC_LAST_CALL:
+    {
+
+        if (ch_buying == NULL)
+        {
+
+            sprintf(buf, "%s", auctioneer[AUC_LAST_CALL]);
+
+            CAP(buf);
+            auc_send_to_all(buf, FALSE);
+
+            sprintf(buf, "%s flies out the sky and into your hands.\r\n", obj_selling->short_description);
+            CAP(buf);
+            send_to_char(ch_selling, "%s", buf);
+            obj_to_char(obj_selling, ch_selling);
+
+            /* Reset auctioning values */
+            obj_selling = NULL;
+            ch_selling = NULL;
+            ch_buying = NULL;
+            curbid = 0;
+            aucstat = AUC_NULL_STATE;
+            return;
+        }
+        else
+        {
+
+            sprintf(buf, auctioneer[AUC_SOLD], curbid);
+            auc_send_to_all(buf, TRUE);
+
+            /* Give the object to the buyer */
+            obj_to_char(obj_selling, ch_buying);
+            sprintf(buf, "%s flies out the sky and into your hands, what a steel!\r\n", obj_selling->short_description);
+            CAP(buf);
+            send_to_char(ch_buying, "%s", buf);
+
+            sprintf(buf, "Congrats! You have sold %s for %d coins!\r\n", obj_selling->short_description, curbid);
+            send_to_char(ch_buying, "%s", buf);
+
+            /* Give selling char the money for his stuff */
+            GET_GOLD(ch_selling) += curbid;
+
+            /* Reset auctioning values */
+            obj_selling = NULL;
+            ch_selling = NULL;
+            ch_buying = NULL;
+            curbid = 0;
+            aucstat = AUC_NULL_STATE;
+            return;
+        }
+
+    }
+    }
 }
 
 ACMD(do_auction)
