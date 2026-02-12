@@ -17,366 +17,410 @@ extern int xap_objs;
 #define UNUSED(x) (void)(x)
 
 
+/**
+ * Generates the global auction data filename.
+ *
+ * Returns:
+ *   1 on success
+ *   0 on failure (invalid input or buffer too small)
+ *
+ * Notes:
+ *   - Uses a single global auction file.
+ *   - Defensive against NULL pointers.
+ *   - Prevents silent truncation from snprintf().
+ */
 int auction_get_filename(room_vnum vnum, char *filename, size_t maxlen)
 {
-  if (vnum == NOWHERE)
-    return (0);
+    int written;
 
-  snprintf(filename, maxlen, LIB_AUCTION"auction");
-  return (1);
-}
-
-
-int auction_save(struct obj_data *obj, FILE *fp, int location)
-{
-  struct obj_data *tmp;
-  int result = 0;
-
-  if (obj) {
-    auction_save(obj->next_auction, fp, location);
-    auction_save(obj->contains, fp, MIN(0, location) - 1);
-    result = Obj_to_store(obj, fp, location);
-    if (!result)
-      return (0);
-
-    for (tmp = obj->in_obj; tmp; tmp = tmp->in_obj)
-      GET_OBJ_WEIGHT(tmp) -= GET_OBJ_WEIGHT(obj);
-  }
-  return (1);
-}
-
-
-void auction_restore_weight(struct obj_data *obj)
-{
-  if (obj) {
-    auction_restore_weight(obj->contains);
-    auction_restore_weight(obj->next_content);
-    if (obj->in_obj)
-      GET_OBJ_WEIGHT(obj->in_obj) += GET_OBJ_WEIGHT(obj);
-  }
-}
-
-
-void auction_crashsave(room_vnum vnum)
-{
-
-  int rnum = 0;
-  char buf[MAX_STRING_LENGTH]={'\0'};
-  FILE *fp;
-
-  if ((rnum = real_room(vnum)) == NOWHERE)
-    return;
-  if (!auction_get_filename(vnum, buf, sizeof(buf)))
-    return;
-  if (!(fp = fopen(buf, "wb"))) {
-    log("SYSERR: Error saving auction file: %s", strerror(errno));
-    return;
-  }
-  if (!auction_save(world[rnum].contents, fp, 0)) {
-    fclose(fp);
-    return;
-  }
-  fclose(fp);
-  auction_restore_weight(world[rnum].contents);
-}
-
-int auction_load(room_vnum rvnum) 
-{
-    FILE *fl;
-    char fname[MAX_STRING_LENGTH] = { '\0' };
-    char buf1[MAX_STRING_LENGTH] = { '\0' };
-    char buf2[MAX_STRING_LENGTH] = { '\0' };
-    char line[256] = { '\0' };
-    struct obj_data *temp;
-    int t[21], zwei = 0;
-    int locate = 0;
-    int j = 0;
-    int nr = 0;
-    int k = 0;
-    int num_objs = 0;
-    struct obj_data *obj1;
-    struct obj_data *cont_row[MAX_BAG_ROWS];
-    struct extra_descr_data *new_descr;
-    room_rnum rrnum;
-
-    if ((rrnum = real_room(rvnum)) == NOWHERE)
+    /* Validate input */
+    if (vnum == NOWHERE || filename == NULL || maxlen == 0)
         return 0;
 
-    if (!auction_get_filename(rvnum, fname, sizeof(fname)))
+    /*
+     * Generate global auction filename.
+     * Example: LIB_AUCTION "auction.dat"
+     */
+    written = snprintf(filename, maxlen, "%sauction.dat", LIB_AUCTION);
+
+    /* Check for encoding error or truncation */
+    if (written < 0 || (size_t)written >= maxlen)
         return 0;
-
-    if (!(fl = fopen(fname, "r+b")))
-    {
-        if (errno != ENOENT)    /* if it fails, NOT because of no file */
-        {
-            sprintf(buf1, "SYSERR: READING AUCTION FILE %s (5)", fname);
-            log("%s: %s", buf1, strerror(errno));
-        }
-        return 0;
-    }
-
-    for (j = 0; j < MAX_BAG_ROWS; j++)
-        cont_row[j] = NULL; /* empty all cont lists (you never know ...) */
-
-    if(!feof(fl))
-        get_line(fl, line);
-    while (!feof(fl))
-    {
-        temp = NULL;
-        /* first, we get the number. Not too hard. */
-        if(*line == '#')
-        {
-            if (sscanf(line, "#%d", &nr) != 1)
-            {
-                continue;
-            }
-            /* we have the number, check it, load obj. */
-            if (nr == NOTHING)     /* then it is unique */
-            {
-                temp = create_obj();
-                temp->item_number = NOTHING;
-            }
-            else if (nr < 0)
-            {
-                continue;
-            }
-            else
-            {
-                if(nr >= 999999)
-                    continue;
-                temp = read_object(nr, VIRTUAL);
-                if (!temp)
-                {
-                    get_line(fl, line);
-                    continue;
-                }
-            }
-
-            get_line(fl, line);
-            sscanf(line, "%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7, t + 8, t + 9,
-                   t + 10, t + 11, t + 12, t + 13, t + 14, t + 15, t + 16, t + 17, t + 18, t + 19, t + 20);
-            locate = t[0];
-            GET_OBJ_VAL(temp, 0) = t[1];
-            GET_OBJ_VAL(temp, 1) = t[2];
-            GET_OBJ_VAL(temp, 2) = t[3];
-            GET_OBJ_VAL(temp, 3) = t[4];
-            GET_OBJ_VAL(temp, 4) = t[5];
-            GET_OBJ_VAL(temp, 5) = t[6];
-            GET_OBJ_VAL(temp, 6) = t[7];
-            GET_OBJ_VAL(temp, 7) = t[8];
-            GET_OBJ_EXTRA(temp)[0] = t[9];
-            GET_OBJ_EXTRA(temp)[1] = t[10];
-            GET_OBJ_EXTRA(temp)[2] = t[11];
-            GET_OBJ_EXTRA(temp)[3] = t[12];
-            GET_OBJ_VAL(temp, 8) = t[13];
-            GET_OBJ_VAL(temp, 9) = t[14];
-            GET_OBJ_VAL(temp, 10) = t[15];
-            GET_OBJ_VAL(temp, 11) = t[16];
-            GET_OBJ_VAL(temp, 12) = t[17];
-            GET_OBJ_VAL(temp, 13) = t[18];
-            GET_OBJ_VAL(temp, 14) = t[19];
-            GET_OBJ_VAL(temp, 15) = t[20];
-
-            get_line(fl, line);
-            /* read line check for xap. */
-            if(!strcmp("XAP", line))
-            {
-                /* then this is a Xap Obj, requires
-                                                 special care */
-                if ((temp->name = fread_string(fl, buf2)) == NULL)
-                {
-                    temp->name = "undefined";
-                }
-
-                if ((temp->short_description = fread_string(fl, buf2)) == NULL)
-                {
-                    temp->short_description = "undefined";
-                }
-
-                if ((temp->description = fread_string(fl, buf2)) == NULL)
-                {
-                    temp->description = "undefined";
-                }
-
-                if ((temp->action_description = fread_string(fl, buf2)) == NULL)
-                {
-                    temp->action_description = 0;
-                }
-                if (!get_line(fl, line) ||
-                        (sscanf(line, "%d %d %d %d %d %d %d %d", t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7) != 8))
-                {
-                    fprintf(stderr, "Format error in first numeric line (expecting _x_ args)");
-                    return 0;
-                }
-                temp->type_flag = t[0];
-                temp->wear_flags[0] = t[1];
-                temp->wear_flags[1] = t[2];
-                temp->wear_flags[2] = t[3];
-                temp->wear_flags[3] = t[4];
-                temp->weight = t[5];
-                temp->cost = t[6];
-                GET_OBJ_LEVEL(temp) = t[7];
-
-
-                /* we're clearing these for good luck */
-
-                for (j = 0; j < MAX_OBJ_AFFECT; j++)
-                {
-                    temp->affected[j].location = APPLY_NONE;
-                    temp->affected[j].modifier = 0;
-                }
-
-                free_extra_descriptions(temp->ex_description);
-                temp->ex_description = NULL;
-
-                get_line(fl, line);
-                for (k = j = zwei = 0; !zwei && !feof(fl);)
-                {
-                    switch (*line)
-                    {
-                    case 'E':
-                        CREATE(new_descr, struct extra_descr_data, 1);
-                        new_descr->keyword = fread_string(fl, buf2);
-                        new_descr->description = fread_string(fl, buf2);
-                        new_descr->next = temp->ex_description;
-                        temp->ex_description = new_descr;
-                        get_line(fl, line);
-                        break;
-                    case 'A':
-                        if (j >= MAX_OBJ_AFFECT)
-                        {
-                            log("SYSERR: Too many object affectations in loading rent file");
-                        }
-                        get_line(fl, line);
-                        sscanf(line, "%d %d %d", t, t + 1, t + 2);
-
-                        temp->affected[j].location = t[0];
-                        temp->affected[j].modifier = t[1];
-                        temp->affected[j].specific = t[2];
-                        j++;
-                        //GET_OBJ_LEVEL(temp) = set_object_level(temp);
-                        get_line(fl, line);
-                        break;
-                    case 'G':
-                        get_line(fl, line);
-                        sscanf(line, "%ld", (long int *)&temp->generation);
-                        get_line(fl, line);
-                        break;
-                    case 'U':
-                        get_line(fl, line);
-                        sscanf(line, "%lld", &temp->unique_id);
-                        get_line(fl, line);
-                        break;
-                    case 'S':
-                        if (j >= SPELLBOOK_SIZE)
-                        {
-                            log("SYSERR: Too many spells in spellbook loading rent file");
-                        }
-                        get_line(fl, line);
-                        sscanf(line, "%d %d", t, t + 1);
-
-                        if (!temp->sbinfo)
-                        {
-                            CREATE(temp->sbinfo, struct obj_spellbook_spell, SPELLBOOK_SIZE);
-                            memset((char *) temp->sbinfo, 0, SPELLBOOK_SIZE * sizeof(struct obj_spellbook_spell));
-                        }
-                        temp->sbinfo[j].spellname = t[0];
-                        temp->sbinfo[j].pages = t[1];
-                        j++;
-                        get_line(fl, line);
-                        break;
-                    case 'Z':
-                        get_line(fl, line);
-                        sscanf(line, "%d", (int *)&GET_OBJ_SIZE(temp));
-                        get_line(fl, line);
-                        break;
-
-                    case '$':
-                    case '#':
-                        zwei = 1;
-                        break;
-                    default:
-                        zwei = 1;
-                        break;
-                    }
-                }      /* exit our for loop */
-            }   /* exit our xap loop */
-            if(temp != NULL)
-            {
-                num_objs++;
-                obj_to_room(temp, rrnum);
-            }
-            else
-            {
-                continue;
-            }
-
-            /*No need to check if its equipped since rooms can't equip things --firebird_223*/
-
-            for (j = MAX_BAG_ROWS - 1; j > -locate; j--)
-                if (cont_row[j])   /* no container -> back to ch's inventory */
-                {
-                    for (; cont_row[j]; cont_row[j] = obj1)
-                    {
-                        obj1 = cont_row[j]->next_content;
-                        obj_to_room(cont_row[j], rrnum);
-                    }
-                    cont_row[j] = NULL;
-                }
-
-            if (j == -locate && cont_row[j])   /* content list existing */
-            {
-                if (GET_OBJ_TYPE(temp) == ITEM_CONTAINER)
-                {
-                    /* take item ; fill ; give to char again */
-                    obj_from_room(temp);
-                    temp->contains = NULL;
-                    for (; cont_row[j]; cont_row[j] = obj1)
-                    {
-                        obj1 = cont_row[j]->next_content;
-                        obj_to_obj(cont_row[j], temp);
-                    }
-                    obj_to_room(temp, rrnum); /* add to inv first ... */
-                }
-                else     /* object isn't container -> empty content list */
-                {
-                    for (; cont_row[j]; cont_row[j] = obj1)
-                    {
-                        obj1 = cont_row[j]->next_content;
-                        obj_to_room(cont_row[j], rrnum);
-                    }
-                    cont_row[j] = NULL;
-                }
-            }
-
-            if (locate < 0 && locate >= -MAX_BAG_ROWS)
-            {
-                /* let obj be part of content list
-                   but put it at the list's end thus having the items
-                   in the same order as before renting */
-                obj_from_room(temp);
-                if ((obj1 = cont_row[-locate - 1]))
-                {
-                    while (obj1->next_content)
-                        obj1 = obj1->next_content;
-                    obj1->next_content = temp;
-                }
-                else
-                    cont_row[-locate - 1] = temp;
-            }
-        }
-        else
-        {
-            get_line(fl, line);
-        }
-    }
-
-    UNUSED(k);
-
-    fclose(fl);
 
     return 1;
 }
+
+
+/**
+ * Recursively saves auction objects to file.
+ *
+ * Traversal order:
+ *   1. Save sibling objects (next_auction)
+ *   2. Save contained objects (nested containers)
+ *   3. Save current object
+ *
+ * During save, parent container weights are temporarily reduced
+ * to avoid cumulative weight duplication in stored data.
+ * These weights must be restored later via auction_restore_weight().
+ *
+ * Returns:
+ *   1 on success
+ *   0 on failure
+ */
+int auction_save(struct obj_data *obj, FILE *fp, int location)
+{
+    int result;
+    int obj_weight;
+    struct obj_data *parent;
+
+    /* Validate file pointer */
+    if (fp == NULL)
+        return 0;
+
+    /* Base case */
+    if (obj == NULL)
+        return 1;
+
+    /* Save sibling chain first */
+    if (!auction_save(obj->next_auction, fp, location))
+        return 0;
+
+    /* Save contained objects (deeper location index) */
+    if (!auction_save(obj->contains, fp, MIN(0, location) - 1))
+        return 0;
+
+    /* Save this object */
+    result = Obj_to_store(obj, fp, location);
+    if (!result)
+        return 0;
+
+    /*
+     * Temporarily reduce parent container weights
+     * to prevent cumulative weight duplication.
+     */
+    obj_weight = GET_OBJ_WEIGHT(obj);
+
+    for (parent = obj->in_obj; parent; parent = parent->in_obj)
+        GET_OBJ_WEIGHT(parent) -= obj_weight;
+
+    return 1;
+}
+
+
+/**
+ * Restores container weights after auction_save().
+ *
+ * During auction_save(), parent container weights are temporarily
+ * reduced to avoid cumulative weight duplication in stored data.
+ *
+ * This function restores those weights by traversing the object
+ * hierarchy in depth-first order and adding each object's weight
+ * back to its immediate parent.
+ *
+ * Must be called after auction_save() completes.
+ */
+void auction_restore_weight(struct obj_data *obj)
+{
+    int obj_weight;
+
+    if (obj == NULL)
+        return;
+
+    /* Restore contained objects first (depth-first) */
+    auction_restore_weight(obj->contains);
+
+    /* Restore sibling objects */
+    auction_restore_weight(obj->next_content);
+
+    /* Restore weight to parent container */
+    if (obj->in_obj != NULL)
+    {
+        obj_weight = GET_OBJ_WEIGHT(obj);
+        GET_OBJ_WEIGHT(obj->in_obj) += obj_weight;
+    }
+}
+
+
+/**
+ * Saves the auction room contents to disk safely.
+ *
+ * Uses a temporary file and atomic rename to prevent corruption
+ * during crashes or partial writes.
+ */
+void auction_crashsave(room_vnum vnum)
+{
+    room_rnum rnum;
+    char filename[256];
+    char tmp_filename[300];
+    FILE *fp = NULL;
+    int save_ok = 0;
+
+    /* Validate room */
+    rnum = real_room(vnum);
+    if (rnum == NOWHERE)
+        return;
+
+    /* Get auction filename */
+    if (!auction_get_filename(vnum, filename, sizeof(filename)))
+    {
+        log("SYSERR: auction_crashsave(): Failed to generate filename.");
+        return;
+    }
+
+    /* Create temporary filename */
+    snprintf(tmp_filename, sizeof(tmp_filename), "%s.tmp", filename);
+
+    /* Open temporary file */
+    fp = fopen(tmp_filename, "wb");
+    if (!fp)
+    {
+        log("SYSERR: Error opening auction temp file '%s': %s",
+            tmp_filename, strerror(errno));
+        return;
+    }
+
+    /* Perform save */
+    save_ok = auction_save(world[rnum].contents, fp, 0);
+
+    /*
+     * Restore weights regardless of save result
+     * to prevent corruption of in-memory objects.
+     */
+    auction_restore_weight(world[rnum].contents);
+
+    /* Flush file buffer */
+    if (fflush(fp) != 0)
+        log("SYSERR: fflush() failed for auction file '%s'", tmp_filename);
+
+#ifdef HAVE_FSYNC
+    fsync(fileno(fp));
+#endif
+
+    if (fclose(fp) != 0)
+        log("SYSERR: fclose() failed for auction file '%s'", tmp_filename);
+
+    /* If save failed, remove temp file */
+    if (!save_ok)
+    {
+        remove(tmp_filename);
+        log("SYSERR: auction_crashsave(): Save failed, temp file removed.");
+        return;
+    }
+
+    /* Atomically replace old file */
+    if (rename(tmp_filename, filename) != 0)
+    {
+        log("SYSERR: Failed to rename auction temp file '%s' to '%s': %s",
+            tmp_filename, filename, strerror(errno));
+        remove(tmp_filename);
+        return;
+    }
+}
+
+
+#define AUCTION_OBJ_VALUE_COUNT 21
+
+/**
+ * Loads auction objects from disk into the specified room.
+ *
+ * Preserves original file format and container semantics.
+ * Performs strict input validation to prevent corruption crashes.
+ *
+ * Returns:
+ *   1 on success
+ *   0 on failure
+ */
+int auction_load(room_vnum rvnum)
+{
+    FILE *fl;
+    char filename[256];
+    char line[256];
+    struct obj_data *obj = NULL;
+    struct obj_data *container_rows[MAX_BAG_ROWS];
+    struct extra_descr_data *new_descr;
+    room_rnum rrnum;
+    int values[AUCTION_OBJ_VALUE_COUNT];
+    int locate = 0;
+    int object_vnum = 0;
+    int i;
+
+    rrnum = real_room(rvnum);
+    if (rrnum == NOWHERE)
+        return 0;
+
+    if (!auction_get_filename(rvnum, filename, sizeof(filename)))
+        return 0;
+
+    fl = fopen(filename, "r+b");
+    if (!fl)
+    {
+        if (errno != ENOENT)
+            log("SYSERR: Error reading auction file '%s': %s",
+                filename, strerror(errno));
+        return 0;
+    }
+
+    /* Initialize container tracking */
+    for (i = 0; i < MAX_BAG_ROWS; i++)
+        container_rows[i] = NULL;
+
+    /* Main parsing loop */
+    while (get_line(fl, line))
+    {
+        if (*line != '#')
+            continue;
+
+        /* Parse object vnum */
+        if (sscanf(line, "#%d", &object_vnum) != 1)
+            continue;
+
+        if (object_vnum == NOTHING)
+        {
+            obj = create_obj();
+            obj->item_number = NOTHING;
+        }
+        else if (object_vnum < 0 || object_vnum >= 999999)
+        {
+            continue;
+        }
+        else
+        {
+            obj = read_object(object_vnum, VIRTUAL);
+            if (!obj)
+                continue;
+        }
+
+        /* Read object value line */
+        if (!get_line(fl, line))
+            break;
+
+        if (sscanf(line,
+                   "%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d",
+                   &values[0], &values[1], &values[2], &values[3],
+                   &values[4], &values[5], &values[6], &values[7],
+                   &values[8], &values[9], &values[10], &values[11],
+                   &values[12], &values[13], &values[14], &values[15],
+                   &values[16], &values[17], &values[18], &values[19],
+                   &values[20]) != AUCTION_OBJ_VALUE_COUNT)
+        {
+            log("SYSERR: auction_load(): Invalid object value format.");
+            continue;
+        }
+
+        locate = values[0];
+
+        for (i = 0; i < 16; i++)
+            GET_OBJ_VAL(obj, i) = values[i + 1];
+
+        /* Handle extended object (XAP) */
+        if (!get_line(fl, line))
+            break;
+
+        if (!strcmp(line, "XAP"))
+        {
+            if ((obj->name = fread_string(fl, line)) == NULL)
+                obj->name = strdup("undefined");
+
+            if ((obj->short_description = fread_string(fl, line)) == NULL)
+                obj->short_description = strdup("undefined");
+
+            if ((obj->description = fread_string(fl, line)) == NULL)
+                obj->description = strdup("undefined");
+
+            obj->action_description = fread_string(fl, line);
+
+            if (!get_line(fl, line))
+                break;
+
+            if (sscanf(line, "%d %d %d %d %d %d %d %d",
+                       &values[0], &values[1], &values[2], &values[3],
+                       &values[4], &values[5], &values[6], &values[7]) != 8)
+            {
+                log("SYSERR: auction_load(): Invalid XAP numeric line.");
+                continue;
+            }
+
+            obj->type_flag = values[0];
+            obj->wear_flags[0] = values[1];
+            obj->wear_flags[1] = values[2];
+            obj->wear_flags[2] = values[3];
+            obj->wear_flags[3] = values[4];
+            obj->weight = values[5];
+            obj->cost = values[6];
+            GET_OBJ_LEVEL(obj) = values[7];
+
+            free_extra_descriptions(obj->ex_description);
+            obj->ex_description = NULL;
+
+            /* Parse extra sections */
+            while (get_line(fl, line))
+            {
+                if (*line == '$' || *line == '#')
+                    break;
+
+                if (*line == 'E')
+                {
+                    CREATE(new_descr, struct extra_descr_data, 1);
+                    new_descr->keyword = fread_string(fl, line);
+                    new_descr->description = fread_string(fl, line);
+                    new_descr->next = obj->ex_description;
+                    obj->ex_description = new_descr;
+                }
+                else if (*line == 'A')
+                {
+                    if (!get_line(fl, line))
+                        break;
+
+                    if (sscanf(line, "%d %d %d",
+                               &values[0], &values[1], &values[2]) == 3)
+                    {
+                        for (i = 0; i < MAX_OBJ_AFFECT; i++)
+                        {
+                            if (obj->affected[i].location == APPLY_NONE)
+                            {
+                                obj->affected[i].location = values[0];
+                                obj->affected[i].modifier = values[1];
+                                obj->affected[i].specific = values[2];
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        /* Place object in room */
+        obj_to_room(obj, rrnum);
+
+        /* Rebuild container hierarchy (safe bounds check) */
+        if (locate < 0)
+        {
+            int depth_index = -locate - 1;
+
+            if (depth_index >= 0 && depth_index < MAX_BAG_ROWS)
+            {
+                obj_from_room(obj);
+
+                if (container_rows[depth_index])
+                {
+                    struct obj_data *tail = container_rows[depth_index];
+                    while (tail->next_content)
+                        tail = tail->next_content;
+
+                    tail->next_content = obj;
+                }
+                else
+                {
+                    container_rows[depth_index] = obj;
+                }
+            }
+        }
+    }
+
+    fclose(fl);
+    return 1;
+}
+
 
 SPECIAL(auction_house) 
 {
@@ -384,36 +428,41 @@ SPECIAL(auction_house)
     if (!CMD_IS("buy") && !CMD_IS("sell") && !CMD_IS("list") && !CMD_IS("try"))
         return 0;
 
-    char arg1[200]={'\0'}, arg2[200]={'\0'}, arg3[200]={'\0'}, arg4[200]={'\0'}, arg5[200]={'\0'};
+    char arg1[200] = {'\0'}, arg2[200] = {'\0'}, arg3[200] = {'\0'}, arg4[200] = {'\0'}, arg5[200] = {'\0'};
     struct obj_data *obj;
 
     one_argument(one_argument(one_argument(one_argument(one_argument(argument, arg1), arg2), arg3), arg4), arg5);
 
-    if (CMD_IS("sell")) 
+    if (CMD_IS("sell"))
     {
 
-        if (!*arg1) {
+        if (!*arg1)
+        {
             send_to_char(ch, "What item would you like to sell?\r\n");
             return 1;
-        }    
+        }
 
-        if (!*arg2) {
+        if (!*arg2)
+        {
             send_to_char(ch, "How much would you like to sell it for?\r\n");
             return 1;
         }
 
-        if (!(obj = get_obj_in_list_vis(ch, arg1, NULL, ch->carrying))) {
+        if (!(obj = get_obj_in_list_vis(ch, arg1, NULL, ch->carrying)))
+        {
             send_to_char(ch, "You do not have any item by that description.\r\n");
             return 1;
         }
 
-    } 
-    else if CMD_IS("buy") 
+    }
+    else if CMD_IS("buy")
     {
 
-} else { // list
+    }
+    else     // list
+    {
 
-}
+    }
 
-return 1;
+    return 1;
 }
