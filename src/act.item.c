@@ -93,7 +93,8 @@ struct obj_data *obj_selling = NULL;	/* current object for sale */
 struct char_data *ch_selling = NULL;	/* current character selling obj */
 struct char_data *ch_buying  = NULL;	/* current character buying the object */
 
-char *auctioneer[AUC_BID + 1] = {
+char *auctioneer[AUC_BID + 1] = 
+{
 	
 	"The auctioneer auctions, '$n puts $p up for sale at %d coins.'",
 	"The auctioneer auctions, '$p at %d coins going once!.'",
@@ -116,59 +117,66 @@ extern struct descriptor_data *descriptor_list;
 ACMD(do_synthesize)
 {
 
-  if (IS_CARRYING_N(ch) >= CAN_CARRY_N(ch)) {
-    send_to_char(ch, "You must drop something before you can synthesize anything.\r\n");
-    return;
-  }
+    if (IS_CARRYING_N(ch) >= CAN_CARRY_N(ch))
+    {
+        send_to_char(ch, "You must drop something before you can synthesize anything.\r\n");
+        return;
+    }
 
-  if (GET_CRAFTING_OBJ(ch)) {
-    send_to_char(ch, "You are already doing something.  Please wait until your current task ends.\r\n");
-    return;
-  }
+    if (GET_CRAFTING_OBJ(ch))
+    {
+        send_to_char(ch, "You are already doing something.  Please wait until your current task ends.\r\n");
+        return;
+    }
 
-  extern int circle_copyover;
+    extern int circle_copyover;
 
-  if (circle_copyover) {
-    send_to_char(ch, "A hot reboot is scheduled, thus you cannot begin any crafting actions.\r\n");
-    return;
-  }
+    if (circle_copyover)
+    {
+        send_to_char(ch, "A hot reboot is scheduled, thus you cannot begin any crafting actions.\r\n");
+        return;
+    }
 
-  struct obj_data *obj = NULL;
+    struct obj_data *obj = NULL;
 
-  skip_spaces(&argument);
+    skip_spaces(&argument);
 
-  if (!*argument) {
-    send_to_char(ch, "What would you like to synthesize?\r\n");
-    return;
-  }
+    if (!*argument)
+    {
+        send_to_char(ch, "What would you like to synthesize?\r\n");
+        return;
+    }
 
-  if (!(obj = get_obj_in_list_vis(ch, argument, NULL, ch->carrying))) {
-    send_to_char(ch, "There doesn't seem to be %s in your inventory.\r\n", argument);
-    return;
-  }
+    if (!(obj = get_obj_in_list_vis(ch, argument, NULL, ch->carrying)))
+    {
+        send_to_char(ch, "There doesn't seem to be %s in your inventory.\r\n", argument);
+        return;
+    }
 
-  if (!IS_GEMSTONE(obj) && !IS_PETRIFIED_WOOD(obj) && !IS_FOSSIL(obj)) {
-    send_to_char(ch, "That isn't a valid item to synthesize into a magical essence.\r\n");
-    return;
-  }
+    if (!IS_GEMSTONE(obj) && !IS_PETRIFIED_WOOD(obj) && !IS_FOSSIL(obj))
+    {
+        send_to_char(ch, "That isn't a valid item to synthesize into a magical essence.\r\n");
+        return;
+    }
 
-  GET_CRAFTING_OBJ(ch) = obj;
+    GET_CRAFTING_OBJ(ch) = obj;
 
-  if (GET_CRAFTING_OBJ(ch) && GET_OBJ_LEVEL(GET_CRAFTING_OBJ(ch)) > get_skill_value(ch, SKILL_CRAFTING_THEORY)) {
-    send_to_char(ch, "Your crafting theory skill isn't high enough to synthesize that gemstone.\r\n");
-    return;
-  }
+    if (GET_CRAFTING_OBJ(ch) && GET_OBJ_LEVEL(GET_CRAFTING_OBJ(ch)) > get_skill_value(ch, SKILL_CRAFTING_THEORY))
+    {
+        send_to_char(ch, "Your crafting theory skill isn't high enough to synthesize that gemstone.\r\n");
+        return;
+    }
 
-  ch->synth_value = MAX(0, GET_OBJ_LEVEL(obj) / 4);
+    ch->synth_value = MAX(0, GET_OBJ_LEVEL(obj) / 4);
 
-  GET_CRAFTING_TYPE(ch) = SCMD_SYNTHESIZE;
-  GET_CRAFTING_TICKS(ch) = GET_ADMLEVEL(ch) ? 1 : 3;
+    GET_CRAFTING_TYPE(ch) = SCMD_SYNTHESIZE;
+    GET_CRAFTING_TICKS(ch) = GET_ADMLEVEL(ch) ? 1 : 3;
 
-  send_to_char(ch, "You begin to synthesize a crystal from %s.\r\n", obj->short_description);
-  act("$n begins to synthesize a crystal from $p.", FALSE, ch, GET_CRAFTING_OBJ(ch), 0, TO_ROOM);
-  obj_from_char(obj);
-  extract_obj(obj);
- 
+    send_to_char(ch, "You begin to synthesize a crystal from %s.\r\n", obj->short_description);
+    act("$n begins to synthesize a crystal from $p.", FALSE, ch, GET_CRAFTING_OBJ(ch), 0, TO_ROOM);
+    obj_from_char(obj);
+    extract_obj(obj);
+
 }
 
 ACMD(do_divide)
@@ -1086,24 +1094,24 @@ ACMD(do_assemble)
 {
     long lVnum = NOTHING;
     struct obj_data *pObject = NULL;
-    char buf[MAX_STRING_LENGTH]={'\0'};
+    char buf[MAX_STRING_LENGTH] = {'\0'};
     long i = 0;
     long j = 0;
     long lRnum = NOTHING;
 
     skip_spaces(&argument);
 
-    if (*argument == '\0') 
+    if (*argument == '\0')
     {
         send_to_char(ch, "What would you like to %s?  Type %s list for a list of what you can make.\r\n", CMD_NAME, CMD_NAME);
         return;
     }
-    else if (isdigit(argument[0])) 
+    else if (isdigit(argument[0]))
     {
         send_to_char(ch, "When using vnums as your keyword precede the vnum with the word obj.  ie. obj60000.\r\n");
         return;
-    } 
-    else if (!strcmp(argument, "list")) 
+    }
+    else if (!strcmp(argument, "list"))
     {
 
         if( g_pAssemblyTable == NULL )
@@ -1119,15 +1127,15 @@ ACMD(do_assemble)
             {
                 log( "SYSERR: assemblyFindAssembly(): Invalid vnum #%ld in assembly table.", g_pAssemblyTable[i].lVnum );
             }
-            else if(g_pAssemblyTable[i].uchAssemblyType == (unsigned char) subcmd && 
-                obj_proto[lRnum].level <= get_skill_value(ch, assembly_skills[subcmd]))
+            else if(g_pAssemblyTable[i].uchAssemblyType == (unsigned char) subcmd &&
+                    obj_proto[lRnum].level <= get_skill_value(ch, assembly_skills[subcmd]))
             {
                 send_to_char(ch, "%-40s\r\n", obj_proto[lRnum].short_description);
             }
         }
         return;
-    } 
-    else if ((lVnum = assemblyFindAssembly(argument)) < 0) 
+    }
+    else if ((lVnum = assemblyFindAssembly(argument)) < 0)
     {
         if (subcmd == SCMD_LIST_COMPONENTS)
         {
@@ -1139,7 +1147,7 @@ ACMD(do_assemble)
         }
         return;
     }
-    else if (subcmd == SCMD_LIST_COMPONENTS) 
+    else if (subcmd == SCMD_LIST_COMPONENTS)
     {
 
         for( i = 0; i < g_lNumAssemblies; i++ )
@@ -1158,19 +1166,20 @@ ACMD(do_assemble)
                     {
                         send_to_char(ch, " -----: ***RESERVED***\r\n");
                         log( "SYSERR: assemblyListToChar(): Invalid component vnum #%ld in assembly for vnum #%ld.",
-                         g_pAssemblyTable[ i ].pComponents[ j ].lVnum, g_pAssemblyTable[ i ].lVnum );
+                             g_pAssemblyTable[ i ].pComponents[ j ].lVnum, g_pAssemblyTable[ i ].lVnum );
                     }
                     else
                     {
                         sprintf( buf, "   %-40.40s Extract=%-3.3s InRoom=%-3.3s\r\n",
-                         obj_proto[ lRnum ].short_description,
-                         (g_pAssemblyTable[ i ].pComponents[ j ].bExtract ? "Yes" : "No"),
-                         (g_pAssemblyTable[ i ].pComponents[ j ].bInRoom  ? "Yes" : "No") );
+                                 obj_proto[ lRnum ].short_description,
+                                 (g_pAssemblyTable[ i ].pComponents[ j ].bExtract ? "Yes" : "No"),
+                                 (g_pAssemblyTable[ i ].pComponents[ j ].bInRoom  ? "Yes" : "No") );
                         send_to_char(ch, "%s", buf);
                     }
                 }
                 send_to_char(ch, "\r\n");
-                if ((pObject = read_object(lVnum, VIRTUAL)) != NULL ) {
+                if ((pObject = read_object(lVnum, VIRTUAL)) != NULL )
+                {
                     spell_identify(GET_LEVEL(ch), ch, ch, pObject, NULL);
                 }
                 break;
@@ -1182,22 +1191,27 @@ ACMD(do_assemble)
     }
 
 
-/* Create the assembled object. */
-    if ((pObject = read_object(lVnum, VIRTUAL)) == NULL ) {
+    /* Create the assembled object. */
+    if ((pObject = read_object(lVnum, VIRTUAL)) == NULL )
+    {
         send_to_char(ch, "You can't %s %s %s.\r\n", CMD_NAME, AN(argument), argument);
         return;
     }
     add_unique_id(pObject);
 
-    if (assemblyGetType(lVnum) != subcmd) {
+    if (assemblyGetType(lVnum) != subcmd)
+    {
         send_to_char(ch, "You can't %s %s %s.\r\n", CMD_NAME, AN(argument), argument);
         return;
-    } else if (!assemblyCheckComponents(lVnum, ch)) {
+    }
+    else if (!assemblyCheckComponents(lVnum, ch))
+    {
         send_to_char(ch, "You haven't got all the things you need.\r\n");
         return;
     }
 
-    if (!GET_SKILL(ch, assembly_skills[subcmd])) {
+    if (!GET_SKILL(ch, assembly_skills[subcmd]))
+    {
         send_to_char(ch, "You don't know how to %s.\r\n", CMD_NAME);
         return;
     }
@@ -1206,11 +1220,11 @@ ACMD(do_assemble)
     GET_CRAFTING_TICKS(ch) = 6 + GET_OBJ_LEVEL(pObject) - HAS_FEAT(ch, FEAT_FAST_CRAFTER);
     GET_CRAFTING_OBJ(ch) = pObject;
 
-/* Tell the character they made something. */
+    /* Tell the character they made something. */
     sprintf(buf, "You begin to %s $p.", CMD_NAME);
     act(buf, FALSE, ch, pObject, NULL, TO_CHAR);
 
-/* Tell the room the character made something. */
+    /* Tell the room the character made something. */
     sprintf(buf, "$n begins to %s $p.", CMD_NAME);
     act(buf, FALSE, ch, pObject, NULL, TO_ROOM);
 }

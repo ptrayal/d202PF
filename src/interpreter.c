@@ -1530,68 +1530,74 @@ int perform_alias(struct descriptor_data *d, char *orig, size_t maxlen)
  */
 int search_block(char *arg, const char **list, int exact)
 {
-  int i = 0, l = 0;
+    int i = 0, l = 0;
 
-  /*  We used to have \r as the first character on certain array items to
-   *  prevent the explicit choice of that point.  It seems a bit silly to
-   *  dump control characters into arrays to prevent that, so we'll just
-   *  check in here to see if the first character of the argument is '!',
-   *  and if so, just blindly return a '-1' for not found. - ae.
-   */
-  if (*arg == '!')
+    /*  We used to have \r as the first character on certain array items to
+     *  prevent the explicit choice of that point.  It seems a bit silly to
+     *  dump control characters into arrays to prevent that, so we'll just
+     *  check in here to see if the first character of the argument is '!',
+     *  and if so, just blindly return a '-1' for not found. - ae.
+     */
+    if (*arg == '!')
+        return (-1);
+
+    /* Make into lower case, and get length of string */
+    for (l = 0; * (arg + l); l++)
+        *(arg + l) = LOWER(*(arg + l));
+
+    if (exact)
+    {
+        for (i = 0; **(list + i) != '\n'; i++)
+            if (!strcmp(arg, *(list + i)))
+                return (i);
+    }
+    else
+    {
+        if (!l)
+            l = 1;      /* Avoid "" to match the first available
+         * string */
+        for (i = 0; **(list + i) != '\n'; i++)
+            if (!strncmp(arg, *(list + i), l))
+                return (i);
+    }
+
     return (-1);
-
-  /* Make into lower case, and get length of string */
-  for (l = 0; *(arg + l); l++)
-    *(arg + l) = LOWER(*(arg + l));
-
-  if (exact) {
-    for (i = 0; **(list + i) != '\n'; i++)
-      if (!strcmp(arg, *(list + i)))
-	return (i);
-  } else {
-    if (!l)
-      l = 1;			/* Avoid "" to match the first available
-				 * string */
-    for (i = 0; **(list + i) != '\n'; i++)
-      if (!strncmp(arg, *(list + i), l))
-	return (i);
-  }
-
-  return (-1);
 }
 
 int search_block_2(char *arg, char **list, int exact)
 {
-  int i = 0, l = 0 ;
+    int i = 0, l = 0 ;
 
-  /*  We used to have \r as the first character on certain array items to
-   *  prevent the explicit choice of that point.  It seems a bit silly to
-   *  dump control characters into arrays to prevent that, so we'll just
-   *  check in here to see if the first character of the argument is '!',
-   *  and if so, just blindly return a '-1' for not found. - ae.
-   */
-  if (*arg == '!')
+    /*  We used to have \r as the first character on certain array items to
+     *  prevent the explicit choice of that point.  It seems a bit silly to
+     *  dump control characters into arrays to prevent that, so we'll just
+     *  check in here to see if the first character of the argument is '!',
+     *  and if so, just blindly return a '-1' for not found. - ae.
+     */
+    if (*arg == '!')
+        return (-1);
+
+    /* Make into lower case, and get length of string */
+    for (l = 0; * (arg + l); l++)
+        *(arg + l) = LOWER(*(arg + l));
+
+    if (exact)
+    {
+        for (i = 0; **(list + i) != '\n'; i++)
+            if (!strcmp(arg, *(list + i)))
+                return (i);
+    }
+    else
+    {
+        if (!l)
+            l = 1;      /* Avoid "" to match the first available
+         * string */
+        for (i = 0; **(list + i) != '\n'; i++)
+            if (!strncmp(arg, *(list + i), l))
+                return (i);
+    }
+
     return (-1);
-
-  /* Make into lower case, and get length of string */
-  for (l = 0; *(arg + l); l++)
-    *(arg + l) = LOWER(*(arg + l));
-
-  if (exact) {
-    for (i = 0; **(list + i) != '\n'; i++)
-      if (!strcmp(arg, *(list + i)))
-	return (i);
-  } else {
-    if (!l)
-      l = 1;			/* Avoid "" to match the first available
-				 * string */
-    for (i = 0; **(list + i) != '\n'; i++)
-      if (!strncmp(arg, *(list + i), l))
-	return (i);
-  }
-
-  return (-1);
 }
 
 
@@ -1609,11 +1615,16 @@ int is_number(const char *str)
  */
 void skip_spaces(char **str)
 {
-    while (**str && isspace((unsigned char) **str))
+    char *s = *str;
+
+    while (*s && isspace((unsigned char)*s))
     {
-        (*str)++;
+        s++;
     }
+
+    *str = s;
 }
+
 
 
 /*
