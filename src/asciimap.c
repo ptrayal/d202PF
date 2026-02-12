@@ -118,14 +118,14 @@ struct map_info_type map_info[] =
   { SECT_FIELD,        "@c[@g,@c]@n" },
   { SECT_FOREST,       "@c[@gY@c]@n" },
   { SECT_HILLS,        "@c[@Mm@c]@n" },
-  { SECT_MOUNTAIN,     "@c[@rM@c]@n" }, /* 5 */
+  { SECT_MOUNTAIN,     "@c[@r^@c]@n" }, /* 5 */
   { SECT_WATER_SWIM,   "@c[@c~@c]@n" },
   { SECT_WATER_NOSWIM, "@c[@b=@c]@n" },
   { SECT_UNDERWATER,   "@c[@bU@c]@n" },
-  { SECT_FLYING,       "@c[@C^@c]@n" },
+  { SECT_FLYING,       "@c[@CA@c]@n" },
   { SECT_ROAD,         "@c[@y*@c]@n" }, /* 10 */
   { SECT_CAVE,         "@c[@y.@c]@n" },
-  { -1,                ""        },
+  { SECT_DESERT,       "@c[@Y:@c]@n" },
   { -1,                ""        },
   { -1,                ""        },
   { -1,                ""        }, /* 15 */
@@ -155,15 +155,15 @@ struct map_info_type world_map_info[] =
   { SECT_FIELD,        "@g,"  },
   { SECT_FOREST,       "@gY"  },
   { SECT_HILLS,        "@Mm"  },
-  { SECT_MOUNTAIN,     "@rM"  }, /* 5 */
+  { SECT_MOUNTAIN,     "@r^"  }, /* 5 */
   { SECT_WATER_SWIM,   "@c~"  },
   { SECT_WATER_NOSWIM, "@b="  },
   { SECT_FLYING,       "@C^"  },
   { SECT_UNDERWATER,   "@bU"  },
-  { -1,                ""     }, /* 10 */
-  { -1,                ""     },
-  { -1,                ""     },
-  { -1,                ""     },
+  { SECT_FLYING,       "@CA"  }, /* 10 */
+  { SECT_ROAD,         "@y*"  },
+  { SECT_CAVE,         "@y."  },
+  { SECT_DESERT,       "@Y:"  },
   { -1,                ""     },
   { -1,                ""     }, /* 15 */
   { -1,                ""     },
@@ -495,10 +495,12 @@ void perform_map( struct char_data *ch, char *argument, bool worldmap )
   count += sprintf(buf + count, "@n%s Forest\\\\", map_info[SECT_FOREST].disp);
   count += sprintf(buf + count, "@n%s Hills\\\\", map_info[SECT_HILLS].disp);
   count += sprintf(buf + count, "@n%s Mountain\\\\", map_info[SECT_MOUNTAIN].disp);
+  count += sprintf(buf + count, "@n%s Desert\\\\", map_info[SECT_DESERT].disp);
   count += sprintf(buf + count, "@n%s Swim\\\\", map_info[SECT_WATER_SWIM].disp);
   count += sprintf(buf + count, "@n%s Boat\\\\", map_info[SECT_WATER_NOSWIM].disp);
   count += sprintf(buf + count, "@n%s Flying\\\\", map_info[SECT_FLYING].disp);
   count += sprintf(buf + count, "@n%s Underwater\\\\", map_info[SECT_UNDERWATER].disp);
+  count += sprintf(buf + count, "@n%s Road\\\\", map_info[SECT_ROAD].disp);
 
   strcpy(buf, strfrmt(buf, LEGEND_WIDTH, CANVAS_HEIGHT + 2, FALSE, TRUE, TRUE));
 
