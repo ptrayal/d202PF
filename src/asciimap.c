@@ -145,7 +145,7 @@ struct map_info_type map_info[] =
   { -1,                ""        },
   { SECT_EMPTY,        "   "     }, /* 30 */
   { SECT_STRANGE,      "@c[@R?@c]@n" },
-  { SECT_HERE,         "@c[@B!@c]@n"     },
+  { SECT_HERE,         "@c[@B@@@c]@n"     },
 };
 
 struct map_info_type world_map_info[] =
@@ -182,7 +182,7 @@ struct map_info_type world_map_info[] =
   { -1,                ""     },
   { SECT_EMPTY,        " "    }, /* 30 */
   { SECT_STRANGE,      "@R?"  },
-  { SECT_HERE,         "@B!"  },
+  { SECT_HERE,         "@B@"  },
 };
 
 
@@ -483,7 +483,7 @@ void perform_map( struct char_data *ch, char *argument, bool worldmap )
   map[centre][centre] = SECT_HERE;
 
   /* Feel free to put your own MUD name or header in here */
-  send_to_char(ch, " @Y-@ytbaMUD Map System@Y-@n\r\n"
+  send_to_char(ch, " @Y-@yD20 To Pathfinder Map System@Y-@n\r\n"
                    "@D  .-.__--.,--.__.-.@n\r\n" );
 
   count += sprintf(buf + count, "@n@n@n%s Up\\\\", door_info[NUM_DOOR_TYPES + DOOR_UP].disp);
