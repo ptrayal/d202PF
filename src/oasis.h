@@ -21,7 +21,7 @@
  * to adjust these numbers if you ever add more.
  */
 #define NUM_ROOM_FLAGS 		45
-#define NUM_ROOM_SECTORS	11
+#define NUM_ROOM_SECTORS	14
 
 #define NUM_MOB_FLAGS		60
 #define NUM_AFF_FLAGS		77

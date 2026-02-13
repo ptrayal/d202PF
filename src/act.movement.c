@@ -91,50 +91,50 @@ void current_update(void)
 /* simple function to determine if char can walk on water */
 int has_boat(struct char_data *ch)
 {
-  struct obj_data *obj;
-  int i;
+    struct obj_data *obj;
+    int i;
 
-/*
-  if (ROOM_IDENTITY(IN_ROOM(ch)) == DEAD_SEA)
-    return (1);
-*/
+    /*
+      if (ROOM_IDENTITY(IN_ROOM(ch)) == DEAD_SEA)
+        return (1);
+    */
 
-  if (ADM_FLAGGED(ch, ADM_WALKANYWHERE))
-    return (1);
+    if (ADM_FLAGGED(ch, ADM_WALKANYWHERE))
+        return (1);
 
-  if (AFF_FLAGGED(ch, AFF_WATERWALK))
-    return (1);
+    if (AFF_FLAGGED(ch, AFF_WATERWALK))
+        return (1);
 
-  /* non-wearable boats in inventory will do it */
-  for (obj = ch->carrying; obj; obj = obj->next_content)
-    if (GET_OBJ_TYPE(obj) == ITEM_BOAT && (find_eq_pos(ch, obj, NULL) < 0))
-      return (1);
+    /* non-wearable boats in inventory will do it */
+    for (obj = ch->carrying; obj; obj = obj->next_content)
+        if (GET_OBJ_TYPE(obj) == ITEM_BOAT && (find_eq_pos(ch, obj, NULL) < 0))
+            return (1);
 
-  /* and any boat you're wearing will do it too */
-  for (i = 0; i < NUM_WEARS; i++)
-    if (GET_EQ(ch, i) && GET_OBJ_TYPE(GET_EQ(ch, i)) == ITEM_BOAT)
-      return (1);
+    /* and any boat you're wearing will do it too */
+    for (i = 0; i < NUM_WEARS; i++)
+        if (GET_EQ(ch, i) && GET_OBJ_TYPE(GET_EQ(ch, i)) == ITEM_BOAT)
+            return (1);
 
-  return (0);
+    return (0);
 }
 
 /* simple function to determine if char can fly */
 int has_flight(struct char_data *ch)
 {
-  struct obj_data *obj;
+    struct obj_data *obj;
 
-  if (ADM_FLAGGED(ch, ADM_WALKANYWHERE))
-    return (1);
+    if (ADM_FLAGGED(ch, ADM_WALKANYWHERE))
+        return (1);
 
-  if (AFF_FLAGGED(ch, AFF_FLYING) || AFF_FLAGGED(ch, AFF_ANGELIC))
-    return (1);
+    if (AFF_FLAGGED(ch, AFF_FLYING) || AFF_FLAGGED(ch, AFF_ANGELIC))
+        return (1);
 
-  /* non-wearable flying items in inventory will do it */
-  for (obj = ch->carrying; obj; obj = obj->next_content)
-    if (OBJAFF_FLAGGED(obj, AFF_FLYING) && (find_eq_pos(ch, obj, NULL) < 0))
-      return (1); 
+    /* non-wearable flying items in inventory will do it */
+    for (obj = ch->carrying; obj; obj = obj->next_content)
+        if (OBJAFF_FLAGGED(obj, AFF_FLYING) && (find_eq_pos(ch, obj, NULL) < 0))
+            return (1);
 
-  return (0);
+    return (0);
 }
   
 
@@ -148,387 +148,441 @@ int has_flight(struct char_data *ch)
  */
 int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
 {
-  char throwaway[MAX_INPUT_LENGTH] = ""; /* Functions assume writable. */
-  char buf2[MAX_STRING_LENGTH]={'\0'};
-  room_rnum was_in = IN_ROOM(ch);
-  int need_movement;
-  int riding = 0, ridden_by = 0;
-  int speed = 30;
-  int explore_bonus = FALSE;
-  int athletics = 0;
+    char throwaway[MAX_INPUT_LENGTH] = ""; /* Functions assume writable. */
+    char buf2[MAX_STRING_LENGTH] = {'\0'};
+    room_rnum was_in = IN_ROOM(ch);
+    int need_movement;
+    int riding = 0, ridden_by = 0;
+    int speed = 30;
+    int explore_bonus = FALSE;
+    int athletics = 0;
 
-  if (RIDING(ch)) {
-    riding = 1;
-    speed = get_speed(RIDING(ch));
-  }
-  else {
-    speed = get_speed(ch);
-  }
-  if (RIDDEN_BY(ch))
-    ridden_by = 1;
-
- 
-  /*
-   * Check for special routines (North is 1 in command list, but 0 here) Note
-   * -- only check if following; this avoids 'double spec-proc' bug
-   */
-  if (need_specials_check && special(ch, dir + 1, throwaway))
-    return (0);
-
-  /* blocked by a leave trigger ? */
-  if (!leave_mtrigger(ch, dir) || IN_ROOM(ch) != was_in) /* prevent teleport crashes */
-    return 0;
-  if (!leave_wtrigger(&world[IN_ROOM(ch)], ch, dir) || IN_ROOM(ch) != was_in) /* prevent teleport crashes */
-    return 0;
-  if (!leave_otrigger(&world[IN_ROOM(ch)], ch, dir) || IN_ROOM(ch) != was_in) /* prevent teleport crashes */
-    return 0;
-  /* charmed? */
-  if (AFF_FLAGGED(ch, AFF_CHARM) && ch->master && IN_ROOM(ch) == IN_ROOM(ch->master)) {
-    send_to_char(ch, "The thought of leaving your master makes you weep.\r\n");
-    return (0);
-  }
-
-  if (affected_by_spell(ch, SPELL_AFF_DEFENSIVE_STANCE) && !HAS_FEAT(ch, FEAT_MOBILE_DEFENSE)) {
-    send_to_char(ch, "You cannot move as you are in a defensive stance.\r\n");
-    return (0);
-  }
-
-  /* if this room or the one we're going to needs a boat, check for one */
-  if ((SECT(IN_ROOM(ch)) == SECT_WATER_NOSWIM) ||
-      (SECT(EXIT(ch, dir)->to_room) == SECT_WATER_NOSWIM)) {
-    if (!has_boat(ch)) {
-      send_to_char(ch, "You need a boat to go there.\r\n");
-      return (0);
+    if (RIDING(ch))
+    {
+        riding = 1;
+        speed = get_speed(RIDING(ch));
     }
-  }
-
-  if ((zone_table[world[EXIT(ch, dir)->to_room].zone].zone_status < 2) &&
-      (GET_ADMLEVEL(ch) < 1)) {
-    send_to_char(ch, "That zone is not yet open and cannot yet be entered.\r\n");
-    return (0);
-  }
-
-
-  if (zone_table[world[EXIT(ch, dir)->to_room].zone].zone_status == 3) {
-    int enter_dungeon = FALSE;
-    int min_j = 60;
-    int max_j = 0;
-    int j = 0;
-    for (j = 1; j < NUM_LEVEL_RANGES; j++) {
-      if (IS_SET(zone_table[world[EXIT(ch, dir)->to_room].zone].level_range, (1 << j))) {
-        if (j < min_j)
-          min_j = j;
-        if (j > max_j)
-          max_j = j;
-        if (GET_CLASS_LEVEL(ch) == ((j * 2) - 1) || GET_CLASS_LEVEL(ch) == (j * 2)) {
-          enter_dungeon = TRUE;
-          break;
-        }
-        if ((ch)->mentor_level == ((j * 2) - 1) || (ch)->mentor_level == (j * 2)) {
-          enter_dungeon = TRUE;
-          break;
-        }
-      }
-    }
-    if (min_j == 60 || max_j == 0) {  
-      send_to_char(ch, "That dungeon has not had its min or max level set, and thus cannot be entered.\r\n");
-      return 0;
-    }
-    if (!enter_dungeon) {
-      send_to_char(ch, "That dungeon has a min level of %d and a max level of %d.  You must mentor down to within that level range.\r\n",
-                   (min_j * 2) - 1, max_j * 2);
-      return 0;
-    }
-  }
-
-
-
-  if (affected_by_spell(ch, SPELL_ENTANGLE) && affected_by_spell(ch, SPELL_ENTANGLED)) {
-    send_to_char(ch, "You are entangled by animated vines, trees and plants and cannot move.\r\n");
-    return (0);
-  }
-
-  if (AFF_FLAGGED(ch, AFF_PARALYZE) || AFF_FLAGGED(ch, AFF_STUNNED)) {
-    send_to_char(ch, "Your muscles won't respond.\r\n");
-    return (0);
-  }
-
-  if (IS_OVER_LOAD(ch) && GET_ADMLEVEL(ch) == 0) {
-    send_to_char(ch, "You are carrying too much wieght to move.\r\n");
-    return (0);
-  }
-
-  /* if this room or the one we're going to needs flight, check for it */
-  if ((SECT(IN_ROOM(ch)) == SECT_FLYING) ||
-      (SECT(EXIT(ch, dir)->to_room) == SECT_FLYING)) {
-    if (!has_flight(ch)) {
-      send_to_char(ch, "You need wings to go there!\r\n");
-      return (0);
-    }
-  }
-
-  struct char_data *mob;
-  sbyte block = FALSE;
-
-  for (mob = world[IN_ROOM(ch)].people; mob; mob = mob->next_in_room) {
-    if (!IS_NPC(mob))
-      continue;
-
-    if (dir == NORTH && MOB_FLAGGED(mob, MOB_BLOCK_N))
-      block = TRUE;
-    else if (dir == EAST && MOB_FLAGGED(mob, MOB_BLOCK_E))
-      block = TRUE;
-    else if (dir == SOUTH && MOB_FLAGGED(mob, MOB_BLOCK_E))
-      block = TRUE;
-    else if (dir == WEST && MOB_FLAGGED(mob, MOB_BLOCK_E))
-      block = TRUE;
-    else if (dir == NORTHEAST && MOB_FLAGGED(mob, MOB_BLOCK_E))
-      block = TRUE;
-    else if (dir == SOUTHEAST && MOB_FLAGGED(mob, MOB_BLOCK_E))
-      block = TRUE;
-    else if (dir == SOUTHWEST && MOB_FLAGGED(mob, MOB_BLOCK_E))
-      block = TRUE;
-    else if (dir == NORTHWEST && MOB_FLAGGED(mob, MOB_BLOCK_E))
-      block = TRUE;
-    else if (dir == UP && MOB_FLAGGED(mob, MOB_BLOCK_E))
-      block = TRUE;
-    else if (dir == DOWN && MOB_FLAGGED(mob, MOB_BLOCK_E))
-      block = TRUE;
-
-    if (block && MOB_FLAGGED(mob, MOB_BLOCK_RACE) && GET_RACE(ch) == GET_RACE(mob))
-      block = FALSE;
-    if (block && MOB_FLAGGED(mob, MOB_BLOCK_CLASS) && GET_CLASS(ch) == GET_CLASS(mob))
-      block = FALSE;
-    if (block && MOB_FLAGGED(mob, MOB_BLOCK_RACE_FAMILY) && race_list[GET_RACE(ch)].family == race_list[GET_RACE(mob)].family)
-      block = FALSE;
-    if (block && MOB_FLAGGED(mob, MOB_BLOCK_LEVEL) && GET_CLASS_LEVEL(ch) > GET_HITDICE(mob))
-      block = FALSE;
-    if (block && MOB_FLAGGED(mob, MOB_BLOCK_ALIGN) && IS_GOOD(ch) > IS_GOOD(mob))
-      block = FALSE;
-    if (block && MOB_FLAGGED(mob, MOB_BLOCK_ALIGN) && IS_EVIL(ch) > IS_EVIL(mob))
-      block = FALSE;
-    if (block && MOB_FLAGGED(mob, MOB_BLOCK_ALIGN) && IS_NEUTRAL(ch) > IS_NEUTRAL(mob))
-      block = FALSE;
-
-    if (block)
-      break;
-  }
-
-  if (block && !PRF_FLAGGED(ch, PRF_NOHASSLE)) {
-    act("$N blocks your from travelling in that direction.", FALSE, ch, 0, mob, TO_CHAR);
-    act("$n tries to leave the room, but $N blocks $m from travelling in their direction.", FALSE, ch, 0, mob, TO_ROOM);
-    return 0;
-  }
-
-  /* move points needed is avg. move loss for src and destination sect type */
-  need_movement = (movement_loss[SECT(IN_ROOM(ch))] +
-		   movement_loss[SECT(EXIT(ch, dir)->to_room)]) / 2;
-
-  if (HAS_FEAT(ch, FEAT_WOODLAND_STRIDE) && OUTSIDE(ch)) {
-      need_movement = MAX(0, need_movement - 1);
-  }
-
-  if (is_flying(ch)) {
-    need_movement -= 1;
-  }
-
-  /* Stealth increases your move cost, less if you are good at it */
-  if (AFF_FLAGGED(ch, AFF_HIDE))
-    need_movement *= ((roll_skill(ch, SKILL_STEALTH) > 15) ? 2 : 4);
-
-  if (AFF_FLAGGED(ch, AFF_SNEAK))
-    need_movement *= ((roll_skill(ch, SKILL_STEALTH) > 15) ? 1.2 : 2);
-
-  if (ch->player_specials->mounted)
-    athletics = skill_roll(ch, SKILL_RIDE) + (skill_roll(ch, SKILL_ACROBATICS) / 5);
-  else
-    athletics = skill_roll(ch, SKILL_ACROBATICS);
-  
-
-  if (HAS_FEAT(ch, FEAT_ENDURANCE))
-    athletics += 10;
-
-  need_movement *= (400 - (athletics * 5));
-
-  need_movement /= speed;
-
-  need_movement = MAX(1, need_movement);
-
-  if (GET_ADMLEVEL(ch) > 0)
-    need_movement = 0;
-
-  if (SECT(IN_ROOM(ch)) == SECT_INSIDE || SECT(IN_ROOM(ch)) == SECT_CITY)
-    need_movement = 0;
-
-  if (GET_MOVE(ch) < need_movement && !IS_NPC(ch) && !riding) {
-    if (need_specials_check && ch->master)
-      send_to_char(ch, "You are too exhausted to follow.\r\n");
     else
-      send_to_char(ch, "You are too exhausted.\r\n");
-    return (0);
-  }
+    {
+        speed = get_speed(ch);
+    }
+    if (RIDDEN_BY(ch))
+        ridden_by = 1;
 
-  if (riding) {
-    if (GET_MOVE(RIDING(ch)) < need_movement) {
-      OUTPUT_TO_CHAR("Your mount is too exhausted.\r\n", ch);
-      return 0;
+
+    /*
+     * Check for special routines (North is 1 in command list, but 0 here) Note
+     * -- only check if following; this avoids 'double spec-proc' bug
+     */
+    if (need_specials_check && special(ch, dir + 1, throwaway))
+        return (0);
+
+    /* blocked by a leave trigger ? */
+    if (!leave_mtrigger(ch, dir) || IN_ROOM(ch) != was_in) /* prevent teleport crashes */
+        return 0;
+    if (!leave_wtrigger(&world[IN_ROOM(ch)], ch, dir) || IN_ROOM(ch) != was_in) /* prevent teleport crashes */
+        return 0;
+    if (!leave_otrigger(&world[IN_ROOM(ch)], ch, dir) || IN_ROOM(ch) != was_in) /* prevent teleport crashes */
+        return 0;
+    /* charmed? */
+    if (AFF_FLAGGED(ch, AFF_CHARM) && ch->master && IN_ROOM(ch) == IN_ROOM(ch->master))
+    {
+        send_to_char(ch, "The thought of leaving your master makes you weep.\r\n");
+        return (0);
     }
-  }  	
-	
-  /* Check if the character needs a skill check to go that way. */
-    if (EXIT(ch, dir)->dcskill != 0) {
-    if (EXIT(ch, dir)->dcmove > roll_skill(ch, EXIT(ch, dir)->dcskill)) {
-      send_to_char(ch, "Your skill in %s isn't enough to move that way!\r\n", spell_info[EXIT(ch, dir)->dcskill].name);
-      /* A failed skill check still spends the movement points! */
-      if (!ADM_FLAGGED(ch, ADM_WALKANYWHERE) && !IS_NPC(ch))
-        GET_MOVE(ch) -= need_movement;
-      return (0);
+
+    if (affected_by_spell(ch, SPELL_AFF_DEFENSIVE_STANCE) && !HAS_FEAT(ch, FEAT_MOBILE_DEFENSE))
+    {
+        send_to_char(ch, "You cannot move as you are in a defensive stance.\r\n");
+        return (0);
     }
-  }
-  if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_ATRIUM)) {
-    if (!House_can_enter(ch, GET_ROOM_VNUM(EXIT(ch, dir)->to_room)) && !ROOM_FLAGGED(EXIT(ch, dir)->to_room, ROOM_PLAYER_SHOP)) {
-      send_to_char(ch, "That's private property -- no trespassing!\r\n");
-      return (0);
-    } else {
-      int hs;
-      if ((hs = find_house(GET_ROOM_VNUM(EXIT(ch, dir)->to_room))) != NOWHERE) {
-        if (((time(0) - house_control[hs].last_payment) / (60 * 60 * 24 * 30)) > 0 && GET_ADMLEVEL(ch) == 0) {
-          send_to_char(ch, "The owner has not paid their rent, and thus you cannot enter.\r\n");
-          return (0);
+
+    /* if this room or the one we're going to needs a boat, check for one */
+    if ((SECT(IN_ROOM(ch)) == SECT_WATER_NOSWIM) ||
+            (SECT(EXIT(ch, dir)->to_room) == SECT_WATER_NOSWIM))
+    {
+        if (!has_boat(ch))
+        {
+            send_to_char(ch, "You need a boat to go there.\r\n");
+            return (0);
         }
-      }
     }
-  }
-  if ((riding == 1 || ridden_by == 1) && (IS_SET_AR(ROOM_FLAGS(EXIT(ch, dir)->to_room), ROOM_TUNNEL))) {
-    OUTPUT_TO_CHAR("There isn't enough room there, while mounted.\r\n", ch);
-    return 0;
-  } else {  
-	  if (ROOM_FLAGGED(EXIT(ch, dir)->to_room, ROOM_TUNNEL) &&
-	      num_pc_in_room(&(world[EXIT(ch, dir)->to_room])) >= CONFIG_TUNNEL_SIZE) {
-	    if (CONFIG_TUNNEL_SIZE > 1)
-	      send_to_char(ch, "There isn't enough room for you to go there!\r\n");
-	    else
-	      send_to_char(ch, "There isn't enough room there for more than one person!\r\n");
-	    return (0);
-	  }
-  }
-  /* Mortals and low level gods cannot enter greater god rooms. */
-  if (ROOM_FLAGGED(EXIT(ch, dir)->to_room, ROOM_GODROOM) &&
-	GET_ADMLEVEL(ch) < ADMLVL_GRGOD) {
-    send_to_char(ch, "You aren't godly enough to use that room!\r\n");
-    return (0);
-  }
 
- if (riding && skill_roll(ch, SKILL_RIDE) < 5) { 
-    act("$N rears backwards, throwing you to the ground! Ouch!", FALSE, ch, 0, RIDING(ch), TO_CHAR);
-    act("You rear backwards, throwing $n to the ground. Ouch!", FALSE, ch, 0, RIDING(ch), TO_VICT);
-    act("$N rears backwards, throwing $n to the ground. Ouch!", FALSE, ch, 0, RIDING(ch), TO_NOTVICT);
-    GET_POS(ch) = POS_SITTING;
-    dismount_char(ch);
-    damage(ch, ch, dice(1,6), TYPE_UNDEFINED, 0, -1, TYPE_UNDEFINED, 0, 1);
-    return 0;
-  }  
-  
-  /* Now we know we're allowed to go into the room. */
-  if (!ADM_FLAGGED(ch, ADM_WALKANYWHERE) && !IS_NPC(ch) && !(riding || ridden_by))
-    GET_MOVE(ch) -= need_movement;
-  else if (riding)
-    GET_MOVE(RIDING(ch)) -= need_movement;
-  else if (ridden_by)
-    GET_MOVE(RIDDEN_BY(ch)) -= need_movement;	
+    if ((zone_table[world[EXIT(ch, dir)->to_room].zone].zone_status < 2) &&
+            (GET_ADMLEVEL(ch) < 1))
+    {
+        send_to_char(ch, "That zone is not yet open and cannot yet be entered.\r\n");
+        return (0);
+    }
 
-if (riding) {
+
+    if (zone_table[world[EXIT(ch, dir)->to_room].zone].zone_status == 3)
+    {
+        int enter_dungeon = FALSE;
+        int min_j = 60;
+        int max_j = 0;
+        int j = 0;
+        for (j = 1; j < NUM_LEVEL_RANGES; j++)
+        {
+            if (IS_SET(zone_table[world[EXIT(ch, dir)->to_room].zone].level_range, (1 << j)))
+            {
+                if (j < min_j)
+                    min_j = j;
+                if (j > max_j)
+                    max_j = j;
+                if (GET_CLASS_LEVEL(ch) == ((j * 2) - 1) || GET_CLASS_LEVEL(ch) == (j * 2))
+                {
+                    enter_dungeon = TRUE;
+                    break;
+                }
+                if ((ch)->mentor_level == ((j * 2) - 1) || (ch)->mentor_level == (j * 2))
+                {
+                    enter_dungeon = TRUE;
+                    break;
+                }
+            }
+        }
+        if (min_j == 60 || max_j == 0)
+        {
+            send_to_char(ch, "That dungeon has not had its min or max level set, and thus cannot be entered.\r\n");
+            return 0;
+        }
+        if (!enter_dungeon)
+        {
+            send_to_char(ch, "That dungeon has a min level of %d and a max level of %d.  You must mentor down to within that level range.\r\n",
+                         (min_j * 2) - 1, max_j * 2);
+            return 0;
+        }
+    }
+
+
+
+    if (affected_by_spell(ch, SPELL_ENTANGLE) && affected_by_spell(ch, SPELL_ENTANGLED))
+    {
+        send_to_char(ch, "You are entangled by animated vines, trees and plants and cannot move.\r\n");
+        return (0);
+    }
+
+    if (AFF_FLAGGED(ch, AFF_PARALYZE) || AFF_FLAGGED(ch, AFF_STUNNED))
+    {
+        send_to_char(ch, "Your muscles won't respond.\r\n");
+        return (0);
+    }
+
+    if (IS_OVER_LOAD(ch) && GET_ADMLEVEL(ch) == 0)
+    {
+        send_to_char(ch, "You are carrying too much wieght to move.\r\n");
+        return (0);
+    }
+
+    /* if this room or the one we're going to needs flight, check for it */
+    if ((SECT(IN_ROOM(ch)) == SECT_FLYING) ||
+            (SECT(EXIT(ch, dir)->to_room) == SECT_FLYING))
+    {
+        if (!has_flight(ch))
+        {
+            send_to_char(ch, "You need wings to go there!\r\n");
+            return (0);
+        }
+    }
+
+    struct char_data *mob;
+    sbyte block = FALSE;
+
+    for (mob = world[IN_ROOM(ch)].people; mob; mob = mob->next_in_room)
+    {
+        if (!IS_NPC(mob))
+            continue;
+
+        if (dir == NORTH && MOB_FLAGGED(mob, MOB_BLOCK_N))
+            block = TRUE;
+        else if (dir == EAST && MOB_FLAGGED(mob, MOB_BLOCK_E))
+            block = TRUE;
+        else if (dir == SOUTH && MOB_FLAGGED(mob, MOB_BLOCK_E))
+            block = TRUE;
+        else if (dir == WEST && MOB_FLAGGED(mob, MOB_BLOCK_E))
+            block = TRUE;
+        else if (dir == NORTHEAST && MOB_FLAGGED(mob, MOB_BLOCK_E))
+            block = TRUE;
+        else if (dir == SOUTHEAST && MOB_FLAGGED(mob, MOB_BLOCK_E))
+            block = TRUE;
+        else if (dir == SOUTHWEST && MOB_FLAGGED(mob, MOB_BLOCK_E))
+            block = TRUE;
+        else if (dir == NORTHWEST && MOB_FLAGGED(mob, MOB_BLOCK_E))
+            block = TRUE;
+        else if (dir == UP && MOB_FLAGGED(mob, MOB_BLOCK_E))
+            block = TRUE;
+        else if (dir == DOWN && MOB_FLAGGED(mob, MOB_BLOCK_E))
+            block = TRUE;
+
+        if (block && MOB_FLAGGED(mob, MOB_BLOCK_RACE) && GET_RACE(ch) == GET_RACE(mob))
+            block = FALSE;
+        if (block && MOB_FLAGGED(mob, MOB_BLOCK_CLASS) && GET_CLASS(ch) == GET_CLASS(mob))
+            block = FALSE;
+        if (block && MOB_FLAGGED(mob, MOB_BLOCK_RACE_FAMILY) && race_list[GET_RACE(ch)].family == race_list[GET_RACE(mob)].family)
+            block = FALSE;
+        if (block && MOB_FLAGGED(mob, MOB_BLOCK_LEVEL) && GET_CLASS_LEVEL(ch) > GET_HITDICE(mob))
+            block = FALSE;
+        if (block && MOB_FLAGGED(mob, MOB_BLOCK_ALIGN) && IS_GOOD(ch) > IS_GOOD(mob))
+            block = FALSE;
+        if (block && MOB_FLAGGED(mob, MOB_BLOCK_ALIGN) && IS_EVIL(ch) > IS_EVIL(mob))
+            block = FALSE;
+        if (block && MOB_FLAGGED(mob, MOB_BLOCK_ALIGN) && IS_NEUTRAL(ch) > IS_NEUTRAL(mob))
+            block = FALSE;
+
+        if (block)
+            break;
+    }
+
+    if (block && !PRF_FLAGGED(ch, PRF_NOHASSLE))
+    {
+        act("$N blocks your from travelling in that direction.", FALSE, ch, 0, mob, TO_CHAR);
+        act("$n tries to leave the room, but $N blocks $m from travelling in their direction.", FALSE, ch, 0, mob, TO_ROOM);
+        return 0;
+    }
+
+    /* move points needed is avg. move loss for src and destination sect type */
+    need_movement = (movement_loss[SECT(IN_ROOM(ch))] +
+                     movement_loss[SECT(EXIT(ch, dir)->to_room)]) / 2;
+
+    if (HAS_FEAT(ch, FEAT_WOODLAND_STRIDE) && OUTSIDE(ch))
+    {
+        need_movement = MAX(0, need_movement - 1);
+    }
+
+    if (is_flying(ch))
+    {
+        need_movement -= 1;
+    }
+
+    /* Stealth increases your move cost, less if you are good at it */
+    if (AFF_FLAGGED(ch, AFF_HIDE))
+        need_movement *= ((roll_skill(ch, SKILL_STEALTH) > 15) ? 2 : 4);
+
+    if (AFF_FLAGGED(ch, AFF_SNEAK))
+        need_movement *= ((roll_skill(ch, SKILL_STEALTH) > 15) ? 1.2 : 2);
+
+    if (ch->player_specials->mounted)
+        athletics = skill_roll(ch, SKILL_RIDE) + (skill_roll(ch, SKILL_ACROBATICS) / 5);
+    else
+        athletics = skill_roll(ch, SKILL_ACROBATICS);
+
+
+    if (HAS_FEAT(ch, FEAT_ENDURANCE))
+        athletics += 10;
+
+    need_movement *= (400 - (athletics * 5));
+
+    need_movement /= speed;
+
+    need_movement = MAX(1, need_movement);
+
+    if (GET_ADMLEVEL(ch) > 0)
+        need_movement = 0;
+
+    if (SECT(IN_ROOM(ch)) == SECT_INSIDE || SECT(IN_ROOM(ch)) == SECT_CITY)
+        need_movement = 0;
+
+    if (GET_MOVE(ch) < need_movement && !IS_NPC(ch) && !riding)
+    {
+        if (need_specials_check && ch->master)
+            send_to_char(ch, "You are too exhausted to follow.\r\n");
+        else
+            send_to_char(ch, "You are too exhausted.\r\n");
+        return (0);
+    }
+
+    if (riding)
+    {
+        if (GET_MOVE(RIDING(ch)) < need_movement)
+        {
+            OUTPUT_TO_CHAR("Your mount is too exhausted.\r\n", ch);
+            return 0;
+        }
+    }
+
+    /* Check if the character needs a skill check to go that way. */
+    if (EXIT(ch, dir)->dcskill != 0)
+    {
+        if (EXIT(ch, dir)->dcmove > roll_skill(ch, EXIT(ch, dir)->dcskill))
+        {
+            send_to_char(ch, "Your skill in %s isn't enough to move that way!\r\n", spell_info[EXIT(ch, dir)->dcskill].name);
+            /* A failed skill check still spends the movement points! */
+            if (!ADM_FLAGGED(ch, ADM_WALKANYWHERE) && !IS_NPC(ch))
+                GET_MOVE(ch) -= need_movement;
+            return (0);
+        }
+    }
+    if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_ATRIUM))
+    {
+        if (!House_can_enter(ch, GET_ROOM_VNUM(EXIT(ch, dir)->to_room)) && !ROOM_FLAGGED(EXIT(ch, dir)->to_room, ROOM_PLAYER_SHOP))
+        {
+            send_to_char(ch, "That's private property -- no trespassing!\r\n");
+            return (0);
+        }
+        else
+        {
+            int hs;
+            if ((hs = find_house(GET_ROOM_VNUM(EXIT(ch, dir)->to_room))) != NOWHERE)
+            {
+                if (((time(0) - house_control[hs].last_payment) / (60 * 60 * 24 * 30)) > 0 && GET_ADMLEVEL(ch) == 0)
+                {
+                    send_to_char(ch, "The owner has not paid their rent, and thus you cannot enter.\r\n");
+                    return (0);
+                }
+            }
+        }
+    }
+    if ((riding == 1 || ridden_by == 1) && (IS_SET_AR(ROOM_FLAGS(EXIT(ch, dir)->to_room), ROOM_TUNNEL)))
+    {
+        OUTPUT_TO_CHAR("There isn't enough room there, while mounted.\r\n", ch);
+        return 0;
+    }
+    else
+    {
+        if (ROOM_FLAGGED(EXIT(ch, dir)->to_room, ROOM_TUNNEL) &&
+                num_pc_in_room(&(world[EXIT(ch, dir)->to_room])) >= CONFIG_TUNNEL_SIZE)
+        {
+            if (CONFIG_TUNNEL_SIZE > 1)
+                send_to_char(ch, "There isn't enough room for you to go there!\r\n");
+            else
+                send_to_char(ch, "There isn't enough room there for more than one person!\r\n");
+            return (0);
+        }
+    }
+    /* Mortals and low level gods cannot enter greater god rooms. */
+    if (ROOM_FLAGGED(EXIT(ch, dir)->to_room, ROOM_GODROOM) &&
+            GET_ADMLEVEL(ch) < ADMLVL_GRGOD)
+    {
+        send_to_char(ch, "You aren't godly enough to use that room!\r\n");
+        return (0);
+    }
+
+    if (riding && skill_roll(ch, SKILL_RIDE) < 5)
+    {
+        act("$N rears backwards, throwing you to the ground! Ouch!", FALSE, ch, 0, RIDING(ch), TO_CHAR);
+        act("You rear backwards, throwing $n to the ground. Ouch!", FALSE, ch, 0, RIDING(ch), TO_VICT);
+        act("$N rears backwards, throwing $n to the ground. Ouch!", FALSE, ch, 0, RIDING(ch), TO_NOTVICT);
+        GET_POS(ch) = POS_SITTING;
+        dismount_char(ch);
+        damage(ch, ch, dice(1, 6), TYPE_UNDEFINED, 0, -1, TYPE_UNDEFINED, 0, 1);
+        return 0;
+    }
+
+    /* Now we know we're allowed to go into the room. */
+    if (!ADM_FLAGGED(ch, ADM_WALKANYWHERE) && !IS_NPC(ch) && !(riding || ridden_by))
+        GET_MOVE(ch) -= need_movement;
+    else if (riding)
+        GET_MOVE(RIDING(ch)) -= need_movement;
+    else if (ridden_by)
+        GET_MOVE(RIDDEN_BY(ch)) -= need_movement;
+
+    if (riding)
+    {
         sprintf(buf2, "$n rides $N %s.", dirs[dir]);
         act(buf2, TRUE, ch, 0, RIDING(ch), TO_NOTVICT);
- } else if (ridden_by) {
-    if (!AFF_FLAGGED(ch, AFF_TAMED) && skill_roll(ch, SKILL_RIDE) < 15) {
-      act("You rear backwards, throwing $N to the ground!", FALSE, ch, 0, RIDDEN_BY(ch), TO_CHAR); 
-      act("$n rears backwards, throwing you to the ground. Ouch!", FALSE, ch, 0, RIDDEN_BY(ch), TO_VICT);
-      act("$n rears backwards, throwing $N to the ground. Ouch!", FALSE, ch, 0, RIDDEN_BY(ch), TO_NOTVICT);
-      damage(RIDDEN_BY(ch), RIDDEN_BY(ch), dice(1,6), TYPE_UNDEFINED, 0, -1, TYPE_UNDEFINED, 0, 1);
-      dismount_char(RIDDEN_BY(ch));
-      GET_POS(RIDDEN_BY(ch)) = POS_SITTING;
-      /*sprintf(buf2, "$n leaves %s.", dirs[dir]);
-          act(buf2, TRUE, ch, 0, 0, TO_ROOM); */
-      return 0;
     }
-    else {
-      sprintf(buf2, "$n rides $N %s", dirs[dir]);
-      act(buf2, TRUE, ch, 0, RIDING(ch), TO_NOTVICT);
-    }
-  } 
-  else
-  {
-	  snprintf(buf2, sizeof(buf2), "$n leaves %s.", dirs[dir]);
-	  if (AFF_FLAGGED(ch, AFF_SNEAK))
-	    act(buf2, TRUE, ch, 0, 0, TO_ROOM | TO_SNEAKRESIST);
-	  else  
-	    act(buf2, TRUE, ch, 0, 0, TO_ROOM);
-  }
-    
-
-
-  was_in = IN_ROOM(ch);
-  char_from_room(ch);
-  char_to_room(ch, world[was_in].dir_option[dir]->to_room);
-
-  /* move them first, then move them back if they aren't allowed to go. */
-  /* see if an entry trigger disallows the move */
-  if (!entry_mtrigger(ch) || !enter_wtrigger(&world[IN_ROOM(ch)], ch, dir)) {
-    char_from_room(ch);
-    char_to_room(ch, was_in);
-    return 0;
-  }
-
-  if (ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number] == 0) {
-    ch->player_specials->num_of_rooms_visited++;
-    if ((ch->player_specials->num_of_rooms_visited % 25) == 0) {
-      explore_bonus = TRUE;
-    }
-  }
-  ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number]++;
-  if (ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number] > 50)
+    else if (ridden_by)
     {
-      ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number] = 50;
+        if (!AFF_FLAGGED(ch, AFF_TAMED) && skill_roll(ch, SKILL_RIDE) < 15)
+        {
+            act("You rear backwards, throwing $N to the ground!", FALSE, ch, 0, RIDDEN_BY(ch), TO_CHAR);
+            act("$n rears backwards, throwing you to the ground. Ouch!", FALSE, ch, 0, RIDDEN_BY(ch), TO_VICT);
+            act("$n rears backwards, throwing $N to the ground. Ouch!", FALSE, ch, 0, RIDDEN_BY(ch), TO_NOTVICT);
+            damage(RIDDEN_BY(ch), RIDDEN_BY(ch), dice(1, 6), TYPE_UNDEFINED, 0, -1, TYPE_UNDEFINED, 0, 1);
+            dismount_char(RIDDEN_BY(ch));
+            GET_POS(RIDDEN_BY(ch)) = POS_SITTING;
+            /*sprintf(buf2, "$n leaves %s.", dirs[dir]);
+                act(buf2, TRUE, ch, 0, 0, TO_ROOM); */
+            return 0;
+        }
+        else
+        {
+            sprintf(buf2, "$n rides $N %s", dirs[dir]);
+            act(buf2, TRUE, ch, 0, RIDING(ch), TO_NOTVICT);
+        }
+    }
+    else
+    {
+        snprintf(buf2, sizeof(buf2), "$n leaves %s.", dirs[dir]);
+        if (AFF_FLAGGED(ch, AFF_SNEAK))
+            act(buf2, TRUE, ch, 0, 0, TO_ROOM | TO_SNEAKRESIST);
+        else
+            act(buf2, TRUE, ch, 0, 0, TO_ROOM);
+    }
+
+
+
+    was_in = IN_ROOM(ch);
+    char_from_room(ch);
+    char_to_room(ch, world[was_in].dir_option[dir]->to_room);
+
+    /* move them first, then move them back if they aren't allowed to go. */
+    /* see if an entry trigger disallows the move */
+    if (!entry_mtrigger(ch) || !enter_wtrigger(&world[IN_ROOM(ch)], ch, dir))
+    {
+        char_from_room(ch);
+        char_to_room(ch, was_in);
+        return 0;
+    }
+
+    if (ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number] == 0)
+    {
+        ch->player_specials->num_of_rooms_visited++;
+        if ((ch->player_specials->num_of_rooms_visited % 25) == 0)
+        {
+            explore_bonus = TRUE;
+        }
+    }
+    ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number]++;
+    if (ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number] > 50)
+    {
+        ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number] = 50;
     }
 
     snprintf(buf2, sizeof(buf2), "%s%s",
-            ((dir == UP) || (dir == DOWN) ? "" : "the "),
-            ( dir == UP  ? "below" :
-             (dir == DOWN) ? "above" : dirs[rev_dir[dir]]));
-  if (AFF_FLAGGED(ch, AFF_SNEAK))
-    act("$n arrives from $T.", TRUE, ch, 0, buf2, TO_ROOM | TO_SNEAKRESIST);
-  else
-    act("$n arrives from $T.", TRUE, ch, 0, buf2, TO_ROOM);
+             ((dir == UP) || (dir == DOWN) ? "" : "the "),
+             ( dir == UP  ? "below" :
+               (dir == DOWN) ? "above" : dirs[rev_dir[dir]]));
+    if (AFF_FLAGGED(ch, AFF_SNEAK))
+        act("$n arrives from $T.", TRUE, ch, 0, buf2, TO_ROOM | TO_SNEAKRESIST);
+    else
+        act("$n arrives from $T.", TRUE, ch, 0, buf2, TO_ROOM);
 
-  if (ch->desc != NULL)
-    look_at_room(IN_ROOM(ch), ch, 0);
+    if (ch->desc != NULL)
+        look_at_room(IN_ROOM(ch), ch, 0);
 
-  if (explore_bonus) {
-    send_to_char(ch, "\r\n@YYou gain a %d exp exploration bonus.@n\r\n", mob_exp_by_level(GET_LEVEL(ch) + 10));
-    gain_exp(ch, mob_exp_by_level(GET_LEVEL(ch) + 10));
-  }
+    if (explore_bonus)
+    {
+        send_to_char(ch, "+*******************************************+\r\n");
+        send_to_char(ch, "\r\n+ @YYou gain a %d exp exploration bonus.@n +\r\n", mob_exp_by_level(GET_LEVEL(ch) + 10));
+        send_to_char(ch, "+*******************************************+\r\n");
+        gain_exp(ch, mob_exp_by_level(GET_LEVEL(ch) + 10));
+    }
 
-  ch->exp_chain = 0;
+    ch->exp_chain = 0;
 
-  if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_TIMED_DT) && !ADM_FLAGGED(ch, ADM_WALKANYWHERE))
-     timed_dt(NULL);
+    if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_TIMED_DT) && !ADM_FLAGGED(ch, ADM_WALKANYWHERE))
+        timed_dt(NULL);
 
-  if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_DEATH) && !ADM_FLAGGED(ch, ADM_WALKANYWHERE)) {
-    log_death_trap(ch);
-    death_cry(ch);
-    extract_char(ch);
-    return (0);
-  }
+    if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_DEATH) && !ADM_FLAGGED(ch, ADM_WALKANYWHERE))
+    {
+        log_death_trap(ch);
+        death_cry(ch);
+        extract_char(ch);
+        return (0);
+    }
 
-  entry_memory_mtrigger(ch);
-  if (!greet_mtrigger(ch, dir)) {
-    char_from_room(ch);
-    char_to_room(ch, was_in);
-    look_at_room(IN_ROOM(ch), ch, 0);
-  } else greet_memory_mtrigger(ch);
+    entry_memory_mtrigger(ch);
+    if (!greet_mtrigger(ch, dir))
+    {
+        char_from_room(ch);
+        char_to_room(ch, was_in);
+        look_at_room(IN_ROOM(ch), ch, 0);
+    }
+    else greet_memory_mtrigger(ch);
 
-  return (1);
+    return (1);
 }
 
 

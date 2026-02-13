@@ -126,7 +126,7 @@ struct map_info_type map_info[] =
   { SECT_ROAD,         "@c[@y*@c]@n" }, /* 10 */
   { SECT_CAVE,         "@c[@y.@c]@n" },
   { SECT_DESERT,       "@c[@Y:@c]@n" },
-  { -1,                ""        },
+  { SECT_SWAMP,        "@c[@G;@c]@n" },
   { -1,                ""        },
   { -1,                ""        }, /* 15 */
   { -1,                ""        },
@@ -164,7 +164,7 @@ struct map_info_type world_map_info[] =
   { SECT_ROAD,         "@y*"  },
   { SECT_CAVE,         "@y."  },
   { SECT_DESERT,       "@Y:"  },
-  { -1,                ""     },
+  { SECT_SWAMP,        "@G;"  },
   { -1,                ""     }, /* 15 */
   { -1,                ""     },
   { -1,                ""     },
@@ -429,105 +429,111 @@ char *CompactStringMap(int centre, int size)
 /* Display a nicely formatted map with a legend */
 void perform_map( struct char_data *ch, char *argument, bool worldmap )
 {
-  char arg1[MIL]={'\0'};
-  char arg2[MIL]={'\0'};
-  char buf[MSL]={'\0'};
-  char buf1[MSL]={'\0'};
-  char buf2[MSL]={'\0'};
-  int size = DEFAULT_MAP_SIZE;
-  int centre, x, y, min, max;
-  int count = 0;
-  int ew_size=0, ns_size=0;
-  int mapshape = MAP_CIRCLE;
+    char arg1[MIL] = {'\0'};
+    char arg2[MIL] = {'\0'};
+    char buf[MSL] = {'\0'};
+    char buf1[MSL] = {'\0'};
+    char buf2[MSL] = {'\0'};
+    int size = DEFAULT_MAP_SIZE;
+    int centre, x, y, min, max;
+    int count = 0;
+    int ew_size = 0, ns_size = 0;
+    int mapshape = MAP_CIRCLE;
 
-  two_arguments( argument, arg1 , arg2 );
-  if(*arg1)
-  {
-    size = atoi(arg1);
-  }
-  if (*arg2)
-  {
-    if (is_abbrev(arg2, "normal")) worldmap=FALSE;
-    else if (is_abbrev(arg2, "world")) worldmap=TRUE;
-    else {
-      send_to_char(ch, "Usage: @ymap <distance> [ normal | world ]@n");
-      return;
+    two_arguments( argument, arg1, arg2 );
+    if(*arg1)
+    {
+        size = atoi(arg1);
     }
-  }
+    if (*arg2)
+    {
+        if (is_abbrev(arg2, "normal")) worldmap = FALSE;
+        else if (is_abbrev(arg2, "world")) worldmap = TRUE;
+        else
+        {
+            send_to_char(ch, "Usage: @ymap <distance> [ normal | world ]@n");
+            return;
+        }
+    }
 
-  if(size<0) {
-    size = -size;
-    mapshape = MAP_RECTANGLE;
-  }
-  size = URANGE(1,size,MAX_MAP_SIZE);
+    if(size < 0)
+    {
+        size = -size;
+        mapshape = MAP_RECTANGLE;
+    }
+    size = URANGE(1, size, MAX_MAP_SIZE);
 
-  centre = MAX_MAP/2;
+    centre = MAX_MAP / 2;
 
-  if(worldmap) {
-    min = centre - 2*size;
-    max = centre + 2*size;
-  } else {
-    min = centre - size;
-    max = centre + size;
-  }
+    if(worldmap)
+    {
+        min = centre - 2 * size;
+        max = centre + 2 * size;
+    }
+    else
+    {
+        min = centre - size;
+        max = centre + size;
+    }
 
-  /* Blank the map */
-  for (x = 0; x < MAX_MAP; ++x)
-      for (y = 0; y < MAX_MAP; ++y)
-           map[x][y]= (!(y%2) && !worldmap) ? DOOR_NONE : SECT_EMPTY;
+    /* Blank the map */
+    for (x = 0; x < MAX_MAP; ++x)
+        for (y = 0; y < MAX_MAP; ++y)
+            map[x][y] = (!(y % 2) && !worldmap) ? DOOR_NONE : SECT_EMPTY;
 
-  /* starts the mapping with the centre room */
-  MapArea(IN_ROOM(ch), ch, centre, centre, min, max, ns_size/2, ew_size/2, worldmap);
+    /* starts the mapping with the centre room */
+    MapArea(IN_ROOM(ch), ch, centre, centre, min, max, ns_size / 2, ew_size / 2, worldmap);
 
-  /* marks the center, where ch is */
-  map[centre][centre] = SECT_HERE;
+    /* marks the center, where ch is */
+    map[centre][centre] = SECT_HERE;
 
-  /* Feel free to put your own MUD name or header in here */
-  send_to_char(ch, " @Y-@yD20 To Pathfinder Map System@Y-@n\r\n"
-                   "@D  .-.__--.,--.__.-.@n\r\n" );
+    /* Feel free to put your own MUD name or header in here */
+    send_to_char(ch, " @Y-@yD20 To Pathfinder Map System@Y-@n\r\n"
+                 "@D  .-.__--.,--.__.-.@n\r\n" );
 
-  count += sprintf(buf + count, "@n@n@n%s Up\\\\", door_info[NUM_DOOR_TYPES + DOOR_UP].disp);
-  count += sprintf(buf + count, "@n@n@n%s Down\\\\", door_info[NUM_DOOR_TYPES + DOOR_DOWN].disp);
-  count += sprintf(buf + count, "@n%s You\\\\", map_info[SECT_HERE].disp);
-  count += sprintf(buf + count, "@n%s Inside\\\\", map_info[SECT_INSIDE].disp);
-  count += sprintf(buf + count, "@n%s City\\\\", map_info[SECT_CITY].disp);
-  count += sprintf(buf + count, "@n%s Field\\\\", map_info[SECT_FIELD].disp);
-  count += sprintf(buf + count, "@n%s Forest\\\\", map_info[SECT_FOREST].disp);
-  count += sprintf(buf + count, "@n%s Hills\\\\", map_info[SECT_HILLS].disp);
-  count += sprintf(buf + count, "@n%s Mountain\\\\", map_info[SECT_MOUNTAIN].disp);
-  count += sprintf(buf + count, "@n%s Desert\\\\", map_info[SECT_DESERT].disp);
-  count += sprintf(buf + count, "@n%s Swim\\\\", map_info[SECT_WATER_SWIM].disp);
-  count += sprintf(buf + count, "@n%s Boat\\\\", map_info[SECT_WATER_NOSWIM].disp);
-  count += sprintf(buf + count, "@n%s Flying\\\\", map_info[SECT_FLYING].disp);
-  count += sprintf(buf + count, "@n%s Underwater\\\\", map_info[SECT_UNDERWATER].disp);
-  count += sprintf(buf + count, "@n%s Road\\\\", map_info[SECT_ROAD].disp);
+    count += sprintf(buf + count, "@n@n@n%s Up\\\\", door_info[NUM_DOOR_TYPES + DOOR_UP].disp);
+    count += sprintf(buf + count, "@n@n@n%s Down\\\\", door_info[NUM_DOOR_TYPES + DOOR_DOWN].disp);
+    count += sprintf(buf + count, "@n%s You\\\\", map_info[SECT_HERE].disp);
+    count += sprintf(buf + count, "@n%s Inside\\\\", map_info[SECT_INSIDE].disp);
+    count += sprintf(buf + count, "@n%s City\\\\", map_info[SECT_CITY].disp);
+    count += sprintf(buf + count, "@n%s Field\\\\", map_info[SECT_FIELD].disp);
+    count += sprintf(buf + count, "@n%s Forest\\\\", map_info[SECT_FOREST].disp);
+    count += sprintf(buf + count, "@n%s Hills\\\\", map_info[SECT_HILLS].disp);
+    count += sprintf(buf + count, "@n%s Mountain\\\\", map_info[SECT_MOUNTAIN].disp);
+    count += sprintf(buf + count, "@n%s Desert\\\\", map_info[SECT_DESERT].disp);
+    count += sprintf(buf + count, "@n%s Swamp\\\\", map_info[SECT_SWAMP].disp);
+    count += sprintf(buf + count, "@n%s Swim\\\\", map_info[SECT_WATER_SWIM].disp);
+    count += sprintf(buf + count, "@n%s Boat\\\\", map_info[SECT_WATER_NOSWIM].disp);
+    count += sprintf(buf + count, "@n%s Flying\\\\", map_info[SECT_FLYING].disp);
+    count += sprintf(buf + count, "@n%s Underwater\\\\", map_info[SECT_UNDERWATER].disp);
+    count += sprintf(buf + count, "@n%s Road\\\\", map_info[SECT_ROAD].disp);
 
-  strcpy(buf, strfrmt(buf, LEGEND_WIDTH, CANVAS_HEIGHT + 2, FALSE, TRUE, TRUE));
+    strcpy(buf, strfrmt(buf, LEGEND_WIDTH, CANVAS_HEIGHT + 2, FALSE, TRUE, TRUE));
 
-  /* Start with an empty column */
-  strcpy(buf1, strfrmt("",0, CANVAS_HEIGHT + 2, FALSE, FALSE, TRUE));
+    /* Start with an empty column */
+    strcpy(buf1, strfrmt("", 0, CANVAS_HEIGHT + 2, FALSE, FALSE, TRUE));
 
-  /* Paste the legend */
-  strcpy(buf2, strpaste(buf1, buf, "@D | @n"));
+    /* Paste the legend */
+    strcpy(buf2, strpaste(buf1, buf, "@D | @n"));
 
-  /* Set up the map */
-  memset(buf, ' ', CANVAS_WIDTH);
-  count = (CANVAS_WIDTH);
-  if(worldmap)
-    count += sprintf(buf + count , "\r\n%s", WorldMap(centre, size, mapshape, MAP_NORMAL));
-  else
-    count += sprintf(buf + count , "\r\n%s", StringMap(centre, size));
-  memset(buf + count, ' ', CANVAS_WIDTH);
-  strcpy(buf + count + CANVAS_WIDTH, "\r\n");
-  /* Paste it on */
-  strcpy(buf2, strpaste(buf2, buf, "@D | @n"));
-  /* Paste on the right border */
-  strcpy(buf2, strpaste(buf2, buf1, "  "));
-  /* Print it all out */
-  send_to_char(ch, "%s", buf2);
+    /* Set up the map */
+    memset(buf, ' ', CANVAS_WIDTH);
+    count = (CANVAS_WIDTH);
+    if(worldmap)
+        count += sprintf(buf + count, "\r\n%s", WorldMap(centre, size, mapshape, MAP_NORMAL));
+    else
+        count += sprintf(buf + count, "\r\n%s", StringMap(centre, size));
+    memset(buf + count, ' ', CANVAS_WIDTH);
+    strcpy(buf + count + CANVAS_WIDTH, "\r\n");
+    /* Paste it on */
+    strcpy(buf2, strpaste(buf2, buf, "@D | @n"));
+    /* Paste on the right border */
+    strcpy(buf2, strpaste(buf2, buf1, "  "));
+    /* Print it all out */
+    send_to_char(ch, "%s", buf2);
 
-  send_to_char(ch, "@D `.-.__--.,-.__.-.-'@n\r\n");
-  return;
+    send_to_char(ch, "@D `.-.__--.,-.__.-.-'@n\r\n");
+    return;
 }
 
 /* Display a string with the map beside it */

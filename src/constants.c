@@ -227,6 +227,8 @@ const char *sector_types[] =
   "In Flight",
   "Road",
   "Cave",
+  "Desert",
+  "Swamp",
   "\n",
   NULL
 };
@@ -1465,7 +1467,10 @@ int movement_loss[] =
   2,	/* Unswimable */
   6,     /* Underwater */
   2,	/* Flying     */
-  2     // road
+  2,     // road
+  4,   /* Cave */
+  4,   /* Desert*/
+  6,   /* Swamp */
 };
 
 /* Not used in sprinttype(). */

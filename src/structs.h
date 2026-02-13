@@ -274,6 +274,7 @@ extern struct config_data config_info;
 #define EX_PICKED   (1 << 5)   // The door has been picked
 #define NUM_EXIT_FLAGS 6
 
+/* Make sure to increase NUM_ROOM_SECTORS in oasis.h when adding sectors */
 /* Sector types: used in room_data.sector_type */
 #define SECT_INSIDE          0       /* Indoors     */
 #define SECT_CITY            1       /* In a city     */
@@ -288,6 +289,7 @@ extern struct config_data config_info;
 #define SECT_ROAD            10      // Any road
 #define SECT_CAVE            11      // Any Cave
 #define SECT_DESERT          12      // Desert
+#define SECT_SWAMP           13      // Swamp
 
 /* char and mob-related defines *****************************************/
 /* PC classes */
