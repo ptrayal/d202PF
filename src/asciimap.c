@@ -76,36 +76,36 @@ struct map_info_type
 
 struct map_info_type door_info[] =
 {
-  { DOOR_NONE, "   " },
-  { DOOR_DOWN_AND_SE, "@r-@n\\ " },
-  { DOOR_UP_AND_NE,   "@r+@n/ " },
-  { VDOOR_DIAGNW,     " @m+@n " },
-  { VDOOR_DIAGNE,     " @m+@n "},
-  { VDOOR_EW,  " @m+@n " },
-  { VDOOR_NS,  " @m+@n "},
-  { DOOR_DIAGNW,      " \\ " },
-  { DOOR_DIAGNE,      " / " }, 
-  { DOOR_DOWN, "@r-@n  " },
-  { DOOR_UP,   "@r+@n  " },
-  { DOOR_EW,   " - " },
-  { DOOR_NS,   " | " }
+    { DOOR_NONE, "   " },
+    { DOOR_DOWN_AND_SE, "@r-@n\\ " },
+    { DOOR_UP_AND_NE,   "@r+@n/ " },
+    { VDOOR_DIAGNW,     " @m+@n " },
+    { VDOOR_DIAGNE,     " @m+@n "},
+    { VDOOR_EW,  " @m+@n " },
+    { VDOOR_NS,  " @m+@n "},
+    { DOOR_DIAGNW,      " \\ " },
+    { DOOR_DIAGNE,      " / " },
+    { DOOR_DOWN, "@r-@n  " },
+    { DOOR_UP,   "@r+@n  " },
+    { DOOR_EW,   " - " },
+    { DOOR_NS,   " | " }
 };
 
 struct map_info_type compact_door_info[] =
 {
-  { DOOR_NONE, " " },
-  { DOOR_DOWN_AND_SE, "@R\\@n" },
-  { DOOR_UP_AND_NE,   "@R/@n" },
-  { VDOOR_DIAGNW,   "@m+@n" },
-  { VDOOR_DIAGNE,   "@m+@n"},
-  { VDOOR_EW,  " @m+@n " },
-  { VDOOR_NS,  " @m+@n "},
-  { DOOR_DIAGNW,"\\" },
-  { DOOR_DIAGNE,"/" }, 
-  { DOOR_DOWN, "@r-@n" },
-  { DOOR_UP,   "@r+@n" },
-  { DOOR_EW,   "-" },
-  { DOOR_NS,   " | " }
+    { DOOR_NONE, " " },
+    { DOOR_DOWN_AND_SE, "@R\\@n" },
+    { DOOR_UP_AND_NE,   "@R/@n" },
+    { VDOOR_DIAGNW,   "@m+@n" },
+    { VDOOR_DIAGNE,   "@m+@n"},
+    { VDOOR_EW,  " @m+@n " },
+    { VDOOR_NS,  " @m+@n "},
+    { DOOR_DIAGNW, "\\" },
+    { DOOR_DIAGNE, "/" },
+    { DOOR_DOWN, "@r-@n" },
+    { DOOR_UP,   "@r+@n" },
+    { DOOR_EW,   "-" },
+    { DOOR_NS,   " | " }
 };
 
 /* Add new sector types below for both map_info and world_map_info     */
@@ -113,76 +113,76 @@ struct map_info_type compact_door_info[] =
 /* New sectors also need to be added to the perform_map function below */
 struct map_info_type map_info[] =
 {
-  { SECT_INSIDE,       "@c[@n.@c]@n" }, /* 0 */
-  { SECT_CITY,         "@c[@wC@c]@n" },
-  { SECT_FIELD,        "@c[@g,@c]@n" },
-  { SECT_FOREST,       "@c[@gY@c]@n" },
-  { SECT_HILLS,        "@c[@Mm@c]@n" },
-  { SECT_MOUNTAIN,     "@c[@r^@c]@n" }, /* 5 */
-  { SECT_WATER_SWIM,   "@c[@c~@c]@n" },
-  { SECT_WATER_NOSWIM, "@c[@b=@c]@n" },
-  { SECT_UNDERWATER,   "@c[@bU@c]@n" },
-  { SECT_FLYING,       "@c[@CA@c]@n" },
-  { SECT_ROAD,         "@c[@y*@c]@n" }, /* 10 */
-  { SECT_CAVE,         "@c[@y.@c]@n" },
-  { SECT_DESERT,       "@c[@Y:@c]@n" },
-  { SECT_SWAMP,        "@c[@G;@c]@n" },
-  { -1,                ""        },
-  { -1,                ""        }, /* 15 */
-  { -1,                ""        },
-  { -1,                ""        },
-  { -1,                ""        },
-  { -1,                ""        },
-  { -1,                ""        }, /* 20 */
-  { -1,                ""        },
-  { -1,                ""        },
-  { -1,                ""        },
-  { -1,                ""        },
-  { -1,                ""        }, /* 25 */
-  { -1,                ""        },
-  { -1,                ""        },
-  { -1,                ""        },
-  { -1,                ""        },
-  { SECT_EMPTY,        "   "     }, /* 30 */
-  { SECT_STRANGE,      "@c[@R?@c]@n" },
-  { SECT_HERE,         "@c[@B@@@c]@n"     },
+    { SECT_INSIDE,       "@c[@n.@c]@n" }, /* 0 */
+    { SECT_CITY,         "@c[@wC@c]@n" },
+    { SECT_FIELD,        "@c[@g,@c]@n" },
+    { SECT_FOREST,       "@c[@gY@c]@n" },
+    { SECT_HILLS,        "@c[@Mm@c]@n" },
+    { SECT_MOUNTAIN,     "@c[@r^@c]@n" }, /* 5 */
+    { SECT_WATER_SWIM,   "@c[@c~@c]@n" },
+    { SECT_WATER_NOSWIM, "@c[@b=@c]@n" },
+    { SECT_UNDERWATER,   "@c[@bU@c]@n" },
+    { SECT_FLYING,       "@c[@CA@c]@n" },
+    { SECT_ROAD,         "@c[@y*@c]@n" }, /* 10 */
+    { SECT_CAVE,         "@c[@y.@c]@n" },
+    { SECT_DESERT,       "@c[@Y:@c]@n" },
+    { SECT_SWAMP,        "@c[@G;@c]@n" },
+    { -1,                ""        },
+    { -1,                ""        }, /* 15 */
+    { -1,                ""        },
+    { -1,                ""        },
+    { -1,                ""        },
+    { -1,                ""        },
+    { -1,                ""        }, /* 20 */
+    { -1,                ""        },
+    { -1,                ""        },
+    { -1,                ""        },
+    { -1,                ""        },
+    { -1,                ""        }, /* 25 */
+    { -1,                ""        },
+    { -1,                ""        },
+    { -1,                ""        },
+    { -1,                ""        },
+    { SECT_EMPTY,        "   "     }, /* 30 */
+    { SECT_STRANGE,      "@c[@R?@c]@n" },
+    { SECT_HERE,         "@c[@B@@@c]@n"     },
 };
 
 struct map_info_type world_map_info[] =
 {
-  { SECT_INSIDE,       "@n."  }, /* 0 */
-  { SECT_CITY,         "@wC"  },
-  { SECT_FIELD,        "@g,"  },
-  { SECT_FOREST,       "@gY"  },
-  { SECT_HILLS,        "@Mm"  },
-  { SECT_MOUNTAIN,     "@r^"  }, /* 5 */
-  { SECT_WATER_SWIM,   "@c~"  },
-  { SECT_WATER_NOSWIM, "@b="  },
-  { SECT_FLYING,       "@C^"  },
-  { SECT_UNDERWATER,   "@bU"  },
-  { SECT_FLYING,       "@CA"  }, /* 10 */
-  { SECT_ROAD,         "@y*"  },
-  { SECT_CAVE,         "@y."  },
-  { SECT_DESERT,       "@Y:"  },
-  { SECT_SWAMP,        "@G;"  },
-  { -1,                ""     }, /* 15 */
-  { -1,                ""     },
-  { -1,                ""     },
-  { -1,                ""     },
-  { -1,                ""     },
-  { -1,                ""     }, /* 20 */
-  { -1,                ""     },
-  { -1,                ""     },
-  { -1,                ""     },
-  { -1,                ""     },
-  { -1,                ""     }, /* 25 */
-  { -1,                ""     },
-  { -1,                ""     },
-  { -1,                ""     },
-  { -1,                ""     },
-  { SECT_EMPTY,        " "    }, /* 30 */
-  { SECT_STRANGE,      "@R?"  },
-  { SECT_HERE,         "@B@"  },
+    { SECT_INSIDE,       "@n."  }, /* 0 */
+    { SECT_CITY,         "@wC"  },
+    { SECT_FIELD,        "@g,"  },
+    { SECT_FOREST,       "@gY"  },
+    { SECT_HILLS,        "@Mm"  },
+    { SECT_MOUNTAIN,     "@r^"  }, /* 5 */
+    { SECT_WATER_SWIM,   "@c~"  },
+    { SECT_WATER_NOSWIM, "@b="  },
+    { SECT_FLYING,       "@C^"  },
+    { SECT_UNDERWATER,   "@bU"  },
+    { SECT_FLYING,       "@CA"  }, /* 10 */
+    { SECT_ROAD,         "@y*"  },
+    { SECT_CAVE,         "@y."  },
+    { SECT_DESERT,       "@Y:"  },
+    { SECT_SWAMP,        "@G;"  },
+    { -1,                ""     }, /* 15 */
+    { -1,                ""     },
+    { -1,                ""     },
+    { -1,                ""     },
+    { -1,                ""     },
+    { -1,                ""     }, /* 20 */
+    { -1,                ""     },
+    { -1,                ""     },
+    { -1,                ""     },
+    { -1,                ""     },
+    { -1,                ""     }, /* 25 */
+    { -1,                ""     },
+    { -1,                ""     },
+    { -1,                ""     },
+    { -1,                ""     },
+    { SECT_EMPTY,        " "    }, /* 30 */
+    { SECT_STRANGE,      "@R?"  },
+    { SECT_HERE,         "@B@"  },
 };
 
 
@@ -193,237 +193,263 @@ static int door_offsets[10][2] ={ {-1, 0},{ 0, 1},{ 1, 0},{ 0, -1},{ -1, 1},{ 1,
 static int door_marks[10] = { DOOR_NS, DOOR_EW, DOOR_NS, DOOR_EW, DOOR_UP, DOOR_DOWN, DOOR_DIAGNW, DOOR_DIAGNE, DOOR_DIAGNW, DOOR_DIAGNE}; 
 int vdoor_marks[4] = { VDOOR_NS, VDOOR_EW, VDOOR_NS, VDOOR_EW };
 
-bool can_see_map(struct char_data *ch) {
-  /* Is the map funcionality disabled? */
-  if (CONFIG_MAP == MAP_OFF)
-    return FALSE;
-  else if ((CONFIG_MAP == MAP_IMM_ONLY) && (GET_LEVEL(ch) < ADMLVL_IMMORT))
-    return FALSE;
+bool can_see_map(struct char_data *ch)
+{
+    /* Is the map funcionality disabled? */
+    if (CONFIG_MAP == MAP_OFF)
+        return FALSE;
+    else if ((CONFIG_MAP == MAP_IMM_ONLY) && (GET_LEVEL(ch) < ADMLVL_IMMORT))
+        return FALSE;
 
-  return TRUE;
+    return TRUE;
 }
 
 /* MapArea function - create the actual map */
 void MapArea(room_rnum room, struct char_data *ch, int x, int y, int min, int max, sh_int xpos, sh_int ypos, bool worldmap)
 {
-  room_rnum prospect_room;
-  struct room_direction_data *pexit;
-  int door, ew_size=0, ns_size=0, x_exit_pos=0, y_exit_pos=0;
-  sh_int prospect_xpos, prospect_ypos;
+    room_rnum prospect_room;
+    struct room_direction_data *pexit;
+    int door, ew_size = 0, ns_size = 0, x_exit_pos = 0, y_exit_pos = 0;
+    sh_int prospect_xpos, prospect_ypos;
 
-  if (map[x][y] < 0)
-    return; /* this is a door */
+    if (map[x][y] < 0)
+        return; /* this is a door */
 
-  /* marks the room as visited */
-  if(room == IN_ROOM(ch))
-    map[x][y] = SECT_HERE;
-  else
-    map[x][y] = SECT(room);
+    /* marks the room as visited */
+    if(room == IN_ROOM(ch))
+        map[x][y] = SECT_HERE;
+    else
+        map[x][y] = SECT(room);
 
-  if ( (x < min) || ( y < min) || ( x > max ) || ( y > max) ) return;
+    if ( (x < min) || ( y < min) || ( x > max ) || ( y > max) ) return;
 
-  /* Check for exits */
-  for ( door = 0; door < MAX_MAP_DIR; door++ ) {
+    /* Check for exits */
+    for ( door = 0; door < MAX_MAP_DIR; door++ )
+    {
 
-    if( door < MAX_MAP_FOLLOW &&
-        xpos+door_offsets[door][0] >= 0 &&
-        xpos+door_offsets[door][0] <= ns_size &&
-        ypos+door_offsets[door][1] >= 0 &&
-        ypos+door_offsets[door][1] <= ew_size)
-    { /* Virtual exit */
+        if( door < MAX_MAP_FOLLOW &&
+                xpos + door_offsets[door][0] >= 0 &&
+                xpos + door_offsets[door][0] <= ns_size &&
+                ypos + door_offsets[door][1] >= 0 &&
+                ypos + door_offsets[door][1] <= ew_size)
+        {
+            /* Virtual exit */
 
-      map[x+door_offsets[door][0]][y+door_offsets[door][1]] = vdoor_marks[door] ;
-      if (map[x+offsets[door][0]][y+offsets[door][1]] == SECT_EMPTY )
-        MapArea(room,ch,x + offsets[door][0], y + offsets[door][1], min, max, xpos+door_offsets[door][0], ypos+door_offsets[door][1], worldmap);
-      continue;
+            map[x + door_offsets[door][0]][y + door_offsets[door][1]] = vdoor_marks[door] ;
+            if (map[x + offsets[door][0]][y + offsets[door][1]] == SECT_EMPTY )
+                MapArea(room, ch, x + offsets[door][0], y + offsets[door][1], min, max, xpos + door_offsets[door][0], ypos + door_offsets[door][1], worldmap);
+            continue;
+        }
+
+        if ( (pexit = world[room].dir_option[door]) > 0  &&
+                (pexit->to_room > 0 ) && (pexit->to_room != NOWHERE) &&
+                (!IS_SET(pexit->exit_info, EX_CLOSED)))   /* A real exit */
+        {
+
+            /* But is the door here... */
+            switch (door)
+            {
+            case NORTH:
+                if(xpos > 0 || ypos != y_exit_pos) continue;
+                break;
+            case SOUTH:
+                if(xpos < ns_size || ypos != y_exit_pos) continue;
+                break;
+            case EAST:
+                if(ypos < ew_size || xpos != x_exit_pos) continue;
+                break;
+            case WEST:
+                if(ypos > 0 || xpos != x_exit_pos) continue;
+                break;
+            case NORTHWEST:
+                if(xpos > 0 || ypos != y_exit_pos || ypos > 0 || xpos != x_exit_pos) continue;
+                break;
+            case NORTHEAST:
+                if(xpos > 0 || ypos != y_exit_pos || ypos < ew_size || xpos != x_exit_pos) continue;
+                break;
+            case SOUTHEAST:
+                if(xpos < ns_size || ypos != y_exit_pos || ypos < ew_size || xpos != x_exit_pos) continue;
+                break;
+            case SOUTHWEST:
+                if(xpos < ns_size || ypos != y_exit_pos || ypos > 0 || xpos != x_exit_pos) continue;
+                break;
+            }
+
+
+            /*     if ( (x < min) || ( y < min) || ( x > max ) || ( y > max) ) return;*/
+            prospect_room = pexit->to_room;
+
+            /* one way into area OR maze */
+            if ( world[prospect_room].dir_option[rev_dir[door]] &&
+                    world[prospect_room].dir_option[rev_dir[door]]->to_room != room)
+            {
+                map[x][y] = SECT_STRANGE;
+                return;
+            }
+
+            if(!worldmap)
+            {
+                if ((map[x + door_offsets[door][0]][y + door_offsets[door][1]] == DOOR_NONE) ||
+                        (map[x + door_offsets[door][0]][y + door_offsets[door][1]] == SECT_EMPTY)  )
+                {
+                    map[x + door_offsets[door][0]][y + door_offsets[door][1]] = door_marks[door];
+                }
+                else
+                {
+                    if ( ((door == NORTHEAST) && (map[x + door_offsets[door][0]][y + door_offsets[door][1]] == DOOR_UP)) ||
+                            ((door == UP) && (map[x + door_offsets[door][0]][y + door_offsets[door][1]] == DOOR_DIAGNE))  )
+                    {
+                        map[x + door_offsets[door][0]][y + door_offsets[door][1]] = DOOR_UP_AND_NE;
+                    }
+                    else if ( ((door == SOUTHEAST) && (map[x + door_offsets[door][0]][y + door_offsets[door][1]] == DOOR_DOWN)) ||
+                              ((door == DOWN) && (map[x + door_offsets[door][0]][y + door_offsets[door][1]] == DOOR_DIAGNW))  )
+                    {
+                        map[x + door_offsets[door][0]][y + door_offsets[door][1]] = DOOR_DOWN_AND_SE;
+                    }
+                }
+            }
+
+            prospect_xpos = prospect_ypos = 0;
+            switch (door)
+            {
+            case NORTH:
+                prospect_xpos = ns_size;
+            case SOUTH:
+                prospect_ypos = world[prospect_room].dir_option[rev_dir[door]] ? y_exit_pos : ew_size / 2;
+                break;
+            case WEST:
+                prospect_ypos = ew_size;
+            case EAST:
+                prospect_xpos = world[prospect_room].dir_option[rev_dir[door]] ? x_exit_pos : ns_size / 2;
+                break;
+            case NORTHEAST:
+            case NORTHWEST:
+            case SOUTHEAST:
+            case SOUTHWEST:
+                prospect_xpos = world[prospect_room].dir_option[rev_dir[door]] ? x_exit_pos : ns_size / 2;
+                prospect_ypos = world[prospect_room].dir_option[rev_dir[door]] ? y_exit_pos : ew_size / 2;
+                break;
+            }
+
+            if(worldmap)
+            {
+                if ( door < MAX_MAP_FOLLOW && map[x + offsets_worldmap[door][0]][y + offsets_worldmap[door][1]] == SECT_EMPTY )
+                    MapArea(pexit->to_room, ch, x + offsets_worldmap[door][0], y + offsets_worldmap[door][1], min, max, prospect_xpos, prospect_ypos, worldmap);
+            }
+            else
+            {
+                if ( door < MAX_MAP_FOLLOW && map[x + offsets[door][0]][y + offsets[door][1]] == SECT_EMPTY )
+                    MapArea(pexit->to_room, ch, x + offsets[door][0], y + offsets[door][1], min, max, prospect_xpos, prospect_ypos, worldmap);
+            }
+        } /* end if exit there */
     }
-
-    if ( (pexit = world[room].dir_option[door]) > 0  &&
-         (pexit->to_room > 0 ) && (pexit->to_room != NOWHERE) &&
-         (!IS_SET(pexit->exit_info, EX_CLOSED))) { /* A real exit */
-
-      /* But is the door here... */
-      switch (door) {
-      case NORTH:
-        if(xpos > 0 || ypos!=y_exit_pos) continue;
-	break;
-      case SOUTH:
-        if(xpos < ns_size || ypos!=y_exit_pos) continue;
-	break;
-      case EAST:
-        if(ypos < ew_size || xpos!=x_exit_pos) continue;
-	break;
-      case WEST:
-        if(ypos > 0 || xpos!=x_exit_pos) continue;
-	break;
-      case NORTHWEST:
-        if(xpos > 0 || ypos!=y_exit_pos || ypos > 0 || xpos!=x_exit_pos) continue;
-      break;
-      case NORTHEAST:
-        if(xpos > 0 || ypos!=y_exit_pos || ypos < ew_size || xpos!=x_exit_pos) continue;
-      break;
-      case SOUTHEAST:
-        if(xpos < ns_size || ypos!=y_exit_pos || ypos < ew_size || xpos!=x_exit_pos) continue;
-      break;
-      case SOUTHWEST:
-        if(xpos < ns_size || ypos!=y_exit_pos || ypos > 0 || xpos!=x_exit_pos) continue;
-      break; 
-      }
-
-
- /*     if ( (x < min) || ( y < min) || ( x > max ) || ( y > max) ) return;*/
-      prospect_room = pexit->to_room;
-
-        /* one way into area OR maze */
-        if ( world[prospect_room].dir_option[rev_dir[door]] &&
-             world[prospect_room].dir_option[rev_dir[door]]->to_room != room) {
-          map[x][y] = SECT_STRANGE;
-        return;
-        }
-
-      if(!worldmap) {
-        if ((map[x+door_offsets[door][0]][y+door_offsets[door][1]] == DOOR_NONE) ||
-            (map[x+door_offsets[door][0]][y+door_offsets[door][1]] == SECT_EMPTY)  ) {
-          map[x+door_offsets[door][0]][y+door_offsets[door][1]] = door_marks[door];
-        } else {
-          if ( ((door == NORTHEAST) && (map[x+door_offsets[door][0]][y+door_offsets[door][1]] == DOOR_UP)) ||
-               ((door == UP) && (map[x+door_offsets[door][0]][y+door_offsets[door][1]] == DOOR_DIAGNE))  ) {
-             map[x+door_offsets[door][0]][y+door_offsets[door][1]] = DOOR_UP_AND_NE;
-          }
-          else if ( ((door == SOUTHEAST) && (map[x+door_offsets[door][0]][y+door_offsets[door][1]] == DOOR_DOWN)) ||
-                    ((door == DOWN) && (map[x+door_offsets[door][0]][y+door_offsets[door][1]] == DOOR_DIAGNW))  ) {
-            map[x+door_offsets[door][0]][y+door_offsets[door][1]] = DOOR_DOWN_AND_SE;
-          }
-        }
-      } 
-
-      prospect_xpos = prospect_ypos = 0;
-      switch (door) {
-      case NORTH:
-        prospect_xpos = ns_size;
-      case SOUTH:
-        prospect_ypos = world[prospect_room].dir_option[rev_dir[door]] ? y_exit_pos : ew_size/2;
-      break;
-      case WEST:
-        prospect_ypos = ew_size;
-      case EAST:
-        prospect_xpos = world[prospect_room].dir_option[rev_dir[door]] ? x_exit_pos : ns_size/2;
-      break;
-      case NORTHEAST:
-      case NORTHWEST:
-      case SOUTHEAST:
-      case SOUTHWEST:
-        prospect_xpos = world[prospect_room].dir_option[rev_dir[door]] ? x_exit_pos : ns_size/2;
-        prospect_ypos = world[prospect_room].dir_option[rev_dir[door]] ? y_exit_pos : ew_size/2;
-      break; 
-      }
-
-      if(worldmap) {
-	if ( door < MAX_MAP_FOLLOW && map[x+offsets_worldmap[door][0]][y+offsets_worldmap[door][1]] == SECT_EMPTY )
-	  MapArea(pexit->to_room,ch,x + offsets_worldmap[door][0], y + offsets_worldmap[door][1], min, max, prospect_xpos, prospect_ypos, worldmap);
-      } else {
-	if ( door < MAX_MAP_FOLLOW && map[x+offsets[door][0]][y+offsets[door][1]] == SECT_EMPTY )
-	  MapArea(pexit->to_room,ch,x + offsets[door][0], y + offsets[door][1], min, max, prospect_xpos, prospect_ypos, worldmap);
-      }
-    } /* end if exit there */
-  }
-  return;
+    return;
 }
 
 /* Returns a string representation of the map */
 char *StringMap(int centre, int size)
 {
-  static char strmap[MAX_MAP*MAX_MAP*11 + MAX_MAP*2 + 1];
-  char *mp = strmap;
-  char *tmp;
-  int x, y;
+    static char strmap[MAX_MAP * MAX_MAP * 11 + MAX_MAP * 2 + 1];
+    char *mp = strmap;
+    char *tmp;
+    int x, y;
 
-  /* every row */
-  for (x = centre - CANVAS_HEIGHT/2; x <= centre + CANVAS_HEIGHT/2; x++) {
-    /* every column */
-    for (y = centre - CANVAS_WIDTH/6; y <= centre + CANVAS_WIDTH/6; y++) {
-      if (abs(centre - x)<=size && abs(centre-y)<=size)
-        tmp = (map[x][y]<0) ? \
-	      door_info[NUM_DOOR_TYPES + map[x][y]].disp : \
-	      map_info[map[x][y]].disp ;
-      else
-	tmp = map_info[SECT_EMPTY].disp;
-      strcpy(mp, tmp);
-      mp += strlen(tmp);
+    /* every row */
+    for (x = centre - CANVAS_HEIGHT / 2; x <= centre + CANVAS_HEIGHT / 2; x++)
+    {
+        /* every column */
+        for (y = centre - CANVAS_WIDTH / 6; y <= centre + CANVAS_WIDTH / 6; y++)
+        {
+            if (abs(centre - x) <= size && abs(centre - y) <= size)
+                tmp = (map[x][y] < 0) ? \
+                door_info[NUM_DOOR_TYPES + map[x][y]].disp : \
+                map_info[map[x][y]].disp ;
+            else
+                tmp = map_info[SECT_EMPTY].disp;
+            strcpy(mp, tmp);
+            mp += strlen(tmp);
+        }
+        strcpy(mp, "\r\n");
+        mp += 2;
     }
-    strcpy(mp, "\r\n");
-    mp+=2;
-  }
-  *mp='\0';
-  return strmap;
+    *mp = '\0';
+    return strmap;
 }
 
 char *WorldMap(int centre, int size, int mapshape, int maptype )
 {
-  static char strmap[MAX_MAP*MAX_MAP*4 + MAX_MAP*2 + 1];
-  char *mp = strmap;
-  int x, y;
-  int xmin, xmax, ymin, ymax;
+    static char strmap[MAX_MAP * MAX_MAP * 4 + MAX_MAP * 2 + 1];
+    char *mp = strmap;
+    int x, y;
+    int xmin, xmax, ymin, ymax;
 
-  switch(maptype) {
+    switch(maptype)
+    {
     case MAP_COMPACT:
-      xmin = centre - size;
-      xmax = centre + size;
-      ymin = centre - 2*size;
-      ymax = centre + 2*size;
-      break;
+        xmin = centre - size;
+        xmax = centre + size;
+        ymin = centre - 2 * size;
+        ymax = centre + 2 * size;
+        break;
     default:
-      xmin = centre - CANVAS_HEIGHT/2;
-      xmax = centre + CANVAS_HEIGHT/2;
-      ymin = centre - CANVAS_WIDTH/2;
-      ymax = centre + CANVAS_WIDTH/2;
-  }
-
-
-  /* every row */
-  /* for (x = centre - size; x <= centre + size; x++) { */
-  for (x = xmin; x <= xmax; x++) {
-    /* every column */
-    /* for (y = centre - (2*size) ; y <= centre + (2*size) ; y++) {  */
-    for (y = ymin ; y <= ymax ; y++) {
-
-      if((mapshape == MAP_RECTANGLE && abs(centre - y) <= size*2  && abs(centre - x) <= size ) ||
-	  ((mapshape == MAP_CIRCLE) && (centre-x)*(centre-x) + (centre-y)*(centre-y)/4 <= (size * size + 1))) {
-        strcpy(mp, world_map_info[map[x][y]].disp);
-        mp += strlen(world_map_info[map[x][y]].disp);
-      } else {
-	strcpy(mp++, " ");
-      }
+        xmin = centre - CANVAS_HEIGHT / 2;
+        xmax = centre + CANVAS_HEIGHT / 2;
+        ymin = centre - CANVAS_WIDTH / 2;
+        ymax = centre + CANVAS_WIDTH / 2;
     }
-    strcpy(mp, "@n\r\n");
-    mp+=4;
-  }
-  *mp='\0';
-  return strmap;
+
+
+    /* every row */
+    /* for (x = centre - size; x <= centre + size; x++) { */
+    for (x = xmin; x <= xmax; x++)
+    {
+        /* every column */
+        /* for (y = centre - (2*size) ; y <= centre + (2*size) ; y++) {  */
+        for (y = ymin ; y <= ymax ; y++)
+        {
+
+            if((mapshape == MAP_RECTANGLE && abs(centre - y) <= size * 2  && abs(centre - x) <= size ) ||
+                    ((mapshape == MAP_CIRCLE) && (centre - x) * (centre - x) + (centre - y) * (centre - y) / 4 <= (size * size + 1)))
+            {
+                strcpy(mp, world_map_info[map[x][y]].disp);
+                mp += strlen(world_map_info[map[x][y]].disp);
+            }
+            else
+            {
+                strcpy(mp++, " ");
+            }
+        }
+        strcpy(mp, "@n\r\n");
+        mp += 4;
+    }
+    *mp = '\0';
+    return strmap;
 }
 
 char *CompactStringMap(int centre, int size)
 {
-  static char strmap[MAX_MAP*MAX_MAP*12 + MAX_MAP*2 + 1];
-  char *mp = strmap;
-  int x, y;
+    static char strmap[MAX_MAP * MAX_MAP * 12 + MAX_MAP * 2 + 1];
+    char *mp = strmap;
+    int x, y;
 
-  /* every row */
-  for (x = centre - size; x <= centre + size; x++) {
-    /* every column */
-    for (y = centre - size; y <= centre + size; y++) {
-      strcpy(mp, (map[x][y]<0) ? \
-	      compact_door_info[NUM_DOOR_TYPES + map[x][y]].disp : \
-	      map_info[map[x][y]].disp);
-      mp += strlen((map[x][y]<0) ? \
-	      compact_door_info[NUM_DOOR_TYPES + map[x][y]].disp : \
-	      map_info[map[x][y]].disp);
+    /* every row */
+    for (x = centre - size; x <= centre + size; x++)
+    {
+        /* every column */
+        for (y = centre - size; y <= centre + size; y++)
+        {
+            strcpy(mp, (map[x][y] < 0) ? \
+                   compact_door_info[NUM_DOOR_TYPES + map[x][y]].disp : \
+                   map_info[map[x][y]].disp);
+            mp += strlen((map[x][y] < 0) ? \
+                         compact_door_info[NUM_DOOR_TYPES + map[x][y]].disp : \
+                         map_info[map[x][y]].disp);
+        }
+        strcpy(mp, "\r\n");
+        mp += 2;
     }
-    strcpy(mp, "\r\n");
-    mp+=2;
-  }
-  *mp='\0';
-  return strmap;
+    *mp = '\0';
+    return strmap;
 }
 
 /* Display a nicely formatted map with a legend */
@@ -540,11 +566,11 @@ void perform_map( struct char_data *ch, char *argument, bool worldmap )
 void str_and_map(char *str, struct char_data *ch ) 
 {
     int size, centre, x, y, min, max, char_size;
-    int ew_size=0, ns_size=0;
+    int ew_size = 0, ns_size = 0;
     bool worldmap;
 
     /* Check MUDs map config options - if disabled, just show room decsription */
-    if (!can_see_map(ch)) 
+    if (!can_see_map(ch))
     {
         send_to_char(ch, "%s", strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch)), 1, FALSE, FALSE, FALSE));
         return;
@@ -552,39 +578,39 @@ void str_and_map(char *str, struct char_data *ch )
 
     worldmap = ROOM_FLAGGED(IN_ROOM(ch), ROOM_WORLDMAP) ? TRUE : FALSE ;
 
-    if(ch && ch != NULL && !PRF_FLAGGED(ch, PRF_AUTOMAP)) 
+    if(ch && ch != NULL && !PRF_FLAGGED(ch, PRF_AUTOMAP))
     {
         send_to_char(ch, "%s", strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch)), 1, FALSE, FALSE, FALSE));
         return;
     }
 
     size = CONFIG_MINIMAP_SIZE;
-    centre = MAX_MAP/2;
-    min = centre - 2*size;
-    max = centre + 2*size;
+    centre = MAX_MAP / 2;
+    min = centre - 2 * size;
+    max = centre + 2 * size;
 
     for (x = 0; x < MAX_MAP; ++x)
     {
         for (y = 0; y < MAX_MAP; ++y)
         {
-            map[x][y]= (!(y%2) && !worldmap) ? DOOR_NONE : SECT_EMPTY;
+            map[x][y] = (!(y % 2) && !worldmap) ? DOOR_NONE : SECT_EMPTY;
         }
     }
 
     /* starts the mapping with the center room */
-    MapArea(IN_ROOM(ch), ch, centre, centre, min, max, ns_size/2, ew_size/2, worldmap );
+    MapArea(IN_ROOM(ch), ch, centre, centre, min, max, ns_size / 2, ew_size / 2, worldmap );
     map[centre][centre] = SECT_HERE;
 
     /* char_size = rooms + doors + padding */
     if(worldmap)
         char_size = size * 4 + 5;
     else
-        char_size = 3*(size+1) + (size) + 4;
+        char_size = 3 * (size + 1) + (size) + 4;
 
     if(worldmap)
-        send_to_char(ch, "%s", strpaste(strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch) - char_size), size*2 + 1, FALSE, TRUE, TRUE), WorldMap(centre, size, MAP_CIRCLE, MAP_COMPACT), "   "));
+        send_to_char(ch, "%s", strpaste(strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch) - char_size), size * 2 + 1, FALSE, TRUE, TRUE), WorldMap(centre, size, MAP_CIRCLE, MAP_COMPACT), "   "));
     else
-        send_to_char(ch, "%s", strpaste(strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch) - char_size), size*2 + 1, FALSE, TRUE, TRUE), CompactStringMap(centre, size), "   "));
+        send_to_char(ch, "%s", strpaste(strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch) - char_size), size * 2 + 1, FALSE, TRUE, TRUE), CompactStringMap(centre, size), "   "));
 
 }
 
