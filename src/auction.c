@@ -23,28 +23,33 @@ void auction_add(int price, char *seller, long idnum, long date_sold, int active
 SPECIAL(auction_house_old)
 {
 
-  if (!CMD_IS("list") && !CMD_IS("buy") && !CMD_IS("sell") && !CMD_IS("try"))
-    return 0;
+    if (!CMD_IS("list") && !CMD_IS("buy") && !CMD_IS("sell") && !CMD_IS("try"))
+        return 0;
 
-  if (CMD_IS("list")) {
+    if (CMD_IS("list"))
+    {
 
-  }
+    }
 
-  if (!auction_list) {
-    send_to_char(ch, "There is nothing for sale on the auction house right now.\r\n");
+    if (!auction_list)
+    {
+        send_to_char(ch, "There is nothing for sale on the auction house right now.\r\n");
+        return 1;
+    }
+
+    if (CMD_IS("buy"))
+    {
+
+    }
+    else if (CMD_IS("sell"))
+    {
+
+    }
+    else if (CMD_IS("try"))
+    {
+
+    }
     return 1;
-  }
-
-  if (CMD_IS("buy")) {
-
-  }
-  else if (CMD_IS("sell")) {
-
-  }
-  else if (CMD_IS("try")) {
-
-  }
-  return 1;
 }
 
 void load_auction_house(void) 
@@ -285,26 +290,28 @@ void load_auction_house(void)
 
 void save_auction_house(void) 
 {
-  char filename[50]={'\0'};
-  FILE *fl;
-  struct auction_house_data *ptr = NULL;
+    char filename[50] = {'\0'};
+    FILE *fl;
+    struct auction_house_data *ptr = NULL;
 
-  sprintf(filename, "%s", AUCTION_FILE);
+    sprintf(filename, "%s", AUCTION_FILE);
 
-  if (!(fl = fopen(filename, "wb"))) {
-    return;
-  }
+    if (!(fl = fopen(filename, "wb")))
+    {
+        return;
+    }
 
-  ptr = auction_list;
+    ptr = auction_list;
 
-  while (ptr != NULL) {
-    my_obj_save_to_disk(fl, ptr->obj, 0);
-    fprintf(fl, "%d %s %ld %ld %d\n", ptr->price, ptr->seller, ptr->idnum,
-            (long int)ptr->date_sold, ptr->active);
-    ptr = ptr->next;
-  }
+    while (ptr != NULL)
+    {
+        my_obj_save_to_disk(fl, ptr->obj, 0);
+        fprintf(fl, "%d %s %ld %ld %d\n", ptr->price, ptr->seller, ptr->idnum,
+                (long int)ptr->date_sold, ptr->active);
+        ptr = ptr->next;
+    }
 
-  fclose(fl);
+    fclose(fl);
 }
 
 void auction_add(int price, char *seller, long idnum, long date_sold, int active)
