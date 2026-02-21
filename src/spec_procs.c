@@ -4405,7 +4405,19 @@ SPECIAL(crafting_station)
         {
             char buf_brand[MAX_STRING_LENGTH] = {'\0'};
 
-            sprintf(buf_brand, "This also bears the mark of %s", ch->name);
+            if (created->description && strlen(created->description) > 0)
+            {
+                // Append to existing description
+                sprintf(buf_brand, "%s This item bears the mark of %s.", created->description, GET_NAME(ch));
+
+                free(created->description); /* Free the old description. */
+            }
+            else
+            {
+                // No existing description, create a new one.
+                sprintf(buf_brand, "This also bears the mark of %s", ch->name);
+
+            }
 
             created->description = strdup(buf_brand);
         }
