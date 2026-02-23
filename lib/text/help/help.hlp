@@ -5678,8 +5678,7 @@ BLAST SHOOT RANGED-WEAPONS FIRE-WEAPONS BOWS QUIVERS MISSILES GUNS FIREARMS AMMO
 See @RTRIG-EXAMPLES@n
 
 #1
-TRIG-EXAMPLES ASSEMBLIES ASSEMBLE ASSEMBLY VEHICLES MAKE BAKE BREW CRAFT FLETCH KNIT MIX THATCH WEAVE ASSEDIT FORGE SMOKE SMOKING CIGARS CIGARETTES PIPES 
-SHOTGUN TRIGEDIT-EXAMPLES
+TRIG-EXAMPLES VEHICLES SMOKE SMOKING CIGARS CIGARETTES PIPES SHOTGUN TRIGEDIT-EXAMPLES
 
    The above list of skills are not implemented since the same thing can be done with trigedit.
 
@@ -14666,7 +14665,8 @@ Half Elf
 #0
 RACE-DWARF RACE-DWARVES
 ----------------[ DWARF ]----------------
-Dwarves are a stoic but stern race, ensconced in cities carved from the hearts of mountains and fiercely determined to repel the depredations of savage races like orcs and goblins. More than any other race, dwarves have acquired a reputation as dour and humorless artisans of the earth. It could be said that their history shapes the dark disposition of many dwarves, for they reside in high mountains and dangerous realms below the earth, constantly at war with giants, goblins, and other such horrors.
+Dwarves are a stoic but stern race, ensconced in cities carved from the hearts of mountains and fiercely determined to repel the depredations of savage races like orcs and goblins. More than any other race, dwarves have acquired a reputation as dour and 
+umorless artisans of the earth. It could be said that their history shapes the dark disposition of many dwarves, for they reside in high mountains and dangerous realms below the earth, constantly at war with giants, goblins, and other such horrors.
 #0
 GNOME
 
@@ -20420,27 +20420,6 @@ TRIGEDIT-ARRAYS ARRAYS TRIG-ARRAYS
 @RTSTAT 150, 41005, 1325@n
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#0
-ASSEMBLIES ASSEMBLE MAKE BAKE BREW CRAFT FLETCH KNIT MIX THATCH WEAVE ASSEDIT FORGE
-See Help custom
 #0
 DG_AFFECTS
 
@@ -20452,24 +20431,6 @@ dg_affect %actor% maxhit 100 20  -- Sets maxhit on actor +100 for 20 hours.
 
 Example: @RTSTAT 1382@n
 See also: APPLIES, AFFECTIONS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #0
@@ -35013,6 +34974,8 @@ Empty
 #0
 RESIZE
 
+Syntax: resize <item name>
+
 You may resize any weapon, armor or shield to be larger or smaller.  Large
 races may need to resize some armor to fit them, and weapons can be resized to
 alter both their damage and their eligibility for certain feats such as weapon
@@ -35027,6 +34990,14 @@ and then I would put in enough steel to compensate for the new size I want, whic
 in this case is large, and then I type 'resize large'.  The resizing process would
 then begin and a few short moments later, the newly resized longsword +1 would appear
 in my inventory.
+
+Example:
+  resize chainmail
+  resize boots
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, CRAFT, FORGE
 
 #0
 RACE-NEIDAR-DWARF
@@ -36474,5 +36445,376 @@ Empty
 #0
 UNDEFINED
 Empty
+#0
+APPROVE REJECT
+Command: APPROVE / REJECT
+Syntax:
+  approve
+  approve <player>
+  reject <player> <reason>
+Description:
+  The 'approve' command allows an administrator to review and approve
+  player characters who are pending approval. Players must be approved
+  before they can fully participate in the world.
+  Typing 'approve' with no arguments will show a formatted list of all
+  players currently awaiting approval.
+  'approve <player>' approves the named player, logging the action.
+  'reject <player> <reason>' rejects the player's description or concept.
+  The player will receive the specified reason, and their approval flag
+  will be reset. Use clear and constructive reasons for rejections.
+Examples:
+  approve
+  approve Elenor
+  reject Darkfang "Incomplete background story"
+
+#0
+ASSEMBLIES
+
+Assemblies allow you to combine multiple items to create new items using various
+crafting commands. You must have the required component items either in your
+inventory or in the room (depending on the recipe).
+
+Available crafting commands:
+  ASSEMBLE, BAKE, BREW, CRAFT, FLETCH, FORGE, KNIT, MIX, TAN, THATCH, WEAVE
+  DISENCHANT, DIVIDE, MINE, RESIZE, SYNTHESIZE
+
+Syntax:
+  <command> <item name>
+
+Example:
+  forge longsword
+  bake bread
+  brew healing potion
+
+Some components are consumed (extracted) when you craft, while others (like
+tools) remain for future use. Some items must be in your inventory, while
+others need to be in the room with you.
+
+See also: ASSEMBLE, BAKE, BREW, CRAFT, FLETCH, FORGE, KNIT, MIX, TAN, THATCH,
+          WEAVE, DISENCHANT, DIVIDE, MINE, RESIZE, SYNTHESIZE
+#0
+ASSEMBLE
+
+Syntax: assemble <item name>
+
+The assemble command allows you to put together mechanical or constructed items
+from their component parts. You must have all required components either in
+your inventory or in the room, depending on the assembly recipe.
+
+Example:
+  assemble crossbow
+  assemble wooden shield
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, CRAFT
+#0
+BAKE
+
+Syntax: bake <item name>
+
+The bake command allows you to create baked goods from ingredients. You must
+have all required ingredients and typically need access to an oven or heat
+source (which should be in the room).
+
+Example:
+  bake bread
+  bake cake
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, BREW, COOK
+#0
+BREW
+
+Syntax: brew <item name>
+
+The brew command allows you to create potions, elixirs, and brewed beverages
+from ingredients. You must have all required components, and may need brewing
+equipment in the room.
+
+Example:
+  brew healing potion
+  brew ale
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, BAKE, MIX
+#0
+CRAFT
+
+Syntax: craft <item name>
+
+The craft command allows you to create general crafted items from raw materials.
+This is a versatile command used for creating various tools, items, and goods.
+You must have all required materials either in your inventory or in the room.
+
+Example:
+  craft leather belt
+  craft wooden staff
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, ASSEMBLE, FORGE
+#0
+FLETCH
+
+Syntax: fletch <item name>
+
+The fletch command allows you to create arrows, bolts, and other ammunition
+from wood, feathers, and other materials. You must have all required components
+in your inventory or in the room.
+
+Example:
+  fletch arrow
+  fletch crossbow bolt
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, CRAFT
+#0
+FORGE
+
+Syntax: forge <item name>
+
+The forge command allows you to create metal weapons, armor, and items from
+metal ingots and materials. You typically need access to a forge (in the room)
+along with the raw materials.
+
+Example:
+  forge longsword
+  forge chainmail
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, CRAFT, SMITH
+#0
+KNIT
+
+Syntax: knit <item name>
+
+The knit command allows you to create knitted or woven fabric items from yarn,
+thread, or other materials. You must have all required materials and may need
+knitting tools.
+
+Example:
+  knit wool cloak
+  knit scarf
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, WEAVE, THATCH
+#0
+MIX
+
+Syntax: mix <item name>
+
+The mix command allows you to combine ingredients to create mixtures, compounds,
+and alchemical substances. You must have all required components either in your
+inventory or in the room.
+
+Example:
+  mix healing salve
+  mix alchemical fire
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, BREW, SYNTHESIZE
+#0
+TAN
+
+Syntax: tan <item name>
+
+The tan command allows you to process hides and leather materials to create
+leather goods and armor. You must have the required hides and may need tanning
+equipment or facilities.
+
+Example:
+  tan leather armor
+  tan hide
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, CRAFT
+#0
+THATCH
+
+Syntax: thatch <item name>
+
+The thatch command allows you to weave together grasses, reeds, or straw to
+create thatched items and materials. You must have all required components.
+
+Example:
+  thatch roof material
+  thatch basket
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, WEAVE, KNIT
+#0
+WEAVE
+
+Syntax: weave <item name>
+
+The weave command allows you to create woven fabrics and items from threads,
+fibers, or other materials. You may need a loom or weaving tools (in the room).
+
+Example:
+  weave cloth
+  weave rope
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, KNIT, THATCH
+#0
+DISENCHANT
+
+Syntax: disenchant <item name>
+
+The disenchant command allows you to extract magical essences from enchanted
+items. This process typically destroys the original item but yields valuable
+magical components for future crafting.
+
+Example:
+  disenchant flaming sword
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, SYNTHESIZE, ENCHANT
+#0
+SYNTHESIZE
+
+Syntax: synthesize <item name>
+
+The synthesize command allows you to create magical essences and components
+from gems, crystals, and other rare materials. These essences can be used in
+enchanting and magical item creation.
+
+Example:
+  synthesize fire essence
+  synthesize mana crystal
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, DISENCHANT, MIX
+#0
+DIVIDE
+
+Syntax: divide <item name>
+
+The divide command allows you to split certain items or materials into smaller
+portions or separate components.
+
+Example:
+  divide ore pile
+  divide reagents
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, CRAFT
+#0
+MINE
+
+Syntax: mine <item name>
+
+The mine command allows you to extract ores and minerals from mining nodes or
+resource locations. You typically need mining tools and must be in an appropriate
+location.
+
+Example:
+  mine iron ore
+  mine copper
+
+The command will tell you if you're missing any required components.
+
+See also: ASSEMBLIES, HARVEST, GATHER
+#0
+"SHOW ASSEMBLIES"
+
+Syntax: show assemblies
+
+This command displays a complete list of all assemblies currently defined in
+the game. For each assembly, you'll see:
+
+  - The vnum of the created item
+  - The name of the created item
+  - The assembly type (bake, forge, craft, etc.)
+  - All component items required, including:
+    * Component vnum
+    * Component name
+    * Extract flag (whether the component is consumed)
+    * InRoom flag (whether the component must be in the room vs. inventory)
+
+Example output:
+  [60000] a steel longsword (forge)
+   64000: iron ingot           Extract=Yes InRoom=No
+   64100: forge hammer         Extract=No  InRoom=Yes
+
+This command is useful for builders to review existing recipes and plan new ones.
+
+See also: ASSEDIT, ASSEMBLIES, OEDIT
+#0
+ASSEDIT
+
+Syntax:
+  assedit new <vnum>         - Create a new assembly for an existing object
+  assedit <vnum>             - Edit an existing assembly
+  assedit delete <vnum>      - Delete an assembly
+
+The assembly editor (assedit) allows you to create and modify item assembly
+recipes. Each assembly defines how players can craft a specific item from
+component parts using one of the assembly commands (bake, forge, craft, etc.).
+
+CREATING A NEW ASSEMBLY:
+  1. First, create the object using OEDIT
+  2. Use 'assedit new <vnum>' to create the assembly
+  3. Use 'assedit <vnum>' to edit it and add components
+
+EDITING AN ASSEMBLY:
+  Once in the editor, you'll see a menu with these options:
+
+  A) Add a new component
+     - Enter the vnum of the component object
+     - Set whether it's extracted (consumed) during crafting
+     - Set whether it must be in the room (vs. inventory)
+
+  E) Edit a component
+     - Change the extract or inroom flags for existing components
+
+  D) Delete a component
+     - Remove a component from the assembly
+
+  T) Change Assembly Type
+     - Set which command is used (bake, brew, craft, forge, etc.)
+
+  Q) Quit and save
+     - Saves all changes and exits the editor
+
+COMPONENT FLAGS:
+  Extract - If YES, the component is removed from the game when crafting.
+            If NO, it acts like a tool and remains for future use.
+            
+  InRoom  - If YES, the component must be in the room with the player.
+            If NO, the component must be in the player's inventory.
+
+EXAMPLES:
+  Baking bread might need:
+    - Flour (Extract=Yes, InRoom=No) - consumed
+    - Water (Extract=Yes, InRoom=No) - consumed
+    - Oven (Extract=No, InRoom=Yes) - remains as a tool
+
+  Forging a sword might need:
+    - Iron ingot (Extract=Yes, InRoom=No) - consumed
+    - Forge (Extract=No, InRoom=Yes) - remains as facility
+    - Hammer (Extract=No, InRoom=No) - remains as tool
+
+IMPORTANT NOTES:
+  - The object must exist before you can create an assembly for it
+  - Use non-loading item zones for assembled items (recommended)
+  - Only one person can edit assemblies at a time
+  - Changes are saved to lib/etc/assemblies when you quit the editor
+  - Items with limited loading should not be used as assembly products
+
+See also: SHOW ASSEMBLIES, OEDIT, ASSEMBLIES
 #0
 $~
