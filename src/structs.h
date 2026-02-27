@@ -275,6 +275,8 @@ extern struct config_data config_info;
 #define NUM_EXIT_FLAGS 6
 
 /* Make sure to increase NUM_ROOM_SECTORS in oasis.h when adding sectors */
+/* Also need to add code to asciimap.c for it to show up in legend and on map */
+/* Code also needs to be added twice in constants.c for movement amounts and adding to sectors. */
 /* Sector types: used in room_data.sector_type */
 #define SECT_INSIDE          0       /* Indoors     */
 #define SECT_CITY            1       /* In a city     */
