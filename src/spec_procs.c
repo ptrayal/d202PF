@@ -1140,7 +1140,7 @@ SPECIAL(research)
 SPECIAL(library_small)
 {
     struct obj_data *obj;
-    int i, j, cost = 10;
+    int i, j, cost = 0;
     int spellBookFull = TRUE;
     int researchCheck = FALSE;
     bool found = FALSE;
@@ -1161,8 +1161,7 @@ SPECIAL(library_small)
                 {
                     if (spell_info[i].spell_level <= 2)
                     {
-                        for (j = 1; j < spell_info[i].class_level[CLASS_WIZARD]; j++)
-                            cost *= 3 ;
+                        cost = 100 * spell_info[i].spell_level;
                         if (GET_GOLD(ch) >= cost || GET_RESEARCH_TOKENS(ch) > 0)
                         {
                             for (obj = ch->carrying; obj && !found; obj = obj->next_content)
@@ -1192,7 +1191,7 @@ SPECIAL(library_small)
                                             continue;
                                         }
                                     }
-                                    researchCheck = ((dice(1, 20) + ability_mod_value(GET_INT(ch))) > (dice(1, 20) + spell_info[i].spell_level));
+                                    researchCheck = ((dice(1, 20) + ability_mod_value(GET_INT(ch)) + GET_SKILL(ch, SKILL_SPELLCRAFT)) >= (10 + (2 * spell_info[i].spell_level)));
                                     if (!spellBookFull && ((researchCheck) || (GET_RESEARCH_TOKENS(ch) > 0)))
                                     {
                                         obj->sbinfo[j].spellname = i;
@@ -1202,7 +1201,7 @@ SPECIAL(library_small)
                                             SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
                                         if (GET_RESEARCH_TOKENS(ch) < 1)
                                         {
-                                            GET_GOLD(ch) -= cost / 100;
+                                            GET_GOLD(ch) -= cost;
                                             send_to_char(ch, "You were charged %s %s for this research session.\r\n", change_coins(cost), MONEY_STRING);
                                         }
                                         else
@@ -1219,8 +1218,8 @@ SPECIAL(library_small)
                                     }
                                     else
                                     {
-                                        GET_GOLD(ch) -= cost / 500;
-                                        send_to_char(ch, "Your research failed, and the cost in materials was %s %s.\r\n", change_coins(cost / 5), MONEY_STRING);
+                                        GET_GOLD(ch) -= cost / 2;
+                                        send_to_char(ch, "Your research failed, and the cost in materials was %s %s. Half of your payment has been refunded.\r\n", change_coins(cost / 2), MONEY_STRING);
                                         return TRUE;
                                     }
                                 }
@@ -1266,7 +1265,7 @@ SPECIAL(library_small)
 SPECIAL(library_medium)
 {
     struct obj_data *obj;
-    int i, j, cost = 10;
+    int i, j, cost = 0;
     int spellBookFull = TRUE;
     int researchCheck = FALSE;
     bool found = FALSE;
@@ -1287,8 +1286,7 @@ SPECIAL(library_medium)
                 {
                     if (spell_info[i].spell_level <= 6)
                     {
-                        for (j = 1; j < spell_info[i].class_level[CLASS_WIZARD]; j++)
-                            cost *= 3 ;
+                        cost = 100 * spell_info[i].spell_level;
                         if (GET_GOLD(ch) >= cost || GET_RESEARCH_TOKENS(ch) > 0)
                         {
                             for (obj = ch->carrying; obj && !found; obj = obj->next_content)
@@ -1318,7 +1316,7 @@ SPECIAL(library_medium)
                                             continue;
                                         }
                                     }
-                                    researchCheck = ((dice(1, 20) + ability_mod_value(GET_INT(ch))) > (dice(1, 20) + spell_info[i].spell_level));
+                                    researchCheck = ((dice(1, 20) + ability_mod_value(GET_INT(ch)) + GET_SKILL(ch, SKILL_SPELLCRAFT)) >= (10 + (2 * spell_info[i].spell_level)));
                                     if (!spellBookFull && ((researchCheck) || (GET_RESEARCH_TOKENS(ch) > 0)))
                                     {
                                         obj->sbinfo[j].spellname = i;
@@ -1328,7 +1326,7 @@ SPECIAL(library_medium)
                                             SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
                                         if (GET_RESEARCH_TOKENS(ch) < 1)
                                         {
-                                            GET_GOLD(ch) -= cost / 100;
+                                            GET_GOLD(ch) -= cost;
                                             send_to_char(ch, "You were charged %s %s for this research session.\r\n", change_coins(cost), MONEY_STRING);
                                         }
                                         else
@@ -1345,8 +1343,8 @@ SPECIAL(library_medium)
                                     }
                                     else
                                     {
-                                        GET_GOLD(ch) -= cost / 500;
-                                        send_to_char(ch, "Your research failed, and the cost in materials was %s %s.\r\n", change_coins(cost / 5), MONEY_STRING);
+                                        GET_GOLD(ch) -= cost / 2;
+                                        send_to_char(ch, "Your research failed, and the cost in materials was %s %s. Half of your payment has been refunded.\r\n", change_coins(cost / 2), MONEY_STRING);
                                         return TRUE;
                                     }
                                 }
@@ -1392,7 +1390,7 @@ SPECIAL(library_medium)
 SPECIAL(library_large)
 {
     struct obj_data *obj;
-    int i, j, cost = 10;
+    int i, j, cost = 0;
     int spellBookFull = TRUE;
     int researchCheck = FALSE;
     bool found = FALSE;
@@ -1413,8 +1411,7 @@ SPECIAL(library_large)
                 {
                     if (spell_info[i].spell_level <= 9)
                     {
-                        for (j = 1; j < spell_info[i].class_level[CLASS_WIZARD]; j++)
-                            cost *= 3 ;
+                        cost = 100 * spell_info[i].spell_level;
                         if (GET_GOLD(ch) >= cost || GET_RESEARCH_TOKENS(ch) > 0)
                         {
                             for (obj = ch->carrying; obj && !found; obj = obj->next_content)
@@ -1444,7 +1441,7 @@ SPECIAL(library_large)
                                             continue;
                                         }
                                     }
-                                    researchCheck = ((dice(1, 20) + ability_mod_value(GET_INT(ch))) > (dice(1, 20) + spell_info[i].spell_level));
+                                    researchCheck = ((dice(1, 20) + ability_mod_value(GET_INT(ch)) + GET_SKILL(ch, SKILL_SPELLCRAFT)) >= (10 + (2 * spell_info[i].spell_level)));
                                     if (!spellBookFull && ((researchCheck) || (GET_RESEARCH_TOKENS(ch) > 0)))
                                     {
                                         obj->sbinfo[j].spellname = i;
@@ -1454,7 +1451,7 @@ SPECIAL(library_large)
                                             SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
                                         if (GET_RESEARCH_TOKENS(ch) < 1)
                                         {
-                                            GET_GOLD(ch) -= cost / 100;
+                                            GET_GOLD(ch) -= cost;
                                             send_to_char(ch, "You were charged %s %s for this research session.\r\n", change_coins(cost), MONEY_STRING);
                                         }
                                         else
@@ -1471,8 +1468,8 @@ SPECIAL(library_large)
                                     }
                                     else
                                     {
-                                        GET_GOLD(ch) -= cost / 500;
-                                        send_to_char(ch, "Your research failed, and the cost in materials was %s %s.\r\n", change_coins(cost / 5), MONEY_STRING);
+                                        GET_GOLD(ch) -= cost / 2;
+                                        send_to_char(ch, "Your research failed, and the cost in materials was %s %s. Half of your payment has been refunded.\r\n", change_coins(cost / 2), MONEY_STRING);
                                         return TRUE;
                                     }
                                 }
