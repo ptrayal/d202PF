@@ -4592,17 +4592,9 @@ void nanny(struct descriptor_data *d, char *arg)
                      trait_list[trait_num].category);
       write_to_output(d, "%s\r\n\r\n", trait_list[trait_num].description);
 
-      STATE(d) = CON_QTRAIT_CONFIRM;
-      /* Fall through to confirmation */
-    }
-    /* FALLTHROUGH */
-
-  case CON_QTRAIT_CONFIRM:
-    {
-      int i, count = 0, total = 0;
-
-      /* Display selected traits */
+      /* Display confirmation and wait for Y/N response */
       write_to_output(d, "\r\n@G========== YOUR SELECTED TRAITS ==========@n\r\n\r\n");
+      count = 0;
       for (i = 1; i <= NUM_TRAITS_DEFINED; i++) {
         if (HAS_TRAIT(d->character, i)) {
           write_to_output(d, "@Y%d.@n %s (%s)\r\n", ++count,
@@ -4614,10 +4606,14 @@ void nanny(struct descriptor_data *d, char *arg)
       write_to_output(d, "These traits are permanent and cannot be changed.\r\n");
       write_to_output(d, "Do you accept these traits? (Y/N): ");
 
-      if (STATE(d) == CON_QTRAIT_SELECT_2) {
-        /* Just finished selecting, show confirmation but wait for answer */
-        return;
-      }
+      STATE(d) = CON_QTRAIT_CONFIRM;
+      return;
+    }
+    break;
+
+  case CON_QTRAIT_CONFIRM:
+    {
+      int i, count = 0, total = 0;
 
       /* Process confirmation answer */
       skip_spaces(&arg);
