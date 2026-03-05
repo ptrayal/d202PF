@@ -69,42 +69,42 @@ make
 ## Testing Checklist
 
 ### Phase 1: Compilation Testing
-- [ ] Code compiles without errors
-- [ ] No warnings related to trait system
-- [ ] All trait functions link correctly
-- [ ] traits.o is created
+- [X] Code compiles without errors
+- [X] No warnings related to trait system
+- [X] All trait functions link correctly
+- [X] traits.o is created
 
 ### Phase 2: Boot Testing
-- [ ] MUD boots successfully
-- [ ] Check boot log for "Traits" initialization
-- [ ] Verify 55 traits are loaded
-- [ ] No errors in system log
+- [X] MUD boots successfully
+- [X] Check boot log for "Traits" initialization
+- [X] Verify 55 traits are loaded
+- [X] No errors in system log
 
 ### Phase 3: Character Creation Testing
-- [ ] Create new character
-- [ ] Verify trait selection appears after abilities
-- [ ] Select first trait from Combat category
-- [ ] Verify second selection excludes Combat category
-- [ ] Select second trait from different category
-- [ ] Try to select same category twice (should fail)
-- [ ] Confirm trait selection
-- [ ] Complete character creation
+- [X] Create new character
+- [X] Verify trait selection appears after abilities
+- [X] Select first trait from Combat category
+- [X] Verify second selection excludes Combat category
+- [X] Select second trait from different category
+- [X] Try to select same category twice (should fail)
+- [X] Confirm trait selection
+- [X] Complete character creation
 
 ### Phase 4: Persistence Testing
-- [ ] Create character with traits
-- [ ] Logout
-- [ ] Login
-- [ ] Verify traits are still present
-- [ ] Check character file has "Trai:" section
-- [ ] Verify both traits are saved
+- [X] Create character with traits
+- [X] Logout
+- [X] Login
+- [X] Verify traits are still present
+- [X] Check character file has "Trai:" section
+- [X] Verify both traits are saved
 
 ### Phase 5: Command Testing
-- [ ] Type "traits" command
-- [ ] Verify selected traits display
-- [ ] Type "traits all"
-- [ ] Verify all available traits display
-- [ ] Type "traits help"
-- [ ] Verify help text displays
+- [X] Type "traits" command
+- [X] Verify selected traits display
+- [X] Type "traits all"
+- [X] Verify all available traits display
+- [X] Type "traits help"
+- [X] Verify help text displays
 
 ### Phase 6: Effect Testing (Future Integration)
 - [ ] Reactionary trait: Test +2 initiative in combat
