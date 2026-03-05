@@ -24,6 +24,7 @@
 #include "interpreter.h"
 #include "db.h"
 #include "feats.h"
+#include "traits.h"
 #include "pets.h"
 #include "utils.h"
 #include "spells.h"
@@ -706,6 +707,7 @@ cpp_extern const struct command_info cmd_info[] = {
 //  { "farm"     , "farm"         , POS_STANDING, do_harvest  , 0, ADMLVL_NONE    , SCMD_FARM },
   { "favoredenemy", "favoreden" , POS_DEAD    , do_favoredenemy, 0, ADMLVL_NONE , 0 },
   { "feats"    , "fea"		, POS_DEAD    , do_feats    , 0, ADMLVL_NONE	, 0 },
+  { "traits"   , "tra"		, POS_DEAD    , do_traits   , 0, ADMLVL_NONE	, 0 },
   { "featset"  , "featset"      , POS_DEAD    , do_featset  , 1, ADMLVL_GRGOD	, 0 },
   { "feat_dump"     , "testdump"     , POS_DEAD    , do_feat_dump     , 0, ADMLVL_IMPL    , 0 },
   { "epic_dump"     , "epicdump"     , POS_DEAD    , do_epic_feat_dump     , 0, ADMLVL_IMPL    , 0 },
@@ -3517,8 +3519,26 @@ void nanny(struct descriptor_data *d, char *arg)
     break;
 
   case CON_LEVELUP_START:
-	  display_levelup_classes(d);
-	  STATE(d) = CON_LEVELUP_CLASSES;
+	  /* Check if level 1 and no traits selected yet */
+	  if (GET_LEVEL(d->character) == 1 && GET_TRAIT_COUNT(d->character) == 0) {
+		  write_to_output(d, "\r\n@Y==================================================@n\r\n");
+		  write_to_output(d, "@YFIRST LEVEL - TRAIT SELECTION@n\r\n");
+		  write_to_output(d, "@Y==================================================@n\r\n\r\n");
+		  write_to_output(d, "Before you level up, you must select your character traits.\r\n");
+		  write_to_output(d, "Traits represent your background and can only be chosen now.\r\n\r\n");
+		  write_to_output(d, "@Y(Press Enter to Continue)@n\r\n");
+		  STATE(d) = CON_QTRAIT_INTRO;
+	  } else {
+		  display_levelup_classes(d);
+		  STATE(d) = CON_LEVELUP_CLASSES;
+	  }
+	  break;
+
+  case CON_QTRAIT_INTRO:
+	  /* Display trait introduction and first selection */
+	  display_trait_intro(d);
+	  display_traits_by_category(d->character, TRAIT_TYPE_UNDEFINED, 1);
+	  STATE(d) = CON_QTRAIT_SELECT_1;
 	  break;
 
   case CON_LEVELUP_CLASSES:
@@ -4501,6 +4521,135 @@ void nanny(struct descriptor_data *d, char *arg)
 
   case CON_GEDIT:
     gedit_parse(d, arg);
+    break;
+
+  /* Trait Selection States */
+  case CON_QTRAIT_SELECT_1:
+    {
+      int trait_num = atoi(arg);
+
+      /* Validate trait selection */
+      if (trait_num < 1 || trait_num > NUM_TRAITS_DEFINED) {
+        write_to_output(d, "Invalid trait number. Please try again.\r\n");
+        display_traits_by_category(d->character, TRAIT_TYPE_UNDEFINED, 1);
+        return;
+      }
+
+      if (!can_select_trait(d->character, trait_num, 1)) {
+        write_to_output(d, "You cannot select that trait. Please try again.\r\n");
+        display_traits_by_category(d->character, TRAIT_TYPE_UNDEFINED, 1);
+        return;
+      }
+
+      /* Set first trait */
+      SET_TRAIT(d->character, trait_num, 1);
+      d->character->player_specials->trait_categories[0] = trait_list[trait_num].category_type;
+
+      write_to_output(d, "\r\nYou have selected: %s (%s)\r\n",
+                     trait_list[trait_num].name,
+                     trait_list[trait_num].category);
+      write_to_output(d, "%s\r\n\r\n", trait_list[trait_num].description);
+
+      /* Display second trait selection */
+      write_to_output(d, "Now select your SECOND trait (must be from a different category):\r\n\r\n");
+      display_traits_by_category(d->character, trait_list[trait_num].category_type, 2);
+      STATE(d) = CON_QTRAIT_SELECT_2;
+    }
+    break;
+
+  case CON_QTRAIT_SELECT_2:
+    {
+      int trait_num = atoi(arg);
+      byte first_cat = d->character->player_specials->trait_categories[0];
+
+      /* Validate trait selection */
+      if (trait_num < 1 || trait_num > NUM_TRAITS_DEFINED) {
+        write_to_output(d, "Invalid trait number. Please try again.\r\n");
+        display_traits_by_category(d->character, first_cat, 2);
+        return;
+      }
+
+      if (!can_select_trait(d->character, trait_num, 2)) {
+        write_to_output(d, "You cannot select that trait. Please try again.\r\n");
+        display_traits_by_category(d->character, first_cat, 2);
+        return;
+      }
+
+      /* Check category restriction */
+      if (trait_list[trait_num].category_type == first_cat) {
+        write_to_output(d, "You cannot select two traits from the same category! Please try again.\r\n");
+        display_traits_by_category(d->character, first_cat, 2);
+        return;
+      }
+
+      /* Set second trait */
+      SET_TRAIT(d->character, trait_num, 1);
+      d->character->player_specials->trait_categories[1] = trait_list[trait_num].category_type;
+      GET_TRAIT_COUNT(d->character) = 2;
+
+      write_to_output(d, "\r\nYou have selected: %s (%s)\r\n",
+                     trait_list[trait_num].name,
+                     trait_list[trait_num].category);
+      write_to_output(d, "%s\r\n\r\n", trait_list[trait_num].description);
+
+      STATE(d) = CON_QTRAIT_CONFIRM;
+      /* Fall through to confirmation */
+    }
+    /* FALLTHROUGH */
+
+  case CON_QTRAIT_CONFIRM:
+    {
+      int i, count = 0, total = 0;
+
+      /* Display selected traits */
+      write_to_output(d, "\r\n@G========== YOUR SELECTED TRAITS ==========@n\r\n\r\n");
+      for (i = 1; i <= NUM_TRAITS_DEFINED; i++) {
+        if (HAS_TRAIT(d->character, i)) {
+          write_to_output(d, "@Y%d.@n %s (%s)\r\n", ++count,
+                         trait_list[i].name, trait_list[i].category);
+          write_to_output(d, "   %s\r\n\r\n", trait_list[i].description);
+        }
+      }
+      write_to_output(d, "@G============================================@n\r\n\r\n");
+      write_to_output(d, "These traits are permanent and cannot be changed.\r\n");
+      write_to_output(d, "Do you accept these traits? (Y/N): ");
+
+      if (STATE(d) == CON_QTRAIT_SELECT_2) {
+        /* Just finished selecting, show confirmation but wait for answer */
+        return;
+      }
+
+      /* Process confirmation answer */
+      skip_spaces(&arg);
+      if (!*arg) {
+        write_to_output(d, "Please enter Y or N: ");
+        return;
+      }
+
+      if (*arg == 'y' || *arg == 'Y') {
+        /* Traits accepted - save and continue with levelup */
+        save_char(d->character);
+        write_to_output(d, "\r\n@GTraits confirmed!@n\r\n\r\n");
+        write_to_output(d, "Now continuing with your level advancement...\r\n\r\n");
+
+        /* Continue with normal levelup process */
+        display_levelup_classes(d);
+        STATE(d) = CON_LEVELUP_CLASSES;
+      } else {
+        /* Reset traits and start over */
+        for (i = 1; i <= NUM_TRAITS_DEFINED; i++) {
+          SET_TRAIT(d->character, i, 0);
+        }
+        d->character->player_specials->trait_categories[0] = 0;
+        d->character->player_specials->trait_categories[1] = 0;
+        GET_TRAIT_COUNT(d->character) = 0;
+
+        write_to_output(d, "\r\nReselecting traits...\r\n");
+        display_trait_intro(d);
+        display_traits_by_category(d->character, TRAIT_TYPE_UNDEFINED, 1);
+        STATE(d) = CON_QTRAIT_SELECT_1;
+      }
+    }
     break;
 
   default:

@@ -1236,6 +1236,11 @@ void get_pers_II(struct char_data* ch, const struct char_data* vi, char** chname
 #define SET_COMBAT_FEAT(ch,i,j) (SET_BIT_AR((ch)->combat_feats[(i)], (j)))
 #define HAS_SCHOOL_FEAT(ch,i,j) (IS_SET((ch)->school_feats[(i)], (j)))
 #define SET_SCHOOL_FEAT(ch,i,j) (SET_BIT((ch)->school_feats[(i)], (j)))
+
+/* Trait macros */
+#define HAS_TRAIT(ch, i)        ((ch)->traits[i])
+#define SET_TRAIT(ch, i, j)     ((ch)->traits[i] = j)
+#define GET_TRAIT_COUNT(ch)     ((ch)->player_specials->trait_selection_count)
 #define GET_BAB(ch)		(GET_LVL_0_BAB(ch) + GET_ACCURACY_BASE(ch))
 #define GET_LVL_0_BAB(ch)	((ch->levelup && ch->levelup->class && ( \
 				ch->levelup->class == CLASS_FIGHTER || \

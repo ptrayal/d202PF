@@ -1118,6 +1118,11 @@ extern struct config_data config_info;
 #define CON_CUSTOM_COMBAT_ACTION	87
 #define CON_PARSE_COMBAT_ACTION		88
 #define CON_PETSET		89	/* OLC mode - pet builder	*/
+
+#define CON_QTRAIT_INTRO        91  /* Trait system introduction */
+#define CON_QTRAIT_SELECT_1     92  /* Select first trait */
+#define CON_QTRAIT_SELECT_2     93  /* Select second trait */
+#define CON_QTRAIT_CONFIRM      94  /* Confirm trait selection */
 #define CON_EMAIL			90
 #define CON_NOTE_WRITE			91
 #define CON_NEWMAIL			92
@@ -1978,6 +1983,7 @@ extern struct config_data config_info;
 #define SKILL_TABLE_SIZE  1000
 #define SPELLBOOK_SIZE    50
 #define MAX_FEATS         750
+#define MAX_TRAITS        200  /* Maximum possible traits in system */
 /* define the largest set of commands for a trigger */
 #define MAX_CMD_LENGTH          16384 /* 16k should be plenty and then some */
 /*
@@ -2783,6 +2789,10 @@ struct player_special_data {
   char *note_subj;
   char *note;
 
+  /* Trait System */
+  byte trait_selection_count;  /* Number of traits selected (0-2) */
+  byte trait_categories[2];    /* Categories of selected traits */
+
 };
 /* this can be used for skills that can be used per-day */
 struct memorize_node {
@@ -2999,6 +3009,7 @@ struct char_data {
   int combat_feats[CFEAT_MAX+1][FT_ARRAY_MAX];
         /* One bitvector array per CFEAT_ type  */
   int school_feats[SFEAT_MAX+1];/* One bitvector array per CFEAT_ type  */
+  byte traits[MAX_TRAITS + 1];  /* Selected traits (max 2) */
   byte skills[SKILL_TABLE_SIZE + 1];
         /* array of skills/spells/arts/etc  */
   byte skillmods[SKILL_TABLE_SIZE + 1];

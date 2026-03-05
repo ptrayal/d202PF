@@ -20,6 +20,7 @@
 #include "handler.h"
 #include "pfdefaults.h"
 #include "feats.h"
+#include "traits.h"
 #include "dg_scripts.h"
 #include "comm.h"
 #include "genmob.h"
@@ -44,6 +45,7 @@ void load_affects(FILE *fl, struct char_data *ch, int violence);
 void load_skills(FILE *fl, struct char_data *ch, bool mods);
 void load_quests(FILE *fl, struct char_data *ch);
 void load_feats(FILE *fl, struct char_data *ch);
+void load_traits(FILE *fl, struct char_data *ch);
 void load_skill_focus(FILE *fl, struct char_data *ch);
 void load_intros(FILE *fl, struct char_data *ch);
 void load_HMVS(struct char_data *ch, const char *line, int mode);
@@ -1380,6 +1382,7 @@ int load_char(const char *name, struct char_data *ch)
                 else if (!strcmp(tag, "Trns"))  GET_TRAINS(ch)          = atoi(line);
                 else if (!strcmp(tag, "TrSp"))  ch->trains_spent        = atoi(line);
                 else if (!strcmp(tag, "TrUS"))  ch->trains_unspent      = atoi(line);
+                else if (!strcmp(tag, "Trai"))  load_traits(fl, ch);
                 else if (!strcmp(tag, "Turn"))  GET_TURN_UNDEAD(ch)     = atoi(line);
                 break;
 
@@ -2087,6 +2090,15 @@ void save_char(struct char_data * ch)
     }
     fprintf(fl, "0 0\n");
 
+    /* Save traits */
+    fprintf(fl, "Trai:\n");
+    for (i = 1; i <= NUM_TRAITS_DEFINED; i++)
+    {
+        if (HAS_TRAIT(ch, i))
+            fprintf(fl, "%d\n", i);
+    }
+    fprintf(fl, "0\n");
+
     /* Save Sponsors in Classes */
     fprintf(fl, "CSpn:\n");
     for (i = 0; i < NUM_CLASSES; i++)
@@ -2486,6 +2498,26 @@ void load_feats(FILE *fl, struct char_data *ch)
       if (num != 0)
 	SET_FEAT(ch, num, num2);
   } while (num != 0);
+}
+
+void load_traits(FILE *fl, struct char_data *ch)
+{
+  int num = 0, count = 0;
+  char line[MAX_INPUT_LENGTH + 1]={'\0'};
+
+  do {
+    get_line(fl, line);
+    sscanf(line, "%d", &num);
+    if (num != 0) {
+      SET_TRAIT(ch, num, 1);
+      if (count < 2) {
+        ch->player_specials->trait_categories[count] = trait_list[num].category_type;
+      }
+      count++;
+    }
+  } while (num != 0 && count < 2);
+
+  GET_TRAIT_COUNT(ch) = count;
 }
 
 void load_skill_focus(FILE *fl, struct char_data *ch)

@@ -31,6 +31,7 @@
 #include "assemblies.h"
 #include "boards.h"
 #include "feats.h"
+#include "traits.h"
 #include "htree.h"
 #include "quest.h"
 #include "clan.h"
@@ -975,6 +976,11 @@ void boot_db(void)
     STARTUP_BEGIN(feats);
     assign_feats();
     STARTUP_END(feats, "Feats", &stats);
+
+    STARTUP_BEGIN(traits);
+    assign_traits();
+    sort_traits();
+    STARTUP_END(traits, "Traits", &stats);
 
     STARTUP_BEGIN(world);
     boot_world();
