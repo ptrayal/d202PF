@@ -830,7 +830,7 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
             return FALSE;
         if (has_feat(ch, FEAT_BLOODLINE_ABYSSAL))
             return FALSE;
-        if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
+        if (ch->levelup && GET_CLASS_RANKS(ch, CLASS_SORCERER) == 1)
             return TRUE;
         return FALSE;
 
@@ -839,7 +839,7 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
             return FALSE;
         if (has_feat(ch, FEAT_BLOODLINE_ARCANE))
             return FALSE;
-        if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
+        if (ch->levelup && GET_CLASS_RANKS(ch, CLASS_SORCERER) == 1)
             return TRUE;
         return FALSE;
 
@@ -848,7 +848,7 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
             return FALSE;
         if (has_feat(ch, FEAT_BLOODLINE_ARCANE))
             return FALSE;
-        if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
+        if (ch->levelup && GET_CLASS_RANKS(ch, CLASS_SORCERER) == 1)
             return TRUE;
         return FALSE;
 
