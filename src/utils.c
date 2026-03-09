@@ -22,6 +22,7 @@
 #include "handler.h"
 #include "interpreter.h"
 #include "feats.h"
+#include "traits.h"
 #include "constants.h"
 #include "genolc.h"
 #include "oasis.h"
@@ -2495,6 +2496,9 @@ int get_saving_throw_value(struct char_data *victim, int savetype)
 
     if (affected_by_spell(victim, SPELL_BESTOW_CURSE_PENALTIES))
         total -= 4;
+
+    // Add trait bonuses
+    total += get_trait_save_bonus(victim, savetype);
 
     return total;
 

@@ -20,6 +20,7 @@
 #include "constants.h"
 #include "dg_scripts.h"
 #include "feats.h"
+#include "traits.h"
 #include "quest.h"
 #include "genmob.h"
 #include "pets.h"
@@ -4802,6 +4803,7 @@ int roll_initiative(struct char_data *ch) {
   ch->initiative = rand_number(1, 20) + dex_mod_capped(ch) + 4 * HAS_FEAT(ch, FEAT_IMPROVED_INITIATIVE);
   ch->initiative += 2 * HAS_FEAT(ch, FEAT_IMPROVED_REACTION);
   ch->initiative += HAS_FEAT(ch, FEAT_HEROIC_INITIATIVE);
+  ch->initiative += get_trait_initiative_bonus(ch);
 
   return ch->initiative;
 }

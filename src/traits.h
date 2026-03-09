@@ -144,7 +144,4 @@ const char *get_trait_category_name(byte category_type);
 void display_trait_intro(struct descriptor_data *d);
 void display_traits_by_category(struct char_data *ch, byte exclude_cat, int selection_num);
 
-/* Player Commands */
-ACMD(do_traits);
-
 #endif /* _TRAITS_H_ */

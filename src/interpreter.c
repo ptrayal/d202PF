@@ -451,6 +451,7 @@ ACMD(do_timers);
 ACMD(do_title);
 ACMD(do_toggle);
 ACMD(do_track);
+ACMD(do_traits);
 ACMD(do_trans);
 ACMD(do_trip);
 ACMD(do_turn);
@@ -4613,7 +4614,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
   case CON_QTRAIT_CONFIRM:
     {
-      int i, count = 0, total = 0;
+      int i;
 
       /* Process confirmation answer */
       skip_spaces(&arg);

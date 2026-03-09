@@ -68,6 +68,11 @@ char * list_bonus_types(void);
 char * get_bonus_type(char *arg);
 int get_bonus_type_int(char *arg);
 char *randomString(int length);
+
+/* trait bonus functions (from traits.c) */
+int get_trait_skill_bonus(struct char_data *ch, int skill);
+int get_trait_save_bonus(struct char_data *ch, int save_type);
+int get_trait_initiative_bonus(struct char_data *ch);
 int level_exp(int level, int race);
 int guild_level_exp(int level);
 int get_synth_bonus(struct char_data *ch);
@@ -694,7 +699,7 @@ void get_pers_II(struct char_data* ch, const struct char_data* vi, char** chname
 #define GET_SKILL_BASE(ch, i)		(ch->skills[i])
 #define GET_SKILL_RANKS(ch, i)		(GET_SKILL_BASE(ch, i) + (is_class_skill(ch, i) ? 3 : 0))
 #define GET_SKILL(ch, i)		(IS_NPC(ch) ? (spell_info[i].can_learn_skill[GET_CLASS(ch)] == SKLEARN_CLASS ? \
-					GET_LEVEL(ch) : 0) : ((ch)->skills[i] + GET_SKILL_BONUS(ch, i) + (is_class_skill(ch, i) ? 3 : 0)))
+					GET_LEVEL(ch) : 0) : ((ch)->skills[i] + GET_SKILL_BONUS(ch, i) + get_trait_skill_bonus(ch, i) + (is_class_skill(ch, i) ? 3 : 0)))
 #define SET_SKILL(ch, i, val)		do { (ch)->skills[i] = val; } while(0)
 
 #define GET_EQ(ch, i)		((ch)->equipment[i])

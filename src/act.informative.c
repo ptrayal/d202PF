@@ -17,6 +17,7 @@
 
 #include "structs.h"
 #include "feats.h"
+#include "traits.h"
 #include "player_guilds.h"
 #include "deities.h"
 #include "utils.h"
@@ -6040,6 +6041,7 @@ ACMD (do_show_combat)
     // For testing initiative calculations.
     int feat = 0;
     int race_mod = 0;
+    int trait_mod = 0;
     int misc_mod = 0;
     int initiative_total = 0;
 
@@ -6048,11 +6050,13 @@ ACMD (do_show_combat)
         feat += 4;
     }
 
-    initiative_total = dex_mod_capped(ch) + feat + race_mod + misc_mod;
+    trait_mod = get_trait_initiative_bonus(ch);
+
+    initiative_total = dex_mod_capped(ch) + feat + race_mod + trait_mod + misc_mod;
 
     send_to_char(ch, "\t[B321]\tBInitiative\tn\r\n");
-    send_to_char(ch, "\t[B202]\tW[%4s] + [%4s] + [%4s] + [%4s]    %s\tn\r\n", "Dex", "Feat", "Race", "Misc", "Total");
-    send_to_char(ch, "[ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", dex_mod_capped(ch), feat, race_mod, misc_mod, initiative_total);
+    send_to_char(ch, "\t[B202]\tW[%4s] + [%4s] + [%4s] + [%5s] + [%4s]    %s\tn\r\n", "Dex", "Feat", "Race", "Trait", "Misc", "Total");
+    send_to_char(ch, "[ %2d ] + [ %2d ] + [ %2d ] + [  %2d ] + [ %2d ] = [ %2d ]\r\n", dex_mod_capped(ch), feat, race_mod, trait_mod, misc_mod, initiative_total);
     send_to_char(ch, "\r\n");
 
     // Show saving throws portion.
@@ -6113,6 +6117,11 @@ ACMD (do_show_combat)
         ref_misc += ability_mod_value(GET_CHA(ch));
         will_misc += ability_mod_value(GET_CHA(ch));
     }
+
+    // Add trait bonuses
+    fort_misc += get_trait_save_bonus(ch, TRAIT_SAVE_FORT);
+    ref_misc += get_trait_save_bonus(ch, TRAIT_SAVE_REFLEX);
+    will_misc += get_trait_save_bonus(ch, TRAIT_SAVE_WILL);
 
     send_to_char(ch, "\t[B321]\tBSaving Throws\tn\r\n");
     send_to_char(ch, "\t[B202]%11s\tWClass     Stat     Feat     Magic    Misc     Total\tn\r\n", "");
