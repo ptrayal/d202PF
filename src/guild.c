@@ -25,6 +25,7 @@
 #include "screen.h"
 #include "gengld.h"
 #include "feats.h"
+#include "traits.h"
 
 
 
@@ -157,6 +158,9 @@ void show_skills(struct char_data *ch)
 
             if (HAS_FEAT(ch, FEAT_ABLE_LEARNER))
                 feat_bonus += 1;
+
+            // Trait bonuses
+            misc_bonus += get_trait_skill_bonus(ch, spell_sort_info[i]);
 
             // Is Class skill?
             if (spell_info[spell_sort_info[i]].can_learn_skill[GET_CLASS(ch)] == SKLEARN_CLASS)
