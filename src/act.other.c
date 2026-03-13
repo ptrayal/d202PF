@@ -5173,7 +5173,7 @@ ACMD(do_disguise)
                     continue;
                 sprintf(buf, "%d) %-30s ", i, race_list[i].name);
                 if (i % 2 == 1)
-                    sprintf(buf, "%s\r\n", buf);
+                    strcat(buf, "\r\n");
                 SEND_TO_Q(buf, ch->desc);
             }
             if (i % 2 == 0)
@@ -5218,7 +5218,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, eye_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5254,7 +5254,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, nose_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5291,7 +5291,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, ear_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5328,7 +5328,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, face_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5365,7 +5365,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, scar_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5402,7 +5402,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, hair_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5439,7 +5439,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, build_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5476,7 +5476,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, complexion_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5522,7 +5522,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, eye_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5558,7 +5558,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, nose_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5595,7 +5595,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, ear_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5632,7 +5632,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, face_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5669,7 +5669,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, scar_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5706,7 +5706,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, hair_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5743,7 +5743,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, build_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
@@ -5780,7 +5780,7 @@ ACMD(do_disguise)
                 {
                     sprintf(buf, "%d) %-30s ", i, complexion_descriptions[i]);
                     if (i % 2 == 1)
-                        sprintf(buf, "%s\r\n", buf);
+                        strcat(buf, "\r\n");
                     SEND_TO_Q(buf, ch->desc);
                 }
                 if (i % 2 == 0)
