@@ -389,6 +389,14 @@ void find_help_suggestions(char *keyword, int **suggestions, int *count)
         if (!keywords_copy)
             continue;
 
+        /* Skip malformed entries with unmatched quotes */
+        if ((keywords_copy[0] == '"' && strchr(keywords_copy + 1, '"') == NULL) ||
+            (keywords_copy[0] == '\'' && strchr(keywords_copy + 1, '\'') == NULL))
+        {
+            free(keywords_copy);
+            continue;
+        }
+
         /* Check each keyword in the entry */
         for (token = strtok(keywords_copy, " "); token; token = strtok(NULL, " "))
         {
@@ -470,7 +478,9 @@ void find_help_multiple(char *keyword, int **matches, int *count)
 
     extern int top_of_helpt;
     int *match_array;
+    int *exact_matches;
     int match_count = 0;
+    int exact_count = 0;
     int i;
     char keyword_upper[MAX_INPUT_LENGTH];
 
@@ -489,35 +499,99 @@ void find_help_multiple(char *keyword, int **matches, int *count)
             keyword_upper[i] = '-';
     }
 
-    /* Allocate match array */
+    /* Allocate match arrays */
     match_array = malloc(sizeof(int) * MAX_MATCHES);
-    if (!match_array)
+    exact_matches = malloc(sizeof(int) * MAX_MATCHES);
+    if (!match_array || !exact_matches)
+    {
+        if (match_array) free(match_array);
+        if (exact_matches) free(exact_matches);
         return;
+    }
 
     /* Search for matches in keywords */
     for (i = 0; i < top_of_helpt && match_count < MAX_MATCHES; i++)
     {
         char *keywords_copy = strdup(help_table[i].keywords);
-        char *token;
+        char *token, *subtoken;
+        char token_copy[MAX_INPUT_LENGTH];
         int found = 0;
 
         if (!keywords_copy)
             continue;
 
-        /* Check each keyword in the entry */
-        for (token = strtok(keywords_copy, " "); token && !found; token = strtok(NULL, " "))
+        /* Skip malformed entries with unmatched quotes */
+        if ((keywords_copy[0] == '"' && strchr(keywords_copy + 1, '"') == NULL) ||
+            (keywords_copy[0] == '\'' && strchr(keywords_copy + 1, '\'') == NULL))
         {
-            /* Check if keyword matches (abbreviation includes exact) */
+            free(keywords_copy);
+            continue;
+        }
+
+        /* Check for exact match with the first (primary) keyword only */
+        token = strtok(keywords_copy, " ");
+        if (token && !strcmp(keyword_upper, token))
+        {
+            exact_matches[exact_count++] = i;
+            free(keywords_copy);
+            continue;
+        }
+
+        /* Check each space-separated keyword in the entry for partial matches */
+        do
+        {
+            if (!token)
+                break;
+
+            /* Check if keyword matches as-is (abbreviation includes exact) */
             if (is_abbrev(keyword_upper, token))
             {
                 match_array[match_count++] = i;
                 found = 1;
+                break;
             }
-        }
+
+            /* Check substring match for hyphenated searches (e.g., "FIRE-SHIELD" matches "SPELL-FIRE-SHIELD") */
+            if (strchr(keyword_upper, '-'))
+            {
+                if (strstr(token, keyword_upper))
+                {
+                    match_array[match_count++] = i;
+                    found = 1;
+                    break;
+                }
+            }
+
+            /* Check hyphen-separated parts (e.g., "FIRE" matches "SPELL-FIRE-SHIELD") */
+            if (strchr(token, '-'))
+            {
+                snprintf(token_copy, sizeof(token_copy), "%s", token);
+                for (subtoken = strtok(token_copy, "-"); subtoken && !found; subtoken = strtok(NULL, "-"))
+                {
+                    if (is_abbrev(keyword_upper, subtoken))
+                    {
+                        match_array[match_count++] = i;
+                        found = 1;
+                        break;
+                    }
+                }
+            }
+        } while ((token = strtok(NULL, " ")) != NULL && !found);
 
         free(keywords_copy);
     }
 
+    /* If we found exact matches, return only those */
+    if (exact_count > 0)
+    {
+        free(match_array);
+        *matches = exact_matches;
+        *count = exact_count;
+        return;
+    }
+
+    /* Otherwise return partial matches */
+    free(exact_matches);
     if (match_count == 0)
     {
         free(match_array);
@@ -3466,11 +3540,22 @@ ACMD(do_help)
     int *match_indices = NULL;
     int match_count = 0;
     int i;
+    char *end;
 
     if (!ch->desc)
         return;
 
     skip_spaces(&argument);
+
+    /* Strip leading/trailing quotes from argument */
+    if (*argument == '\'' || *argument == '"')
+    {
+        char quote = *argument;
+        argument++; /* Skip opening quote */
+        end = strrchr(argument, quote);
+        if (end)
+            *end = '\0'; /* Remove closing quote */
+    }
 
     /* No argument - show default help */
     if (!*argument)
@@ -3531,25 +3616,87 @@ ACMD(do_help)
     }
     else if (match_count > 1)
     {
-        /* Multiple matches found */
-        if (match_count > 20)
+        /* Multiple matches found - first deduplicate to count unique entries */
+        char displayed_keywords[50][MAX_INPUT_LENGTH];
+        int unique_indices[50];
+        int unique_count = 0;
+
+        for (i = 0; i < match_count && unique_count < 50; i++)
+        {
+            if (help_table[match_indices[i]].min_level <= GET_LEVEL(ch))
+            {
+                const char *keyword = get_first_keyword(help_table[match_indices[i]].keywords);
+                int j, duplicate = 0;
+
+                /* Check if we already have this keyword */
+                for (j = 0; j < unique_count; j++)
+                {
+                    if (!strcasecmp(displayed_keywords[j], keyword))
+                    {
+                        duplicate = 1;
+                        break;
+                    }
+                }
+
+                if (!duplicate)
+                {
+                    snprintf(displayed_keywords[unique_count], MAX_INPUT_LENGTH, "%s", keyword);
+                    unique_indices[unique_count] = match_indices[i];
+                    unique_count++;
+                }
+            }
+        }
+
+        /* If after deduplication we have exactly one unique entry, display it */
+        if (unique_count == 1)
+        {
+            this_help = &help_table[unique_indices[0]];
+            free(match_indices);
+
+            snprintf(entry, sizeof(entry), "@W%s@n\r\n%s", this_help->keywords, this_help->entry);
+            page_string(ch->desc, entry, true);
+
+            /* Handle rules tracking */
+            if (!strcmp(this_help->keywords, "RULES POLICIES"))
+                ch->player_specials->rules_read[0] = TRUE;
+            else if (!strcmp(this_help->keywords, "RULES-VALUES"))
+                ch->player_specials->rules_read[1] = TRUE;
+            else if (!strcmp(this_help->keywords, "RULES-RESPECT"))
+                ch->player_specials->rules_read[2] = TRUE;
+            else if (!strcmp(this_help->keywords, "RULES-EVIL"))
+                ch->player_specials->rules_read[3] = TRUE;
+            else if (!strcmp(this_help->keywords, "RULES-LANGUAGE"))
+                ch->player_specials->rules_read[4] = TRUE;
+            else if (!strcmp(this_help->keywords, "RULES-BUGS"))
+                ch->player_specials->rules_read[5] = TRUE;
+            else if (!strcmp(this_help->keywords, "RULES-MULTIPLAYING"))
+                ch->player_specials->rules_read[6] = TRUE;
+            else if (!strcmp(this_help->keywords, "RULES-NAMES"))
+                ch->player_specials->rules_read[7] = TRUE;
+            else if (!strcmp(this_help->keywords, "RULES-BOTTING"))
+                ch->player_specials->rules_read[8] = TRUE;
+            else if (!strcmp(this_help->keywords, "RULES-TITLES"))
+                ch->player_specials->rules_read[9] = TRUE;
+            else if (!strcmp(this_help->keywords, "RULES-DISCLAIMER"))
+                ch->player_specials->rules_read[10] = TRUE;
+
+            return;
+        }
+
+        /* More than one unique match */
+        if (unique_count > 20)
         {
             send_to_char(ch, "Too many matches (%d) for '@Y%s@n'. Please be more specific.\r\n",
-                        match_count, argument);
+                        unique_count, argument);
             free(match_indices);
             return;
         }
 
         send_to_char(ch, "@WMultiple help topics match '@Y%s@W':@n\r\n\r\n", argument);
 
-        for (i = 0; i < match_count; i++)
+        for (i = 0; i < unique_count; i++)
         {
-            if (help_table[match_indices[i]].min_level <= GET_LEVEL(ch))
-            {
-                send_to_char(ch, "  @G%2d.@n @c%s@n\r\n",
-                            i + 1,
-                            get_first_keyword(help_table[match_indices[i]].keywords));
-            }
+            send_to_char(ch, "  @G%2d.@n @c%s@n\r\n", i + 1, displayed_keywords[i]);
         }
 
         send_to_char(ch, "\r\nUse @Whelp <topic>@n to view a specific entry.\r\n");
@@ -3567,13 +3714,35 @@ ACMD(do_help)
     {
         send_to_char(ch, "@WHelp topics containing '@Y%s@W' in their content:@n\r\n\r\n", argument);
 
-        for (i = 0; i < match_count; i++)
+        /* Display matches, skipping duplicates */
         {
-            if (help_table[match_indices[i]].min_level <= GET_LEVEL(ch))
+            char displayed_keywords[50][MAX_INPUT_LENGTH];
+            int displayed_count = 0;
+            int display_num = 1;
+
+            for (i = 0; i < match_count; i++)
             {
-                send_to_char(ch, "  @G%2d.@n @c%s@n\r\n",
-                            i + 1,
-                            get_first_keyword(help_table[match_indices[i]].keywords));
+                if (help_table[match_indices[i]].min_level <= GET_LEVEL(ch))
+                {
+                    const char *keyword = get_first_keyword(help_table[match_indices[i]].keywords);
+                    int j, duplicate = 0;
+
+                    /* Check if we already displayed this keyword */
+                    for (j = 0; j < displayed_count; j++)
+                    {
+                        if (!strcasecmp(displayed_keywords[j], keyword))
+                        {
+                            duplicate = 1;
+                            break;
+                        }
+                    }
+
+                    if (!duplicate && displayed_count < 50)
+                    {
+                        send_to_char(ch, "  @G%2d.@n @c%s@n\r\n", display_num++, keyword);
+                        snprintf(displayed_keywords[displayed_count++], MAX_INPUT_LENGTH, "%s", keyword);
+                    }
+                }
             }
         }
 
@@ -3589,13 +3758,35 @@ ACMD(do_help)
     {
         send_to_char(ch, "No help found for '@Y%s@n'. Did you mean:\r\n\r\n", argument);
 
-        for (i = 0; i < match_count; i++)
+        /* Display suggestions, skipping duplicates */
         {
-            if (help_table[match_indices[i]].min_level <= GET_LEVEL(ch))
+            char displayed_keywords[50][MAX_INPUT_LENGTH];
+            int displayed_count = 0;
+            int display_num = 1;
+
+            for (i = 0; i < match_count; i++)
             {
-                send_to_char(ch, "  @G%2d.@n @c%s@n\r\n",
-                            i + 1,
-                            get_first_keyword(help_table[match_indices[i]].keywords));
+                if (help_table[match_indices[i]].min_level <= GET_LEVEL(ch))
+                {
+                    const char *keyword = get_first_keyword(help_table[match_indices[i]].keywords);
+                    int j, duplicate = 0;
+
+                    /* Check if we already displayed this keyword */
+                    for (j = 0; j < displayed_count; j++)
+                    {
+                        if (!strcasecmp(displayed_keywords[j], keyword))
+                        {
+                            duplicate = 1;
+                            break;
+                        }
+                    }
+
+                    if (!duplicate && displayed_count < 50)
+                    {
+                        send_to_char(ch, "  @G%2d.@n @c%s@n\r\n", display_num++, keyword);
+                        snprintf(displayed_keywords[displayed_count++], MAX_INPUT_LENGTH, "%s", keyword);
+                    }
+                }
             }
         }
 
