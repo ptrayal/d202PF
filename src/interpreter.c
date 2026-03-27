@@ -3547,16 +3547,23 @@ void nanny(struct descriptor_data *d, char *arg)
 	  class = (ubyte) atoi(arg);
 
 	  half_chop(arg, arg1, argument);
-          if (is_abbrev(arg1, "help")) 
+          if (is_abbrev(arg1, "help"))
           {
             do_help(ch, argument, 0, 0);
             return;
-          } 
-          else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display")) 
+          }
+          else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display"))
           {
             display_levelup_classes(d);
             return;
           }
+
+	  /* Check for cancel */
+	  if (class == 0 || is_abbrev(arg, "q") || is_abbrev(arg, "quit") || is_abbrev(arg, "cancel")) {
+		  write_to_output(d, "Level-up cancelled.\r\n");
+		  STATE(d) = CON_PLAYING;
+		  return;
+	  }
 
 	  if (class < 1 || class > TOP_PC_CLASS) {
 		  write_to_output(d, "That is not a valid class, please select again: ");
@@ -3598,28 +3605,44 @@ void nanny(struct descriptor_data *d, char *arg)
 	  }
 	  if (d->character->levelup == NULL)
 		CREATE(d->character->levelup, struct level_data, 1);
-	  if (d->character->levelup != NULL)
+	  if (d->character->levelup != NULL) {
 		d->character->levelup->class = MAX(0, (class - 1));
-	  write_to_output(d, "\r\nYou have chosen the %s class.\r\n\r\n", pc_class_types_core[class - 1]);
-	  if (d->character->levelup != NULL)
 		init_levelup(d->character);
-          if (d->character->levelup->class == CLASS_FAVORED_SOUL || d->character->levelup->class == CLASS_SORCERER)
-          {
-            STATE(d) = CON_LEVELUP_SPELLS;
-            write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
-          }
-          else
-          {
-            STATE(d) = CON_LEVELUP_SKILLS;
-            display_levelup_skills(d->character, TRUE);
-          }
+		write_to_output(d, "\r\nYou have chosen the @W%s@n class. Confirm? (@gy@n/@gn@n): ", pc_class_types_core[class - 1]);
+		STATE(d) = CON_LEVELUP_CLASSES_CONFIRM;
+	  }
+	  break;
+
+  case CON_LEVELUP_CLASSES_CONFIRM:
+	  half_chop(arg, arg1, argument);
+	  if (is_abbrev(arg1, "help")) {
+		  do_help(ch, argument, 0, 0);
+		  return;
+	  }
+
+	  if (is_abbrev(arg, "y") || is_abbrev(arg, "yes")) {
+		  write_to_output(d, "\r\n");
+		  if (d->character->levelup->class == CLASS_FAVORED_SOUL || d->character->levelup->class == CLASS_SORCERER) {
+			  STATE(d) = CON_LEVELUP_SPELLS;
+			  write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or @g0@n to continue\r\n");
+		  } else {
+			  STATE(d) = CON_LEVELUP_SKILLS;
+			  display_levelup_skills(d->character, TRUE);
+		  }
+	  } else if (is_abbrev(arg, "n") || is_abbrev(arg, "no")) {
+		  write_to_output(d, "\r\nReturning to class selection.\r\n\r\n");
+		  display_levelup_classes(d);
+		  STATE(d) = CON_LEVELUP_CLASSES;
+	  } else {
+		  write_to_output(d, "Please answer @gy@n or @gn@n: ");
+	  }
 	  break;
 
   case CON_LEVELUP_SPELLS:
 
     if (!*arg)
     {
-      write_to_output(d, "Please type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
+      write_to_output(d, "Please type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or @g0@n to continue\r\n");
       return;
     }
 
@@ -3631,15 +3654,15 @@ void nanny(struct descriptor_data *d, char *arg)
 
     i = find_skill_num(arg, SKTYPE_SPELL);
 
-    if (atoi(arg) == -1) {
+    if (atoi(arg) == 0 || is_abbrev(arg, "done") || is_abbrev(arg, "continue")) {
       STATE(d) = CON_LEVELUP_SPELLS_CONFIRM;
-      write_to_output(d, "Are you sure you wish to continue?  Your selections can't be changed if you proceed and any unspent spell slots will be lost.\r\n");
+      write_to_output(d, "Are you sure you wish to continue?  Your selections can't be changed if you proceed and any unspent spell slots will be lost. (@gy@n/@gn@n): ");
     }
     else if (i >= 0 && i <= TOP_SPELL) {
 
       if (i < 0 || i > TOP_SPELL) {
         write_to_output(d, "That is not a valid spell.\r\n");
-        write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or -1 to continue\r\n");
+        write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or @g0@n to continue\r\n");
       }
       else {
         for (j = 0; j < MAX_NUM_KNOWN_SPELLS; j++) {
@@ -3648,7 +3671,7 @@ void nanny(struct descriptor_data *d, char *arg)
             d->character->levelup->spells_known[j] = 0;
             d->character->levelup->spell_slots[spell_info[i].class_level[d->character->levelup->class]]++;
             write_to_output(d, "Spell '%s' removed from list of spells known.\r\n", spell_info[i].name);
-            write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
+            write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or @g0@n to continue\r\n");
           }
         }
         if (!found) {
@@ -3657,14 +3680,14 @@ void nanny(struct descriptor_data *d, char *arg)
               found = TRUE;
               if (d->character->levelup->spell_slots[spell_info[i].class_level[d->character->levelup->class]] > 0) {
                 write_to_output(d, "Spell '%s' added to list of spells known.\r\n", spell_info[i].name);
-                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
+                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or @g0@n to continue\r\n");
                 d->character->levelup->spells_known[j] = i;
                 d->character->levelup->spell_slots[spell_info[i].class_level[d->character->levelup->class]]--;
                 return;
               }
               else {
                 send_to_char(d->character, "You can't learn any new spells of that level.\r\n");
-                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
+                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or @g0@n to continue\r\n");
                 break;
               }
             }
@@ -3679,7 +3702,7 @@ void nanny(struct descriptor_data *d, char *arg)
         write_to_output(d, "\r\n\r\n");
         // character has a filled spells_known list >= MAX_NUM_KNOWN_SPELLS
         send_to_char(d->character, "You can't learn any more spells.  Please speak to an administrator.\r\n");
-        write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
+        write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or @g0@n to continue\r\n");
       }
     }
     else if (atoi(arg) >= 0 && atoi(arg) <= 9) {
@@ -3689,7 +3712,7 @@ void nanny(struct descriptor_data *d, char *arg)
       GET_CLASS_NONEPIC(d->character, d->character->levelup->class)++;
       do_spells(d->character, buf, 0, 0);
       GET_CLASS_NONEPIC(d->character, d->character->levelup->class)--;
-      write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
+      write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or @g0@n to continue\r\n");
     }
     else {
       write_to_output(d, "That is not a valid spell level.\r\n");
@@ -3712,12 +3735,12 @@ void nanny(struct descriptor_data *d, char *arg)
             return;
           }
 
-	  if (i < 0)
+	  if (i == 0 || is_abbrev(arg, "done") || is_abbrev(arg, "continue"))
     {
 
 		  if (d->character->levelup->feat_points > 0 || d->character->levelup->epic_feat_points > 0 || d->character->levelup->num_class_feats > 0 || d->character->levelup->num_epic_class_feats > 0)
       {
- 			  write_to_output(d, "You still have feats left to spend.  If you do not use them you will lose them.  Continue and lose them? ");
+ 			  write_to_output(d, "You still have feats left to spend.  If you do not use them you will lose them.  Continue and lose them? (@gy@n/@gn@n): ");
 			  STATE(d) = CON_LEVELUP_FEATS_CONFIRM;
 			  return;
 		  }
@@ -3730,7 +3753,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
 	  if (feat_is_available(d->character, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn)
     {
-  		write_to_output(d, "Feat Description: %s\r\n\r\nDo you wish to take this feat?\r\n", feat_list[i].description);
+  		write_to_output(d, "@YFeat: %s@n\r\nDescription: %s\r\n\r\nDo you wish to take this feat? (@gy@n/@gn@n): ", feat_list[i].name, feat_list[i].description);
   		d->character->levelup->tempFeat = i;
   		STATE(d) = CON_LEVELUP_FEATS_PROCESS;
   		return;
@@ -3753,7 +3776,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
 	i = d->character->levelup->tempFeat;
 
-	if (is_abbrev("yes", arg) || is_abbrev("YES", arg) || is_abbrev("Yes", arg))
+	if (is_abbrev(arg, "y") || is_abbrev(arg, "yes"))
   {
 		  switch (i)
       {
@@ -3800,13 +3823,17 @@ void nanny(struct descriptor_data *d, char *arg)
 			  break;
 		  }
 	  }
-	  else
+	  else if (is_abbrev(arg, "n") || is_abbrev(arg, "no"))
     {
   		display_levelup_feats(d->character);
-  		write_to_output(d, "Please select again: ");
   		STATE(d) = CON_LEVELUP_FEATS;
   		return;
   	}
+	  else
+    {
+		  write_to_output(d, "Please answer @gy@n or @gn@n: ");
+		  return;
+	  }
 
 	  break;
 
@@ -3826,7 +3853,7 @@ void nanny(struct descriptor_data *d, char *arg)
             return;
           }
 
-	  if (i < 0)
+	  if (i == 0 || is_abbrev(arg, "cancel") || is_abbrev(arg, "done"))
     {
   		display_levelup_feats(d->character);
   		STATE(d) = CON_LEVELUP_FEATS;
@@ -3857,7 +3884,7 @@ void nanny(struct descriptor_data *d, char *arg)
 	  }
 	  else
     {
-		  write_to_output(d, "Make another choice or type -1 to exit this menu and continue.\r\n");
+		  write_to_output(d, "Make another choice or type @g0@n to exit this menu and continue.\r\n");
 		  return;
 	  }
 
@@ -3875,7 +3902,7 @@ void nanny(struct descriptor_data *d, char *arg)
             return;
           }
 
-	  if (i < 0) {
+	  if (i == 0 || is_abbrev(arg, "cancel") || is_abbrev(arg, "done")) {
 		display_levelup_feats(d->character);
 		STATE(d) = CON_LEVELUP_FEATS;
 		return;
@@ -3923,15 +3950,19 @@ void nanny(struct descriptor_data *d, char *arg)
             return;
           }
 
-	if (is_abbrev("yes", arg) || is_abbrev("YES", arg) || is_abbrev("Yes", arg)) {
+	if (is_abbrev(arg, "y") || is_abbrev(arg, "yes")) {
 		display_levelup_trains(d->character);
 		STATE(d) = CON_LEVELUP_TRAINS;
    		return;
 	}
-	else {
+	else if (is_abbrev(arg, "n") || is_abbrev(arg, "no")) {
 		display_levelup_feats(d->character);
 		write_to_output(d, "Returning to feats menu.\r\n\r\n");
 		STATE(d) = CON_LEVELUP_FEATS;
+		return;
+	}
+	else {
+		write_to_output(d, "Please answer @gy@n or @gn@n: ");
 		return;
 	}
 
@@ -3945,15 +3976,19 @@ void nanny(struct descriptor_data *d, char *arg)
             return;
           }
 
-	if (is_abbrev("yes", arg) || is_abbrev("YES", arg) || is_abbrev("Yes", arg)) {
+	if (is_abbrev(arg, "y") || is_abbrev(arg, "yes")) {
                 display_levelup_skills(d->character, TRUE);
 		STATE(d) = CON_LEVELUP_SKILLS;
    		return;
 	}
-	else {
+	else if (is_abbrev(arg, "n") || is_abbrev(arg, "no")) {
 		write_to_output(d, "Returning to spells menu.\r\n\r\n");
-                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
+                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or @g0@n to continue\r\n");
 		STATE(d) = CON_LEVELUP_SPELLS;
+		return;
+	}
+	else {
+		write_to_output(d, "Please answer @gy@n or @gn@n: ");
 		return;
 	}
 
@@ -3973,9 +4008,9 @@ void nanny(struct descriptor_data *d, char *arg)
             return;
           }
 
-	  if (i < 1) {
+	  if (i == 0 || is_abbrev(arg, "done") || is_abbrev(arg, "continue")) {
 		  if (d->character->levelup->num_trains > 0) {
-			  write_to_output(d, "Do you wish to finish spending your ability score trains?  You have to use them now or lose them. Continue and lose them?\r\n");
+			  write_to_output(d, "Do you wish to finish spending your ability score trains?  You have to use them now or lose them. Continue and lose them? (@gy@n/@gn@n): ");
 			  STATE(d) = CON_LEVELUP_TRAINS_CONFIRM;
 			  return;
 		  }
@@ -4034,15 +4069,19 @@ void nanny(struct descriptor_data *d, char *arg)
             return;
           }
 
-		if (is_abbrev("no", arg) || is_abbrev("NO", arg) || is_abbrev("No", arg)) {
+		if (is_abbrev(arg, "y") || is_abbrev(arg, "yes")) {
+			display_levelup_summary(d->character);
+			STATE(d) = CON_LEVELUP_SUMMARY;
+	   		return;
+		}
+		else if (is_abbrev(arg, "n") || is_abbrev(arg, "no")) {
 			display_levelup_trains(d->character);
 			write_to_output(d, "Returning to ability score trains menu.\r\n\r\n");
 			STATE(d) = CON_LEVELUP_TRAINS;
-	   		return;
+			return;
 		}
 		else {
-			display_levelup_summary(d->character);
-			STATE(d) = CON_LEVELUP_SUMMARY;
+			write_to_output(d, "Please answer @gy@n or @gn@n: ");
 			return;
 		}
 
@@ -4056,15 +4095,19 @@ void nanny(struct descriptor_data *d, char *arg)
             return;
           }
 
-	if (is_abbrev("yes", arg) || is_abbrev("YES", arg) || is_abbrev("Yes", arg)) {
+	if (is_abbrev(arg, "y") || is_abbrev(arg, "yes")) {
 		display_levelup_feats(d->character);
 		STATE(d) = CON_LEVELUP_FEATS;
    		return;
 	}
-	else {
+	else if (is_abbrev(arg, "n") || is_abbrev(arg, "no")) {
 		display_levelup_skills(d->character, TRUE);
 		write_to_output(d, "Returning to skills menu.\r\n\r\n");
 		STATE(d) = CON_LEVELUP_SKILLS;
+		return;
+	}
+	else {
+		write_to_output(d, "Please answer @gy@n or @gn@n: ");
 		return;
 	}
 
@@ -4078,14 +4121,18 @@ void nanny(struct descriptor_data *d, char *arg)
             return;
           }
 
-	if (is_abbrev("yes", arg) || is_abbrev("YES", arg) || is_abbrev("Yes", arg)) {
+	if (is_abbrev(arg, "y") || is_abbrev(arg, "yes")) {
 		do_advance_level(d->character, d->character->levelup->class, FALSE);
 		STATE(d) = CON_PLAYING;
    		return;
 	}
-	else {
+	else if (is_abbrev(arg, "n") || is_abbrev(arg, "no")) {
 		write_to_output(d, "\r\n\r\nLevelling process cancelled.  Changes lost.  Returning to game.\r\n");
 		STATE(d) = CON_PLAYING;
+		return;
+	}
+	else {
+		write_to_output(d, "Please answer @gy@n or @gn@n: ");
 		return;
 	}
 
@@ -4101,9 +4148,9 @@ void nanny(struct descriptor_data *d, char *arg)
           }
 
 
-	  if (i < 0) {
+	  if (i == 0 || is_abbrev(arg, "done") || is_abbrev(arg, "continue")) {
 		  if (d->character->levelup->practices > 0) {
-			  write_to_output(d, "You still have %d skill points left to spend.  If you do not use them you will lose them forever. Continue & lose them?", d->character->levelup->practices);
+			  write_to_output(d, "You still have @g%d@n skill points left to spend.  If you do not use them you will lose them forever. Continue & lose them? (@gy@n/@gn@n): ", d->character->levelup->practices);
 			  STATE(d) = CON_LEVELUP_SKILLS_CONFIRM;
 			  return;
 		  }
@@ -4897,7 +4944,7 @@ void display_levelup_classes(struct descriptor_data *d)
         {
             continue;
         }
-        write_to_output(d, "%s%2d) %-30s   @n", do_class_ok_general(d->character, i, FALSE) > 0 ? "@y" : "@r", i + 1, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[i]);
+        write_to_output(d, "@g%2d@n) %s%-30s@n   ", i + 1, do_class_ok_general(d->character, i, FALSE) > 0 ? "@W" : "@r", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[i]);
         if (count % 2 == 1)
         {
             write_to_output(d, "\r\n");
@@ -4910,8 +4957,8 @@ void display_levelup_classes(struct descriptor_data *d)
     }
     write_to_output(d, "\r\n");
 
-    write_to_output(d, "Please select a class from the list (@yyellow@n signifies you qualify for the class requirements, @rred@n signifies you do not)\r\n");
-    write_to_output(d, "Your selection: ");
+    write_to_output(d, "Please select a class from the list (@Wwhite@n signifies you qualify for the class requirements, @rred@n signifies you do not)\r\n");
+    write_to_output(d, "Your selection (@g0@n to cancel): ");
 }
 
 void init_levelup(struct char_data *ch)
@@ -5022,16 +5069,16 @@ void display_levelup_trains(struct char_data *ch)
 {
 
     send_to_char(ch,
-                 "Ability Trains Remaining: %d\r\n"
+                 "Ability Trains Remaining: @g%d@n\r\n"
                  "\r\n"
-                 "1) Strength     : %d\r\n"
-                 "2) Dexterity    : %d\r\n"
-                 "3) Constitution : %d\r\n"
-                 "4) Intelligence : %d\r\n"
-                 "5) Wisdom       : %d\r\n"
-                 "6) Charisma     : %d\r\n"
+                 "@g1@n) Strength     : @g%d@n\r\n"
+                 "@g2@n) Dexterity    : @g%d@n\r\n"
+                 "@g3@n) Constitution : @g%d@n\r\n"
+                 "@g4@n) Intelligence : @g%d@n\r\n"
+                 "@g5@n) Wisdom       : @g%d@n\r\n"
+                 "@g6@n) Charisma     : @g%d@n\r\n"
                  "\r\n"
-                 "Please select the ability that you wish to increase, or type -1 to continue: ",
+                 "Please select the ability that you wish to increase, or type @g0@n to continue: ",
 
                  ch->levelup->num_trains,
                  ch->real_abils.str + ch->levelup->trains[0],
@@ -5052,7 +5099,7 @@ void display_levelup_summary(struct char_data *ch)
     send_to_char(ch,
                  "\r\n"
                  "Do you wish to accept these changes?\r\n"
-                 "Type yes to accept or no to cancel and start over.\r\n"
+                 "Type @gy@n to accept or @gn@n to cancel and start over: "
                 );
 
 }
@@ -5070,9 +5117,9 @@ void display_levelup_changes(struct char_data *ch, int apply_changes)
 
     send_to_char(ch,
                  "\r\n"
-                 "Your Level Summary:\r\n"
+                 "@YYour Level Summary:@n\r\n"
                  "\r\n"
-                 "Skills:\r\n"
+                 "@CSkills:@n\r\n"
                  "\r\n"
                 );
 
@@ -5080,7 +5127,7 @@ void display_levelup_changes(struct char_data *ch, int apply_changes)
     {
         if (ch->levelup && ch->levelup->skills[i] > 0)
         {
-            send_to_char(ch, "%s raised from %d to %d.\r\n", spell_info[i].name, GET_SKILL(ch, i), GET_SKILL(ch, i) + ch->levelup->skills[i]);
+            send_to_char(ch, "@W  - %s raised from %d to %d.@n\r\n", spell_info[i].name, GET_SKILL(ch, i), GET_SKILL(ch, i) + ch->levelup->skills[i]);
             if (apply_changes)
                 GET_SKILL_BASE(ch, i) += ch->levelup->skills[i];
         }
@@ -5088,7 +5135,7 @@ void display_levelup_changes(struct char_data *ch, int apply_changes)
 
     send_to_char(ch,
                  "\r\n"
-                 "Feats:\r\n"
+                 "@CFeats:@n\r\n"
                  "\r\n"
                 );
 
@@ -5096,7 +5143,7 @@ void display_levelup_changes(struct char_data *ch, int apply_changes)
     {
         if (ch->levelup->feats[i] > 0)
         {
-            send_to_char(ch, "%s", feat_list[i].name);
+            send_to_char(ch, "@W  - %s", feat_list[i].name);
             if (apply_changes)
                 process_add_feat(ch, i);
 
@@ -5127,13 +5174,13 @@ void display_levelup_changes(struct char_data *ch, int apply_changes)
                 send_to_char(ch, " (%s)", spell_info[ch->levelup->feat_skills[i]].name);
                 break;
             }
-            send_to_char(ch, "\r\n");
+            send_to_char(ch, "@n\r\n");
         }
     }
 
     send_to_char(ch,
                  "\r\n"
-                 "Ability Score Trains:\r\n"
+                 "@CAbility Score Trains:@n\r\n"
                  "\r\n"
                 );
 
@@ -5146,32 +5193,32 @@ void display_levelup_changes(struct char_data *ch, int apply_changes)
             case 0:
                 if (apply_changes)
                     ch->real_abils.str += ch->levelup->trains[i];
-                send_to_char(ch, "Strength raised from %d to %d.\r\n", ch->real_abils.str, ch->real_abils.str + ch->levelup->trains[i]);
+                send_to_char(ch, "@W  - Strength raised from %d to %d.@n\r\n", ch->real_abils.str, ch->real_abils.str + ch->levelup->trains[i]);
                 break;
             case 1:
                 if (apply_changes)
                     ch->real_abils.dex += ch->levelup->trains[i];
-                send_to_char(ch, "Dexterity raised from %d to %d.\r\n", ch->real_abils.dex, ch->real_abils.dex + ch->levelup->trains[i]);
+                send_to_char(ch, "@W  - Dexterity raised from %d to %d.@n\r\n", ch->real_abils.dex, ch->real_abils.dex + ch->levelup->trains[i]);
                 break;
             case 2:
                 if (apply_changes)
                     ch->real_abils.con += ch->levelup->trains[i];
-                send_to_char(ch, "Constitution raised from %d to %d.\r\n", ch->real_abils.con, ch->real_abils.con + ch->levelup->trains[i]);
+                send_to_char(ch, "@W  - Constitution raised from %d to %d.@n\r\n", ch->real_abils.con, ch->real_abils.con + ch->levelup->trains[i]);
                 break;
             case 3:
                 if (apply_changes)
                     ch->real_abils.intel += ch->levelup->trains[i];
-                send_to_char(ch, "Intelligence raised from %d to %d.\r\n", ch->real_abils.intel, ch->real_abils.intel + ch->levelup->trains[i]);
+                send_to_char(ch, "@W  - Intelligence raised from %d to %d.@n\r\n", ch->real_abils.intel, ch->real_abils.intel + ch->levelup->trains[i]);
                 break;
             case 4:
                 if (apply_changes)
                     ch->real_abils.wis += ch->levelup->trains[i];
-                send_to_char(ch, "Wisdom raised from %d to %d.\r\n", ch->real_abils.wis, ch->real_abils.wis + ch->levelup->trains[i]);
+                send_to_char(ch, "@W  - Wisdom raised from %d to %d.@n\r\n", ch->real_abils.wis, ch->real_abils.wis + ch->levelup->trains[i]);
                 break;
             case 5:
                 if (apply_changes)
                     ch->real_abils.cha += ch->levelup->trains[i];
-                send_to_char(ch, "Charisma raised from %d to %d.\r\n", ch->real_abils.cha, ch->real_abils.cha + ch->levelup->trains[i]);
+                send_to_char(ch, "@W  - Charisma raised from %d to %d.@n\r\n", ch->real_abils.cha, ch->real_abils.cha + ch->levelup->trains[i]);
                 break;
 
             }

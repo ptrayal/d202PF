@@ -1097,35 +1097,35 @@ extern struct config_data config_info;
 
 #define CON_CLANEDIT     70     /* OLC mode - clan editor               */
 
-#define CON_LEVELUP_START		71	
+#define CON_LEVELUP_START		71
 #define CON_LEVELUP_SPELLS   		72
 #define CON_LEVELUP_CLASSES 		73
-#define CON_LEVELUP_SKILLS_MENU 	74
-#define CON_LEVELUP_SKILLS 		75
-#define CON_LEVELUP_SKILLS_CONFIRM 	76
-#define CON_LEVELUP_FEATS			77
-#define CON_LEVELUP_FEATS_CONFIRM	78
-#define CON_LEVELUP_FEATS_WEAPONS	79
-#define CON_LEVELUP_FEATS_SKILLS	80
-#define CON_LEVELUP_TRAINS			81
-#define CON_LEVELUP_TRAINS_CONFIRM	82
-#define CON_LEVELUP_SUMMARY			83
-#define CON_LEVELUP_FEATS_PROCESS	84
-#define CON_LEVELUP_SPELLS_CONFIRM	85
-#define CON_LEVELUP_END			85
+#define CON_LEVELUP_CLASSES_CONFIRM	74
+#define CON_LEVELUP_SKILLS_MENU 	75
+#define CON_LEVELUP_SKILLS 		76
+#define CON_LEVELUP_SKILLS_CONFIRM 	77
+#define CON_LEVELUP_FEATS		78
+#define CON_LEVELUP_FEATS_CONFIRM	79
+#define CON_LEVELUP_FEATS_WEAPONS	80
+#define CON_LEVELUP_FEATS_SKILLS	81
+#define CON_LEVELUP_TRAINS		82
+#define CON_LEVELUP_TRAINS_CONFIRM	83
+#define CON_LEVELUP_SUMMARY		84
+#define CON_LEVELUP_FEATS_PROCESS	85
+#define CON_LEVELUP_SPELLS_CONFIRM	86
+#define CON_LEVELUP_END			86
 
-#define CON_SELECT_COMBAT_ACTION	86
-#define CON_CUSTOM_COMBAT_ACTION	87
-#define CON_PARSE_COMBAT_ACTION		88
-#define CON_PETSET		89	/* OLC mode - pet builder	*/
-
-#define CON_QTRAIT_INTRO        91  /* Trait system introduction */
-#define CON_QTRAIT_SELECT_1     92  /* Select first trait */
-#define CON_QTRAIT_SELECT_2     93  /* Select second trait */
-#define CON_QTRAIT_CONFIRM      94  /* Confirm trait selection */
-#define CON_EMAIL			90
-#define CON_NOTE_WRITE			91
-#define CON_NEWMAIL			92
+#define CON_SELECT_COMBAT_ACTION	87
+#define CON_CUSTOM_COMBAT_ACTION	88
+#define CON_PARSE_COMBAT_ACTION		89
+#define CON_PETSET		90	/* OLC mode - pet builder	*/
+#define CON_EMAIL		91
+#define CON_QTRAIT_INTRO        92  /* Trait system introduction */
+#define CON_QTRAIT_SELECT_1     93  /* Select first trait */
+#define CON_QTRAIT_SELECT_2     94  /* Select second trait */
+#define CON_QTRAIT_CONFIRM      95  /* Confirm trait selection */
+#define CON_NOTE_WRITE		96
+#define CON_NEWMAIL		97
 
 #define CON_DISCONNECT   999             /* in game disconnection        */
 

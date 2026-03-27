@@ -209,7 +209,7 @@ void display_levelup_skills(struct char_data *ch, int langs)
     int i = 0;
     int count = 0;
 
-    send_to_char(ch, "\r\n@WSkill Points: @Y%d@n\r\n", ch->levelup->practices);
+    send_to_char(ch, "\r\n@WSkill Points: @g%d@n\r\n", ch->levelup->practices);
     send_to_char(ch, "\r\n@WSkills:@n\r\n\r\n");
 
     for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) 
@@ -218,9 +218,10 @@ void display_levelup_skills(struct char_data *ch, int langs)
             SKILL_HIGH_SKILL) && (spell_info[spell_sort_info[i]].can_learn_skill[ch->levelup->class] == SKLEARN_CLASS || spell_info[spell_sort_info[i]].can_learn_skill[ch->levelup->class] == SKLEARN_CROSSCLASS) &&
             !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT)) 
         {
-            send_to_char(ch, "%s%2d) %-20s: %2d [%2d] @n", 
-                spell_info[spell_sort_info[i]].can_learn_skill[ch->levelup->class] == SKLEARN_CLASS ? "@y" : "@r", 
-                spell_sort_info[i], spell_info[spell_sort_info[i]].name, 
+            send_to_char(ch, "@g%2d@n) %s%-20s@n: @g%2d@n [@g%2d@n] ",
+                spell_sort_info[i],
+                spell_info[spell_sort_info[i]].can_learn_skill[ch->levelup->class] == SKLEARN_CLASS ? "@W" : "@Y",
+                spell_info[spell_sort_info[i]].name,
                 GET_SKILL(ch, spell_sort_info[i]),
                 GET_SKILL(ch, spell_sort_info[i]) + ch->levelup->skills[spell_sort_info[i]]);
         }
@@ -251,9 +252,9 @@ void display_levelup_skills(struct char_data *ch, int langs)
             if ((spell_info[spell_sort_info[i]].skilltype == (SKTYPE_SKILL + SKTYPE_LANG) && spell_sort_info[i] >= SKILL_LANG_LOW && spell_sort_info[i] <=
                 SKILL_LANG_HIGH)) 
             {
-                send_to_char(ch, "%s%2d) %-20s%s @n",  (GET_SKILL(ch, spell_sort_info[i]) + ch->levelup->skills[spell_sort_info[i]]) ? "@y" : "@r", spell_sort_info[i], 
-                    spell_info[spell_sort_info[i]].name, GET_SKILL(ch,
-                        spell_sort_info[i]) ? "@n" : "");
+                send_to_char(ch, "@g%2d@n) %s%-20s@n ",  spell_sort_info[i],
+                    (GET_SKILL(ch, spell_sort_info[i]) + ch->levelup->skills[spell_sort_info[i]]) ? "@W" : "@Y",
+                    spell_info[spell_sort_info[i]].name);
             }
             else
                 continue;
@@ -268,12 +269,12 @@ void display_levelup_skills(struct char_data *ch, int langs)
 
     }
 
-    send_to_char(ch, "Format is <skill name> <base skill ranks> [<with levelup skill ranks>].\r\nClass Skill in @yyellow@n, Cross-Class in @rred@n.");
+    send_to_char(ch, "Format is <skill name> <base skill ranks> [<with levelup skill ranks>].\r\nClass Skill in @Wwhite@n, Cross-Class in @Yyellow@n.");
     if (langs)
     {
-        send_to_char(ch, "Language known in @yyellow@n, unknown in @rred@n.");
+        send_to_char(ch, "Language known in @Wwhite@n, unknown in @Yyellow@n.");
     }
-    send_to_char(ch, "\r\nWhat skill would you like to raise? (-1 to end)");
+    send_to_char(ch, "\r\nWhat skill would you like to raise? (@g0@n to continue)");
 
 }
 

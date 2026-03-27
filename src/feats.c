@@ -2727,16 +2727,20 @@ void display_levelup_feats(struct char_data *ch)
     ch->levelup->num_epic_class_feats = 0;
 
   send_to_char(ch, "Available Feats to Learn:\r\n");
-  send_to_char(ch, "Number Available: Normal (%d) Class (%d) Epic (%d) Epic CLass (%d)\r\n\r\n",
+  send_to_char(ch, "Number Available: Normal (@g%d@n) Class (@g%d@n) Epic (@g%d@n) Epic Class (@g%d@n)\r\n\r\n",
     ch->levelup->feat_points, ch->levelup->num_class_feats, ch->levelup->epic_feat_points, ch->levelup->num_epic_class_feats);
 
 
-  for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
+  for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++)
   {
     int i = feat_sort_info[sortpos];
     int classfeat = FALSE;
 
-    while (featMarker != 0) 
+    /* Reset for each feat */
+    featMarker = 1;
+    featCounter = 0;
+
+    while (featMarker != 0)
     {
       featMarker = class_bonus_feats[ch->levelup->class][featCounter];
       if (i == featMarker) {
@@ -2749,7 +2753,7 @@ void display_levelup_feats(struct char_data *ch)
       (!HAS_FEAT(ch, i) || feat_list[i].can_stack)) 
     {
 
-      send_to_char(ch, "%s%3d) %-40s @n", classfeat ? "@C(C) " : "@y(N) ", i, feat_list[i].name);
+      send_to_char(ch, "%s@g%3d@n) %-40s @n", classfeat ? "@g(C)@n " : "(N) ", i, feat_list[i].name);
       count++;
       if (count % 2 == 1)
         send_to_char(ch, "\r\n");
@@ -2761,7 +2765,7 @@ void display_levelup_feats(struct char_data *ch)
     send_to_char(ch, "\r\n");
   send_to_char(ch, "\r\n");
 
-  send_to_char(ch, "To select a feat, type the number beside it.  Class feats are in @Ccyan@n and marked with a (C).  When done type -1: ");
+  send_to_char(ch, "To select a feat, type the number beside it.  Class feats are marked with a @g(C)@n.  When done type @g0@n: ");
 
 }
 
@@ -2906,7 +2910,7 @@ void display_levelup_weapons(struct char_data *ch)
         send_to_char(ch, "\r\n");
     }
 
-    send_to_char(ch, "\r\nPlease select a weapon by typing a number beside it: (-1 to cancel) ");
+    send_to_char(ch, "\r\nPlease select a weapon by typing a number beside it: (@g0@n to cancel) ");
 }
 
 void set_feat(struct char_data *ch, int i, int j) 
