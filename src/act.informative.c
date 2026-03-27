@@ -277,6 +277,323 @@ struct help_index_element *find_help(char *keyword)
     return NULL;
 }
 
+/*
+ * Extract first keyword from help entry keywords string
+ * Returns pointer to static buffer containing first keyword
+ */
+char *get_first_keyword(const char *keywords)
+{
+    static char first_kw[MAX_INPUT_LENGTH];
+    char *space_pos;
+
+    snprintf(first_kw, sizeof(first_kw), "%s", keywords);
+
+    /* Find first space and truncate */
+    space_pos = strchr(first_kw, ' ');
+    if (space_pos)
+        *space_pos = '\0';
+
+    return first_kw;
+}
+
+/*
+ * Calculate Levenshtein distance between two strings (case-insensitive)
+ * Returns edit distance, or INT_MAX if strings exceed max length
+ * Uses space-optimized 2-row DP algorithm for efficiency
+ */
+int levenshtein_distance(const char *s1, const char *s2)
+{
+#define MAX_LEV_LEN 256
+
+    int len1 = strlen(s1);
+    int len2 = strlen(s2);
+    int prev_row[MAX_LEV_LEN + 1];
+    int curr_row[MAX_LEV_LEN + 1];
+    int i, j;
+
+    if (len1 > MAX_LEV_LEN || len2 > MAX_LEV_LEN)
+        return INT_MAX;
+
+    if (len1 == 0)
+        return len2;
+    if (len2 == 0)
+        return len1;
+
+    /* Initialize first row */
+    for (j = 0; j <= len2; j++)
+        prev_row[j] = j;
+
+    /* Calculate distances */
+    for (i = 1; i <= len1; i++)
+    {
+        curr_row[0] = i;
+
+        for (j = 1; j <= len2; j++)
+        {
+            int cost = (LOWER(s1[i - 1]) == LOWER(s2[j - 1])) ? 0 : 1;
+            int deletion = prev_row[j] + 1;
+            int insertion = curr_row[j - 1] + 1;
+            int substitution = prev_row[j - 1] + cost;
+
+            curr_row[j] = MIN(deletion, MIN(insertion, substitution));
+        }
+
+        /* Swap rows */
+        memcpy(prev_row, curr_row, sizeof(curr_row));
+    }
+
+    return curr_row[len2];
+
+#undef MAX_LEV_LEN
+}
+
+/*
+ * Find help topics similar to keyword using Levenshtein distance
+ * Allocates array of indices, caller must free
+ * Suggestions sorted by distance (closest first)
+ */
+void find_help_suggestions(char *keyword, int **suggestions, int *count)
+{
+#define MAX_SUGGESTIONS 5
+
+    struct suggestion_elem
+    {
+        int index;
+        int distance;
+    };
+
+    extern int top_of_helpt;
+    struct suggestion_elem candidates[MAX_SUGGESTIONS];
+    int i, j, cand_count = 0;
+    int max_distance;
+    char keyword_lower[MAX_INPUT_LENGTH];
+    char *token, *keywords_copy;
+
+    *suggestions = NULL;
+    *count = 0;
+
+    if (strlen(keyword) < 2)
+        return;
+
+    max_distance = MAX(3, strlen(keyword) / 3);
+
+    /* Convert keyword to lowercase for comparison */
+    snprintf(keyword_lower, sizeof(keyword_lower), "%s", keyword);
+    for (i = 0; keyword_lower[i]; i++)
+        keyword_lower[i] = LOWER(keyword_lower[i]);
+
+    /* Search through all help entries */
+    for (i = 0; i < top_of_helpt; i++)
+    {
+        keywords_copy = strdup(help_table[i].keywords);
+        if (!keywords_copy)
+            continue;
+
+        /* Check each keyword in the entry */
+        for (token = strtok(keywords_copy, " "); token; token = strtok(NULL, " "))
+        {
+            int dist = levenshtein_distance(keyword_lower, token);
+
+            if (dist <= max_distance && dist < INT_MAX)
+            {
+                /* Check if this should be added to candidates */
+                if (cand_count < MAX_SUGGESTIONS)
+                {
+                    candidates[cand_count].index = i;
+                    candidates[cand_count].distance = dist;
+                    cand_count++;
+                }
+                else
+                {
+                    /* Find worst candidate and replace if this is better */
+                    int worst_idx = 0;
+                    for (j = 1; j < MAX_SUGGESTIONS; j++)
+                    {
+                        if (candidates[j].distance > candidates[worst_idx].distance)
+                            worst_idx = j;
+                    }
+                    if (dist < candidates[worst_idx].distance)
+                    {
+                        candidates[worst_idx].index = i;
+                        candidates[worst_idx].distance = dist;
+                    }
+                }
+                break; /* Only count each help entry once */
+            }
+        }
+
+        free(keywords_copy);
+    }
+
+    if (cand_count == 0)
+        return;
+
+    /* Sort by distance (bubble sort, small array) */
+    for (i = 0; i < cand_count - 1; i++)
+    {
+        for (j = 0; j < cand_count - i - 1; j++)
+        {
+            if (candidates[j].distance > candidates[j + 1].distance)
+            {
+                struct suggestion_elem temp = candidates[j];
+                candidates[j] = candidates[j + 1];
+                candidates[j + 1] = temp;
+            }
+        }
+    }
+
+    /* Allocate result array */
+    *suggestions = malloc(sizeof(int) * cand_count);
+    if (!*suggestions)
+    {
+        *count = 0;
+        return;
+    }
+
+    for (i = 0; i < cand_count; i++)
+    {
+        (*suggestions)[i] = candidates[i].index;
+    }
+    *count = cand_count;
+
+#undef MAX_SUGGESTIONS
+}
+
+/*
+ * Find all help entries where any keyword matches the search term
+ * Returns array of indices, caller must free
+ * Uses abbreviation matching (which includes exact matches)
+ */
+void find_help_multiple(char *keyword, int **matches, int *count)
+{
+#define MAX_MATCHES 50
+
+    extern int top_of_helpt;
+    int *match_array;
+    int match_count = 0;
+    int i;
+    char keyword_upper[MAX_INPUT_LENGTH];
+
+    *matches = NULL;
+    *count = 0;
+
+    if (strlen(keyword) < 2)
+        return;
+
+    /* Prepare uppercase version (matches existing find_help logic) */
+    snprintf(keyword_upper, sizeof(keyword_upper), "%s", keyword);
+    for (i = 0; keyword_upper[i]; i++)
+    {
+        keyword_upper[i] = toupper(keyword_upper[i]);
+        if (i != 0 && keyword_upper[i] == ' ')
+            keyword_upper[i] = '-';
+    }
+
+    /* Allocate match array */
+    match_array = malloc(sizeof(int) * MAX_MATCHES);
+    if (!match_array)
+        return;
+
+    /* Search for matches in keywords */
+    for (i = 0; i < top_of_helpt && match_count < MAX_MATCHES; i++)
+    {
+        char *keywords_copy = strdup(help_table[i].keywords);
+        char *token;
+        int found = 0;
+
+        if (!keywords_copy)
+            continue;
+
+        /* Check each keyword in the entry */
+        for (token = strtok(keywords_copy, " "); token && !found; token = strtok(NULL, " "))
+        {
+            /* Check if keyword matches (abbreviation includes exact) */
+            if (is_abbrev(keyword_upper, token))
+            {
+                match_array[match_count++] = i;
+                found = 1;
+            }
+        }
+
+        free(keywords_copy);
+    }
+
+    if (match_count == 0)
+    {
+        free(match_array);
+        return;
+    }
+
+    *matches = match_array;
+    *count = match_count;
+
+#undef MAX_MATCHES
+}
+
+/*
+ * Search within help entry content for keyword
+ * Returns array of indices, caller must free
+ */
+void find_help_content(char *keyword, int **matches, int *count)
+{
+#define MAX_CONTENT_MATCHES 20
+
+    extern int top_of_helpt;
+    int *match_array;
+    int match_count = 0;
+    int i, j;
+    char keyword_lower[MAX_INPUT_LENGTH];
+    char *content_lower;
+
+    *matches = NULL;
+    *count = 0;
+
+    /* Require at least 3 characters for content search */
+    if (strlen(keyword) < 3)
+        return;
+
+    /* Convert keyword to lowercase */
+    snprintf(keyword_lower, sizeof(keyword_lower), "%s", keyword);
+    for (i = 0; keyword_lower[i]; i++)
+        keyword_lower[i] = LOWER(keyword_lower[i]);
+
+    /* Allocate array */
+    match_array = malloc(sizeof(int) * MAX_CONTENT_MATCHES);
+    if (!match_array)
+        return;
+
+    /* Search through help entry content */
+    for (i = 0; i < top_of_helpt && match_count < MAX_CONTENT_MATCHES; i++)
+    {
+        /* Convert entry to lowercase for searching */
+        content_lower = strdup(help_table[i].entry);
+        if (!content_lower)
+            continue;
+
+        for (j = 0; content_lower[j]; j++)
+            content_lower[j] = LOWER(content_lower[j]);
+
+        /* Simple substring search */
+        if (strstr(content_lower, keyword_lower) != NULL)
+        {
+            match_array[match_count++] = i;
+        }
+
+        free(content_lower);
+    }
+
+    if (match_count == 0)
+    {
+        free(match_array);
+        return;
+    }
+
+    *matches = match_array;
+    *count = match_count;
+
+#undef MAX_CONTENT_MATCHES
+}
+
 
 void display_spells(struct char_data *ch, struct obj_data *obj)
 {
@@ -3145,64 +3462,149 @@ ACMD(do_weather)
 ACMD(do_help)
 {
     struct help_index_element *this_help;
-    char entry[MAX_STRING_LENGTH] = {'\0'};
+    char entry[MAX_STRING_LENGTH];
+    int *match_indices = NULL;
+    int match_count = 0;
+    int i;
 
     if (!ch->desc)
         return;
 
     skip_spaces(&argument);
 
+    /* No argument - show default help */
     if (!*argument)
     {
         page_string(ch->desc, help, 0);
         return;
     }
+
     if (!help_table)
     {
         send_to_char(ch, "No help available.\r\n");
         return;
     }
 
-    if (!(this_help = find_help(argument)))
+    /* STAGE 1: Check for matching topics via abbreviation (handles both exact and partial) */
+    find_help_multiple(argument, &match_indices, &match_count);
+
+    if (match_count == 1)
     {
-        log("HELP: %s tried to get help on %s", GET_NAME(ch), argument);
-        send_to_char(ch, "There is no help on that word.\r\n");
+        /* Exactly one match - display it directly */
+        this_help = &help_table[match_indices[0]];
+        free(match_indices);
+
+        if (this_help->min_level > GET_LEVEL(ch))
+        {
+            send_to_char(ch, "There is no help on that word.\r\n");
+            return;
+        }
+
+        snprintf(entry, sizeof(entry), "@W%s@n\r\n%s", this_help->keywords, this_help->entry);
+        page_string(ch->desc, entry, true);
+
+        /* Handle rules tracking (keep existing logic) */
+        if (!strcmp(this_help->keywords, "RULES POLICIES"))
+            ch->player_specials->rules_read[0] = TRUE;
+        else if (!strcmp(this_help->keywords, "RULES-VALUES"))
+            ch->player_specials->rules_read[1] = TRUE;
+        else if (!strcmp(this_help->keywords, "RULES-RESPECT"))
+            ch->player_specials->rules_read[2] = TRUE;
+        else if (!strcmp(this_help->keywords, "RULES-EVIL"))
+            ch->player_specials->rules_read[3] = TRUE;
+        else if (!strcmp(this_help->keywords, "RULES-LANGUAGE"))
+            ch->player_specials->rules_read[4] = TRUE;
+        else if (!strcmp(this_help->keywords, "RULES-BUGS"))
+            ch->player_specials->rules_read[5] = TRUE;
+        else if (!strcmp(this_help->keywords, "RULES-MULTIPLAYING"))
+            ch->player_specials->rules_read[6] = TRUE;
+        else if (!strcmp(this_help->keywords, "RULES-NAMES"))
+            ch->player_specials->rules_read[7] = TRUE;
+        else if (!strcmp(this_help->keywords, "RULES-BOTTING"))
+            ch->player_specials->rules_read[8] = TRUE;
+        else if (!strcmp(this_help->keywords, "RULES-TITLES"))
+            ch->player_specials->rules_read[9] = TRUE;
+        else if (!strcmp(this_help->keywords, "RULES-DISCLAIMER"))
+            ch->player_specials->rules_read[10] = TRUE;
+
+        return;
+    }
+    else if (match_count > 1)
+    {
+        /* Multiple matches found */
+        if (match_count > 20)
+        {
+            send_to_char(ch, "Too many matches (%d) for '@Y%s@n'. Please be more specific.\r\n",
+                        match_count, argument);
+            free(match_indices);
+            return;
+        }
+
+        send_to_char(ch, "@WMultiple help topics match '@Y%s@W':@n\r\n\r\n", argument);
+
+        for (i = 0; i < match_count; i++)
+        {
+            if (help_table[match_indices[i]].min_level <= GET_LEVEL(ch))
+            {
+                send_to_char(ch, "  @G%2d.@n @c%s@n\r\n",
+                            i + 1,
+                            get_first_keyword(help_table[match_indices[i]].keywords));
+            }
+        }
+
+        send_to_char(ch, "\r\nUse @Whelp <topic>@n to view a specific entry.\r\n");
+        free(match_indices);
         return;
     }
 
-    if (this_help->min_level > GET_LEVEL(ch))
+    /* No matches found, log the attempt */
+    log("HELP: %s tried to get help on %s", GET_NAME(ch), argument);
+
+    /* STAGE 2: Try content search */
+    find_help_content(argument, &match_indices, &match_count);
+
+    if (match_count > 0)
     {
-        send_to_char(ch, "There is no help on that word.\r\n");
+        send_to_char(ch, "@WHelp topics containing '@Y%s@W' in their content:@n\r\n\r\n", argument);
+
+        for (i = 0; i < match_count; i++)
+        {
+            if (help_table[match_indices[i]].min_level <= GET_LEVEL(ch))
+            {
+                send_to_char(ch, "  @G%2d.@n @c%s@n\r\n",
+                            i + 1,
+                            get_first_keyword(help_table[match_indices[i]].keywords));
+            }
+        }
+
+        send_to_char(ch, "\r\nUse @Whelp <topic>@n to view a specific entry.\r\n");
+        free(match_indices);
         return;
     }
 
-    snprintf(entry, sizeof(entry), "@W%s@n\r\n%s", this_help->keywords, this_help->entry);
+    /* STAGE 3: Try fuzzy matching suggestions */
+    find_help_suggestions(argument, &match_indices, &match_count);
 
-    page_string(ch->desc, entry, true);
+    if (match_count > 0)
+    {
+        send_to_char(ch, "No help found for '@Y%s@n'. Did you mean:\r\n\r\n", argument);
 
-    if (!strcmp(this_help->keywords, "RULES POLICIES"))
-        ch->player_specials->rules_read[0] = TRUE;
-    else if (!strcmp(this_help->keywords, "RULES-VALUES"))
-        ch->player_specials->rules_read[1] = TRUE;
-    else if (!strcmp(this_help->keywords, "RULES-RESPECT"))
-        ch->player_specials->rules_read[2] = TRUE;
-    else if (!strcmp(this_help->keywords, "RULES-EVIL"))
-        ch->player_specials->rules_read[3] = TRUE;
-    else if (!strcmp(this_help->keywords, "RULES-LANGUAGE"))
-        ch->player_specials->rules_read[4] = TRUE;
-    else if (!strcmp(this_help->keywords, "RULES-BUGS"))
-        ch->player_specials->rules_read[5] = TRUE;
-    else if (!strcmp(this_help->keywords, "RULES-MULTIPLAYING"))
-        ch->player_specials->rules_read[6] = TRUE;
-    else if (!strcmp(this_help->keywords, "RULES-NAMES"))
-        ch->player_specials->rules_read[7] = TRUE;
-    else if (!strcmp(this_help->keywords, "RULES-BOTTING"))
-        ch->player_specials->rules_read[8] = TRUE;
-    else if (!strcmp(this_help->keywords, "RULES-TITLES"))
-        ch->player_specials->rules_read[9] = TRUE;
-    else if (!strcmp(this_help->keywords, "RULES-DISCLAIMER"))
-        ch->player_specials->rules_read[10] = TRUE;
+        for (i = 0; i < match_count; i++)
+        {
+            if (help_table[match_indices[i]].min_level <= GET_LEVEL(ch))
+            {
+                send_to_char(ch, "  @G%2d.@n @c%s@n\r\n",
+                            i + 1,
+                            get_first_keyword(help_table[match_indices[i]].keywords));
+            }
+        }
 
+        free(match_indices);
+        return;
+    }
+
+    /* STAGE 4: No results at all */
+    send_to_char(ch, "There is no help on that word.\r\n");
 }
 
 ACMD(do_nohelps)
