@@ -1137,7 +1137,7 @@ void heartbeat(int heart_pulse)
     reset_harvesting_rooms();
   }
 
-  if (!(heart_pulse % (SECS_PER_MUD_HOUR * PASSES_PER_SEC * 20))) {
+  if (!(heart_pulse % (SECS_PER_MUD_HOUR * PASSES_PER_SEC * 4))) {
     weather_and_time(1);
     check_time_triggers();
   }
