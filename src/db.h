@@ -251,7 +251,10 @@ struct zone_data {
    int alignments;
    int zone_status;
    int level_range;
-   int spare; 
+   int spare;
+
+   /* Weather tracking data */
+   struct zone_weather_data *weather_data;
 
    /*
     * Reset mode:

@@ -3506,30 +3506,84 @@ ACMD(do_time)
 }
 
 
+/* External functions from weather_tracking.c */
+extern int get_room_temperature(room_rnum room);
+extern int calculate_tracking_dc(struct char_data *ch, struct char_data *vict);
+extern const char *get_tracking_condition_desc(int dc);
+
 ACMD(do_weather)
 {
-    const char *sky_look[] =
-    {
-        "cloudless",
-        "cloudy",
-        "rainy",
-        "lit by flashes of lightning"
-    };
+   struct zone_data *zone;
+   struct zone_weather_data *zw;
+   int zone_num, temp;
+   const char *sky_desc[] = {
+      "cloudless",
+      "cloudy",
+      "rainy",
+      "stormy with lightning"
+   };
+   const char *wind_desc[] = {
+      "calm",
+      "light breeze",
+      "moderate wind",
+      "strong wind",
+      "severe gale",
+      "hurricane force"
+   };
 
-    if (OUTSIDE(ch))
-    {
-        send_to_char(ch, "The sky is %s and %s.\r\n", sky_look[weather_info.sky],
-                     weather_info.change >= 0 ? "you feel a warm wind from south" :
-                     "your foot tells you bad weather is due");
-        if (ADM_FLAGGED(ch, ADM_KNOWWEATHER))
-            send_to_char(ch, "Pressure: %d (change: %d), Sky: %d (%s)\r\n",
-                         weather_info.pressure,
-                         weather_info.change,
-                         weather_info.sky,
-                         sky_look[weather_info.sky]);
-    }
-    else
-        send_to_char(ch, "You have no feeling about the weather at all.\r\n");
+   if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_INDOORS)) {
+      send_to_char(ch, "You can't see the weather from here.\r\n");
+      return;
+   }
+
+   zone_num = world[IN_ROOM(ch)].zone;
+   zone = &zone_table[zone_num];
+   zw = zone->weather_data;
+   temp = get_room_temperature(IN_ROOM(ch));
+
+   send_to_char(ch, "The weather is currently:\r\n");
+   send_to_char(ch, "  Sky: %s\r\n", sky_desc[weather_info.sky]);
+   send_to_char(ch, "  Temperature: %d°F (%d°C)\r\n",
+                temp, (temp - 32) * 5 / 9);
+
+   if (weather_info.wind_speed < 5)
+      send_to_char(ch, "  Wind: %s\r\n", wind_desc[0]);
+   else if (weather_info.wind_speed < 15)
+      send_to_char(ch, "  Wind: %s\r\n", wind_desc[1]);
+   else if (weather_info.wind_speed < 25)
+      send_to_char(ch, "  Wind: %s\r\n", wind_desc[2]);
+   else if (weather_info.wind_speed < 40)
+      send_to_char(ch, "  Wind: %s (%d mph)\r\n", wind_desc[3], weather_info.wind_speed);
+   else if (weather_info.wind_speed < 60)
+      send_to_char(ch, "  Wind: %s (%d mph)\r\n", wind_desc[4], weather_info.wind_speed);
+   else
+      send_to_char(ch, "  Wind: %s (%d mph)!\r\n", wind_desc[5], weather_info.wind_speed);
+
+   if (weather_info.fog_level > 5)
+      send_to_char(ch, "  Visibility: Thick fog obscures the area.\r\n");
+   else if (weather_info.fog_level > 2)
+      send_to_char(ch, "  Visibility: Light fog drifts through the air.\r\n");
+
+   /* Show tracking conditions for those with Survival skill */
+   if (zw && GET_SKILL(ch, SKILL_SURVIVAL) > 0) {
+      send_to_char(ch, "\r\nTracking conditions:\r\n");
+      send_to_char(ch, "  %s\r\n", get_tracking_condition_desc(calculate_tracking_dc(ch, ch)));
+
+      if (zw->snow_depth > 0)
+         send_to_char(ch, "  Snow depth: %d inches\r\n", zw->snow_depth);
+
+      if (zw->ground_moisture == GROUND_SATURATED || zw->ground_moisture == GROUND_MUDDY)
+         send_to_char(ch, "  The ground is muddy from recent rain.\r\n");
+
+      if (zw->rain_hours > 0)
+         send_to_char(ch, "  Rain has fallen for %d hours recently.\r\n", zw->rain_hours);
+   }
+
+   /* Admin debug info */
+   if (ADM_FLAGGED(ch, ADM_KNOWWEATHER))
+      send_to_char(ch, "\r\n[Admin] Pressure: %d (change: %d), Humidity: %d%%, Fog: %d\r\n",
+                   weather_info.pressure, weather_info.change,
+                   weather_info.humidity, weather_info.fog_level);
 }
 
 

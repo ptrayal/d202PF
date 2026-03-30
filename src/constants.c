@@ -213,7 +213,7 @@ const char *exit_bits[] =
 
 
 /* SECT_ */
-const char *sector_types[] = 
+const char *sector_types[] =
 {
   "Inside",
   "City",
@@ -229,6 +229,11 @@ const char *sector_types[] =
   "Cave",
   "Desert",
   "Swamp",
+  "Tundra",
+  "Jungle",
+  "Beach",
+  "Glacier",
+  "Plains",
   "\n",
   NULL
 };

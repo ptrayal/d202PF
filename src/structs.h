@@ -292,6 +292,35 @@ extern struct config_data config_info;
 #define SECT_CAVE            11      // Any Cave
 #define SECT_DESERT          12      // Desert
 #define SECT_SWAMP           13      // Swamp
+#define SECT_TUNDRA          14      // Arctic/frozen wasteland
+#define SECT_JUNGLE          15      // Dense tropical jungle
+#define SECT_BEACH           16      // Coastal/shoreline
+#define SECT_GLACIER         17      // Permanent ice
+#define SECT_PLAINS          18      // Open grassland
+
+/* Weather precipitation types */
+#define PRECIP_NONE      0
+#define PRECIP_DRIZZLE   1
+#define PRECIP_RAIN      2
+#define PRECIP_HEAVY_RAIN 3
+#define PRECIP_SNOW      4
+#define PRECIP_HEAVY_SNOW 5
+#define PRECIP_SLEET     6
+#define PRECIP_HAIL      7
+
+/* Ground moisture levels (affects tracking base DC) */
+#define GROUND_DRY        0  // Normal terrain DC
+#define GROUND_MOIST      1  // Firm ground: DC 15
+#define GROUND_MUDDY      2  // Soft ground: DC 10
+#define GROUND_SATURATED  3  // Very soft ground: DC 5
+#define GROUND_FROZEN     4  // Hard ground: DC 20
+
+/* Snow states (for tracking) */
+#define SNOW_NONE         0
+#define SNOW_FRESH        1  // +10 DC - covers tracks
+#define SNOW_PACKED       2  // Very soft ground - DC 5
+#define SNOW_OLD          3  // Soft ground - DC 10
+#define SNOW_ICE          4  // Hard ground - DC 20
 
 /* char and mob-related defines *****************************************/
 /* PC classes */
@@ -3427,11 +3456,38 @@ struct social_messg {
   char *char_obj_found;
   char *others_obj_found;
 };
+/* Global weather structure */
 struct weather_data {
-   int  pressure; /* How is the pressure ( Mb ) */
-   int  change; /* How fast and what way does it change. */
-   int  sky;  /* How is the sky. */
-   int  sunlight; /* And how much sun. */
+   int  pressure;           // Barometric pressure (960-1040)
+   int  change;             // Rate of pressure change
+   int  sky;                // SKY_CLOUDLESS, SKY_CLOUDY, etc.
+   int  sunlight;           // SUN_DARK, SUN_RISE, etc.
+   int  temperature;        // Degrees Fahrenheit (-50 to 120)
+   int  wind_speed;         // MPH (0-100)
+   int  wind_direction;     // 0-7 (N, NE, E, SE, S, SW, W, NW)
+   int  humidity;           // Percentage (0-100)
+   int  precipitation_type; // PRECIP_* constant
+   int  fog_level;          // 0-10 (0=none, 10=thick fog)
+   int  moon_phase;         // 0-7 (new, waxing crescent, etc.)
+};
+
+/* Per-zone weather tracking data (for tracking skill) */
+struct zone_weather_data {
+   /* Current weather effects on tracking */
+   int  ground_moisture;       // GROUND_* constant - affects base tracking DC
+   int  snow_state;            // SNOW_* constant
+   int  snow_depth;            // Inches of snow (0-60)
+
+   /* Accumulation tracking (for Pathfinder rules) */
+   int  rain_hours;            // Hours of rain in last 48 hours (+1 DC per hour)
+   int  hours_since_rain;      // For ground drying calculations
+   int  hours_since_snow;      // For snow aging (fresh -> packed -> old)
+   time_t last_precip_time;    // Timestamp of last precipitation
+
+   /* Zone climate modifiers (based on predominant sector types) */
+   int  base_temp_modifier;    // +/- from global temperature (-40 to +40)
+   int  altitude;              // Affects temperature and storms (-50 to 200)
+   int  storm_frequency;       // 0-100 (likelihood modifier)
 };
 /*
  * Element in monster and object index-tables.

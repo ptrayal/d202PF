@@ -24,6 +24,10 @@
 ACMD(do_say);
 int has_favored_enemy(struct char_data *ch, struct char_data *victim);
 
+/* external functions from weather_tracking.c */
+extern int calculate_tracking_dc(struct char_data *ch, struct char_data *vict);
+extern const char *get_tracking_condition_desc(int dc);
+
 /* external variables */
 extern const char *dirs[];
 
@@ -194,6 +198,8 @@ ACMD(do_track)
     int dir = 0;
     int bonus = 0;
     int roll = 0;
+    int dc = 15; // Will be calculated
+    int skill_total = 0;
 
     /* The character must have the track skill. */
     if (IS_NPC(ch) || !GET_SKILL(ch, SKILL_SURVIVAL))
@@ -220,10 +226,26 @@ ACMD(do_track)
         return;
     }
 
+    /* Calculate tracking DC based on weather, terrain, and sector */
+    dc = calculate_tracking_dc(ch, vict);
+
+    /* Check if tracking is impossible */
+    if (dc >= 999)
+    {
+        send_to_char(ch, "You cannot track through this terrain.\r\n");
+        return;
+    }
+
+    /* Favored enemy bonus */
     if (has_favored_enemy(ch, vict))
         bonus += dice(1, (GET_CLASS_RANKS(ch, CLASS_RANGER) / 5) + 1) * 2;
 
-    if (!(roll = dice(1, 20) + get_skill_value(ch, SKILL_SURVIVAL) + bonus))
+    /* Roll: d20 + Survival skill + bonuses */
+    roll = dice(1, 20);
+    skill_total = roll + get_skill_value(ch, SKILL_SURVIVAL) + bonus;
+
+    /* Natural 1 always fails */
+    if (roll == 1)
     {
         int tries = 10;
         /* Find a random direction. :) */
@@ -233,6 +255,17 @@ ACMD(do_track)
         }
         while (!CAN_GO(ch, dir) && --tries);
         send_to_char(ch, "You sense a trail %s from here!\r\n", dirs[dir]);
+        send_to_char(ch, "@r[You failed the tracking check - wrong direction!]@n\r\n");
+        return;
+    }
+
+    /* Check if they beat the DC */
+    if (skill_total < dc)
+    {
+        send_to_char(ch, "You search for tracks but cannot find a clear trail.\r\n");
+        send_to_char(ch, "%s\r\n", get_tracking_condition_desc(dc));
+        send_to_char(ch, "@y[DC: %d, Roll: %d+%d+%d=%d - Failed]@n\r\n",
+                     dc, roll, get_skill_value(ch, SKILL_SURVIVAL), bonus, skill_total);
         return;
     }
 
@@ -251,13 +284,16 @@ ACMD(do_track)
         send_to_char(ch, "You can't sense a trail to %s from here.\r\n", HMHR(vict));
         break;
     default:  /* Success! */
-        if (num_rooms_between(IN_ROOM(ch), IN_ROOM(vict)) > (roll * 50))
+        /* Distance check - higher skill allows tracking farther */
+        if (num_rooms_between(IN_ROOM(ch), IN_ROOM(vict)) > (skill_total * 50))
         {
             send_to_char(ch, "The trail is too faint to follow.\r\n");
             return;
         }
 
         send_to_char(ch, "You sense a trail %s from here!\r\n", dirs[dir]);
+        send_to_char(ch, "@g[DC: %d, Roll: %d+%d+%d=%d - Success]@n\r\n",
+                     dc, roll, get_skill_value(ch, SKILL_SURVIVAL), bonus, skill_total);
         break;
     }
 }

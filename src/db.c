@@ -142,6 +142,10 @@ char *parse_object(FILE *obj_f, int nr);
 void parse_trigger(FILE *fl, int virtual_nr);
 void load_zones(FILE *fl, char *zonename);
 void load_help(FILE *fl);
+
+/* Weather tracking functions from weather_tracking.c */
+void init_zone_weather(struct zone_data *zone);
+void auto_configure_zone_climate(struct zone_data *zone);
 void assign_deities(void);
 void assign_races(void);
 void assign_mobiles(void);
@@ -624,6 +628,12 @@ void boot_world(void)
     renum_world();
     check_start_rooms();
     STARTUP_END(rooms, "World: Rooms", &stats);
+
+    /* Now that rooms are loaded, configure zone climates based on actual sector types */
+    log("Configuring zone climates based on sector types.");
+    for (zone_rnum i = 0; i <= top_of_zone_table; i++) {
+        auto_configure_zone_climate(&zone_table[i]);
+    }
 
     STARTUP_BEGIN(mobs);
     index_boot(DB_BOOT_MOB);
@@ -1127,6 +1137,15 @@ void reset_time(void)
         weather_info.pressure += dice(1, 80);
 
     weather_info.change = 0;
+
+    /* Initialize new weather fields */
+    weather_info.temperature = 60;
+    weather_info.wind_speed = 10;
+    weather_info.wind_direction = 0;
+    weather_info.humidity = 50;
+    weather_info.precipitation_type = PRECIP_NONE;
+    weather_info.fog_level = 0;
+    weather_info.moon_phase = 0;
 
     if (weather_info.pressure <= 980)
         weather_info.sky = SKY_LIGHTNING;
@@ -3038,6 +3057,9 @@ void load_zones(FILE *fl, char *zonename)
     log("SYSERR: Zone command count mismatch for %s. Estimated: %d, Actual: %d", zname, num_of_cmds, cmd_no + 1);
     exit(1);
   }
+
+  /* Initialize weather tracking for this zone (climate will be configured after rooms load) */
+  init_zone_weather(&Z);
 
   top_of_zone_table = zone++;
 }
