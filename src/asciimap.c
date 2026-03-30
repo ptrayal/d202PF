@@ -127,12 +127,11 @@ struct map_info_type map_info[] =
     { SECT_CAVE,         "@c[@y.@c]@n" },
     { SECT_DESERT,       "@c[@Y:@c]@n" },
     { SECT_SWAMP,        "@c[@G;@c]@n" },
-    { -1,                ""        },
-    { -1,                ""        }, /* 15 */
-    { -1,                ""        },
-    { -1,                ""        },
-    { -1,                ""        },
-    { -1,                ""        },
+    { SECT_TUNDRA,    "@c[@W*@c]@n" },  // White for tundra
+    { SECT_JUNGLE,    "@c[@GJ@c]@n" },  // Dark green for jungle
+    { SECT_BEACH,     "@c[@y.@c]@n" },  // Yellow for beach
+    { SECT_GLACIER,   "@c[@WI@c]@n" },  // White I for glacier/ice
+    { SECT_PLAINS,    "@c[@g-@c]@n" },  // Green dash for plains    { -1,                ""        },
     { -1,                ""        }, /* 20 */
     { -1,                ""        },
     { -1,                ""        },
@@ -165,11 +164,11 @@ struct map_info_type world_map_info[] =
     { SECT_CAVE,         "@y."  },
     { SECT_DESERT,       "@Y:"  },
     { SECT_SWAMP,        "@G;"  },
-    { -1,                ""     }, /* 15 */
-    { -1,                ""     },
-    { -1,                ""     },
-    { -1,                ""     },
-    { -1,                ""     },
+    { SECT_TUNDRA,       "@W*" },
+    { SECT_JUNGLE,       "@GJ" },
+    { SECT_BEACH,        "@y." },
+    { SECT_GLACIER,      "@WI" },
+    { SECT_PLAINS,       "@g-" },
     { -1,                ""     }, /* 20 */
     { -1,                ""     },
     { -1,                ""     },
