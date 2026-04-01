@@ -834,6 +834,28 @@ const char *item_types[] =
   "\n"
 };
 
+/* Item category names for categorized inventory display
+ * These correspond to ITEM_CAT_* constants in structs.h
+ * To add a new category:
+ *   1. Add #define ITEM_CAT_NEWNAME in structs.h
+ *   2. Add "Category Name" here in the same order
+ *   3. Update NUM_ITEM_CATEGORIES in structs.h
+ *   4. Update get_item_category() in act.informative.c to map item types to your new category
+ *   5. Update get_category_color() in act.informative.c to assign a color
+ */
+const char *item_category_names[] =
+{
+  "Weapons",
+  "Armor",
+  "Consumables",
+  "Magic Items",
+  "Materials",
+  "Containers",
+  "Quest Items",
+  "Tools",
+  "Miscellaneous",
+  "\n"
+};
 
 /* ITEM_WEAR_ (wear bitvector) */
 const char *wear_bits[] = 

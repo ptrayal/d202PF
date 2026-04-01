@@ -10063,33 +10063,68 @@ idea to read them every once in a while.
 
 #0
 INVENTORY
+Usage: inventory [filter] [keyword] [sort:option]
 
-Usage: inventory
+Displays your inventory with color-coded categories and powerful filtering
+options. Items are automatically organized by type for easier browsing.
 
-If you're uncertain about what you're carrying, or simply want to check
-that no thieves have got to your backpack.
+@WBASIC USAGE:@n
+  inventory              - Shows all items organized by category
+  i                      - Shorthand for inventory
+
+@WCATEGORY FILTERS:@n
+Show only items in a specific category:
+  inventory weapons      - Show only weapons (bright red)
+  inventory armor        - Show only armor and suits (bright blue)
+  inventory consumables  - Show potions, food, healing kits (bright green)
+  inventory magic        - Show wands, staves, scrolls, spellbooks (magenta)
+  inventory materials    - Show crafting materials (yellow)
+  inventory containers   - Show bags, sheaths, bottles (cyan)
+  inventory quest        - Show quest items (bright yellow)
+  inventory tools        - Show lights, keys, boats, etc. (white)
+  inventory misc         - Show miscellaneous items
+
+@WKEYWORD SEARCH:@n
+Find items by name or description:
+  inventory steel        - Find items containing "steel"
+  inventory healing      - Find items with "healing" in name/description
+
+@WCOMBINED FILTERS:@n
+Combine category filters with keyword search:
+  inventory weapons steel        - Steel weapons only
+  inventory consumables healing  - Healing potions/items
+  inventory armor leather        - Leather armor pieces
+
+@WSPECIAL FILTERS:@n
+  inventory equipped     - Show items you can currently equip
+  inventory unusable     - Show items restricted by class/race/alignment
+  inventory valuable     - Show high-value items (1000+ gold)
+
+@WSORTING OPTIONS:@n
+  inventory sort:type    - Sort by category (default)
+  inventory sort:alpha   - Sort alphabetically by name
+  inventory sort:value   - Sort by value (most expensive first)
+
+@WEXAMPLES:@n
+  > inventory weapons
+  > inventory steel
+  > inventory magic scroll
+  > inventory equipped
+  > inventory sort:value
+
+@WCATEGORIES:@n
+Items are automatically color-coded by category:
+  - Weapons (red): Swords, axes, bows, etc.
+  - Armor (blue): All armor pieces and suits
+  - Consumables (green): Potions, food, salves
+  - Magic Items (magenta): Scrolls, wands, staves, spellbooks
+  - Materials (yellow): Crafting components
+  - Containers (cyan): Bags, sheaths, containers
+  - Quest Items (bright yellow): Important quest items
+  - Tools (white): Lights, keys, utility items
+  - Miscellaneous: Everything else
 
 See also: EQUIPMENT, GRAB, HOLD, REMOVE, WEAR
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #0
 JUNK
 
@@ -33313,7 +33348,11 @@ UNDEFINED
 Empty
 #0
 RESEARCH
-@nThe @Yresearch@n command can be used to learn new spells.
+   The research command is used to learn new spells.  It first of all requires
+You to be in a library of sufficient size to learn the spell.  If you have
+Research tokens, then it is successful and free.  Otherwise, it requires a
+Spellcraft check vs DC (10 +(2* spell level)) and enough money to do the
+Research (100 * spell level).  
 #0
 UNDEFINED
 Empty
@@ -36816,5 +36855,11 @@ IMPORTANT NOTES:
   - Items with limited loading should not be used as assembly products
 
 See also: SHOW ASSEMBLIES, OEDIT, ASSEMBLIES
+#0
+UNDEFINED
+Empty
+#0
+UNDEFINED
+Empty
 #0
 $~

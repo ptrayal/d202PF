@@ -179,6 +179,605 @@ const char *portal_appearance[] =
 #define SHOW_OBJ_SHORT    1
 #define SHOW_OBJ_ACTION   2
 
+/* ==================================================================
+ * CATEGORIZED INVENTORY SYSTEM
+ * ================================================================== */
+
+/* Data structures for categorized inventory display with filtering */
+struct inventory_filter {
+    int type_filter;        /* ITEM_CAT_* or -1 for all */
+    char keyword[MAX_INPUT_LENGTH];  /* Keyword search string */
+    int special_filter;     /* Bitwise INVFILTER_* flags */
+    int sort_mode;          /* INVSORT_* */
+};
+
+struct categorized_item {
+    struct obj_data *obj;
+    int category;
+    struct categorized_item *next;
+};
+
+/* External references needed for categorized inventory */
+extern const char *item_category_names[];
+
+/* Forward declarations for categorized inventory functions */
+int get_item_category(struct obj_data *obj);
+const char *get_category_color(int category);
+void parse_inventory_arguments(char *argument, struct inventory_filter *filter);
+int parse_type_filter(char *arg);
+void parse_special_filter(char *arg, struct inventory_filter *filter);
+void parse_sort_option(char *arg, struct inventory_filter *filter);
+int item_is_equippable(struct char_data *ch, struct obj_data *obj);
+int item_is_unusable(struct char_data *ch, struct obj_data *obj);
+int apply_filters(struct char_data *ch, struct obj_data *obj, struct inventory_filter *filter);
+struct categorized_item *categorize_filtered_items(struct char_data *ch, struct inventory_filter *filter);
+void display_categorized_inventory(struct char_data *ch, struct categorized_item *items, struct inventory_filter *filter);
+void free_categorized_list(struct categorized_item *list);
+void perform_inventory_display(struct char_data *ch, struct inventory_filter *filter);
+
+/* Get the category for an item based on its type and flags
+ * Priority: ITEM_QUEST flag > item type > ITEM_MAGIC flag > MISC
+ *
+ * To add new categories:
+ * 1. Add ITEM_CAT_NEWNAME constant in structs.h
+ * 2. Add category name to item_category_names[] in constants.c
+ * 3. Update this function to map item types to your new category
+ * 4. Update get_category_color() to assign a color to the category
+ */
+int get_item_category(struct obj_data *obj)
+{
+    if (!obj)
+        return ITEM_CAT_MISC;
+
+    /* Quest items always take priority */
+    if (OBJ_FLAGGED(obj, ITEM_QUEST))
+        return ITEM_CAT_QUEST_ITEMS;
+
+    /* Categorize by item type */
+    switch (GET_OBJ_TYPE(obj))
+    {
+        case ITEM_WEAPON:
+        case ITEM_FIREWEAPON:
+        case ITEM_MISSILE:
+            return ITEM_CAT_WEAPONS;
+
+        case ITEM_ARMOR:
+        case ITEM_ARMOR_SUIT:
+            return ITEM_CAT_ARMOR;
+
+        case ITEM_POTION:
+        case ITEM_FOOD:
+        case ITEM_SALVE:
+        case ITEM_HEALING_KIT:
+            return ITEM_CAT_CONSUMABLES;
+
+        case ITEM_WAND:
+        case ITEM_STAFF:
+        case ITEM_SPELLBOOK:
+        case ITEM_SCROLL:
+            return ITEM_CAT_MAGIC_ITEMS;
+
+        case ITEM_MATERIAL:
+        case ITEM_RAW:
+        case ITEM_CRYSTAL:
+        case ITEM_FIREWOOD:
+            return ITEM_CAT_MATERIALS;
+
+        case ITEM_CONTAINER:
+        case ITEM_SHEATH:
+        case ITEM_BOTTLE:
+            return ITEM_CAT_CONTAINERS;
+
+        case ITEM_LIGHT:
+        case ITEM_KEY:
+        case ITEM_PEN:
+        case ITEM_SHOVEL:
+        case ITEM_BOAT:
+        case ITEM_AQUALUNG:
+        case ITEM_VEHICLE:
+        case ITEM_PORTAL:
+            return ITEM_CAT_TOOLS;
+
+        default:
+            /* Check if it has the magic flag */
+            if (OBJ_FLAGGED(obj, ITEM_MAGIC))
+                return ITEM_CAT_MAGIC_ITEMS;
+
+            return ITEM_CAT_MISC;
+    }
+}
+
+/* Get the color code for a category
+ * Returns @-code color string (e.g., "@R" for bright red)
+ * Colors respect player PRF_COLOR preference via proc_colors()
+ *
+ * To add colors for new categories:
+ * Add a new case for your ITEM_CAT_NEWNAME constant
+ * Available colors: @r/@R (red), @g/@G (green), @b/@B (blue),
+ *                   @c/@C (cyan), @m/@M (magenta), @y/@Y (yellow),
+ *                   @w/@W (white), @n (normal)
+ * Lowercase = normal, Uppercase = bright
+ */
+const char *get_category_color(int category)
+{
+    switch (category)
+    {
+        case ITEM_CAT_WEAPONS:      return "@R";  /* Bright red */
+        case ITEM_CAT_ARMOR:        return "@B";  /* Bright blue */
+        case ITEM_CAT_CONSUMABLES:  return "@G";  /* Bright green */
+        case ITEM_CAT_MAGIC_ITEMS:  return "@M";  /* Bright magenta */
+        case ITEM_CAT_MATERIALS:    return "@y";  /* Yellow */
+        case ITEM_CAT_CONTAINERS:   return "@C";  /* Bright cyan */
+        case ITEM_CAT_QUEST_ITEMS:  return "@Y";  /* Bright yellow */
+        case ITEM_CAT_TOOLS:        return "@w";  /* White */
+        case ITEM_CAT_MISC:
+        default:                    return "@n";  /* Normal */
+    }
+}
+
+/* Parse type filter keyword and return corresponding ITEM_CAT_* value
+ * Returns -1 if keyword doesn't match any category
+ * Uses is_abbrev() to allow partial matches (e.g., "weap" matches "weapons")
+ */
+int parse_type_filter(char *arg)
+{
+    if (is_abbrev(arg, "weapons") || is_abbrev(arg, "weapon"))
+        return ITEM_CAT_WEAPONS;
+    if (is_abbrev(arg, "armor") || is_abbrev(arg, "armour"))
+        return ITEM_CAT_ARMOR;
+    if (is_abbrev(arg, "consumables") || is_abbrev(arg, "consumable") ||
+        is_abbrev(arg, "potions") || is_abbrev(arg, "potion"))
+        return ITEM_CAT_CONSUMABLES;
+    if (is_abbrev(arg, "magic") || is_abbrev(arg, "magical"))
+        return ITEM_CAT_MAGIC_ITEMS;
+    if (is_abbrev(arg, "materials") || is_abbrev(arg, "material"))
+        return ITEM_CAT_MATERIALS;
+    if (is_abbrev(arg, "containers") || is_abbrev(arg, "container"))
+        return ITEM_CAT_CONTAINERS;
+    if (is_abbrev(arg, "quest"))
+        return ITEM_CAT_QUEST_ITEMS;
+    if (is_abbrev(arg, "tools") || is_abbrev(arg, "tool"))
+        return ITEM_CAT_TOOLS;
+    if (is_abbrev(arg, "misc") || is_abbrev(arg, "miscellaneous"))
+        return ITEM_CAT_MISC;
+
+    return -1;  /* Not a type filter */
+}
+
+/* Parse special filter keywords and set appropriate flags
+ * Returns 1 if keyword was recognized, 0 otherwise
+ */
+void parse_special_filter(char *arg, struct inventory_filter *filter)
+{
+    if (is_abbrev(arg, "equipped") || is_abbrev(arg, "equippable"))
+        filter->special_filter |= INVFILTER_EQUIPPED;
+    else if (is_abbrev(arg, "unusable") || is_abbrev(arg, "restricted"))
+        filter->special_filter |= INVFILTER_UNUSABLE;
+    else if (is_abbrev(arg, "valuable") || is_abbrev(arg, "expensive"))
+        filter->special_filter |= INVFILTER_VALUABLE;
+}
+
+/* Parse sort option (e.g., "sort:alpha", "sort:value")
+ * Returns 1 if recognized, 0 otherwise
+ */
+void parse_sort_option(char *arg, struct inventory_filter *filter)
+{
+    if (strncmp(arg, "sort:", 5) != 0)
+        return;
+
+    arg += 5;  /* Skip "sort:" prefix */
+
+    if (is_abbrev(arg, "type") || is_abbrev(arg, "category"))
+        filter->sort_mode = INVSORT_TYPE;
+    else if (is_abbrev(arg, "alpha") || is_abbrev(arg, "alphabetical") || is_abbrev(arg, "name"))
+        filter->sort_mode = INVSORT_ALPHA;
+    else if (is_abbrev(arg, "value") || is_abbrev(arg, "price") || is_abbrev(arg, "cost"))
+        filter->sort_mode = INVSORT_VALUE;
+}
+
+/* Parse inventory command arguments and populate filter structure
+ * Handles type filters, special filters, sort options, and keyword search
+ * Any unrecognized arguments are treated as keyword search terms
+ */
+void parse_inventory_arguments(char *argument, struct inventory_filter *filter)
+{
+    char arg[MAX_INPUT_LENGTH];
+    char buf[MAX_INPUT_LENGTH];
+    int type_result;
+
+    /* Initialize filter with defaults */
+    filter->type_filter = -1;  /* Show all categories */
+    filter->keyword[0] = '\0';
+    filter->special_filter = 0;
+    filter->sort_mode = INVSORT_TYPE;  /* Default sort by category */
+
+    /* Parse arguments one at a time */
+    strcpy(buf, argument);
+    while (*buf)
+    {
+        half_chop(buf, arg, buf);
+
+        if (!*arg)
+            break;
+
+        /* Try to parse as type filter */
+        type_result = parse_type_filter(arg);
+        if (type_result != -1)
+        {
+            if (filter->type_filter == -1)  /* First type filter wins */
+                filter->type_filter = type_result;
+            continue;
+        }
+
+        /* Try to parse as sort option */
+        if (strncmp(arg, "sort:", 5) == 0)
+        {
+            parse_sort_option(arg, filter);
+            continue;
+        }
+
+        /* Try to parse as special filter */
+        if (is_abbrev(arg, "equipped") || is_abbrev(arg, "equippable") ||
+            is_abbrev(arg, "unusable") || is_abbrev(arg, "restricted") ||
+            is_abbrev(arg, "valuable") || is_abbrev(arg, "expensive"))
+        {
+            parse_special_filter(arg, filter);
+            continue;
+        }
+
+        /* If not a filter, add to keyword search */
+        if (filter->keyword[0] != '\0')
+            strcat(filter->keyword, " ");
+        strcat(filter->keyword, arg);
+    }
+}
+
+/* Check if player can equip an item
+ * Checks wear flags, proficiency, class/race/alignment restrictions
+ */
+int item_is_equippable(struct char_data *ch, struct obj_data *obj)
+{
+    int i;
+
+    /* Must have at least one wearable location */
+    if (!CAN_WEAR(obj, ITEM_WEAR_TAKE))
+        return 0;  /* Can't be worn at all */
+
+    /* Check if item has any wearable positions besides TAKE */
+    int has_wear_position = 0;
+    for (i = 1; i < NUM_WEARS; i++)
+    {
+        if (CAN_WEAR(obj, i))
+        {
+            has_wear_position = 1;
+            break;
+        }
+    }
+
+    if (!has_wear_position)
+        return 0;  /* Only has TAKE flag, not actually wearable */
+
+    /* Check if already worn */
+    if (obj->worn_by == ch)
+        return 0;
+
+    /* Check class/race/alignment restrictions (ANTI_* flags) */
+    if (item_is_unusable(ch, obj))
+        return 0;
+
+    // The filter just checks if you can wield it, not if you are proficient in it.
+    // If you want the filter to see what you can wield and are proficient in, uncomment
+    // the two checks below.
+
+    // /* Check weapon proficiency */
+    // if (GET_OBJ_TYPE(obj) == ITEM_WEAPON)
+    // {
+    //     if (!is_proficient_with_weapon(ch, GET_OBJ_VAL(obj, VAL_WEAPON_SKILL)))
+    //         return 0;
+    // }
+
+    // /* Check armor proficiency */
+    // if (GET_OBJ_TYPE(obj) == ITEM_ARMOR || GET_OBJ_TYPE(obj) == ITEM_ARMOR_SUIT)
+    // {
+    //     if (!is_proficient_with_armor(ch, GET_OBJ_VAL(obj, VAL_ARMOR_SKILL)))
+    //         return 0;
+    // }
+
+    return 1;  /* Can equip */
+}
+
+/* Check if item is unusable by the character
+ * Checks all ANTI_* flags against character's class, race, and alignment
+ */
+int item_is_unusable(struct char_data *ch, struct obj_data *obj)
+{
+    /* Check class restrictions */
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_MAGE) && GET_CLASS_RANKS(ch, CLASS_WIZARD) > 0)
+        return 1;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_CLERIC) && GET_CLASS_RANKS(ch, CLASS_CLERIC) > 0)
+        return 1;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_ROGUE) && GET_CLASS_RANKS(ch, CLASS_ROGUE) > 0)
+        return 1;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_WARRIOR) && GET_CLASS_RANKS(ch, CLASS_FIGHTER) > 0)
+        return 1;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_BARBAR) && GET_CLASS_RANKS(ch, CLASS_BARBARIAN) > 0)
+        return 1;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_PALADIN) && GET_CLASS_RANKS(ch, CLASS_PALADIN) > 0)
+        return 1;
+
+    /* Check race restrictions */
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_DWARF) && GET_RACE(ch) == RACE_DWARF)
+        return 1;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_ELF) && GET_RACE(ch) == RACE_ELF)
+        return 1;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_GNOME) && GET_RACE(ch) == RACE_GNOME)
+        return 1;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_HUMAN) && GET_RACE(ch) == RACE_HUMAN)
+        return 1;
+
+    /* Check alignment restrictions */
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_GOOD) && IS_GOOD(ch))
+        return 1;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_EVIL) && IS_EVIL(ch))
+        return 1;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch))
+        return 1;
+
+    return 0;  /* Item is usable */
+}
+
+/* Apply all filters to an item
+ * Returns 1 if item passes all filters, 0 if it should be excluded
+ */
+int apply_filters(struct char_data *ch, struct obj_data *obj, struct inventory_filter *filter)
+{
+    int category;
+
+    /* Apply type filter */
+    if (filter->type_filter != -1)
+    {
+        category = get_item_category(obj);
+        if (category != filter->type_filter)
+            return 0;
+    }
+
+    /* Apply keyword filter */
+    if (filter->keyword[0] != '\0')
+    {
+        /* Check if keyword appears in object name or description */
+        if (!isname(filter->keyword, obj->name) &&
+            (obj->short_description && !strstr(obj->short_description, filter->keyword)) &&
+            (obj->description && !strstr(obj->description, filter->keyword)))
+            return 0;
+    }
+
+    /* Apply special filters */
+    if (filter->special_filter & INVFILTER_EQUIPPED)
+    {
+        if (!item_is_equippable(ch, obj))
+            return 0;
+    }
+
+    if (filter->special_filter & INVFILTER_UNUSABLE)
+    {
+        if (!item_is_unusable(ch, obj))
+            return 0;
+    }
+
+    if (filter->special_filter & INVFILTER_VALUABLE)
+    {
+        if (GET_OBJ_COST(obj) < 1000)  /* Threshold for "valuable" */
+            return 0;
+    }
+
+    return 1;  /* Item passes all filters */
+}
+
+/* Build a categorized list of filtered inventory items
+ * Returns linked list of categorized_item structs
+ * Caller must free the list with free_categorized_list()
+ */
+struct categorized_item *categorize_filtered_items(struct char_data *ch, struct inventory_filter *filter)
+{
+    struct obj_data *obj;
+    struct categorized_item *head = NULL;
+    struct categorized_item *tail = NULL;
+    struct categorized_item *new_item;
+
+    /* Iterate through character's inventory */
+    for (obj = ch->carrying; obj; obj = obj->next_content)
+    {
+        /* Skip items that don't pass filters */
+        if (!apply_filters(ch, obj, filter))
+            continue;
+
+        /* Skip items with undefined descriptions */
+        if (!obj->description || str_cmp(obj->description, "undefined") == 0)
+            continue;
+
+        /* Create new categorized item */
+        CREATE(new_item, struct categorized_item, 1);
+        new_item->obj = obj;
+        new_item->category = get_item_category(obj);
+        new_item->next = NULL;
+
+        /* Add to list */
+        if (!head)
+        {
+            head = new_item;
+            tail = new_item;
+        }
+        else
+        {
+            tail->next = new_item;
+            tail = new_item;
+        }
+    }
+
+    return head;
+}
+
+/* Display a category header line */
+void show_category_header(struct char_data *ch, int category, int count)
+{
+    send_to_char(ch, "\r\n----- %s (%d) -----\r\n",
+                 item_category_names[category], count);
+}
+
+/* Display the categorized inventory with color-coded items
+ * Handles item stacking using CONFIG_STACK_OBJS logic
+ */
+void display_categorized_inventory(struct char_data *ch, struct categorized_item *items, struct inventory_filter *filter)
+{
+    struct categorized_item *cat_iter, *stack_iter, *check_iter;
+    int category_counts[NUM_ITEM_CATEGORIES];
+    int current_category;
+    int stack_count;
+    int total_items = 0;
+    int total_categories = 0;
+    int i;
+    const char *color;
+
+    /* Initialize category counts */
+    for (i = 0; i < NUM_ITEM_CATEGORIES; i++)
+        category_counts[i] = 0;
+
+    /* Count items in each category */
+    for (cat_iter = items; cat_iter; cat_iter = cat_iter->next)
+    {
+        category_counts[cat_iter->category]++;
+        total_items++;
+    }
+
+    /* If no items, display appropriate message */
+    if (total_items == 0)
+    {
+        if (filter->type_filter != -1 || filter->keyword[0] != '\0' || filter->special_filter != 0)
+            send_to_char(ch, "Nothing matching your search.\r\n");
+        else
+            send_to_char(ch, "You are carrying:\r\n Nothing.\r\n");
+        return;
+    }
+
+    send_to_char(ch, "You are carrying:");
+
+    /* Display items by category */
+    for (current_category = 0; current_category < NUM_ITEM_CATEGORIES; current_category++)
+    {
+        /* Skip empty categories */
+        if (category_counts[current_category] == 0)
+            continue;
+
+        total_categories++;
+
+        /* Show category header */
+        show_category_header(ch, current_category, category_counts[current_category]);
+
+        /* Display items in this category */
+        for (cat_iter = items; cat_iter; cat_iter = cat_iter->next)
+        {
+            if (cat_iter->category != current_category)
+                continue;
+
+            /* Check if this item was already displayed (stacking) */
+            if (CONFIG_STACK_OBJS)
+            {
+                int already_shown = 0;
+                for (check_iter = items; check_iter != cat_iter; check_iter = check_iter->next)
+                {
+                    if (check_iter->category == current_category &&
+                        check_iter->obj->short_description &&
+                        cat_iter->obj->short_description &&
+                        !str_cmp(check_iter->obj->short_description, cat_iter->obj->short_description) &&
+                        (check_iter->obj->item_number == cat_iter->obj->item_number) &&
+                        GET_OBJ_VAL(check_iter->obj, 14) == GET_OBJ_VAL(cat_iter->obj, 14))
+                    {
+                        already_shown = 1;
+                        break;
+                    }
+                }
+
+                if (already_shown)
+                    continue;  /* Skip, already displayed */
+
+                /* Count stack of identical items */
+                stack_count = 0;
+                for (stack_iter = cat_iter; stack_iter; stack_iter = stack_iter->next)
+                {
+                    if (stack_iter->category == current_category &&
+                        stack_iter->obj->short_description &&
+                        cat_iter->obj->short_description &&
+                        !str_cmp(stack_iter->obj->short_description, cat_iter->obj->short_description) &&
+                        (stack_iter->obj->item_number == cat_iter->obj->item_number) &&
+                        GET_OBJ_VAL(stack_iter->obj, 14) == GET_OBJ_VAL(cat_iter->obj, 14))
+                    {
+                        stack_count++;
+                    }
+                }
+
+                /* Display stack count if > 1 */
+                if (stack_count > 1)
+                    send_to_char(ch, "  (%2i) ", stack_count);
+                else
+                    send_to_char(ch, "      ");
+            }
+            else
+            {
+                send_to_char(ch, "      ");
+            }
+
+            /* Display item with category color */
+            color = get_category_color(current_category);
+            send_to_char(ch, "%s", color);
+            show_obj_to_char(cat_iter->obj, ch, SHOW_OBJ_SHORT);
+            send_to_char(ch, "@n");  /* Reset color */
+        }
+    }
+
+    /* Display summary */
+    send_to_char(ch, "\r\nTotal: %d item%s", total_items, total_items != 1 ? "s" : "");
+    if (total_categories > 1)
+        send_to_char(ch, " in %d categories", total_categories);
+    send_to_char(ch, ".\r\n");
+}
+
+/* Free the categorized item list */
+void free_categorized_list(struct categorized_item *list)
+{
+    struct categorized_item *current, *next;
+
+    current = list;
+    while (current)
+    {
+        next = current->next;
+        free(current);
+        current = next;
+    }
+}
+
+/* Main function to display inventory with filters
+ * Orchestrates filtering, categorizing, sorting, and display
+ */
+void perform_inventory_display(struct char_data *ch, struct inventory_filter *filter)
+{
+    struct categorized_item *items;
+
+    /* Build categorized and filtered item list */
+    items = categorize_filtered_items(ch, filter);
+
+    /* TODO: Apply sorting when sort functions are implemented */
+    /* if (filter->sort_mode == INVSORT_ALPHA)
+        items = sort_inventory_alphabetical(items);
+    else if (filter->sort_mode == INVSORT_VALUE)
+        items = sort_inventory_by_value(items); */
+
+    /* Display the categorized inventory */
+    display_categorized_inventory(ch, items, filter);
+
+    /* Clean up */
+    free_categorized_list(items);
+}
+
 
 struct help_index_element *find_help(char *keyword)
 {
@@ -747,7 +1346,7 @@ void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mode)
         break;
 
     case SHOW_OBJ_SHORT:
-        if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_ROOMFLAGS))
+        if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT))
             send_to_char(ch, "[%d] %s", GET_OBJ_VNUM(obj), SCRIPT(obj) ? "[TRIG] " : "");
 
         sprintf(amount, " @GPrice: @Y(%d)@n", GET_OBJ_VAL(obj, 14));
@@ -3254,8 +3853,13 @@ ACMD(do_old_score)
 
 ACMD(do_inventory)
 {
-    send_to_char(ch, "You are carrying:\r\n");
-    list_obj_to_char(ch->carrying, ch, SHOW_OBJ_SHORT, true);
+    struct inventory_filter filter;
+
+    /* Parse command arguments into filter structure */
+    parse_inventory_arguments(argument, &filter);
+
+    /* Display inventory with filtering and categorization */
+    perform_inventory_display(ch, &filter);
 }
 
 int eq_order[NUM_WEARS] =

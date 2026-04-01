@@ -1424,6 +1424,28 @@ extern struct config_data config_info;
 #define ITEM_HARVEST_NODE 44  // Used for harvesting materials for crafting
 #define ITEM_CRYSTAL   45
 
+/* Item categories for inventory display */
+#define ITEM_CAT_WEAPONS      0
+#define ITEM_CAT_ARMOR        1
+#define ITEM_CAT_CONSUMABLES  2
+#define ITEM_CAT_MAGIC_ITEMS  3
+#define ITEM_CAT_MATERIALS    4
+#define ITEM_CAT_CONTAINERS   5
+#define ITEM_CAT_QUEST_ITEMS  6
+#define ITEM_CAT_TOOLS        7
+#define ITEM_CAT_MISC         8
+#define NUM_ITEM_CATEGORIES   9
+
+/* Inventory filter flags */
+#define INVFILTER_EQUIPPED    (1 << 0)
+#define INVFILTER_UNUSABLE    (1 << 1)
+#define INVFILTER_VALUABLE    (1 << 2)
+
+/* Inventory sort modes */
+#define INVSORT_TYPE          0
+#define INVSORT_ALPHA         1
+#define INVSORT_VALUE         2
+
 /* Take/Wear flags: used by obj_data.wear_flags */
 #define ITEM_WEAR_TAKE		(0)  /* Item can be takes		*/
 #define ITEM_WEAR_FINGER	(1)  /* Can be worn on finger	*/
