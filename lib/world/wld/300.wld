@@ -2,12 +2,12 @@
 The Hall of Judgement~
    You step forth from beyond the veil and into a small part of Limbo.  You are
 neither dead nor alive, and your presence here means you must go forth into the
-Realms and leave this place of statis.  A ghostly being, a herald of some sort,
+Realms and leave this place of stasis.  A ghostly being, a herald of some sort,
 urges you north through a set of black, wrought-iron gates.  A voice speaks to
 your mind telling you to use the @Ynewbie@n command if you need help at any
 time.  If you are completely new to muds, please go east by typing @Yeast@n to
 begin the beginner's lessons.  If you have already created your character,
-please go @Ywest@n.  
+please go @Ywest@n.
 ~
 300 d 0 0 0 0
 D0
@@ -29,24 +29,32 @@ D8
 S
 #30001
 Choose Your Race~
-Since all beings are created with a gender, you are urged by Kelemvor's servants
-here to select the race you would choose for your being during your life on
-Toril.  It is said that the Gods allow some stalwart followers of their to
-reincarnate as advanced races, and if you are one of these lucky fellows you may
-ask any deity in the heavens above to change your race now, if indeed there are
-any available for such a task.  However, if you are like most souls coming
-through these gates, you must choose a common race.  But be not vexed for this,
-as the common races, though plentiful, are as rich in culture and are by no
-means left aside in the realm of ability either.  The ghostly servant escorting
-you through your journey of creation explains to you that you may receive a
-message to your mind of what races are available through the @Ylistraces@n
-command.  Once you are ready to choose a race, you simply must use the
-@Ysetrace@n command followed by the name of the race you wish to become.  For
-example: @Ysetrace icefolk barbarian@n.  This would set your race to that of the
-icefolk barbarians common in the far reaches of the North such as Icewind Dale.
-When you have chosen your race simply go north to continue your creation.  If
-you need information on a race, use help @Yrace <racename>@n, or just type
-@Yhelp races@n for a full list.  
+@W========================================@n
+@C        STEP 1: CHOOSE YOUR RACE      @n
+@W========================================@n
+
+Pharasma's servants guide you to select your race for life on Golarion.
+
+@W=== COMMANDS ===@n
+• @Ylistraces@n        - View available races and bonuses
+• @Ysetrace <name>@n   - Select your race
+• @Yhelp race <name>@n - Detailed racial information
+• @Yhelp races@n       - Full list of all races
+
+@W=== EXAMPLES ===@n
+• @Ysetrace human@n    - Choose human race
+• @Ysetrace elf@n      - Choose elf race
+• @Ysetrace dwarf@n    - Choose dwarf race
+
+@W=== ABOUT RACES ===@n
+Each race offers unique ability score modifiers, special abilities,
+and cultural flavor. Common races are available to all players, while
+advanced races may require account experience to unlock.
+
+@GTip: Humans get +2 skill points at level 1 and +1 per level after@n
+@GTip: Your race choice affects stats, size, and special abilities@n
+
+Go @Ynorth@n when ready to continue.
 ~
 300 d 0 0 0 0
 D0
@@ -60,16 +68,36 @@ D2
 S
 #30002
 Choose Your Alignment~
-   Here Kelemvor's servants urge you to select an alignment.  This should be an
-easy choice for most spirits, as they each have their own personalities from the
-beginning.  However each spirit has the choice to alter that personality before
-they are born on Faerun.  To change your alignment you may use @Ysetalign@n
-<alignment>.  Your alignment is one of good, neutral or evil.  To set your
-ethos, use @Ysetethos@n <ethos> Your ethos is one of lawful, nuetral or chaotic.
-Your full alignment is your ethos followed by your alignment.  So lawful good
-for example.  Your alignment will determine what equipment you can use, what
-classes you can choose, and other aspects of being in the world of Faerun.  You
-are urged to go north once you have chosen your alignment and ethos.  
+@W========================================@n
+@C      STEP 2: CHOOSE YOUR ALIGNMENT   @n
+@W========================================@n
+
+Pharasma's servants urge you to select your moral outlook.
+
+@W=== COMMANDS ===@n
+• @Ysetalign <alignment>@n - Set alignment (good, neutral, or evil)
+• @Ysetethos <ethos>@n     - Set ethos (lawful, neutral, or chaotic)
+
+@W=== EXAMPLES ===@n
+• @Ysetalign good@n   + @Ysetethos lawful@n  = Lawful Good
+• @Ysetalign neutral@n + @Ysetethos neutral@n = True Neutral
+• @Ysetalign evil@n    + @Ysetethos chaotic@n = Chaotic Evil
+
+@W=== ALIGNMENT GUIDE ===@n
+@WAlignment:@n Your moral compass
+  • @YGood@n    - Selfless, protective, compassionate
+  • @YNeutral@n - Balanced, pragmatic, self-interested
+  • @YEvil@n    - Selfish, cruel, destructive
+
+@WEthos:@n Your approach to rules and society
+  • @YLawful@n  - Honorable, trustworthy, follows codes
+  • @YNeutral@n - Flexible, independent, situational
+  • @YChaotic@n - Freedom-loving, unpredictable, rebellious
+
+@GTip: Your alignment affects what equipment you can use@n
+@GTip: Some classes require specific alignments (e.g., Paladins must be Lawful Good)@n
+
+Go @Ynorth@n when ready to continue.
 ~
 300 d 0 0 0 0
 D0
@@ -83,16 +111,39 @@ D2
 S
 #30003
 Choose Your Ability Scores~
-   You are urged into this area by Kelemvor's servants to set your ability
-scores.  You can do this by using the @Ysetstats@n command.  The proper syntax
-is @Ysetstats @Y<ability @Yscore> @Y<new @Yscore>@n or @Ysetstats @Yshow@n to
-display your stats.  For example, @Ysetstats @Ystrength @Y16@n would set your
-strength to 16 if you had enough points to buy that score.  You start off with
-20 stat points to assign, and the higher the stat the more points it costs.  
-The available ability scores are strength, dexterity, constitution,
-intelligence, wisdom and charisma.  Type @Yhelp @Yability @Yscore @Y<name>@n for
-more information on each ability score.  
-No stat can be set below 8.
+@W========================================@n
+@C     STEP 3: ASSIGN ABILITY SCORES    @n
+@W========================================@n
+
+You have @Y20 stat points@n to spend (24 if human, 22 if half-elf).
+
+@W=== COMMANDS ===@n
+• @Ysetstats <ability> <value>@n - Set a score
+• @Ysetstats show@n             - View current scores
+• @Ysetstats reset@n            - Start over
+
+@W=== POINT BUY COSTS ===@n
+Score | Cost  |  Score | Cost
+------+-------+--------+------
+  8   |  0    |   14   |  6
+  9   |  1    |   15   |  8
+ 10   |  2    |   16   | 10
+ 11   |  3    |   17   | 13
+ 12   |  4    |   18   | 16
+ 13   |  5    |
+
+@W=== ABILITIES ===@n
+• @YStrength@n     - Physical power (melee damage, carrying capacity)
+• @YDexterity@n    - Agility and reflexes (AC, ranged attacks, initiative)
+• @YConstitution@n - Health and endurance (hit points)
+• @YIntelligence@n - Reasoning and memory (skill points, wizard spells)
+• @YWisdom@n       - Awareness and insight (will saves, cleric spells)
+• @YCharisma@n     - Force of personality (social skills, sorcerer spells)
+
+@GTip: Type 'help ability score <name>' for detailed information@n
+@GTip: No stat can be set below 8 or above 18@n
+
+Go @Ynorth@n when ready to continue.
 ~
 300 d 0 0 0 0
 D0
@@ -106,11 +157,35 @@ D2
 S
 #30004
 Choose Your Description~
-   The servants of Kelemvor urge you here to describe your physical form.  You
-may do this by using @Ysetdescs@n.  This will take you to a menu where you can
-choose the various descriptors for your character.  If you do not see a
-descriptor that you would like to have, please tell a God and it will be added
-for you to choose later.  
+@W========================================@n
+@C       STEP 4: DESCRIBE YOURSELF     @n
+@W========================================@n
+
+Pharasma's servants guide you to describe your physical appearance.
+
+@W=== COMMAND ===@n
+• @Ysetdescs@n - Enter the description creation menu
+
+@W=== HOW IT WORKS ===@n
+You'll create a short description by selecting physical features:
+  • Choose a feature type (eyes, hair, build, etc.)
+  • Select an adjective to describe it
+  • Optionally add a second descriptor
+
+@W=== EXAMPLES ===@n
+  • "a male human with blue eyes"
+  • "a female elf with long silver hair"
+  • "a stocky dwarf with a scarred face"
+
+@W=== IMPORTANT ===@n
+This short description is temporary. You'll need to write custom
+descriptions later to advance beyond level 10 (usually 15-30 hours
+of gameplay). These require staff approval.
+
+@GTip: Keep descriptions concise - they replace your name@n
+@GTip: If you don't see a descriptor you want, ask a God to add it@n
+
+Go @Ynorth@n when ready to continue.
 ~
 300 d 0 0 0 0
 D0
@@ -375,39 +450,42 @@ D0
 S
 #30019
 Training Your Character~
-@w
-The next step we need to take is to train your character.  Every time that your
-character gains a level, he will attain hit points, move points, skill points 
-and depending on his class and level, new spell slots, feats, and class 
-abilities.  We will focus first on feats.  
+@W========================================@n
+@C    STEP 5: UNDERSTAND YOUR CHARACTER @n
+@W========================================@n
 
-Every character starts off with at least 1 feat, and possibly more depending on 
-class and race.  A feat is a character trait that either grants your character 
-a new ability or improves an already existing one.  
+Every level you gain provides multiple benefits.
 
-Characters automatically start with one and gain one every 3 levels.  Some 
-classes offer bonus feats to choose from a seperate list and at epic levels all 
-classes offer bonus feats.  
+@W=== WHAT YOU GAIN PER LEVEL ===@n
+• @YHit Points@n - More health to survive combat
+• @YMove Points@n - Stamina for travel and combat
+• @YSkill Points@n - Based on class + Intelligence modifier
+• @YSpell Slots@n - For spellcasting classes only
+• @YClass Abilities@n - Special powers specific to your class
 
-Epic levels begin at level 21, and enable the ability to obtain even more 
-powerful feats.  
+@W=== FEATS ===@n
+Feats are special abilities or bonuses:
+  • Start with @Y1 feat@n at level 1
+  • Gain @Y1 more@n every @Y3 levels@n (levels 3, 6, 9, etc.)
+  • Some classes get @Ybonus feats@n from special lists
+  • @YEpic feats@n become available at level 21+
 
-Skill points are granted based on class and intelligence.  Humans also get an 
-extra skill point each level and 4 more at level 1.  Skill points are used to 
-increase the skills your character has.  Some of these skills grant new 
-character abilities and powers while others are used passively to enhance your 
-character in certain situations.  
+Feats are @Ybinary@n - you either have them or you don't.
 
-The biggest difference between a feat and a skill is that, in general, skills 
-have a rating, while feats are simply either you have it or you don't.  Also of 
-note are your ability scores.  
+@W=== SKILLS ===@n
+Skills are ranked abilities (0-20+ ranks):
+  • Humans get @Y+1 skill point@n per level (and +4 at level 1)
+  • Skills can grant @Ynew abilities@n or @Ypassive bonuses@n
+  • Some skills are @Yclass skills@n (easier to improve)
 
-Every 4 levels you obtain an ability score point that you can add to any of your
-ability scores you desire (ie.  Strength, Dexterity, etc.  ). 
+@W=== ABILITY SCORE INCREASES ===@n
+Every @Y4 levels@n (4, 8, 12, etc.), you can increase any
+ability score by 1 point (Strength, Dexterity, etc.).
 
-@n
-Go north to learn how to gain your first level.
+@GTip: Type 'help feats' or 'help skills' for detailed information@n
+@GTip: Epic levels (21+) unlock powerful new abilities@n
 
+Go @Ynorth@n to learn how to gain your first level.
 ~
 300 d 0 0 0 0
 D0
@@ -421,15 +499,33 @@ D2
 S
 #30020
 Levelling Up~
-   Every time you gain enough experience to gain a new level, you will use the
-@Ylevelup@n command.  Typing this command will bring you to a menu system wherein
-you may select the class you wish to take, the skills you wish to learn, any
-feats you may be able to take, and ability score increases if applicable.  Once
-everything is chosen you will be shown what changes will be made to your
-character, and if you accept those changes the new level will take effect.  To
-gain your first level, type @Ylevelup@n now.  
+@W========================================@n
+@C     STEP 6: GAIN YOUR FIRST LEVEL   @n
+@W========================================@n
 
+Time to level up and choose your class!
 
+@W=== THE LEVELUP COMMAND ===@n
+Every time you gain enough experience, use @Ylevelup@n to advance.
+
+The levelup menu will guide you through:
+  1. @YClass Selection@n - Choose which class to take
+  2. @YSkill Allocation@n - Spend skill points
+  3. @YFeat Selection@n - Choose feats (if available)
+  4. @YAbility Increases@n - Improve stats (every 4 levels)
+  5. @YReview & Confirm@n - See changes before finalizing
+
+@W=== YOUR FIRST LEVEL ===@n
+You'll select:
+  • Your @Ystarting class@n (Wizard, Cleric, Fighter, etc.)
+  • @YTwo traits@n (permanent background bonuses)
+  • Your @Ystarting skills@n
+  • Your @Yfirst feat@n
+
+@GTip: Take your time - some choices are permanent!@n
+@GTip: Type 'help classes' to learn about class options@n
+
+Type @Ylevelup@n now to begin!
 ~
 300 d 0 0 0 0
 D0
@@ -745,24 +841,41 @@ D3
 S
 #30032
 Religion, Devotion and Domains~
-   WIn the world of Krynn, everyone must devote themselves to one of the deities
-to give principle worship to (though many people revere multiple dieities).  
-Those who do not devote themselves to a deity, or who only pay lip service to
-their deity, are given to Chemosh to do with as he wills, which often results in
-the soul haunting the world as undead, or acting as an eternal slave.  Thus the
-people of Krynn take their religion quite seriously, and virtually every
-sentient creature on the planet worships at least one deity.  For divine
-spellcasters, this is even more important, for they can cast no spells without a
-patron deity.  In order to choose a deity, type devote <deity name>.  To see a
-list of deities which you qualify to be accepted as a worshipper, type 'devote
-list'.  If you are a cleric you may choose up to two domains of the four that
-your deity possess.  These domains will grant you bonus spells and bonus
-abilities (in most cases).  To see a list of domains your deity offers type
-'domain'.  If you have not yet devoted to a deity, the game will, at this point,
-direct you to do so.  To see what benefits a domain offers, type 'help domain
-<domain name>'.  Once you have chosen your two domains, you can see what they
-are at any time by typing 'domain' by itself.  @RIf you do not devote to a deity
-you will suffer greater experience penalties when you die.  @n
+@W========================================@n
+@C    RELIGION, DEVOTION, AND DOMAINS   @n
+@W========================================@n
+
+In Golarion, religion is a fundamental part of life and death.
+
+@W=== WHY DEVOTION MATTERS ===@n
+• Pharasma judges @Yall souls@n in the afterlife
+• Those who worship no deity face @Rdire consequences@n
+• @YDivine spellcasters@n (Clerics, Paladins) @Ycannot cast@n without a patron
+• Death penalties are @Rheavier@n without devotion
+
+@W=== COMMANDS ===@n
+• @Ydevote list@n           - See available deities
+• @Ydevote info <deity>@n   - Learn about a specific deity
+• @Ydevote <deity name>@n   - Devote yourself to a deity
+• @Ydomain@n                - View your deity's domains (Clerics)
+• @Yhelp domain <name>@n    - Learn about a specific domain
+
+@W=== EXAMPLES ===@n
+• @Ydevote Sarenrae@n   - Devote to the goddess of healing and sun
+• @Ydevote Abadar@n     - Devote to the god of cities and law
+• @Ydevote Desna@n      - Devote to the goddess of luck and travel
+
+@W=== FOR CLERICS ONLY ===@n
+Clerics gain access to @Yall domains@n their deity offers.
+Each domain provides:
+  • @YBonus domain spells@n automatically known
+  • @YSpecial domain powers@n unique to that domain
+
+Type @Yhelp domain <name>@n to see benefits of each domain.
+
+@RIMPORTANT: Devotion is required! Choose carefully.@n
+
+Go @Ynorth@n when ready to continue.
 ~
 300 d 0 0 0 0
 D0
@@ -776,14 +889,38 @@ D2
 S
 #30033
 Before You Enter the Game~
-   You are almost ready to enter the realm.  Go west to enter Palanthas, the
-city of good and law, or go east for Sanction, a city of injustice and evil.  At
-any time you may @Yrecall@n to the beginning of this mud school by using the recall
-command.  We recommend that you read the @Yhelp @Ynewbie@n file and also @Yhelp @Ynewbie
-@Yzones@n.  This will help you learn your way around the mud and get used to some of
-the intracacies here.  
+@W========================================@n
+@C    CONGRATULATIONS! YOU'RE READY!    @n
+@W========================================@n
 
+Your character is complete! Time to enter the world of Golarion.
 
+@W=== NEXT STEPS ===@n
+• Type @Ystat@n to see your character sheet anytime
+• Go @Ywest@n to enter the game
+• Use @Yrecall@n anytime to return to this area
+
+@W=== HELPFUL COMMANDS ===@n
+• @Yhelp newbie@n       - Essential newbie guide
+• @Yhelp newbie zones@n - Beginner-friendly areas
+• @Ynewbie@n            - Ask for help from experienced players
+• @Ypetition@n          - Contact staff if you need assistance
+
+@W=== IMPORTANT REMINDERS ===@n
+• Complete the @Ymain quest line@n started by the old lady in Palanthas
+• Join a @Ygroup@n for safer adventuring
+• @YRead help files@n when you're unsure about commands
+• @YAsk questions@n - the community is helpful!
+
+@W=== SURVIVAL TIPS ===@n
+• Type @Yconsider <target>@n before attacking
+• Save money for important purchases
+• Don't venture too far alone at low levels
+• Death has consequences - be careful!
+
+@GYou're about to begin an epic adventure. Good luck!@n
+
+Go @Ywest@n to enter Golarion!
 ~
 300 d 0 0 0 0
 D2
@@ -797,12 +934,38 @@ D3
 S
 #30034
 Choose Your Equipment~
-   Now you must choose your equipment.  Here you may buy any non magical item of
-any type.  Simply type @Ybuy <vnum>@n to buy an item and @Ylist
-<armor|weapon|other>@n to see what is available along with the vnum of the item
-for buying, and its cost.  The amount of money you get is dependant on the class
-you chose earlier in character generation.  Once you have purchased all of your
-equipment, go north to prepare to enter the game.  
+@W========================================@n
+@C       CHOOSE YOUR EQUIPMENT          @n
+@W========================================@n
+
+Equip yourself for adventure! You can purchase starting gear here.
+
+@W=== COMMANDS ===@n
+• @Ylist weapons <type>@n  - View available weapons
+• @Ylist armor <type>@n    - View available armor
+• @Ybuy <item name>@n      - Purchase an item
+
+@W=== WEAPON TYPES ===@n
+• @Ysimple@n   - Basic weapons (clubs, daggers, etc.)
+• @Ymartial@n  - Advanced weapons (swords, axes, etc.)
+• @Yexotic@n   - Specialized weapons (requires feat)
+
+@W=== ARMOR TYPES ===@n
+• @Ylight@n   - Leather, padded (low AC, no spell penalty)
+• @Ymedium@n  - Chain shirt, scale mail (moderate AC)
+• @Yheavy@n   - Full plate, splint mail (high AC, spell penalty)
+• @Yshields@n - Bucklers, shields, tower shields
+
+@W=== EXAMPLES ===@n
+• @Ylist weapons simple@n
+• @Ylist armor light@n
+• @Ybuy longsword@n
+• @Ybuy leather armor@n
+
+@GTip: Your starting gold depends on your class@n
+@GTip: Spellcasters should avoid heavy armor (spell failure!)@n
+
+Go @Ynorth@n when ready to enter the game.
 ~
 300 d 0 0 0 0
 D0

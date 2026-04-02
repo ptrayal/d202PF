@@ -5571,7 +5571,11 @@ ACMD(do_color)
   p = any_one_arg(argument, arg);
 
   if (!*arg) {
-    len = snprintf(buf, sizeof(buf), "Currently, color is %s.\r\n", ctypes[COLOR_LEV(ch)]);
+    if (!COLOR_LEV(ch)) {
+      send_to_char(ch, "Color is currently @WOFF@n. Type '@Ycolor on@n' to enable colors.\r\n");
+      return;
+    }
+    len = snprintf(buf, sizeof(buf), "Color is currently @WON@n. Type '@Ycolor off@n' to disable colors.\r\n\r\n");
     if (COLOR_LEV(ch)) {
       len += snprintf(buf + len, sizeof(buf) - len, "\r\nYour color choices:\r\n");
       for (tp = 0; tp < NUM_COLOR; tp++) {

@@ -1276,7 +1276,7 @@ void command_interpreter(struct char_data *ch, char *argument)
             send_to_char(ch, "In your dreams, or what?\r\n");
             break;
         case POS_RESTING:
-            send_to_char(ch, "Nah... You feel too relaxed to do that..\r\n");
+            send_to_char(ch, "You can't move while resting. Type '@Ystand@n' first.\r\n");
             break;
         case POS_SITTING:
             send_to_char(ch, "Maybe you should get on your feet first?\r\n");
@@ -3310,7 +3310,7 @@ void nanny(struct descriptor_data *d, char *arg)
       SEND_TO_Q("for approval as well.\r\n", d);
       SEND_TO_Q("\r\n", d);
       SEND_TO_Q("So without further ado, let's get ready to enter your descriptions.  You will first\r\n", d);
-      SEND_TO_Q("choose an initial descrtiptor type from the list below.  Then you will choose a word\r\n", d);
+      SEND_TO_Q("choose an initial descriptor type from the list below.  Then you will choose a word\r\n", d);
       SEND_TO_Q("or phrase to describe it.  At this point you can accept your description or customize\r\n", d);
       SEND_TO_Q("it further with a second descriptor and describing word/phrase.  Try to keep your\r\n", d);
       SEND_TO_Q("description somewhat short as this will be used in place of your name in any situation\r\n", d);
@@ -4150,7 +4150,20 @@ void nanny(struct descriptor_data *d, char *arg)
 
 	  if (i == 0 || is_abbrev(arg, "done") || is_abbrev(arg, "continue")) {
 		  if (d->character->levelup->practices > 0) {
-			  write_to_output(d, "You still have @g%d@n skill points left to spend.  If you do not use them you will lose them forever. Continue & lose them? (@gy@n/@gn@n): ", d->character->levelup->practices);
+			  write_to_output(d, "\r\n@R========================================@n\r\n");
+			  write_to_output(d, "@R   WARNING: UNSPENT SKILL POINTS!     @n\r\n");
+			  write_to_output(d, "@R========================================@n\r\n\r\n");
+			  write_to_output(d, "You still have @Y%d@n skill point%s left to spend.\r\n",
+			                  d->character->levelup->practices,
+			                  d->character->levelup->practices == 1 ? "" : "s");
+			  write_to_output(d, "If you continue, you will @RLOSE@n these points @Rforever@n!\r\n\r\n");
+			  write_to_output(d, "@YSuggestion:@n Consider raising important skills for your class:\r\n");
+			  write_to_output(d, "  - Class skills (shown in @Wwhite@n in the skill list)\r\n");
+			  write_to_output(d, "  - Perception, Diplomacy, or Spellcraft are often useful\r\n");
+			  write_to_output(d, "  - Type the skill number to raise it\r\n\r\n");
+			  write_to_output(d, "Continue and @RLOSE@n %d skill point%s? (@gy@n/@gn@n): ",
+			                  d->character->levelup->practices,
+			                  d->character->levelup->practices == 1 ? "" : "s");
 			  STATE(d) = CON_LEVELUP_SKILLS_CONFIRM;
 			  return;
 		  }

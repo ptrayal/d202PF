@@ -2536,7 +2536,14 @@ int stat_assign_stat(int abil, char *arg, struct char_data *ch)
         }
 
   if (cost > GET_STAT_POINTS(ch)) {
-          write_to_output(ch->desc, "You don't have enough points to purchase that ability score rank.\r\n") ;
+          int needed = cost - GET_STAT_POINTS(ch);
+          write_to_output(ch->desc, "@RYou don't have enough points to purchase that ability score rank.@n\r\n");
+          char buf[MAX_STRING_LENGTH];
+          snprintf(buf, sizeof(buf), "Setting this ability to %d costs @Y%d@n points, but you only have @Y%d@n remaining.\r\n",
+                   temp, cost, GET_STAT_POINTS(ch));
+          write_to_output(ch->desc, "%s", buf);
+          snprintf(buf, sizeof(buf), "You need @R%d@n more point%s.\r\n", needed, needed == 1 ? "" : "s");
+          write_to_output(ch->desc, "%s", buf);
                 if (orig < 15)
                  cost = orig;
                 else {

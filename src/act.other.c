@@ -7032,12 +7032,17 @@ ACMD(do_set_stats)
 
     if (!*arg1)
     {
-        send_to_char(ch, "Which stat do you want to adjust?\r\n");
+        send_to_char(ch, "@RUsage:@n setstats <ability> <value>\r\n");
+        send_to_char(ch, "@WExample:@n setstats strength 16\r\n");
+        send_to_char(ch, "@WShow stats:@n setstats show\r\n");
+        send_to_char(ch, "@WReset stats:@n setstats reset\r\n");
         return;
     }
     if (!*arg2 && !is_abbrev("show", arg1) && !is_abbrev("reset", arg1))
     {
-        send_to_char(ch, "What do you wish to change the stat to?\r\n");
+        send_to_char(ch, "@RUsage:@n setstats <ability> <value>\r\n");
+        send_to_char(ch, "@WExample:@n setstats strength 16\r\n");
+        send_to_char(ch, "@GTip: Type 'setstats show' to see your current scores@n\r\n");
         return;
     }
 
@@ -7073,14 +7078,25 @@ ACMD(do_set_stats)
     }
     else if (is_abbrev(arg1, "show"))
     {
-        send_to_char(ch, "Here are your current stats:\r\n");
+        send_to_char(ch, "@W=== YOUR ABILITY SCORES ===@n\r\n");
         send_to_char(ch, "Strength     : %d\r\n", ch->real_abils.str);
         send_to_char(ch, "Dexterity    : %d\r\n", ch->real_abils.dex);
         send_to_char(ch, "Constitution : %d\r\n", ch->real_abils.con);
         send_to_char(ch, "Intelligence : %d\r\n", ch->real_abils.intel);
         send_to_char(ch, "Wisdom       : %d\r\n", ch->real_abils.wis);
         send_to_char(ch, "Charisma     : %d\r\n", ch->real_abils.cha);
-        send_to_char(ch, "Stat Points  : %d\r\n", GET_STAT_POINTS(ch));
+        send_to_char(ch, "@YStat Points Remaining: %d@n\r\n\r\n", GET_STAT_POINTS(ch));
+
+        send_to_char(ch, "@C=== POINT BUY COSTS ===@n\r\n");
+        send_to_char(ch, "Score | Cost  |  Score | Cost\r\n");
+        send_to_char(ch, "------+-------+--------+------\r\n");
+        send_to_char(ch, "  8   |  0    |   14   |  6\r\n");
+        send_to_char(ch, "  9   |  1    |   15   |  8\r\n");
+        send_to_char(ch, " 10   |  2    |   16   | 10\r\n");
+        send_to_char(ch, " 11   |  3    |   17   | 13\r\n");
+        send_to_char(ch, " 12   |  4    |   18   | 16\r\n");
+        send_to_char(ch, " 13   |  5    |\r\n");
+        send_to_char(ch, "============================\r\n");
         return;
     }
     if (GET_STAT_POINTS(ch) == 0)

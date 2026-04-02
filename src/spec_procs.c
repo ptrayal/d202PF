@@ -458,7 +458,7 @@ SPECIAL(set_descs)
     SEND_TO_Q("for approval as well.\r\n", d);
     SEND_TO_Q("\r\n", d);
     SEND_TO_Q("So without further ado, let's get ready to enter your descriptions.  You will first\r\n", d);
-    SEND_TO_Q("choose an initial descrtiptor type from the list below.  Then you will choose a word\r\n", d);
+    SEND_TO_Q("choose an initial descriptor type from the list below.  Then you will choose a word\r\n", d);
     SEND_TO_Q("or phrase to describe it.  At this point you can accept your description or customize\r\n", d);
     SEND_TO_Q("it further with a second descriptor and describing word/phrase.  Try to keep your\r\n", d);
     SEND_TO_Q("description somewhat short as this will be used in place of your name in any situation\r\n", d);
@@ -524,12 +524,17 @@ SPECIAL(set_stats)
 
     if (!*arg1)
     {
-        send_to_char(ch, "Which stat do you want to adjust?\r\n");
+        send_to_char(ch, "@RUsage:@n setstats <ability> <value>\r\n");
+        send_to_char(ch, "@WExample:@n setstats strength 16\r\n");
+        send_to_char(ch, "@WShow stats:@n setstats show\r\n");
+        send_to_char(ch, "@WReset stats:@n setstats reset\r\n");
         return 1;
     }
     if (!*arg2 && !is_abbrev("show", arg1) && !is_abbrev("reset", arg1))
     {
-        send_to_char(ch, "What do you wish to change the stat to?\r\n");
+        send_to_char(ch, "@RUsage:@n setstats <ability> <value>\r\n");
+        send_to_char(ch, "@WExample:@n setstats strength 16\r\n");
+        send_to_char(ch, "@GTip: Type 'setstats show' to see your current scores@n\r\n");
         return 1;
     }
 
@@ -560,14 +565,25 @@ SPECIAL(set_stats)
     }
     else if (is_abbrev(arg1, "show"))
     {
-        send_to_char(ch, "Here are your current stats:\r\n");
+        send_to_char(ch, "@W=== YOUR ABILITY SCORES ===@n\r\n");
         send_to_char(ch, "Strength     : %d\r\n", ch->real_abils.str);
         send_to_char(ch, "Dexterity    : %d\r\n", ch->real_abils.dex);
         send_to_char(ch, "Constitution : %d\r\n", ch->real_abils.con);
         send_to_char(ch, "Intelligence : %d\r\n", ch->real_abils.intel);
         send_to_char(ch, "Wisdom       : %d\r\n", ch->real_abils.wis);
         send_to_char(ch, "Charisma     : %d\r\n", ch->real_abils.cha);
-        send_to_char(ch, "Stat Points  : %d\r\n", GET_STAT_POINTS(ch));
+        send_to_char(ch, "@YStat Points Remaining: %d@n\r\n\r\n", GET_STAT_POINTS(ch));
+
+        send_to_char(ch, "@C=== POINT BUY COSTS ===@n\r\n");
+        send_to_char(ch, "Score | Cost  |  Score | Cost\r\n");
+        send_to_char(ch, "------+-------+--------+------\r\n");
+        send_to_char(ch, "  8   |  0    |   14   |  6\r\n");
+        send_to_char(ch, "  9   |  1    |   15   |  8\r\n");
+        send_to_char(ch, " 10   |  2    |   16   | 10\r\n");
+        send_to_char(ch, " 11   |  3    |   17   | 13\r\n");
+        send_to_char(ch, " 12   |  4    |   18   | 16\r\n");
+        send_to_char(ch, " 13   |  5    |\r\n");
+        send_to_char(ch, "============================\r\n");
         return 1;
     }
     if (GET_STAT_POINTS(ch) == 0)
@@ -727,7 +743,8 @@ SPECIAL(select_align)
 
         if (!*argument)
         {
-            send_to_char(ch, "Which alignment would you like to become? Choose between good, neutral and evil.\r\n");
+            send_to_char(ch, "@WUsage:@n setalign <good|neutral|evil>\r\n");
+            send_to_char(ch, "@WExample:@n setalign good\r\n");
             return 1;
         }
 
@@ -796,7 +813,9 @@ SPECIAL(select_align)
         }
         else
         {
-            send_to_char(ch, "That is not a valid alignment.  Choose either good, neutral or evil.\r\n");
+            send_to_char(ch, "@RInvalid alignment.@n\r\n");
+            send_to_char(ch, "@WUsage:@n setalign <good|neutral|evil>\r\n");
+            send_to_char(ch, "@WExample:@n setalign good\r\n");
             return 1;
         }
     }
@@ -808,7 +827,8 @@ SPECIAL(select_align)
 
         if (!*argument)
         {
-            send_to_char(ch, "Which ethos would you like to become? Choose between lawful, neutral and chaotic.\r\n");
+            send_to_char(ch, "@WUsage:@n setethos <lawful|neutral|chaotic>\r\n");
+            send_to_char(ch, "@WExample:@n setethos lawful\r\n");
             return 1;
         }
 
@@ -832,7 +852,9 @@ SPECIAL(select_align)
         }
         else
         {
-            send_to_char(ch, "That is not a valid ethos, choose between lawful, neutral and chaotic.\r\n");
+            send_to_char(ch, "@RInvalid ethos.@n\r\n");
+            send_to_char(ch, "@WUsage:@n setethos <lawful|neutral|chaotic>\r\n");
+            send_to_char(ch, "@WExample:@n setethos lawful\r\n");
             return 1;
         }
     }
