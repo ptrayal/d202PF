@@ -2453,8 +2453,8 @@ void look_at_room(room_rnum target_room, struct char_data *ch, int ignore_brief)
     {
         char buf2[MAX_STRING_LENGTH] = {'\0'};
         sprinttype(rm->sector_type, sector_types, buf2, sizeof(buf2));
-        send_to_char(ch, "@[1]%s [ %s ]%s@[0]\r\n", world[target_room].name, buf2, ROOM_FLAGGED(target_room, ROOM_HOUSE) ? "@Y[Items Can be Left Here]@n"
-                     : "");
+        send_to_char(ch, "@[1]%s [ %s ]%s%s@[0]\r\n", world[target_room].name, buf2, ROOM_FLAGGED(target_room, ROOM_HOUSE) ? "@Y[Items Can be Left Here]@n"
+                     : "", ROOM_FLAGGED(target_room, ROOM_TAVERN) ? "@Y[Tavern]@n" : "");
     }
     if (ROOM_FLAGGED(target_room, ROOM_PLAYER_SHOP))
         send_to_char(ch, "@WThis is a player shop.  Please see @YHELP PLAYER-SHOPS@W to see how you can interact with it.@n\r\n");
@@ -6228,7 +6228,15 @@ ACMD(do_affect)
 			break;
 		}
 	}
-          
+
+	if (GET_TAVERN_EXP_BONUS(ch) > 0 && ROOM_FLAGGED(IN_ROOM(ch), ROOM_TAVERN)) {
+		len += sprintf(buf+len, "@wYou are resting in a tavern, gaining +10%% XP (@Y%d@w rounds accumulated).@n\r\n", GET_TAVERN_EXP_BONUS(ch));
+		isAffected = TRUE;
+	}
+	else if (GET_TAVERN_EXP_BONUS(ch) > 0) {
+		len += sprintf(buf+len, "@wYou recently rested in a tavern (+10%% XP bonus, @Y%d@w rounds remaining).@n\r\n", GET_TAVERN_EXP_BONUS(ch));
+		isAffected = TRUE;
+	}
 
 	if (!isAffected)
 		len += sprintf(buf+len, "@wNothing\r\n");

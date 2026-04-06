@@ -951,6 +951,7 @@ extern struct config_data config_info;
 #define PRF_WICKED_STRIKE 100
 #define PRF_QUEST_REPEAT 101
 #define PRF_NOINFO 102
+#define PRF_REGEN_BRIEF 103  /* Regeneration messages won't be shown */
 
 /* Player autoexit levels: used as an index to exitlevels           */
 #define EXIT_OFF        0       /* Autoexit off                     */
@@ -1990,21 +1991,39 @@ extern struct config_data config_info;
  * as actions (such as large speedwalking chains) take longer to be executed.
  * You shouldn't need to adjust this.
  */
+/* Pathfinder-Based Timing System */
+/* Base timing: 10 pulses per second (OPT_USEC = 100000) */
+/* RL_SEC = * PASSES_PER_SEC (multiplies value by 10) */
 #define OPT_USEC  100000    /* 10 passes per second */
 #define PASSES_PER_SEC  (1000000 / OPT_USEC)
 #define RL_SEC    * PASSES_PER_SEC
-#define PULSE_ZONE  (CONFIG_PULSE_ZONE RL_SEC)
-#define PULSE_MOBILE    (CONFIG_PULSE_MOBILE RL_SEC)
-#define PULSE_VIOLENCE  (2 RL_SEC)
-#define PULSE_AUCTION	(20 RL_SEC)
-#define PULSE_AUTOSAVE  (CONFIG_PULSE_AUTOSAVE RL_SEC)
-#define PULSE_IDLEPWD (CONFIG_PULSE_IDLEPWD RL_SEC)
-#define PULSE_SANITY  (CONFIG_PULSE_SANITY RL_SEC)
-#define PULSE_USAGE (CONFIG_PULSE_SANITY * 60 RL_SEC)   /* 5 mins */
-#define PULSE_TIMESAVE  (CONFIG_PULSE_TIMESAVE * 60 RL_SEC) /* should be >= SECS_PER_MUD_HOUR */
-#define PULSE_CURRENT (CONFIG_PULSE_CURRENT RL_SEC)
-#define PULSE_CRAFTING (10 RL_SEC)
-#define PULSE_D20_ROUND (6 RL_SEC)
+
+/* Core Pathfinder time units */
+#define PULSE_ROUND         (6 RL_SEC)       /* 60 pulses = 6 seconds (Pathfinder round) */
+#define PULSE_TURN          (60 RL_SEC)      /* 600 pulses = 60 seconds (10 rounds) */
+#define PULSE_MINUTE        (300 RL_SEC)     /* 3000 pulses = 5 minutes (50 turns) */
+#define PULSE_HOUR          (1800 RL_SEC)    /* 18000 pulses = 30 minutes */
+
+/* Configurable pulses (CONFIG_PULSE_* multiplied by PULSE_ROUND) */
+#define PULSE_ZONE          (CONFIG_PULSE_ZONE * PULSE_ROUND)
+#define PULSE_MOBILE        (CONFIG_PULSE_MOBILE * PULSE_ROUND)
+#define PULSE_AUTOSAVE      (CONFIG_PULSE_AUTOSAVE * PULSE_ROUND)
+#define PULSE_IDLEPWD       (CONFIG_PULSE_IDLEPWD * PULSE_ROUND)
+#define PULSE_SANITY        (CONFIG_PULSE_SANITY * PULSE_ROUND)
+#define PULSE_CURRENT       (CONFIG_PULSE_CURRENT * PULSE_ROUND)
+
+/* Game-specific fixed pulses */
+#define PULSE_VIOLENCE      PULSE_ROUND      /* Combat happens every round */
+#define PULSE_CRAFTING      (2 * PULSE_ROUND) /* 12 seconds = 2 rounds */
+#define PULSE_AUCTION       (4 * PULSE_ROUND) /* 24 seconds = 4 rounds */
+#define PULSE_DG_SCRIPT     (2 * PULSE_ROUND) /* 12 seconds = 2 rounds */
+
+/* Derived pulses for long intervals */
+#define PULSE_USAGE         (30 * PULSE_TURN) /* 30 minutes */
+#define PULSE_TIMESAVE      (30 * PULSE_TURN) /* 30 minutes */
+
+/* Legacy alias for compatibility */
+#define PULSE_D20_ROUND PULSE_ROUND
 
 
 /* Variables for the output buffering system */

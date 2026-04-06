@@ -1664,6 +1664,10 @@ ACMD(do_gen_tog)
         {
             "Text output during fights has been reset to normal.\r\n",
             "Text output during fights has been minimized.\r\n"
+        },
+        {
+            "Regeneration messages enabled.\r\n",
+            "Regeneration messages disabled.\r\n"
         }
     };
 
@@ -1689,6 +1693,9 @@ ACMD(do_gen_tog)
         break;
     case SCMD_FIGHT_SPAM:
         //    result = PRF_TOG_CHK(ch, PRF_FIGHT_SPAM);
+        break;
+    case SCMD_REGEN_BRIEF:
+        result = PRF_TOG_CHK(ch, PRF_REGEN_BRIEF);
         break;
     case SCMD_SUMMON_TANK:
         result = PRF_TOG_CHK(ch, PRF_SUMMON_TANK);

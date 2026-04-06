@@ -107,19 +107,17 @@ int idle_max_level = ADMLVL_IMMORT;
 /* should items in death traps automatically be junked? */
 int dts_are_dumps = YES;
 
-/* What the new PULSE_VIOLENCE will be */
+/* Timing configuration - values are multipliers of PULSE_ROUND (6 seconds) */
 
-int pulse_violence = 4;
-
-/* What will be the new PULSE_MOBILE */
-int pulse_zone = 10;
-int pulse_mobile = 10;
-int pulse_autosave = 2;
-int pulse_idlepwd = 15;
-int pulse_sanity = 30;
-int pulse_usage = 5;
-int pulse_timesave = 30;
-int pulse_current = 10;
+int pulse_violence = 1;		/* 1 round = 6 seconds */
+int pulse_zone = 2;		/* 2 rounds = 12 seconds */
+int pulse_mobile = 2;		/* 2 rounds = 12 seconds */
+int pulse_autosave = 1;		/* 1 round = 6 seconds */
+int pulse_idlepwd = 3;		/* 3 rounds = 18 seconds */
+int pulse_sanity = 5;		/* 5 rounds = 30 seconds */
+int pulse_usage = 300;          /* 300 rounds = 30 minutes (not typically used) */
+int pulse_timesave = 300;	/* 300 rounds = 30 minutes */
+int pulse_current = 2;          /* 2 rounds = 12 seconds */
 
 /*
  * Whether you want items that immortals load to appear on the ground or not.

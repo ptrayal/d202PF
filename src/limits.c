@@ -91,8 +91,6 @@ int num_online = 0;
 /* manapoint gain pr. game hour */
 int mana_gain(struct char_data *ch)
 {
-    return 1;
-
     int gain = 0;
 
     if (IS_NPC(ch)) 
@@ -128,9 +126,12 @@ int mana_gain(struct char_data *ch)
             break;
             default:
             gain = 0;
-            break;      
+            break;
         }
     }
+
+    if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_TAVERN))
+        gain += 2;
 
     return (gain);
 }
@@ -1401,7 +1402,38 @@ void point_update(void)
       GET_MANA(i) = MIN(GET_MANA(i) + mana_gain(i), GET_MAX_MANA(i));
       GET_MOVE(i) = MIN(GET_MOVE(i) + move_gain(i), GET_MAX_MOVE(i));
       GET_KI(i) = MIN(GET_KI(i) + ki_gain(i), GET_MAX_KI(i));
-      
+
+      // Report regeneration gains with breakdown
+      if (!IS_NPC(i) && GET_POS(i) >= POS_STUNNED && !PRF_FLAGGED(i, PRF_REGEN_BRIEF)) {
+        int hp_amount = hit_gain(i);
+        int mv_amount = move_gain(i);
+        int mn_amount = mana_gain(i);
+        int hp_before = GET_HIT(i) - hp_amount;
+        int mv_before = GET_MOVE(i) - mv_amount;
+        int mn_before = GET_MANA(i) - mn_amount;
+        int tavern_hp = ROOM_FLAGGED(IN_ROOM(i), ROOM_TAVERN) ? 2 : 0;
+        int tavern_mv = ROOM_FLAGGED(IN_ROOM(i), ROOM_TAVERN) ? 20 : 0;
+        int tavern_mn = ROOM_FLAGGED(IN_ROOM(i), ROOM_TAVERN) ? 2 : 0;
+
+        if (hp_amount > 0 && hp_before < GET_MAX_HIT(i)) {
+          send_to_char(i, "@GYou regenerate @Y%d@G HP%s@n\r\n",
+            hp_amount,
+            tavern_hp ? " @M(+2 tavern)@n" : "");
+        }
+
+        if (mn_amount > 0 && mn_before < GET_MAX_MANA(i)) {
+          send_to_char(i, "@GYou regenerate @Y%d@G mana%s@n\r\n",
+            mn_amount,
+            tavern_mn ? " @M(+2 tavern)@n" : "");
+        }
+
+        if (mv_amount > 0 && mv_before < GET_MAX_MOVE(i)) {
+          send_to_char(i, "@GYou regenerate @Y%d@G movement%s@n\r\n",
+            mv_amount,
+            tavern_mv ? " @M(+20 tavern)@n" : "");
+        }
+      }
+
       if (GET_POS(i) == POS_STUNNED) {
         if (damage(i, i, 1, TYPE_SUFFERING, 0, -1, 0, 0, 0) == -1)
           continue;

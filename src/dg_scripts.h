@@ -121,10 +121,11 @@
 
 
 /*
- * These are slightly off of PULSE_MOBILE so
- * everything isnt happening at the same time 
+ * PULSE_DG_SCRIPT is now defined in structs.h as part of the
+ * unified Pathfinder timing system: (2 * PULSE_ROUND) = 12 seconds
+ * This ensures scripts are offset from other systems to prevent
+ * "thundering herd" problems.
  */
-#define PULSE_DG_SCRIPT         (13 RL_SEC)
 
 
 #define MAX_SCRIPT_DEPTH      10          /* maximum depth triggers can

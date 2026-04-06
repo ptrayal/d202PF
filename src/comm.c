@@ -1105,18 +1105,18 @@ void heartbeat(int heart_pulse)
   if (!(heart_pulse % PULSE_MOBILE))
     mobile_activity();
 
-  if (!(heart_pulse % PULSE_D20_ROUND)) {
+  if (!(heart_pulse % PULSE_ROUND)) {
 //    do_usage_stats_mysql();
     affect_update();
     point_update();
     update_mem(NULL, false);
   }
 
-  if (!(heart_pulse % (CONFIG_PULSE_VIOLENCE * 10))) {
+  if (!(heart_pulse % PULSE_VIOLENCE)) {
     affect_update_violence();
   }
 
-  if (!(heart_pulse % (PASSES_PER_SEC * 4))) {
+  if (!(heart_pulse % PULSE_ROUND)) {
     perform_violence();
   }
   
@@ -1124,7 +1124,7 @@ void heartbeat(int heart_pulse)
     msdp_update();
   }
 
-  if (!(heart_pulse % (PASSES_PER_SEC * 60))) {
+  if (!(heart_pulse % PULSE_TURN)) {
 //    check_auto_shutdown();
     tickdown_pvp_timer();
   }
@@ -1133,7 +1133,7 @@ void heartbeat(int heart_pulse)
     award_rp_exp();
   }
 
-  if (!(heart_pulse % (PASSES_PER_SEC * 60))) {
+  if (!(heart_pulse % PULSE_TURN)) {
     reset_harvesting_rooms();
   }
 
@@ -1142,7 +1142,7 @@ void heartbeat(int heart_pulse)
     check_time_triggers();
   }
 
-  if (!(heart_pulse % (PASSES_PER_SEC * 300))) {
+  if (!(heart_pulse % PULSE_MINUTE)) {
     show_hints();
   }
 
@@ -1175,7 +1175,7 @@ void heartbeat(int heart_pulse)
   if (!(heart_pulse % PULSE_CURRENT))
     current_update();
 
-  if (!(heart_pulse % (30 * PASSES_PER_SEC)))
+  if (!(heart_pulse % (5 * PULSE_ROUND)))
     timed_dt(NULL);  
 
 }

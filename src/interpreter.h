@@ -170,6 +170,7 @@ struct alias_data {
 #define SCMD_PARRY      44
 #define SCMD_PVP        45
 #define SCMD_FIGHT_SPAM 46
+#define SCMD_REGEN_BRIEF 47
 
 /* do_wizutil */
 #define SCMD_REROLL	0

@@ -272,10 +272,10 @@ int wield_type(int chsize, const struct obj_data *weap);
  *	and utils.c for other places to change.
  */
 /* mud-life time */
-#define SECS_PER_MUD_HOUR	120
-#define SECS_PER_MUD_DAY	(24*SECS_PER_MUD_HOUR)
-#define SECS_PER_MUD_MONTH	(30*SECS_PER_MUD_DAY)
-#define SECS_PER_MUD_YEAR	(12*SECS_PER_MUD_MONTH)
+#define SECS_PER_MUD_HOUR	150     /* 2.5 real minutes = 25 Pathfinder rounds */
+#define SECS_PER_MUD_DAY	(24*SECS_PER_MUD_HOUR)    /* 3600 seconds = 1 hour */
+#define SECS_PER_MUD_MONTH	(30*SECS_PER_MUD_DAY)     /* 108,000 seconds = 30 hours */
+#define SECS_PER_MUD_YEAR	(12*SECS_PER_MUD_MONTH)   /* 1,296,000 seconds = 360 hours = 15 days */
 
 /* real-life time (remember Real Life?) */
 #define SECS_PER_REAL_MIN	60

@@ -916,6 +916,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "reply"    , "rep"		, POS_SLEEPING, do_reply    , 0, ADMLVL_NONE	, 0 },
   { "read"     , "rea"		, POS_RESTING , do_look     , 0, ADMLVL_NONE	, SCMD_READ },
   { "reform"   , "ref"          , POS_RESTING , do_reform   , 0, ADMLVL_NONE    , 0 },
+  { "regenbrief", "regenb"      , POS_DEAD    , do_gen_tog  , 0, ADMLVL_NONE    , SCMD_REGEN_BRIEF },
   { "reload"   , "reload"	, POS_DEAD    , do_reboot   , 1, ADMLVL_GOD	, 0 },
   { "recite"   , "reci"		, POS_RESTING , do_use      , 0, ADMLVL_NONE	, SCMD_RECITE },
   { "receive"  , "rece"		, POS_STANDING, do_mail     , 0, ADMLVL_NONE	, 0 },

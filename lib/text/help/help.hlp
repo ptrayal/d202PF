@@ -1153,7 +1153,7 @@ and simply bearing artistic merit. Second, by ensuring that they are absolutely
 necessary to achieve the goals of the game! If your game is made for experience
 and equipment gathering, and failure to read descriptions directly impedes this
 goal, then players will learn to read everything. If your game is made for 
-exploring or role-play, most of your players probably already read them Â- 
+exploring or role-play, most of your players probably already read them ï¿½- 
 because knowing their environment is a basic requirement of play. In any case, 
 builders exist to ensure that the goals of play are supported by game 
 descriptions.
@@ -1165,7 +1165,7 @@ meaning behind descriptions, areas to find, special items, unique nooks and
 crannies to spend time socializing, and hints that point to these things 
 elsewhere outside of your own zone is an excellent idea. In fact, if you 
 don't wish to be building descriptions no one will read, you should employ 
-special secrets Â- most especially on games where knowing one's environment 
+special secrets ï¿½- most especially on games where knowing one's environment 
 does deeply affect a character's development. No matter what kind of zone you
 are building, keep it interesting throughout!
 
@@ -1188,7 +1188,7 @@ road.
    shouldn't be the sole builder of your zone. Instead, seek the assistance of 
    someone who adds creative merit to your descriptions. You can do practically
    everything from plot to secrets to minutiae, even write the zone in full and
-   just ask someone you know who writes well to Â'say it better' and rewrite 
+   just ask someone you know who writes well to ï¿½'say it better' and rewrite 
    what you intended to have there all along. Novels have editors, and so 
    should any zone.
 
@@ -1770,8 +1770,8 @@ Be original, finish what you start, have fun, and don't forget to breathe!
 #1
 CALENDAR CALENDER MONTHS WEEKS DAYS HOURS 
 
-The tbaMUD calendar consists of 75 seconds per hour, 35 days a month and
-17 months a year.
+The d202PF calendar consists of 150 seconds per hour (2.5 real minutes),
+24 hours per day, 30 days per month and 12 months per year.
 
 Days of the week:
   the Day of the Moon
@@ -1874,6 +1874,37 @@ be an object a mobile or a player. Usually used in conjunction with another
 command.
 
 #1
+TAVERN TAVERNS
+
+Taverns are special rooms throughout the world where adventurers can rest,
+socialize, and gain various benefits. Taverns are marked with a @Y[Tavern]@n
+indicator when you look at the room.
+
+TAVERN BENEFITS:
+
+  @WRegeneration Bonuses:@n
+  * +2 hit points per tick
+  * +2 mana points per tick
+  * +20 movement points per tick
+
+  @WExperience Bonuses:@n
+  * +10% to regular experience gain
+  * +10% to artisan experience gain
+  * The bonus accumulates the longer you stay (+2 per hour in tavern)
+  * The bonus persists after you leave (decays -1 per hour outside)
+  * You must have accumulated tavern time to receive the XP bonus
+
+  @WRoleplay Bonuses:@n
+  * SAY command grants double roleplay experience
+  * EMOTE command only grants roleplay experience in taverns
+
+To see if you have an active tavern bonus, use the AFFECTS command.
+
+Examples of tavern locations: The Trough in Palanthas, The Inn of the Last
+Home in Solace, various taverns in major cities.
+
+See also: @YEXPERIENCE@n, @YAFFECTS@n, @YREGENERATION@n, @YSAY@n, @YEMOTE@n
+#0
 HEALERS HEALING REGENERATE REGENROOM
 
 Healing affects can be created through trigedit.
@@ -2430,20 +2461,20 @@ TIME TICKS
 
 Usage: time
 
-Gives you the current game time. tbaMUD uses zulu time 0-24 hours. There are
-75 seconds per hour, 35 days per month, and 17 months per year. 1 MUD year 
-takes about 12 days.
+Gives you the current game time. d202PF uses 24-hour time. There are
+150 seconds per hour (2.5 real minutes), 24 hours per day, 30 days per month,
+and 12 months per year. 1 MUD year takes about 15 real days.
 
 /** Number of real life seconds per mud hour.
-@#define SECS_PER_MUD_HOUR       75
+@#define SECS_PER_MUD_HOUR       150
 /** Real life seconds in one mud day.
- * Current calculation = 30 real life minutes. */
+ * Current calculation = 60 real life minutes (1 hour). */
 @#define SECS_PER_MUD_DAY        (24*SECS_PER_MUD_HOUR)
 /** Real life seconds per mud month.
- * Current calculation = 17.5 real life hours */
-@#define SECS_PER_MUD_MONTH      (35*SECS_PER_MUD_DAY)
-/** Real life seconds per mud month.
- * Current calculation ~= 12.4 real life days */
+ * Current calculation = 30 real life hours */
+@#define SECS_PER_MUD_MONTH      (30*SECS_PER_MUD_DAY)
+/** Real life seconds per mud year.
+ * Current calculation = 360 real life hours ~= 15 real life days */
 @#define SECS_PER_MUD_YEAR       (17*SECS_PER_MUD_MONTH)
  
 /* real-life time (remember Real Life?) */
@@ -11549,6 +11580,43 @@ campfire will be.
 
 Creating a campfire requires that you have logs in your inventory.
 #0
+REGENERATION REGEN HEALING
+
+Your character naturally regenerates hit points, mana, movement, and ki over
+time. The rate of regeneration depends on several factors:
+
+  @WPosition:@n
+  * Sleeping - fastest regeneration
+  * Resting - moderate regeneration
+  * Sitting - slow regeneration
+  * Standing - minimal regeneration
+  * Fighting - no regeneration
+
+  @WBonuses:@n
+  * Taverns provide +2 HP, +2 mana, +20 movement per tick
+  * Fast Healing feat provides additional HP regeneration
+  * Various class abilities may modify regeneration rates
+  * The Heal skill can provide bonus regeneration when used
+
+Regeneration occurs automatically every 6 seconds (one Pathfinder round).
+By default, you will see messages like "You regenerate 8 HP" every tick.
+You can disable these messages with the REGENBRIEF command.
+
+See also: @YTAVERN@n, @YREST@n, @YSLEEP@n, @YHEAL@n, @YREGENBRIEF@n
+#0
+REGENBRIEF "REGEN BRIEF"
+
+Usage: regenbrief
+
+Toggles whether regeneration messages are displayed. When enabled (brief mode),
+you will not see "You regenerate X HP/mana/movement" messages every 6 seconds.
+The regeneration still occurs, you just won't see the messages.
+
+This is useful during combat or roleplay when regeneration messages can obscure
+important text.
+
+See also: @YREGENERATION@n, @YTAVERN@n, @YBRIEF@n
+#0
 WEAR
 
 Usage: wear <item> [location]
@@ -12887,7 +12955,7 @@ Things you should know about experience points:
     experience points.  If killing a monster of lower level you'll gain
     less experience points
 
-See also: GROUP, SCORE
+See also: GROUP, SCORE, @YTAVERN@n
 
 
 
